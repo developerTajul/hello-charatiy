@@ -1,0 +1,15 @@
+.info-card {
+    &.style-2{
+        .content-wrapper{
+            // flex-direction: row;
+            // background-color: red;
+        }
+        .title-wrapper{
+            .icon{
+                justify-content: start;
+                align-items: start;
+            }
+        }
+    }
+    
+}
