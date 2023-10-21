@@ -6227,24 +6227,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 64px;
   padding: 17px 32px !important;
 }
-.about-us-content-wrapper .certified-wrapper {
-  position: absolute;
-  bottom: 80px;
-  right: 0;
-  transform: translate(36px, 58px);
-}
-@media (max-width: 767px) {
-  .about-us-content-wrapper .certified-wrapper {
-    bottom: 10px;
-    transform: translate(0px, 70px);
-  }
-}
-@media (max-width: 323px) {
-  .about-us-content-wrapper .certified-wrapper {
-    bottom: 10px;
-    transform: translate(0px, 50px) !important;
-  }
-}
 
 .about-us-image-wrapper-2 {
   display: flex;
@@ -6635,6 +6617,25 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card:hover .content-wrapper .title {
   transition: all 0.5s ease-out;
   background-position: -100%;
+}
+
+.certified-wrapper {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  transform: translate(36px, 58px);
+}
+@media (max-width: 767px) {
+  .certified-wrapper {
+    bottom: 10px;
+    transform: translate(0px, 70px);
+  }
+}
+@media (max-width: 323px) {
+  .certified-wrapper {
+    bottom: 10px;
+    transform: translate(0px, 50px) !important;
+  }
 }
 
 .about-us-area.style-1 .heart-sketch {
