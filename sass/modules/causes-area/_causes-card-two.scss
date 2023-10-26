@@ -1,6 +1,7 @@
 .causes-card-2{
         background-color: $white !important;
         overflow: hidden;
+        border-radius: 20px;
         img{
           width: 100%;
           @include transition;
