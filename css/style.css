@@ -8596,7 +8596,6 @@ button.testimonial-arrow-btn:hover i {
   margin-bottom: 0;
 }
 .single-post-item .post-title {
-  line-height: 0;
   margin-bottom: 20px;
 }
 .single-post-item .post-title a {
@@ -13277,6 +13276,7 @@ ul.children {
 .causes-card-2 {
   background-color: #ffffff !important;
   overflow: hidden;
+  border-radius: 20px;
 }
 .causes-card-2 img {
   width: 100%;
