@@ -10497,13 +10497,12 @@ button.testimonial-arrow-btn:hover i {
 .widget .wp-block-search input,
 .widget .search-form input {
   background-color: #ffffff;
-  border: 1px solid #BDBDBD !important;
+  border: 1px solid transparent !important;
   padding: 0 25px;
   height: 60px;
   width: 100%;
   color: #5e6f92;
   font-size: 15px;
-  border-radius: 50px;
 }
 .widget .wp-block-search button,
 .widget .search-form button {
@@ -10514,10 +10513,14 @@ button.testimonial-arrow-btn:hover i {
   background-color: #FFE144;
   top: 0;
   height: auto;
-  border-radius: 50px;
   line-height: 0;
   border: 0;
   margin-left: 8px;
+}
+.widget .wp-block-search button:hover,
+.widget .search-form button:hover {
+  background-color: #FF4638;
+  color: #ffffff;
 }
 .widget .wp-block-search button:hover i,
 .widget .search-form button:hover i {
