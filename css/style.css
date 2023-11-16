@@ -10481,6 +10481,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .widget .wp-block-search__no-button.wp-block-search input {
   border-radius: 10px;
+  border-right: #BDBDBD;
 }
 .widget .wp-block-search {
   margin-bottom: -2px;
