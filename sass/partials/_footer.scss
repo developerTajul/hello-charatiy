@@ -106,35 +106,31 @@
   cursor: default;
 }
 .footer-widget {
- 
-  ul {
+  ul{
     padding-left: 0;
-    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    li{
+      color: $gray-4 ;
+        a{
+          color: $gray-4 ;
+          display: flex;
+          gap: 8px;
+          align-items: center;
+          @extend .animated-text-yellow;
+            &:before{
+            content: "\f105";
+            font-size: 16px;
+            font-family: $font-awesome;
+            margin-left: -2px;
+            color: $gray-4 ;
+          }
+        }
+    }
   }
   .footer-widget-menu{
-    ul{
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      li{
-        color: $gray-4 ;
-          a{
-            color: $gray-4 ;
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            @extend .animated-text-yellow;
-              &:before{
-              content: "\f105";
-              font-size: 16px;
-              font-family: $font-awesome;
-              margin-left: -2px;
-              color: $gray-4 ;
-            }
-          }
-      }
-    }
     &.style-2{
       ul{
         li{

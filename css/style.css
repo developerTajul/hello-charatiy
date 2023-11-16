@@ -13985,7 +13985,7 @@ ul.children {
   background-position: -100%;
 }
 
-.animated-text-yellow, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text, .footer-widget .footer-widget-menu ul li a {
+.animated-text-yellow, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text, .footer-widget ul li a {
   text-decoration: none;
   background: linear-gradient(to right, #e4e2e2 50%, #FFE144 50%, #FFE144);
   background-size: 200%;
@@ -13994,7 +13994,7 @@ ul.children {
   transition: 0.4s ease-out;
   color: #ffffff;
 }
-.animated-text-yellow:hover, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text:hover, .footer-widget .footer-widget-menu ul li a:hover {
+.animated-text-yellow:hover, .footer-widget .footer-widget-contact .footer-contact ul li .contact-text:hover, .footer-widget ul li a:hover {
   background-position: -100%;
 }
 
@@ -16711,23 +16711,21 @@ ul.children {
 
 .footer-widget ul {
   padding-left: 0;
-}
-.footer-widget .footer-widget-menu ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.footer-widget .footer-widget-menu ul li {
+.footer-widget ul li {
   color: #BDBDBD;
 }
-.footer-widget .footer-widget-menu ul li a {
+.footer-widget ul li a {
   color: #BDBDBD;
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.footer-widget .footer-widget-menu ul li a:before {
+.footer-widget ul li a:before {
   content: "\f105";
   font-size: 16px;
   font-family: "Font Awesome 6 Pro";
