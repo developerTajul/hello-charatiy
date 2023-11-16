@@ -210,7 +210,7 @@ code {
 }
 .theme-btn,
 .wp-block-loginout a,
-input.theme-btn {
+input.theme-btn{
   display: inline-flex;
   background-color: $primary-color;
   justify-content: center;
@@ -310,6 +310,12 @@ input.theme-btn {
   }
   
 }
+.wp-block-loginout a,
+input.theme-btn{
+  &:hover{
+    background-color: $brand;
+  }
+}
 
 .wp-block-loginout {
   a {
@@ -321,11 +327,11 @@ input.theme-btn {
       justify-content: center;
       content: "\f105";
       font-family: $font-awesome;
-      width: 44px;
-      height: 44px;
+      width: 32px;
+      height: 32px;
       border-radius: 6px;
       background-color: $primary-color;
-      color: #fff;
+      color: $black-2;
       font-size: 16px;
     }
   }

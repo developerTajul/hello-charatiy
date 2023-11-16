@@ -428,6 +428,11 @@ input.theme-btn.simple-btn {
   padding-right: 36px;
 }
 
+.wp-block-loginout a:hover,
+input.theme-btn:hover {
+  background-color: #FF4638;
+}
+
 .wp-block-loginout a {
   position: relative;
 }
@@ -437,11 +442,11 @@ input.theme-btn.simple-btn {
   justify-content: center;
   content: "\f105";
   font-family: "Font Awesome 6 Pro";
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
   border-radius: 6px;
   background-color: #FFE144;
-  color: #fff;
+  color: #121212;
   font-size: 16px;
 }
 
