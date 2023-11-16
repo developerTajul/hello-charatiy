@@ -316,8 +316,9 @@ input.theme-btn{
     background-color: $brand;
       &:after{
         color: $white;
+        @include transition;
       }
-  }
+    }
 }
 
 .wp-block-loginout {

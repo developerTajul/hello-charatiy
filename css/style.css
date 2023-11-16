@@ -435,6 +435,7 @@ input.theme-btn:hover {
 .wp-block-loginout a:hover:after,
 input.theme-btn:hover:after {
   color: #ffffff;
+  transition: all 0.5s ease-out;
 }
 
 .wp-block-loginout a {
@@ -10597,9 +10598,8 @@ button.testimonial-arrow-btn:hover i {
 .widget ul li,
 .widget ol li {
   display: block;
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #dfe2e9;
-  padding: 8px 0;
   /* Recent Comment Widget */
 }
 .widget ul li:first-child,
