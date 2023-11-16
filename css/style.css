@@ -432,6 +432,10 @@ input.theme-btn.simple-btn {
 input.theme-btn:hover {
   background-color: #FF4638;
 }
+.wp-block-loginout a a:after,
+input.theme-btn a:after {
+  background-color: transparent;
+}
 
 .wp-block-loginout a {
   position: relative;

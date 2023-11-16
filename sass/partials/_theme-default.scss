@@ -315,6 +315,11 @@ input.theme-btn{
   &:hover{
     background-color: $brand;
   }
+  a{
+    &:after{
+      background-color: transparent;
+    }
+  }
 }
 
 .wp-block-loginout {
