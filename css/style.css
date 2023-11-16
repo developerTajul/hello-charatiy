@@ -452,6 +452,7 @@ input.theme-btn:hover:after {
   border-radius: 6px;
   color: #121212;
   font-size: 16px;
+  transition: all 0.5s ease-out;
 }
 
 .contact-form-btn {
@@ -10650,6 +10651,10 @@ button.testimonial-arrow-btn:hover i {
 .widget ol li ul {
   padding-left: 25px;
   padding-top: 10px;
+}
+.widget ul li ul li:last-child,
+.widget ol li ul li:last-child {
+  padding-bottom: 0;
 }
 .widget ul.wp-tag-cloud li,
 .widget ol.wp-tag-cloud li {
