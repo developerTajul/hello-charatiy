@@ -8589,6 +8589,11 @@ button.testimonial-arrow-btn:hover i {
 }
 .single-post-item.sticky {
   border: 2px solid #FFE144;
+  padding: 24px;
+  border-radius: 10px;
+}
+.single-post-item.sticky .post-content-wrapper .post-meta {
+  margin-top: 0;
 }
 .single-post-item.sticky .post-content {
   margin-bottom: 0;

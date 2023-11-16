@@ -308,6 +308,13 @@
   /* Sticky Post */
   &.sticky {
     border: 2px solid $primary-color;
+    padding: 24px;
+    border-radius: 10px;
+    .post-content-wrapper{
+      .post-meta{
+        margin-top: 0;
+      }
+    }
 
     .post-content {
       margin-bottom: 0;
