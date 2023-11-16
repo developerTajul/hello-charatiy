@@ -434,7 +434,7 @@ input.theme-btn:hover {
 }
 .wp-block-loginout a:hover:after,
 input.theme-btn:hover:after {
-  background-color: transparent;
+  color: #ffffff;
 }
 
 .wp-block-loginout a {
@@ -447,9 +447,8 @@ input.theme-btn:hover:after {
   content: "\f105";
   font-family: "Font Awesome 6 Pro";
   width: 32px;
-  height: 32px;
+  height: auto;
   border-radius: 6px;
-  background-color: #FFE144;
   color: #121212;
   font-size: 16px;
 }
@@ -10453,7 +10452,7 @@ button.testimonial-arrow-btn:hover i {
 .widget .has-login-form .login-submit input.button-primary {
   display: inline-flex;
   background: #FFE144;
-  color: #fff;
+  color: #121212;
   padding: 12px 32px;
   text-align: center;
   font-weight: 500;
@@ -10466,6 +10465,9 @@ button.testimonial-arrow-btn:hover i {
   align-items: center;
   gap: 10px;
   border-radius: 50px;
+}
+.widget .has-login-form .login-submit input.button-primary:hover {
+  background-color: #FF4638;
 }
 .widget .search-form {
   display: flex !important;
@@ -10629,6 +10631,10 @@ button.testimonial-arrow-btn:hover i {
   text-transform: capitalize;
   font-size: 18px;
   /* RSS Widget */
+}
+.widget ul li a:hover,
+.widget ol li a:hover {
+  color: #FF4638;
 }
 .widget ul li a.rsswidget,
 .widget ol li a.rsswidget {
