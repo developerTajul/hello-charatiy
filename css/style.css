@@ -3378,8 +3378,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 0 24px;
   padding: 6px 0;
   flex-wrap: wrap;
+  margin: 0;
 }
-.header-top .header-contact-info span {
+.header-top .header-contact-info li {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -3391,13 +3392,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 150%;
   letter-spacing: 0.28px;
 }
-.header-top .header-contact-info span i {
+.header-top .header-contact-info li i {
   color: #FFE144;
 }
-.header-top .header-contact-info span:first-child:before {
+.header-top .header-contact-info li:first-child:before {
   display: none;
 }
-.header-top .header-contact-info span:before {
+.header-top .header-contact-info li:before {
   background-color: rgb(255, 255, 255);
   opacity: 0.361;
   width: 1px;
@@ -3406,14 +3407,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   content: "";
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .header-top .header-contact-info span:before {
+  .header-top .header-contact-info li:before {
     display: none;
   }
 }
-.header-top .header-contact-info span.contact-info-item {
+.header-top .header-contact-info li.contact-info-item {
   gap: 0 10px !important;
 }
-.header-top .header-contact-info span a {
+.header-top .header-contact-info li a {
   display: flex;
   align-items: center;
   gap: 10px;
