@@ -314,11 +314,9 @@ input.theme-btn{
 input.theme-btn{
   &:hover{
     background-color: $brand;
-  }
-  a{
-    &:after{
-      background-color: transparent;
-    }
+      &:after{
+        background-color: transparent;
+      }
   }
 }
 
