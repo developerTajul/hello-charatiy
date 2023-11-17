@@ -3633,6 +3633,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: scale(1);
   color: #121212;
 }
+.main-menu ul li:last-child a {
+  padding-right: 0;
+}
 .main-menu ul li ul.submenu li.active a {
   position: relative;
   z-index: 2;

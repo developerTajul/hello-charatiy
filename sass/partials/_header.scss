@@ -485,7 +485,11 @@
           }
         }
       }
-
+      &:last-child{
+        a{
+          padding-right: 0;
+        }
+      }
       ul {
         &.submenu {
           // padding: 0px;
