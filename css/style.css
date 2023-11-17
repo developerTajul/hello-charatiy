@@ -16679,6 +16679,11 @@ ul.children {
     gap: 20px;
   }
 }
+.footer .footer-sec .shape-1, .footer .footer-sec .shape-2 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .footer .footer-sec .shape-1 {
   position: absolute;
   top: 0;
@@ -16986,6 +16991,11 @@ ul.children {
   margin-bottom: 0;
   transition: all 0.5s ease-out;
 }
+.footer-widget .footer-widget-contact .footer-contact ul li .contact-text span:before,
+.footer-widget .footer-widget-contact .footer-contact ul li .contact-text p:before,
+.footer-widget .footer-widget-contact .footer-contact ul li .contact-text a:before {
+  content: "";
+}
 .footer-widget .footer-widget-contact .footer-contact ul li:hover {
   transition: all 0.5s ease-out;
 }
@@ -17063,6 +17073,9 @@ ul.children {
   .footer-bottom-menu ul {
     justify-content: flex-start;
   }
+}
+.footer-bottom-menu ul li:first-child {
+  color: #FFE144;
 }
 .footer-bottom-menu ul li:first-child a {
   color: #FFE144;

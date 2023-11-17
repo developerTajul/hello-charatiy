@@ -33,6 +33,11 @@
         gap: 20px;
       }
     }
+    .shape-1,.shape-2{
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
     .shape-1{
       position: absolute;
       top: 0;
@@ -387,6 +392,9 @@
             display: inline-block;
             margin-bottom: 0;
             @include transition;
+            &:before{
+              content: "";
+            }
           }
           
         }
@@ -483,6 +491,7 @@
 
     li {
       &:first-child{
+        color: $primary-color;
         a{
           color: $primary-color;
           cursor: default;
