@@ -3382,6 +3382,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-bottom: 10px;
   }
 }
+.header-top .header-contact-info,
 .header-top ul {
   display: flex;
   align-items: center;
@@ -3390,7 +3391,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-wrap: wrap;
   margin: 0;
 }
-.header-top ul li {
+.header-top .header-contact-info li, .header-top .header-contact-info span,
+.header-top ul li,
+.header-top ul span {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -3402,13 +3405,19 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 150%;
   letter-spacing: 0.28px;
 }
-.header-top ul li i {
+.header-top .header-contact-info li i, .header-top .header-contact-info span i,
+.header-top ul li i,
+.header-top ul span i {
   color: #FFE144;
 }
-.header-top ul li:first-child:before {
+.header-top .header-contact-info li:first-child:before, .header-top .header-contact-info span:first-child:before,
+.header-top ul li:first-child:before,
+.header-top ul span:first-child:before {
   display: none;
 }
-.header-top ul li:before {
+.header-top .header-contact-info li:before, .header-top .header-contact-info span:before,
+.header-top ul li:before,
+.header-top ul span:before {
   background-color: rgb(255, 255, 255);
   opacity: 0.361;
   width: 1px;
@@ -3417,14 +3426,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   content: "";
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .header-top ul li:before {
+  .header-top .header-contact-info li:before, .header-top .header-contact-info span:before,
+  .header-top ul li:before,
+  .header-top ul span:before {
     display: none;
   }
 }
-.header-top ul li.contact-info-item {
+.header-top .header-contact-info li.contact-info-item, .header-top .header-contact-info span.contact-info-item,
+.header-top ul li.contact-info-item,
+.header-top ul span.contact-info-item {
   gap: 0 10px !important;
 }
-.header-top ul li a {
+.header-top .header-contact-info li a, .header-top .header-contact-info span a,
+.header-top ul li a,
+.header-top ul span a {
   display: flex;
   align-items: center;
   gap: 10px;
