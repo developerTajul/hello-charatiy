@@ -133,6 +133,9 @@
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
+    @include lg{
+      padding: 0 12px;
+    }
   }
   .header-top-info {
     display: flex;
@@ -687,7 +690,7 @@
 }
 .mobile-menu-bar{
   display: block;
-  @include rwd(1305){
+  @include rwd(1199){
     display: none;
   }
 }

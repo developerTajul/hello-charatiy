@@ -7,7 +7,7 @@
        ============================*/
         $('#main-menu').meanmenu({
             meanMenuContainer: '.mobile-nav-menu',
-            meanScreenWidth: "1305",
+            meanScreenWidth: "1199",
             meanExpand: ['<i class="fal fa-plus"></i>'],
         });
          $('#main-menu-two').meanmenu({

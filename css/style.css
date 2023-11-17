@@ -3367,6 +3367,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: space-between;
   padding: 0 24px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-top .header-top-inner {
+    padding: 0 12px;
+  }
+}
 .header-top .header-top-info {
   display: flex;
   gap: 0 24px;
@@ -3751,7 +3756,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .mobile-menu-bar {
   display: block;
 }
-@media (min-width: 1305px) {
+@media (min-width: 1199px) {
   .mobile-menu-bar {
     display: none;
   }
@@ -16687,7 +16692,7 @@ ul.children {
 .footer .footer-sec .shape-1 {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 50px;
   margin-top: 110px;
   margin-right: 28px;
   width: 264px;
