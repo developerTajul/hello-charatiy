@@ -3387,7 +3387,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   align-items: center;
   gap: 0 24px;
-  padding: 6px 0;
   flex-wrap: wrap;
   margin: 0;
 }
@@ -3408,7 +3407,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-top .header-contact-info li i, .header-top .header-contact-info span i,
 .header-top ul li i,
 .header-top ul span i {
-  color: #FFE144;
+  color: #ffffff;
 }
 .header-top .header-contact-info li:first-child:before, .header-top .header-contact-info span:first-child:before,
 .header-top ul li:first-child:before,
@@ -3456,6 +3455,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border: 1px solid #4F4F4F;
 }
 .header-top .lang-select {
+  display: flex;
   border: 1px solid #4F4F4F;
   background-color: transparent;
   border-radius: 5px;
