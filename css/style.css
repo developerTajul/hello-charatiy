@@ -14470,15 +14470,20 @@ ul.children {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
   list-style: none;
-  gap: 8px;
   margin: 48px 0;
   padding-left: 0;
 }
 .give-form-wrap ul li {
   width: 120px !important;
   height: 48px !important;
+  margin: 0 !important;
+}
+.give-form-wrap ul li button {
   cursor: pointer !important;
+  width: 100% !important;
   height: 100% !important;
   display: flex !important;
   justify-content: center !important;
@@ -14496,7 +14501,7 @@ ul.children {
   position: relative !important;
   background: transparent !important;
 }
-.give-form-wrap ul li:before {
+.give-form-wrap ul li button:before {
   position: absolute;
   width: 0;
   height: 100%;
@@ -14509,22 +14514,32 @@ ul.children {
   border-color: #FFE144;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .give-form-wrap ul li {
+  .give-form-wrap ul li button {
     width: 48% !important;
   }
 }
-.give-form-wrap ul li.active {
+.give-form-wrap ul li button.active {
   background-color: #FFE144 !important;
   color: #121212 !important;
   border-color: #FFE144 !important;
 }
-.give-form-wrap ul li:hover {
+.give-form-wrap ul li button.style-2.active, .give-form-wrap ul li button.active.give-submit {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #FFE144;
+}
+.give-form-wrap ul li button:hover {
   border-color: #FFE144;
   color: #121212 !important;
 }
-.give-form-wrap ul li:hover:before {
+.give-form-wrap ul li button:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
+}
+.give-form-wrap ul li button:hover.style-2, .give-form-wrap ul li button.give-submit:hover {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #ffffff;
 }
 .give-form-wrap .give-submit {
   background: transparent !important;
