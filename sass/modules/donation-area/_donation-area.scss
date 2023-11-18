@@ -609,9 +609,9 @@
         }
     }
     .give-submit{
+        margin-top:40px ;
         background: transparent !important;
         color: $white !important;
-        @extend .bubble-yellow;
         border: 2px solid $white !important;
         display: inline-flex;
         justify-content: center;
@@ -631,11 +631,25 @@
         background: transparent;
         color: $white;
         border: 2px solid $white;
-        &:hover{
-            background: transparent;
-            color: $white;
-            border-color: transparent !important;
+        position: relative;
+        &:before {
+            position: absolute;
+            width: 0;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: $primary-color;
+            content: "";
             @include transition;
+            z-index: -1;
+        }
+        &:hover{
+            border-color: $primary-color !important;
+            color: $white !important;
+            &:before {
+                width: 100%;
+                @include transition;
+            }
         }
     }
     legend{

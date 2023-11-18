@@ -13704,14 +13704,14 @@ ul.children {
   --n: 4;
 }
 
-.bubble-yellow, .give-form-wrap .give-submit {
+.bubble-yellow {
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
   text-align: center;
 }
-.bubble-yellow span, .give-form-wrap .give-submit span {
+.bubble-yellow span {
   position: absolute;
   width: 25%;
   height: 100%;
@@ -13723,19 +13723,19 @@ ul.children {
   transition-delay: calc((var(--n) - 1) * 0.1s);
   z-index: -1;
 }
-.bubble-yellow:hover span, .give-form-wrap .give-submit:hover span {
+.bubble-yellow:hover span {
   transform: translateY(0) scale(2);
 }
-.bubble-yellow span:nth-child(1), .give-form-wrap .give-submit span:nth-child(1) {
+.bubble-yellow span:nth-child(1) {
   --n: 1;
 }
-.bubble-yellow span:nth-child(2), .give-form-wrap .give-submit span:nth-child(2) {
+.bubble-yellow span:nth-child(2) {
   --n: 2;
 }
-.bubble-yellow span:nth-child(3), .give-form-wrap .give-submit span:nth-child(3) {
+.bubble-yellow span:nth-child(3) {
   --n: 3;
 }
-.bubble-yellow span:nth-child(4), .give-form-wrap .give-submit span:nth-child(4) {
+.bubble-yellow span:nth-child(4) {
   --n: 4;
 }
 
@@ -14537,6 +14537,7 @@ ul.children {
   border-color: #ffffff;
 }
 .give-form-wrap .give-submit {
+  margin-top: 40px;
   background: transparent !important;
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
@@ -14558,11 +14559,25 @@ ul.children {
   background: transparent;
   color: #ffffff;
   border: 2px solid #ffffff;
+  position: relative;
+}
+.give-form-wrap .give-submit:before {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #FFE144;
+  content: "";
+  transition: all 0.5s ease-out;
+  z-index: -1;
 }
 .give-form-wrap .give-submit:hover {
-  background: transparent;
-  color: #ffffff;
-  border-color: transparent !important;
+  border-color: #FFE144 !important;
+  color: #ffffff !important;
+}
+.give-form-wrap .give-submit:hover:before {
+  width: 100%;
   transition: all 0.5s ease-out;
 }
 .give-form-wrap legend {
