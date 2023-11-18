@@ -293,7 +293,7 @@ code {
   color: rgb(255, 103, 49);
 }
 
-.theme-btn, .give-form-wrap .give-submit,
+.theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
   display: inline-flex;
@@ -314,114 +314,118 @@ input.theme-btn {
   border-radius: 50px;
   overflow: hidden;
 }
-.theme-btn:hover, .give-form-wrap .give-submit:hover,
+.theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
   color: #ffffff;
 }
-.theme-btn.style-1, .give-form-wrap .style-1.give-submit,
+.theme-btn.style-1,
 .wp-block-loginout a.style-1,
 input.theme-btn.style-1 {
   background-color: #FFE144;
   color: #121212;
 }
-.theme-btn.style-1:hover, .give-form-wrap .style-1.give-submit:hover,
+.theme-btn.style-1:hover,
 .wp-block-loginout a.style-1:hover,
 input.theme-btn.style-1:hover {
   background-color: #FFE144;
   color: #ffffff;
 }
-.theme-btn.style-2, .give-form-wrap .give-submit,
+.theme-btn.style-2, .give-form-wrap .theme-btn.give-submit,
 .wp-block-loginout a.style-2,
+.wp-block-loginout .give-form-wrap a.give-submit,
+.give-form-wrap .wp-block-loginout a.give-submit,
 input.theme-btn.style-2 {
   background: transparent;
   color: #ffffff;
   border: 2px solid #ffffff;
 }
-.theme-btn.style-2:hover, .give-form-wrap .give-submit:hover,
+.theme-btn.style-2:hover, .give-form-wrap .theme-btn.give-submit:hover,
 .wp-block-loginout a.style-2:hover,
+.wp-block-loginout .give-form-wrap a.give-submit:hover,
+.give-form-wrap .wp-block-loginout a.give-submit:hover,
 input.theme-btn.style-2:hover {
   background: transparent;
   color: #ffffff;
   border-color: transparent !important;
   transition: all 0.5s ease-out;
 }
-.theme-btn.style-3, .give-form-wrap .style-3.give-submit,
+.theme-btn.style-3,
 .wp-block-loginout a.style-3,
 input.theme-btn.style-3 {
   background: #ffffff;
   color: #020a27;
 }
-.theme-btn.style-4, .give-form-wrap .style-4.give-submit,
+.theme-btn.style-4,
 .wp-block-loginout a.style-4,
 input.theme-btn.style-4 {
   background: #196A5C;
   color: #020a27;
 }
-.theme-btn.style-5, .give-form-wrap .style-5.give-submit,
+.theme-btn.style-5,
 .wp-block-loginout a.style-5,
 input.theme-btn.style-5 {
   background: #F8F8F8;
   color: #020a27;
 }
-.theme-btn.style-5:hover, .give-form-wrap .style-5.give-submit:hover,
+.theme-btn.style-5:hover,
 .wp-block-loginout a.style-5:hover,
 input.theme-btn.style-5:hover {
   background-color: #FFE144 !important;
 }
-.theme-btn.style-6, .give-form-wrap .style-6.give-submit,
+.theme-btn.style-6,
 .wp-block-loginout a.style-6,
 input.theme-btn.style-6 {
   border: 2px solid #121212;
   background-color: transparent;
   color: #020a27;
 }
-.theme-btn.style-6:hover, .give-form-wrap .style-6.give-submit:hover,
+.theme-btn.style-6:hover,
 .wp-block-loginout a.style-6:hover,
 input.theme-btn.style-6:hover {
   border-color: transparent;
   color: #ffffff;
 }
-.theme-btn.style-6:focus, .give-form-wrap .style-6.give-submit:focus,
+.theme-btn.style-6:focus,
 .wp-block-loginout a.style-6:focus,
 input.theme-btn.style-6:focus {
   border-color: transparent;
   color: #196A5C;
 }
-.theme-btn.style-7, .give-form-wrap .style-7.give-submit,
+.theme-btn.style-7,
 .wp-block-loginout a.style-7,
 input.theme-btn.style-7 {
   background: #121212;
   color: #ffffff;
 }
-.theme-btn.style-7:hover, .give-form-wrap .style-7.give-submit:hover,
+.theme-btn.style-7:hover,
 .wp-block-loginout a.style-7:hover,
 input.theme-btn.style-7:hover {
   background-color: #FFE144 !important;
   border: 2px solid transparent;
   color: #ffffff;
 }
-.theme-btn.style-8, .give-form-wrap .style-8.give-submit,
+.theme-btn.style-8,
 .wp-block-loginout a.style-8,
 input.theme-btn.style-8 {
   background: #ffffff;
   color: #121212;
 }
-.theme-btn.style-8:hover, .give-form-wrap .style-8.give-submit:hover,
+.theme-btn.style-8:hover,
 .wp-block-loginout a.style-8:hover,
 input.theme-btn.style-8:hover {
   background-color: #ffffff !important;
   color: #ffffff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .theme-btn, .give-form-wrap .give-submit,
+  .theme-btn,
   .wp-block-loginout a,
   input.theme-btn {
     gap: 30px;
     font-size: 16px;
   }
 }
-.theme-btn.simple-btn, .give-form-wrap .simple-btn.give-submit,
+.theme-btn.simple-btn,
 .wp-block-loginout a.simple-btn,
 input.theme-btn.simple-btn {
   padding-left: 36px;
@@ -429,13 +433,11 @@ input.theme-btn.simple-btn {
 }
 
 .wp-block-loginout a:hover,
-input.theme-btn:hover,
-.give-form-wrap input.give-submit:hover {
+input.theme-btn:hover {
   background-color: #FF4638;
 }
 .wp-block-loginout a:hover:after,
-input.theme-btn:hover:after,
-.give-form-wrap input.give-submit:hover:after {
+input.theme-btn:hover:after {
   color: #ffffff;
   transition: all 0.5s ease-out;
 }
@@ -467,7 +469,7 @@ input.theme-btn:hover:after,
   float: right;
 }
 
-input.theme-btn, .give-form-wrap input.give-submit {
+input.theme-btn {
   display: inline-block !important;
   width: inherit !important;
   border: 0 !important;
@@ -4698,11 +4700,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-top: inherit;
   }
 }
-.slider-area.style-2 .theme-btn.style-2:hover, .give-form-wrap .slider-area.give-submit .theme-btn.style-2:hover, .slider-area.style-2 .give-form-wrap .give-submit:hover, .give-form-wrap .slider-area.style-2 .give-submit:hover, .give-form-wrap .slider-area.give-submit .give-submit:hover {
+.slider-area.style-2 .theme-btn.style-2:hover, .give-form-wrap .slider-area.give-submit .theme-btn.style-2:hover, .slider-area.style-2 .give-form-wrap .theme-btn.give-submit:hover, .give-form-wrap .slider-area.style-2 .theme-btn.give-submit:hover, .give-form-wrap .slider-area.give-submit .theme-btn.give-submit:hover {
   border-color: transparent !important;
   color: #121212 !important;
 }
-.slider-area.style-2 .theme-btn.style-1:hover, .give-form-wrap .slider-area.give-submit .theme-btn.style-1:hover, .slider-area.style-2 .give-form-wrap .style-1.give-submit:hover, .give-form-wrap .slider-area.style-2 .style-1.give-submit:hover, .give-form-wrap .slider-area.give-submit .style-1.give-submit:hover {
+.slider-area.style-2 .theme-btn.style-1:hover, .give-form-wrap .slider-area.give-submit .theme-btn.style-1:hover {
   color: #121212 !important;
 }
 
@@ -6121,7 +6123,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-content-wrapper .about-btn {
   margin-top: 48px;
 }
-.about-us-content-wrapper .about-btn .theme-btn, .about-us-content-wrapper .about-btn .give-form-wrap .give-submit, .give-form-wrap .about-us-content-wrapper .about-btn .give-submit {
+.about-us-content-wrapper .about-btn .theme-btn {
   background: transparent;
   height: 64px;
   padding: 17px 32px !important;
@@ -6388,7 +6390,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 100%;
   border-radius: 0px;
 }
-.about-us-content-wrapper-2 .about-us-inner .checkbox .about-us-btn .theme-btn:hover, .about-us-content-wrapper-2 .about-us-inner .checkbox .about-us-btn .give-form-wrap .give-submit:hover, .give-form-wrap .about-us-content-wrapper-2 .about-us-inner .checkbox .about-us-btn .give-submit:hover {
+.about-us-content-wrapper-2 .about-us-inner .checkbox .about-us-btn .theme-btn:hover {
   background-color: #FFE144 !important;
   color: #ffffff !important;
 }
@@ -6533,13 +6535,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #EFF5F4;
 }
 
-.about-us-area.style-1.style-3 .about-btn .theme-btn, .about-us-area.style-1.style-3 .about-btn .give-form-wrap .give-submit, .give-form-wrap .about-us-area.style-1.style-3 .about-btn .give-submit {
+.about-us-area.style-1.style-3 .about-btn .theme-btn {
   margin-top: 48px;
   height: auto !important;
   background: #FFE144 !important;
   height: auto !important;
 }
-.about-us-area.style-1.style-3 .about-btn .theme-btn:hover, .about-us-area.style-1.style-3 .about-btn .give-form-wrap .give-submit:hover, .give-form-wrap .about-us-area.style-1.style-3 .about-btn .give-submit:hover {
+.about-us-area.style-1.style-3 .about-btn .theme-btn:hover {
   transition: all 0.5s ease-out;
   color: #ffffff !important;
 }
@@ -6653,7 +6655,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-post-card .card-wrapper-content a {
   margin: 32px 0px;
 }
-.latest-post-card .card-wrapper-content .theme-btn.style-5:hover, .latest-post-card .card-wrapper-content .give-form-wrap .style-5.give-submit:hover, .give-form-wrap .latest-post-card .card-wrapper-content .style-5.give-submit:hover {
+.latest-post-card .card-wrapper-content .theme-btn.style-5:hover {
   color: #ffffff !important;
   background-color: #F8F8F8 !important;
 }
@@ -6884,13 +6886,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 .process-step-slider-area.style-2 .shedule .slick-list, .give-form-wrap .process-step-slider-area.give-submit .shedule .slick-list {
   padding: 0px !important;
 }
-.process-step-slider-area.style-2 .shedule .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .theme-btn, .process-step-slider-area.style-2 .shedule .give-form-wrap .give-submit, .give-form-wrap .process-step-slider-area.style-2 .shedule .give-submit, .give-form-wrap .process-step-slider-area.give-submit .shedule .give-submit {
+.process-step-slider-area.style-2 .shedule .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .theme-btn {
   display: inline-flex !important;
   width: auto !important;
   cursor: pointer;
 }
 @media (max-width: 992px) {
-  .process-step-slider-area.style-2 .shedule .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .theme-btn, .process-step-slider-area.style-2 .shedule .give-form-wrap .give-submit, .give-form-wrap .process-step-slider-area.style-2 .shedule .give-submit, .give-form-wrap .process-step-slider-area.give-submit .shedule .give-submit {
+  .process-step-slider-area.style-2 .shedule .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .theme-btn {
     display: flex;
     flex-wrap: wrap;
   }
@@ -6909,7 +6911,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     transform: none !important;
   }
 }
-.process-step-slider-area.style-2 .shedule .slick-current .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .slick-current .theme-btn, .process-step-slider-area.style-2 .shedule .slick-current .give-form-wrap .give-submit, .give-form-wrap .process-step-slider-area.style-2 .shedule .slick-current .give-submit, .give-form-wrap .process-step-slider-area.give-submit .shedule .slick-current .give-submit {
+.process-step-slider-area.style-2 .shedule .slick-current .theme-btn, .give-form-wrap .process-step-slider-area.give-submit .shedule .slick-current .theme-btn {
   background: #FFE144;
   color: #020a27;
 }
@@ -12517,10 +12519,10 @@ ul.children {
   display: flex;
   justify-content: end;
 }
-.causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .theme-btn, .causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .give-form-wrap .give-submit, .give-form-wrap .causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .give-submit {
+.causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .theme-btn {
   padding: 16px 24px;
 }
-.causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .theme-btn:hover, .causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .give-form-wrap .give-submit:hover, .give-form-wrap .causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .give-submit:hover {
+.causes-details-area.style-1 .author-profile .content .goals_actions-inner .button .theme-btn:hover {
   color: #ffffff !important;
 }
 @media (max-width: 1000px) {
@@ -12701,7 +12703,7 @@ ul.children {
   padding: 0px;
   background: #ffffff;
 }
-.causes-slider-area.style-3 .causes-card-2 .content .theme-btn:hover, .causes-slider-area.style-3 .causes-card-2 .content .give-form-wrap .give-submit:hover, .give-form-wrap .causes-slider-area.style-3 .causes-card-2 .content .give-submit:hover {
+.causes-slider-area.style-3 .causes-card-2 .content .theme-btn:hover {
   background-color: #FFE144 !important;
   color: #121212 !important;
 }
@@ -12866,7 +12868,7 @@ ul.children {
 .causes-area.style-1 .title-area .btn-wrapper {
   flex-shrink: 0;
 }
-.causes-area.style-1 .title-area .theme-btn.style-6, .causes-area.style-1 .title-area .give-form-wrap .style-6.give-submit, .give-form-wrap .causes-area.style-1 .title-area .style-6.give-submit {
+.causes-area.style-1 .title-area .theme-btn.style-6 {
   padding: 17px 32px !important;
 }
 .causes-area .causes-top-area {
@@ -12941,10 +12943,10 @@ ul.children {
     display: none;
   }
 }
-.causes-area .causes-top-area .theme-btn, .causes-area .causes-top-area .give-form-wrap .give-submit, .give-form-wrap .causes-area .causes-top-area .give-submit {
+.causes-area .causes-top-area .theme-btn {
   height: 50%;
 }
-.causes-area .causes-top-area .theme-btn:hover, .causes-area .causes-top-area .give-form-wrap .give-submit:hover, .give-form-wrap .causes-area .causes-top-area .give-submit:hover {
+.causes-area .causes-top-area .theme-btn:hover {
   background-color: transparent !important;
   color: #121212 !important;
   border-color: transparent !important;
@@ -13037,13 +13039,13 @@ ul.children {
     gap: 16px;
   }
 }
-.causes-card .content .btn-section .theme-btn.style-1, .causes-card .content .btn-section .give-form-wrap .style-1.give-submit, .give-form-wrap .causes-card .content .btn-section .style-1.give-submit {
+.causes-card .content .btn-section .theme-btn.style-1 {
   justify-content: center;
   border-radius: 10px;
   padding: 8px 16px;
   cursor: default;
 }
-.causes-card .content .btn-section .theme-btn.style-1:hover, .causes-card .content .btn-section .give-form-wrap .style-1.give-submit:hover, .give-form-wrap .causes-card .content .btn-section .style-1.give-submit:hover {
+.causes-card .content .btn-section .theme-btn.style-1:hover {
   color: #121212;
 }
 .causes-card .content .btn-section .support {
@@ -13191,7 +13193,7 @@ ul.children {
   margin-top: -19px;
   margin-right: 28px;
 }
-.causes-card-2 .content .theme-btn, .causes-card-2 .content .give-form-wrap .give-submit, .give-form-wrap .causes-card-2 .content .give-submit {
+.causes-card-2 .content .theme-btn {
   padding: 8px 16px;
   margin-bottom: 32px;
   font-family: "PT Sans", sans-serif;
@@ -13202,7 +13204,7 @@ ul.children {
   letter-spacing: 0.32px;
   color: #121212;
 }
-.causes-card-2 .content .theme-btn:hover, .causes-card-2 .content .give-form-wrap .give-submit:hover, .give-form-wrap .causes-card-2 .content .give-submit:hover {
+.causes-card-2 .content .theme-btn:hover {
   background-color: #FFE144 !important;
   color: #121212 !important;
 }
@@ -14124,13 +14126,13 @@ ul.children {
   width: 100%;
   transition: all 0.5s ease-out;
 }
-.donate-form .theme-btn.style-1, .donate-form .give-form-wrap .style-1.give-submit, .give-form-wrap .donate-form .style-1.give-submit {
+.donate-form .theme-btn.style-1 {
   padding: 17px 32px !important;
 }
-.donate-form .theme-btn.style-2, .donate-form .give-form-wrap .give-submit, .give-form-wrap .donate-form .give-submit {
+.donate-form .theme-btn.style-2, .donate-form .give-form-wrap .theme-btn.give-submit, .give-form-wrap .donate-form .theme-btn.give-submit {
   padding: 16px 24px !important;
 }
-.donate-form .theme-btn.style-2:hover, .donate-form .give-form-wrap .give-submit:hover, .give-form-wrap .donate-form .give-submit:hover {
+.donate-form .theme-btn.style-2:hover, .donate-form .give-form-wrap .theme-btn.give-submit:hover, .give-form-wrap .donate-form .theme-btn.give-submit:hover {
   border-color: transparent;
   color: #020a27 !important;
 }
@@ -14844,22 +14846,22 @@ ul.children {
 .event-slider.style-1 .section-title .desc {
   padding-right: 20px;
 }
-.event-slider.style-1 .section-title .theme-btn, .event-slider.style-1 .section-title .give-form-wrap .give-submit, .give-form-wrap .event-slider.style-1 .section-title .give-submit {
+.event-slider.style-1 .section-title .theme-btn {
   width: 50%;
   margin-top: 32px;
 }
 @media (max-width: 1400px) {
-  .event-slider.style-1 .section-title .theme-btn, .event-slider.style-1 .section-title .give-form-wrap .give-submit, .give-form-wrap .event-slider.style-1 .section-title .give-submit {
+  .event-slider.style-1 .section-title .theme-btn {
     width: 70%;
   }
 }
 @media (max-width: 991px) {
-  .event-slider.style-1 .section-title .theme-btn, .event-slider.style-1 .section-title .give-form-wrap .give-submit, .give-form-wrap .event-slider.style-1 .section-title .give-submit {
+  .event-slider.style-1 .section-title .theme-btn {
     width: 50%;
   }
 }
 @media (max-width: 400px) {
-  .event-slider.style-1 .section-title .theme-btn, .event-slider.style-1 .section-title .give-form-wrap .give-submit, .give-form-wrap .event-slider.style-1 .section-title .give-submit {
+  .event-slider.style-1 .section-title .theme-btn {
     width: 54%;
   }
 }
@@ -15084,10 +15086,10 @@ ul.children {
 .event-card .content-wrapper .event-card-btn {
   margin-top: 32px;
 }
-.event-card .content-wrapper .event-card-btn .theme-btn, .event-card .content-wrapper .event-card-btn .give-form-wrap .give-submit, .give-form-wrap .event-card .content-wrapper .event-card-btn .give-submit {
+.event-card .content-wrapper .event-card-btn .theme-btn {
   padding: 16px 24px !important;
 }
-.event-card .content-wrapper .event-card-btn .theme-btn:hover, .event-card .content-wrapper .event-card-btn .give-form-wrap .give-submit:hover, .give-form-wrap .event-card .content-wrapper .event-card-btn .give-submit:hover {
+.event-card .content-wrapper .event-card-btn .theme-btn:hover {
   background-color: #FFE144;
   color: #ffffff;
 }
@@ -15676,7 +15678,7 @@ ul.children {
     padding: 80px 0px;
   }
 }
-.causes-area.style-3 .theme-btn.style-1:hover, .causes-area.style-3 .give-form-wrap .style-1.give-submit:hover, .give-form-wrap .causes-area.style-3 .style-1.give-submit:hover {
+.causes-area.style-3 .theme-btn.style-1:hover {
   background-color: #FF4638 !important;
   color: #ffffff !important;
 }
@@ -15720,7 +15722,7 @@ ul.children {
     gap: 24px;
   }
 }
-.causes-area.style-3 .theme-btn, .causes-area.style-3 .give-form-wrap .give-submit, .give-form-wrap .causes-area.style-3 .give-submit {
+.causes-area.style-3 .theme-btn {
   height: 50%;
 }
 .causes-area.style-3 .short-title {
@@ -16011,7 +16013,7 @@ ul.children {
   display: flex;
   gap: 16px;
 }
-.causes-content-wrapper.style-2 .blog-banner .post-meta .theme-btn, .give-form-wrap .causes-content-wrapper.give-submit .blog-banner .post-meta .theme-btn, .causes-content-wrapper.style-2 .blog-banner .post-meta .give-form-wrap .give-submit, .give-form-wrap .causes-content-wrapper.style-2 .blog-banner .post-meta .give-submit, .give-form-wrap .causes-content-wrapper.give-submit .blog-banner .post-meta .give-submit {
+.causes-content-wrapper.style-2 .blog-banner .post-meta .theme-btn, .give-form-wrap .causes-content-wrapper.give-submit .blog-banner .post-meta .theme-btn {
   padding: 8px 16px;
 }
 .causes-content-wrapper.style-2 .blog-banner .post-meta span, .give-form-wrap .causes-content-wrapper.give-submit .blog-banner .post-meta span {
@@ -16187,7 +16189,7 @@ ul.children {
   margin-left: 24px;
   z-index: 10;
 }
-.page-area .page-content-wrapper .single-post-item.style-1 .post-meta .theme-btn, .page-area .page-content-wrapper .single-post-item.style-1 .post-meta .give-form-wrap .give-submit, .give-form-wrap .page-area .page-content-wrapper .single-post-item.style-1 .post-meta .give-submit {
+.page-area .page-content-wrapper .single-post-item.style-1 .post-meta .theme-btn {
   padding: 8px 16px;
   color: #121212;
 }
@@ -16430,7 +16432,7 @@ ul.children {
   justify-content: start;
   align-items: center;
 }
-.page-area .page-content-wrapper .post-comments-form .theme-btn, .page-area .page-content-wrapper .post-comments-form .give-form-wrap .give-submit, .give-form-wrap .page-area .page-content-wrapper .post-comments-form .give-submit {
+.page-area .page-content-wrapper .post-comments-form .theme-btn {
   margin-top: 12px;
 }
 .page-area .page-content-wrapper .post-comments-form label {
@@ -17389,7 +17391,7 @@ ul.children {
   flex-grow: 1;
   position: relative;
 }
-.subscribe-form-widget .single-field .theme-btn, .subscribe-form-widget .single-field .give-form-wrap .give-submit, .give-form-wrap .subscribe-form-widget .single-field .give-submit {
+.subscribe-form-widget .single-field .theme-btn {
   position: absolute;
   right: 8px;
   top: 50%;
@@ -17397,11 +17399,11 @@ ul.children {
   padding: 20px 32px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .subscribe-form-widget .single-field .theme-btn, .subscribe-form-widget .single-field .give-form-wrap .give-submit, .give-form-wrap .subscribe-form-widget .single-field .give-submit {
+  .subscribe-form-widget .single-field .theme-btn {
     right: 0px;
   }
 }
-.subscribe-form-widget .single-field .theme-btn:hover, .subscribe-form-widget .single-field .give-form-wrap .give-submit:hover, .give-form-wrap .subscribe-form-widget .single-field .give-submit:hover {
+.subscribe-form-widget .single-field .theme-btn:hover {
   border: transparent !important;
   background-color: #020a27 !important;
 }

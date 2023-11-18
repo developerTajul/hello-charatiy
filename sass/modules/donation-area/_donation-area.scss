@@ -611,7 +611,7 @@
     .give-submit{
         background: transparent !important;
         color: $white !important;
-        @extend .theme-btn, .style-2, .bubble-yellow;
+        @extend .style-2, .bubble-yellow;
         border: 2px solid $white !important;
     }
     legend{
