@@ -14579,6 +14579,7 @@ ul.children {
 .give-form-wrap .give-submit:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
+  background: #FFE144 !important;
 }
 .give-form-wrap legend {
   color: #ffffff;
