@@ -14365,24 +14365,24 @@ ul.children {
     font-size: 14px;
   }
 }
-.give-form-wrap p, .give-form-wrap .form-title {
+.give-form-wrap .form-title {
   font-size: 51px;
   color: #ffffff !important;
   cursor: default;
   margin: 36px 0;
 }
 @media (max-width: 767px) {
-  .give-form-wrap p, .give-form-wrap .form-title {
+  .give-form-wrap .form-title {
     font-size: 32px;
   }
 }
 @media (max-width: 767px) {
-  .give-form-wrap p, .give-form-wrap .form-title {
+  .give-form-wrap .form-title {
     font-size: 32px;
   }
 }
 @media (max-width: 500px) {
-  .give-form-wrap p, .give-form-wrap .form-title {
+  .give-form-wrap .form-title {
     font-size: 22px;
   }
 }
@@ -14458,7 +14458,7 @@ ul.children {
     padding: 8px !important;
   }
 }
-.give-form-wrap .give-final-total-wrap {
+.give-form-wrap .form-wrap {
   display: none !important;
 }
 
