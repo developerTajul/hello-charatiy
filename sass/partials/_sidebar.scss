@@ -479,8 +479,7 @@
           width: 100%;
         }
         a{
-          display: flex;
-          justify-content: space-between;
+          float: left;
         }
         &:hover{
           color: $primary-color !important;

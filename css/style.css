@@ -10708,8 +10708,7 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
 }
 .widget.widget_categories ul li a, .widget.widget_archive ul li a {
-  display: flex;
-  justify-content: space-between;
+  float: left;
 }
 .widget.widget_categories ul li:hover, .widget.widget_archive ul li:hover {
   color: #FFE144 !important;
