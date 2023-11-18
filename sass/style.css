@@ -6518,6 +6518,21 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .certified-wrapper {
   position: absolute;
+  bottom: 80px;
+  right: 0;
+  transform: translate(36px, 58px);
+}
+@media (max-width: 767px) {
+  .certified-wrapper {
+    bottom: 10px;
+    transform: translate(0px, 70px);
+  }
+}
+@media (max-width: 323px) {
+  .certified-wrapper {
+    bottom: 10px;
+    transform: translate(0px, 50px) !important;
+  }
 }
 
 .about-us-area.style-1 .heart-sketch {

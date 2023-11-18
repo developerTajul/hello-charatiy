@@ -676,15 +676,15 @@
 }
 .certified-wrapper{
     position: absolute;
-    bottom: 80px;
-    right: 0;
-    transform: translate(36px, 58px);
-    @include rmaxwd(767){
-        bottom: 10px;
-        transform: translate(0px, 70px);
-    }
-    @include rmaxwd(323){
-        bottom: 10px;
-        transform: translate(0px, 50px) !important;
-    }
-}
+//     bottom: 80px;
+//     right: 0;
+//     transform: translate(36px, 58px);
+//     @include rmaxwd(767){
+//         bottom: 10px;
+//         transform: translate(0px, 70px);
+//     }
+//     @include rmaxwd(323){
+//         bottom: 10px;
+//         transform: translate(0px, 50px) !important;
+//     }
+ }
