@@ -14401,17 +14401,24 @@ ul.children {
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 4px !important;
   overflow: hidden;
 }
 .give-form-wrap .give-donation-amount .give-currency-symbol, .give-form-wrap .give-donation-amount .give-currency-position-before {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  margin-top: 48px;
-  border-radius: 4px;
-  overflow: hidden;
+  width: 65px !important;
+  height: 60px !important;
+  background-color: #FFE144 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap .give-donation-amount .give-currency-symbol, .give-form-wrap .give-donation-amount .give-currency-position-before {
+    height: 60px !important;
+  }
+}
+.give-form-wrap .give-donation-amount .give-currency-symbol i, .give-form-wrap .give-donation-amount .give-currency-position-before i {
+  color: #121212 !important;
 }
 .give-form-wrap .give-donation-amount .give-text-input {
   padding: 22px 10px 21px 10px !important;
