@@ -10696,7 +10696,10 @@ button.testimonial-arrow-btn:hover i {
   float: left;
 }
 .widget.widget_categories ul li:hover, .widget.widget_archive ul li:hover {
-  color: #FFE144 !important;
+  color: #FF4638 !important;
+}
+.widget.widget_categories ul li:hover a, .widget.widget_archive ul li:hover a {
+  color: #FF4638;
 }
 .widget.widget_categories ul li:hover a p, .widget.widget_archive ul li:hover a p {
   transition: all 0.5s ease-out;
