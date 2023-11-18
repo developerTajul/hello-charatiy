@@ -335,11 +335,12 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                color: $black-2 !important;
                 @include sm{
-                    height: 60px;
+                    height: 60px !important;
                 }
                 i{
-                    color: $black-2;
+                    color: $black-2 !important;
                 }
             }
             .value-list{
@@ -428,7 +429,23 @@
         padding: 40px;
         margin-bottom: 50px;
     }
-    h2,.give-form-title{
+    .give-form-title{
+        font-family: $heading-font;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 130%; /* 23.4px */
+        letter-spacing: 0.36px;
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        cursor: default;
+        @include sm{
+            font-size: 14px;
+        }        
+    }
+    p,.form-title{
+        font-size: 51px;
         color: $white !important;
         cursor: default;
         @include rmaxwd(767){
@@ -487,6 +504,7 @@
             display: flex !important;
             justify-content: center !important;
             align-items: center !important;
+            border: none !important;
             @include sm{
                 height: 60px !important;
             }
