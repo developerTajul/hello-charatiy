@@ -14348,6 +14348,25 @@ ul.children {
     margin-bottom: 50px;
   }
 }
+.give-form-wrap h2, .give-form-wrap .form-title {
+  color: #ffffff !important;
+  cursor: default;
+}
+@media (max-width: 767px) {
+  .give-form-wrap h2, .give-form-wrap .form-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .give-form-wrap h2, .give-form-wrap .form-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 500px) {
+  .give-form-wrap h2, .give-form-wrap .form-title {
+    font-size: 22px;
+  }
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
