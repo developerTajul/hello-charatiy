@@ -14537,7 +14537,7 @@ ul.children {
   border-color: #ffffff;
 }
 .give-form-wrap .give-submit {
-  margin-top: 40px;
+  margin-top: 20px;
   background: transparent;
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
@@ -14561,25 +14561,10 @@ ul.children {
   border: 2px solid #ffffff;
   position: relative;
 }
-.give-form-wrap .give-submit:before {
-  position: absolute;
-  width: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #FFE144 !important;
-  content: "";
-  transition: all 0.5s ease-out;
-  z-index: -1;
-}
 .give-form-wrap .give-submit:hover {
-  border-color: #FFE144 !important;
+  border-color: #FF4638 !important;
   color: #ffffff !important;
-}
-.give-form-wrap .give-submit:hover:before {
-  width: 100%;
-  transition: all 0.5s ease-out;
-  background: #FFE144 !important;
+  background-color: #FF4638 !important;
 }
 .give-form-wrap legend {
   color: #ffffff;

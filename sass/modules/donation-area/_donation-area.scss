@@ -609,7 +609,7 @@
         }
     }
     .give-submit{
-        margin-top:40px ;
+        margin-top:20px ;
         background: transparent;
         color: $white !important;
         border: 2px solid $white !important;
@@ -632,25 +632,11 @@
         color: $white;
         border: 2px solid $white;
         position: relative;
-        &:before {
-            position: absolute;
-            width: 0;
-            height: 100%;
-            left: 0;
-            top: 0;
-            background: $primary-color !important;
-            content: "";
-            @include transition;
-            z-index: -1;
-        }
+        
         &:hover{
-            border-color: $primary-color !important;
+            border-color: $brand !important;
             color: $white !important;
-            &:before {
-                width: 100%;
-                @include transition;
-                background: $primary-color !important;
-            }
+            background-color: $brand !important;
         }
     }
     legend{
