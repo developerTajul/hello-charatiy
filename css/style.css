@@ -14475,10 +14475,11 @@ ul.children {
   margin: 48px 0;
   padding-left: 0;
 }
-.give-form-wrap ul li button {
-  cursor: pointer !important;
+.give-form-wrap ul li {
   width: 120px !important;
   height: 48px !important;
+  cursor: pointer !important;
+  height: 100% !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -14495,7 +14496,7 @@ ul.children {
   position: relative !important;
   background: transparent !important;
 }
-.give-form-wrap ul li button:before {
+.give-form-wrap ul li:before {
   position: absolute;
   width: 0;
   height: 100%;
@@ -14508,32 +14509,22 @@ ul.children {
   border-color: #FFE144;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .give-form-wrap ul li button {
+  .give-form-wrap ul li {
     width: 48% !important;
   }
 }
-.give-form-wrap ul li button.active {
+.give-form-wrap ul li.active {
   background-color: #FFE144 !important;
   color: #121212 !important;
   border-color: #FFE144 !important;
 }
-.give-form-wrap ul li button.style-2.active, .give-form-wrap ul li button.active.give-submit {
-  background-color: #ffffff;
-  color: #121212;
-  border-color: #FFE144;
-}
-.give-form-wrap ul li button:hover {
+.give-form-wrap ul li:hover {
   border-color: #FFE144;
   color: #121212 !important;
 }
-.give-form-wrap ul li button:hover:before {
+.give-form-wrap ul li:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
-}
-.give-form-wrap ul li button:hover.style-2, .give-form-wrap ul li button.give-submit:hover {
-  background-color: #ffffff;
-  color: #121212;
-  border-color: #ffffff;
 }
 .give-form-wrap .give-submit {
   background: transparent !important;
@@ -14542,7 +14533,7 @@ ul.children {
 }
 .give-form-wrap legend {
   color: #ffffff;
-  border-bottom: 1px solid #c7cdda;
+  border-bottom: 1px solid #c7cdda !important;
 }
 .give-form-wrap .give-label {
   display: none !important;

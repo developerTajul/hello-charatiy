@@ -542,10 +542,10 @@
         margin: 48px 0;
         padding-left: 0;
         li{
-            button{
-                cursor: pointer !important;
-                width: 120px !important;
-                height: 48px !important;
+            width: 120px !important;
+            height: 48px !important;
+            cursor: pointer !important;
+                height: 100% !important;
                 display: flex !important;
                 justify-content: center !important;
                 align-items: center !important;
@@ -582,13 +582,6 @@
                     color: $black-2 !important;
                     border-color: $primary-color !important;
                 }
-                &.style-2{
-                   &.active{
-                        background-color: $white;
-                        color: $black-2;
-                        border-color: $primary-color;
-                    } 
-                }
                 &:hover{
                     border-color: $primary-color;
                     color: $black-2 !important;
@@ -596,12 +589,10 @@
                         width: 100%;
                         @include transition;
                     }
-                    &.style-2{
-                        background-color: $white;
-                        color: $black-2;
-                        border-color: $white; 
-                    }
                 }
+            button{
+                
+                
             }
         }
     }
@@ -613,7 +604,7 @@
     }
     legend{
         color: $white;
-        border-bottom: 1px solid $white-100;
+        border-bottom: 1px solid $white-100 !important;
     }
     .give-label{
         display: none !important;
