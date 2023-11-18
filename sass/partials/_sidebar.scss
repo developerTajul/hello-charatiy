@@ -264,7 +264,7 @@
     &.wp-block-search {
       input {
         border-radius: 10px;
-        border-right: $gray-4;
+        border-right: $gray-4 !important;
       }
     }
   }
@@ -482,8 +482,9 @@
           float: left;
         }
         &:hover{
-          color: $primary-color !important;
+          color: $brand !important;
           a{
+            color: $brand;
             p{
               @include transition;
               color: $primary-color !important;
@@ -586,9 +587,9 @@
     li {
       a {
         &.rsswidget {
-          color: $secondary-color;
+          color: $black-2;
           &:hover {
-            color: $primary-color;
+            color: $brand;
           }
         }
       }
