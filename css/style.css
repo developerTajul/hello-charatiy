@@ -14387,7 +14387,8 @@ ul.children {
   }
 }
 .give-form-wrap .give-goal-progress .raised {
-  color: #c7cdda;
+  font-size: 18px;
+  color: #FFE144;
 }
 .give-form-wrap .give-goal-progress .raised .income {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -14403,15 +14404,10 @@ ul.children {
 }
 .give-form-wrap .give-goal-progress .raised .goal-text {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
-  color: #c7cdda;
+  color: #FFE144;
   cursor: default;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .give-form-wrap .give-goal-progress .raised .goal-text {
-    font-size: 18px;
-  }
 }
 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar span {
   background: #FFE144 !important;
@@ -14567,7 +14563,7 @@ ul.children {
 }
 .give-form-wrap legend {
   color: #ffffff;
-  border-bottom: 1px solid #c7cdda !important;
+  border-bottom: 1px solid #FFE144 !important;
 }
 .give-form-wrap .give-label {
   display: none !important;

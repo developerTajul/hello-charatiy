@@ -461,7 +461,8 @@
     }
     .give-goal-progress{
         .raised{
-            color: $white-100;
+            font-size: 18px;
+            color: $primary-color;
             .income{
                 font-family: $heading-font;
                 font-size: 32px;
@@ -474,13 +475,10 @@
             }
             .goal-text{
                 font-family: $heading-font;
-                font-size: 22px;
+                font-size: 18px;
                 font-weight: 500;
-                color: $white-100;
+                color: $primary-color;
                 cursor: default;
-                @include sm{
-                    font-size: 18px;
-                }
             }
         }
         .progress-bar{
@@ -640,7 +638,7 @@
     }
     legend{
         color: $white;
-        border-bottom: 1px solid $white-100 !important;
+        border-bottom: 1px solid $primary-color !important;
     }
     .give-label{
         display: none !important;
