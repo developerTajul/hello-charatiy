@@ -14334,6 +14334,21 @@ ul.children {
   border-color: #ffffff;
 }
 
+.give-form-wrap {
+  padding: 60px;
+  margin: 0 5px;
+  background-color: #FF4638;
+  border-radius: 20px;
+  z-index: 20;
+  position: relative;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;

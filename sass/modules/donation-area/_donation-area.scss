@@ -415,3 +415,17 @@
                 }
             }
 }
+
+// Form
+.give-form-wrap{
+    padding: 60px;
+    margin: 0 5px;
+    background-color: $brand;
+    border-radius: 20px;
+    z-index: 20;
+    position: relative;
+    @include sm{
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+}
