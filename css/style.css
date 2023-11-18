@@ -14427,14 +14427,15 @@ ul.children {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #121212 !important;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .donate-form .input-icon {
-    height: 60px;
+    height: 60px !important;
   }
 }
 .donate-form .input-icon i {
-  color: #121212;
+  color: #121212 !important;
 }
 .donate-form .value-list {
   display: flex !important;
@@ -14524,22 +14525,40 @@ ul.children {
     margin-bottom: 50px;
   }
 }
-.give-form-wrap h2, .give-form-wrap .give-form-title {
+.give-form-wrap .give-form-title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  cursor: default;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap .give-form-title {
+    font-size: 14px;
+  }
+}
+.give-form-wrap p, .give-form-wrap .form-title {
+  font-size: 51px;
   color: #ffffff !important;
   cursor: default;
 }
 @media (max-width: 767px) {
-  .give-form-wrap h2, .give-form-wrap .give-form-title {
+  .give-form-wrap p, .give-form-wrap .form-title {
     font-size: 32px;
   }
 }
 @media (max-width: 767px) {
-  .give-form-wrap h2, .give-form-wrap .give-form-title {
+  .give-form-wrap p, .give-form-wrap .form-title {
     font-size: 32px;
   }
 }
 @media (max-width: 500px) {
-  .give-form-wrap h2, .give-form-wrap .give-form-title {
+  .give-form-wrap p, .give-form-wrap .form-title {
     font-size: 22px;
   }
 }
@@ -14588,6 +14607,7 @@ ul.children {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  border: none !important;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .give-form-wrap .give-donation-amount .give-currency-symbol, .give-form-wrap .give-donation-amount .give-currency-position-before {
