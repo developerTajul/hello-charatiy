@@ -14467,23 +14467,24 @@ ul.children {
   display: none !important;
 }
 .give-form-wrap ul li button {
-  cursor: pointer;
-  width: 120px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer !important;
+  width: 120px !important;
+  height: 48px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   border: 1px solid #ffffff;
-  border-radius: 4px;
-  color: #ffffff;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 130%; /* 23.4px */
-  letter-spacing: 0.36px;
-  text-align: center;
+  border-radius: 4px !important;
+  color: #ffffff !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 130% !important; /* 23.4px */
+  letter-spacing: 0.36px !important;
+  text-align: center !important;
   transition: all 0.5s ease-out;
-  position: relative;
+  position: relative !important;
+  background: transparent !important;
 }
 .give-form-wrap ul li button:before {
   position: absolute;
@@ -14499,13 +14500,13 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .give-form-wrap ul li button {
-    width: 48%;
+    width: 48% !important;
   }
 }
 .give-form-wrap ul li button.active {
-  background-color: #FFE144;
-  color: #121212;
-  border-color: #FFE144;
+  background-color: #FFE144 !important;
+  color: #121212 !important;
+  border-color: #FFE144 !important;
 }
 .give-form-wrap ul li button.style-2.active, .give-form-wrap ul li button.active.give-submit {
   background-color: #ffffff;
@@ -14525,6 +14526,12 @@ ul.children {
   color: #121212;
   border-color: #ffffff;
 }
+.give-form-wrap .give-submit {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;
