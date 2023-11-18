@@ -10699,12 +10699,6 @@ button.testimonial-arrow-btn:hover i {
 .widget.widget_categories ul li a, .widget.widget_archive ul li a {
   float: left;
 }
-.widget.widget_categories ul li:hover, .widget.widget_archive ul li:hover {
-  color: #FF4638 !important;
-}
-.widget.widget_categories ul li:hover a, .widget.widget_archive ul li:hover a {
-  color: #FF4638;
-}
 .widget.widget_categories ul li:hover a p, .widget.widget_archive ul li:hover a p {
   transition: all 0.5s ease-out;
   color: #FFE144 !important;
@@ -10713,7 +10707,14 @@ button.testimonial-arrow-btn:hover i {
   transition: all 0.5s ease-out;
   color: #FFE144 !important;
 }
+<<<<<<< HEAD
 .widget.widget_categories.style-2 ul li:hover, .give-form-wrap .widget.widget_categories.give-submit ul li:hover, .widget.widget_archive.style-2 ul li:hover, .give-form-wrap .widget.widget_archive.give-submit ul li:hover {
+=======
+.widget.widget_categories ul li:hover > a, .widget.widget_archive ul li:hover > a {
+  color: #FF4638;
+}
+.widget.widget_categories.style-2 ul li:hover, .widget.widget_archive.style-2 ul li:hover {
+>>>>>>> b05e30440d6122114ef23d9b8291393ca1d2b636
   color: #FF4638 !important;
 }
 .widget.widget_categories.style-2 ul li:hover a p, .give-form-wrap .widget.widget_categories.give-submit ul li:hover a p, .widget.widget_archive.style-2 ul li:hover a p, .give-form-wrap .widget.widget_archive.give-submit ul li:hover a p {
