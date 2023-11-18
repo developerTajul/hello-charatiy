@@ -10489,7 +10489,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .widget .wp-block-search__no-button.wp-block-search input {
   border-radius: 10px;
-  border-right: #BDBDBD;
+  border-right: #BDBDBD !important;
 }
 .widget .wp-block-search {
   margin-bottom: -2px;
@@ -10780,10 +10780,10 @@ button.testimonial-arrow-btn:hover i {
   margin-right: 6px;
 }
 .widget_rss ul li a.rsswidget {
-  color: #196A5C;
+  color: #121212;
 }
 .widget_rss ul li a.rsswidget:hover {
-  color: #FFE144;
+  color: #FF4638;
 }
 
 .wp-block-latest-posts .wp-block-rss__item-title,
