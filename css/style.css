@@ -14553,6 +14553,10 @@ ul.children {
 .give-form-wrap .give-label {
   display: none !important;
 }
+.give-form-wrap .give-input {
+  border-radius: 4px !important;
+  border: none !important;
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
