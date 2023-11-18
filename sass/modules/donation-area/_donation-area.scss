@@ -604,5 +604,11 @@
         border: 2px solid $white !important;
         @extend .theme-btn, .style-2, .bubble-yellow;
     }
+    legend{
+        color: $white;
+    }
+    .give-label{
+        display: none !important;
+    }
     
 }

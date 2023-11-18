@@ -14531,6 +14531,12 @@ ul.children {
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
 }
+.give-form-wrap legend {
+  color: #ffffff;
+}
+.give-form-wrap .give-label {
+  display: none !important;
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
