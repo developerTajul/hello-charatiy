@@ -482,9 +482,7 @@
           float: left;
         }
         &:hover{
-          color: $brand !important;
           a{
-            color: $brand;
             p{
               @include transition;
               color: $primary-color !important;
@@ -493,6 +491,9 @@
               @include transition;
               color: $primary-color !important;
             }
+          }
+          >a{
+          color: $brand;
           }
         }
       }

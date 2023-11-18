@@ -10695,12 +10695,6 @@ button.testimonial-arrow-btn:hover i {
 .widget.widget_categories ul li a, .widget.widget_archive ul li a {
   float: left;
 }
-.widget.widget_categories ul li:hover, .widget.widget_archive ul li:hover {
-  color: #FF4638 !important;
-}
-.widget.widget_categories ul li:hover a, .widget.widget_archive ul li:hover a {
-  color: #FF4638;
-}
 .widget.widget_categories ul li:hover a p, .widget.widget_archive ul li:hover a p {
   transition: all 0.5s ease-out;
   color: #FFE144 !important;
@@ -10708,6 +10702,9 @@ button.testimonial-arrow-btn:hover i {
 .widget.widget_categories ul li:hover a i, .widget.widget_archive ul li:hover a i {
   transition: all 0.5s ease-out;
   color: #FFE144 !important;
+}
+.widget.widget_categories ul li:hover > a, .widget.widget_archive ul li:hover > a {
+  color: #FF4638;
 }
 .widget.widget_categories.style-2 ul li:hover, .widget.widget_archive.style-2 ul li:hover {
   color: #FF4638 !important;
