@@ -610,7 +610,7 @@
     }
     .give-submit{
         margin-top:40px ;
-        background: transparent !important;
+        background: transparent;
         color: $white !important;
         border: 2px solid $white !important;
         display: inline-flex;
@@ -638,7 +638,7 @@
             height: 100%;
             left: 0;
             top: 0;
-            background: $primary-color;
+            background: $primary-color !important;
             content: "";
             @include transition;
             z-index: -1;

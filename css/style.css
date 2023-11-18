@@ -14538,7 +14538,7 @@ ul.children {
 }
 .give-form-wrap .give-submit {
   margin-top: 40px;
-  background: transparent !important;
+  background: transparent;
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
   display: inline-flex;
@@ -14567,7 +14567,7 @@ ul.children {
   height: 100%;
   left: 0;
   top: 0;
-  background: #FFE144;
+  background: #FFE144 !important;
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
