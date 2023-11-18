@@ -14562,9 +14562,8 @@ ul.children {
   position: relative;
 }
 .give-form-wrap .give-submit:hover {
-  border-color: #FF4638 !important;
-  color: #ffffff !important;
-  background-color: #FF4638 !important;
+  color: #FF4638 !important;
+  background-color: #ffffff !important;
 }
 .give-form-wrap legend {
   color: #ffffff;

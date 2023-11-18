@@ -634,9 +634,8 @@
         position: relative;
         
         &:hover{
-            border-color: $brand !important;
-            color: $white !important;
-            background-color: $brand !important;
+            color: $brand !important;
+            background-color: $white !important;
         }
     }
     legend{
