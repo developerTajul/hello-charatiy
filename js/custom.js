@@ -61,6 +61,16 @@
         $(".bubble-yellow").append('<span></span><span></span><span></span><span></span>');
         $(".bubble-white").append('<span></span><span></span><span></span><span></span>');
         $(".bubble-green").append('<span></span><span></span><span></span><span></span>');
+        
+
+         // Get the plugin class
+        var paragraphElement = document.querySelector('.give-form-wrap');
+
+        // Add the desired attributes
+        paragraphElement.classList.add('typewrite');
+        paragraphElement.setAttribute('data-period', '1500');
+        paragraphElement.setAttribute('data-type', '[ "DONATION","DONATE TODAY","MAKE DONATE" ]');
+                
         /*
         Typing animation 
         ============================*/
