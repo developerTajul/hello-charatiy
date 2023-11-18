@@ -14546,6 +14546,7 @@ ul.children {
   font-size: 51px;
   color: #ffffff !important;
   cursor: default;
+  margin: 36px 0;
 }
 @media (max-width: 767px) {
   .give-form-wrap p, .give-form-wrap .form-title {
@@ -14633,6 +14634,9 @@ ul.children {
     font-size: 14px !important;
     padding: 8px !important;
   }
+}
+.give-form-wrap .give-final-total-wrap {
+  display: none !important;
 }
 
 .skill-progressbar.page .progress-inner .title {

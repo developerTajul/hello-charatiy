@@ -448,6 +448,7 @@
         font-size: 51px;
         color: $white !important;
         cursor: default;
+        margin: 36px 0;
         @include rmaxwd(767){
             font-size: 32px;
         }
@@ -527,5 +528,8 @@
                 padding: 8px !important;
             }
         }
+    }
+    .give-final-total-wrap{
+        display: none !important;
     }
 }
