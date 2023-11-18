@@ -534,6 +534,13 @@
         display: none !important;
     }
     ul{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 8px;
+        margin: 48px 0;
+        padding-left: 0;
         li{
             button{
                 cursor: pointer !important;
@@ -606,6 +613,7 @@
     }
     legend{
         color: $white;
+        border-bottom: 1px solid $white-100;
     }
     .give-label{
         display: none !important;
