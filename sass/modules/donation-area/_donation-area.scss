@@ -575,9 +575,9 @@
                     
                     border-color: $primary-color;
                 }
-                @include sm{
-                    width: 155px !important;
-                }
+                // @include sm{
+                //     width: 155px !important;
+                // }
                 &.active{
                     background-color: $primary-color !important;
                     color: $black-2 !important;

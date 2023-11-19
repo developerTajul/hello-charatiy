@@ -14504,11 +14504,6 @@ ul.children {
   z-index: -1;
   border-color: #FFE144;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .give-form-wrap ul li button {
-    width: 155px !important;
-  }
-}
 .give-form-wrap ul li button.active {
   background-color: #FFE144 !important;
   color: #121212 !important;
