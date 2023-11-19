@@ -9744,7 +9744,8 @@ button.testimonial-arrow-btn:hover i {
     width: 100%;
   }
 }
-.team-slider-area .banner {
+
+.team-slider-banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -9754,7 +9755,7 @@ button.testimonial-arrow-btn:hover i {
   height: 595px;
   width: 100%;
 }
-.team-slider-area .banner:after {
+.team-slider-banner:after {
   content: "";
   background: #020a27;
   position: absolute;
@@ -9765,7 +9766,7 @@ button.testimonial-arrow-btn:hover i {
   height: 100%;
   opacity: 0.6;
 }
-.team-slider-area .banner .feature-item1 {
+.team-slider-banner .feature-item1 {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -9773,24 +9774,24 @@ button.testimonial-arrow-btn:hover i {
   animation: move3 6s infinite alternate;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-slider-area .banner .feature-item1 {
+  .team-slider-banner .feature-item1 {
     width: 80px;
   }
 }
-.team-slider-area .banner .feature-item2 {
+.team-slider-banner .feature-item2 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
-.team-slider-area .banner .feature-item3 {
+.team-slider-banner .feature-item3 {
   position: absolute;
   top: 254px;
   left: 148px;
   z-index: 10;
 }
 @media (max-width: 1200px) {
-  .team-slider-area .banner .feature-item3 {
+  .team-slider-banner .feature-item3 {
     display: none;
   }
 }
