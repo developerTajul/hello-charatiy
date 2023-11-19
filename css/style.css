@@ -14572,6 +14572,9 @@ ul.children {
   border-radius: 4px !important;
   border: none !important;
 }
+.give-form-wrap .give-progress-bar {
+  height: 12px !important;
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
