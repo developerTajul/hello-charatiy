@@ -12925,26 +12925,6 @@ ul.children {
   color: #121212 !important;
   border-color: transparent !important;
 }
-.causes-top-area .section-title {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: end;
-}
-@media (max-width: 1023px) {
-  .causes-top-area .section-title {
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
-    margin-bottom: 30px;
-  }
-}
-.causes-top-area .section-title .short-title {
-  color: #FFE144 !important;
-}
-.causes-top-area .section-title .title {
-  color: #ffffff !important;
-}
 
 .causes-bottom-area {
   position: relative;
