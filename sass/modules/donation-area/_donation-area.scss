@@ -543,6 +543,9 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 4;
+        &:before,&:after{
+            display: none !important;
+        }
         li{
             // width: 127px !important;
             height: 48px !important;

@@ -14391,6 +14391,9 @@ ul.children {
   grid-template-columns: repeat(4, 1fr);
   gap: 4;
 }
+.give-form-wrap ul:before, .give-form-wrap ul:after {
+  display: none !important;
+}
 .give-form-wrap ul li {
   height: 48px !important;
 }
