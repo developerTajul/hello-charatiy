@@ -85,8 +85,12 @@
    
 }
 .causes-top-area{
-     position: relative;
-     z-index: 20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
     // background-size: cover;
     // background-repeat: no-repeat;
     // background-position: center center;
