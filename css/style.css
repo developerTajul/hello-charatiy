@@ -15566,21 +15566,6 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 
-.latest-posts-area {
-  padding: 120px 0px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .latest-posts-area {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .latest-posts-area {
-    padding-top: 72px;
-    padding-bottom: 80px;
-  }
-}
-
 .counter-area.style-3 {
   padding: 120px 0px;
 }
