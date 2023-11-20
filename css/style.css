@@ -14493,6 +14493,12 @@ ul.children {
   line-height: 130%;
   color: #ffffff;
 }
+.give-form-wrap .give-label .give-required-indicator {
+  color: #ffffff !important;
+}
+.give-form-wrap .give-label .give-tooltip {
+  display: none !important;
+}
 .give-form-wrap .give-input {
   font-size: 18px !important;
   border-radius: 4px !important;
