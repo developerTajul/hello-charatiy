@@ -7267,6 +7267,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0 60px;
 }
 .testimonial-slider-wrapper .slick-list {
+  padding-top: 56px;
   padding-bottom: 60px;
   margin: 0 -12px;
   overflow: hidden;
@@ -7763,14 +7764,6 @@ button.testimonial-arrow-btn:hover i {
 @media (max-width: 1400px) {
   .testimonial-slider-area.style-2 .testimonial-container-wrapper .side-img .feature-shape-1 {
     display: none;
-  }
-}
-.testimonial-slider-area.style-2 .testimonial-container-wrapper .testimonial-content-wrapper {
-  padding-top: 57px;
-}
-@media (max-width: 1200px) {
-  .testimonial-slider-area.style-2 .testimonial-container-wrapper .testimonial-content-wrapper {
-    padding-top: 10px;
   }
 }
 .testimonial-slider-area.style-2 .testimonial-container-wrapper .testimonial-content-wrapper .testimonial-card {
