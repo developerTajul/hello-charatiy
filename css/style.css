@@ -15403,20 +15403,6 @@ ul.children {
   }
 }
 
-.counter-area.style-1 {
-  padding-bottom: 120px !important;
-  overflow: hidden;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-area.style-1 {
-    padding: 100px 0 !important;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area.style-1 {
-    padding: 80px 0px !important;
-  }
-}
 .counter-area.style-1 .feature-image2 {
   top: unset;
   left: unset;

@@ -61,14 +61,14 @@
 // Counter Area
 .counter-area{
   &.style-1{
-     padding-bottom: 120px !important;
-     overflow: hidden;
-      @include md {
-        padding: 100px 0 !important;
-      }
-      @include sm{
-        padding: 80px 0px !important;
-      }
+    //  padding-bottom: 120px !important;
+    //  overflow: hidden;
+    //   @include md {
+    //     padding: 100px 0 !important;
+    //   }
+    //   @include sm{
+    //     padding: 80px 0px !important;
+    //   }
     .feature-image2{
       top: unset;
       left: unset;
