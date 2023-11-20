@@ -9852,9 +9852,6 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   overflow: hidden;
 }
-.team-slider-area.style-2 {
-  background: #EFF5F4 !important;
-}
 .team-slider-area.style-2 .feature-shape {
   position: absolute;
   top: 180px;
