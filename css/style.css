@@ -14487,9 +14487,14 @@ ul.children {
   border-bottom: 1px solid #c7cdda !important;
 }
 .give-form-wrap .give-label {
-  display: none !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #ffffff;
 }
 .give-form-wrap .give-input {
+  font-size: 18px !important;
   border-radius: 4px !important;
   border: none !important;
 }
