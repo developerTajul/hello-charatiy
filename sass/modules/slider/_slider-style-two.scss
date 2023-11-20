@@ -116,13 +116,7 @@
             font-size: 158px;
           }
           @include rmaxwd(1300) {
-            margin-top: 10px;
-            margin-left: 10px;
-          }
-          @include rmaxwd(767) {
-            margin-top: 40px;
-            margin-left: 0px;
-            animation: MoveUpDown 2s linear infinite alternate;
+            display: none;
           }
         }
         .bottom-shape{

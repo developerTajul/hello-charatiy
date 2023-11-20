@@ -4559,15 +4559,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 1300px) {
   .slider-area.style-2 .single-slider .top-shape {
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-}
-@media (max-width: 767px) {
-  .slider-area.style-2 .single-slider .top-shape {
-    margin-top: 40px;
-    margin-left: 0px;
-    animation: MoveUpDown 2s linear infinite alternate;
+    display: none;
   }
 }
 .slider-area.style-2 .single-slider .bottom-shape {
