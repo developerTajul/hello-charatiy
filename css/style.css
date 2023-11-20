@@ -12865,14 +12865,6 @@ ul.children {
   padding: 17px 32px !important;
 }
 
-.causes-top-area {
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 2;
-  overflow: hidden;
-}
 .causes-top-area .feature-image-1 {
   position: absolute;
   top: 0;
