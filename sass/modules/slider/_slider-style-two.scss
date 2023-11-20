@@ -133,10 +133,8 @@
             width: 100px;
             height: 40px;
           }
-          @include rmaxwd(992){
-            margin-left: 20px;
-            margin-bottom: -15px !important;
-            width: 70px;
+          @include rmaxwd(1300){
+            display: none;
           }
           
         }
