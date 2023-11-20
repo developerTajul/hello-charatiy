@@ -12865,6 +12865,10 @@ ul.children {
   padding: 17px 32px !important;
 }
 
+.causes-top-area {
+  position: relative;
+  z-index: 20;
+}
 .causes-top-area .feature-image-1 {
   position: absolute;
   top: 0;
@@ -13119,6 +13123,8 @@ ul.children {
   background-color: #ffffff !important;
   overflow: hidden;
   border-radius: 20px;
+  position: relative;
+  z-index: 999;
 }
 .causes-card-2 img {
   width: 100%;
@@ -15541,23 +15547,6 @@ ul.children {
 .causes-area {
   position: relative;
   overflow: hidden;
-}
-
-.counter-area.style-2 {
-  padding-top: 120px;
-  padding-bottom: 350px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-area.style-2 {
-    padding-top: 100px;
-    padding-bottom: 320px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area.style-2 {
-    padding-top: 80px;
-    padding-bottom: 280px;
-  }
 }
 
 .testimonial-slider-area.style-2 {

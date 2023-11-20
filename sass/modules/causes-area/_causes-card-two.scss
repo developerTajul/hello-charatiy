@@ -2,6 +2,8 @@
         background-color: $white !important;
         overflow: hidden;
         border-radius: 20px;
+        position: relative;
+        z-index: 999;
         img{
           width: 100%;
           @include transition;
