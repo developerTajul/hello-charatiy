@@ -14389,12 +14389,13 @@ ul.children {
 .give-form-wrap ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 4;
+  gap: 4px;
 }
 .give-form-wrap ul:before, .give-form-wrap ul:after {
   display: none !important;
 }
 .give-form-wrap ul li {
+  margin: 0;
   height: 48px !important;
 }
 .give-form-wrap ul li button {

@@ -542,12 +542,13 @@
         // padding-left: 0;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 4;
+        gap: 4px;
         &:before,&:after{
             display: none !important;
         }
         li{
             // width: 127px !important;
+            margin: 0;
             height: 48px !important;
             button{
                 cursor: pointer !important;
