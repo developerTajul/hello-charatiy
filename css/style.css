@@ -9854,20 +9854,6 @@ button.testimonial-arrow-btn:hover i {
 }
 .team-slider-area.style-2 {
   background: #EFF5F4 !important;
-  padding: 120px 0px;
-  padding-bottom: 232px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-slider-area.style-2 {
-    padding: 100px 0;
-    padding-bottom: 200px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-slider-area.style-2 {
-    padding: 72px 0px;
-    padding-bottom: 192px;
-  }
 }
 .team-slider-area.style-2 .feature-shape {
   position: absolute;
