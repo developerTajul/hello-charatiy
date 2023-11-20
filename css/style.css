@@ -14263,7 +14263,7 @@ ul.children {
 }
 
 .give-form-wrap {
-  padding: 60px;
+  padding: 60px 50px;
   margin: 0 5px;
   background-color: #FF4638;
   border-radius: 20px;
@@ -14387,17 +14387,11 @@ ul.children {
   display: none !important;
 }
 .give-form-wrap ul {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: start;
-  list-style: none;
-  margin: 48px 0;
-  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4;
 }
 .give-form-wrap ul li {
-  width: 127px !important;
   height: 48px !important;
 }
 .give-form-wrap ul li button {
