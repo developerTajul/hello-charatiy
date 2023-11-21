@@ -10293,7 +10293,7 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 24px;
   margin-top: 8px;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 22px;
@@ -10433,6 +10433,7 @@ button.testimonial-arrow-btn:hover i {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 .widget .has-login-form .login-submit {
   margin-bottom: 0;
