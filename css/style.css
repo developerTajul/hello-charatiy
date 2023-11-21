@@ -8626,7 +8626,7 @@ button.testimonial-arrow-btn:hover i {
   font-weight: 400;
   line-height: 170%; /* 27.2px */
   letter-spacing: 0.32px;
-  margin-top: 7px;
+  margin-top: 10px;
   cursor: default;
 }
 .single-post-item .post-content h2,
@@ -9744,7 +9744,7 @@ button.testimonial-arrow-btn:hover i {
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  margin-top: 60px;
+  margin-top: 56px;
 }
 .basic-pagination ul,
 .page-links ul,
@@ -10491,7 +10491,7 @@ button.testimonial-arrow-btn:hover i {
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #196A5C;
+  color: #121212;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 .widget .wp-block-search input,
@@ -10613,7 +10613,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .widget ul li a,
 .widget ol li a {
-  color: #5e6f92;
+  color: #5E5E5E;
   position: relative;
   display: inline-block;
   text-transform: capitalize;
