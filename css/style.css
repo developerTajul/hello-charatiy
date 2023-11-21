@@ -8527,7 +8527,6 @@ button.testimonial-arrow-btn:hover i {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgb(18, 18, 18));
   z-index: 1;
 }
 .single-post-item .post-video img {
@@ -8541,8 +8540,7 @@ button.testimonial-arrow-btn:hover i {
 .single-post-item:hover .post-thumbnail img,
 .single-post-item:hover .post-video img {
   border-radius: 20px;
-  width: 100%;
-  transform: scale(1.06);
+  transform: scale(1.03);
   transition: all 0.5s ease-out;
 }
 .single-post-item iframe {
@@ -8720,9 +8718,13 @@ button.testimonial-arrow-btn:hover i {
   border-radius: 20px;
   margin-top: 44px;
 }
+.single-post-item .post-thumbnail a,
+.single-post-item .post-video a {
+  border-radius: 20px;
+}
 .single-post-item .post-thumbnail img,
 .single-post-item .post-video img {
-  width: 100%;
+  border-radius: 20px;
   transform: scale(1);
   transition: all 0.5s ease-out;
 }
@@ -8766,7 +8768,7 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
 }
 .single-post-item .post-meta {
-  margin-top: 32px;
+  margin-top: 42px;
   display: flex;
   align-items: center;
   gap: 32px;
