@@ -170,14 +170,14 @@ a:focus,
 }
 
 a:focus {
-  color: #FFE144;
+  color: #4566d4;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
 
 a,
 button {
-  color: #FFE144;
+  color: #4566d4;
   outline: medium none;
   transition: all 0.5s ease-out;
 }
@@ -2470,7 +2470,7 @@ blockquote p {
   }
 }
 blockquote p a {
-  color: #FFE144;
+  color: #4566d4;
   text-decoration: underline;
 }
 blockquote footer {

@@ -106,13 +106,13 @@ a:focus,
   outline: none;
 }
 a:focus {
-  color: $primary-color;
+  color: $text-primary;
   text-decoration: none;
   @include transition;
 }
 a,
 button{
-  color: $primary-color;
+  color: $text-primary;
   outline: medium none;
   @include transition;
 
