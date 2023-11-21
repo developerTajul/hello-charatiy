@@ -205,12 +205,14 @@ ul {
   background: #121212;
   text-shadow: none;
   color: #fff;
+  -webkit-text-fill-color: #ffffff;
 }
 
 ::selection {
   background: #121212;
   text-shadow: none;
   color: #fff;
+  -webkit-text-fill-color: #ffffff;
 }
 
 textarea:focus,

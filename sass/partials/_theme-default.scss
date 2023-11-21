@@ -138,11 +138,13 @@ ul {
   background: $black-2;
   text-shadow: none;
   color: #fff;
+  -webkit-text-fill-color: $white;
 }
 ::selection {
   background: $black-2;
   text-shadow: none;
   color: #fff;
+  -webkit-text-fill-color: $white;
 }
 textarea:focus,
 input:focus {
