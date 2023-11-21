@@ -3643,10 +3643,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 2;
 }
 .main-menu ul li ul.submenu li.active a:after {
-  height: 100%;
-  top: 0;
-  left: 0;
-  width: 100%;
   border-radius: 0;
   z-index: -1;
 }
