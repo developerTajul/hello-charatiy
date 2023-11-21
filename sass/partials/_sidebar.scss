@@ -392,6 +392,7 @@
       }
       &:last-child {
         border-color: transparent;
+        padding-bottom: 0;
       }
       /* Recent Comment Widget */
       &.recentcomments {

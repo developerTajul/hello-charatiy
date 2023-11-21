@@ -546,7 +546,7 @@ input[type="checkbox"]
   width: 16px !important;
   height: 16px !important;
   // border-radius: 10px !important;
-  // border: 1px solid $black-2 !important;
+  border: 1px solid $black-2 !important;
   background-color: transparent !important;
   transform: scale(1);
   transition: 0.3s;
@@ -558,7 +558,6 @@ input[type="checkbox"]
   align-self: center;
   flex-shrink: 0;
   box-shadow: none !important;
-  border-color: $brand;
 }
 
 
