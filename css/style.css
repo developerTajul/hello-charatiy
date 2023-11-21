@@ -8601,7 +8601,9 @@ button.testimonial-arrow-btn:hover i {
   margin-bottom: 0;
 }
 .single-post-item .post-title {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  line-height: inherit;
+  margin-top: 4px;
 }
 .single-post-item .post-title a {
   color: #121212;
@@ -8626,7 +8628,7 @@ button.testimonial-arrow-btn:hover i {
   font-weight: 400;
   line-height: 170%; /* 27.2px */
   letter-spacing: 0.32px;
-  margin-top: 16px;
+  margin-top: 8px;
   cursor: default;
 }
 .single-post-item .post-content h2,
@@ -8716,6 +8718,7 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
+  margin-top: 44px;
 }
 .single-post-item .post-thumbnail img,
 .single-post-item .post-video img {
@@ -8767,7 +8770,7 @@ button.testimonial-arrow-btn:hover i {
   display: flex;
   align-items: center;
   gap: 32px;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   flex-wrap: wrap;
 }
 .single-post-item .post-meta.style-2 {
