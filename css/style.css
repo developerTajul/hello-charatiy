@@ -13959,7 +13959,9 @@ ul.children {
   background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
   background-size: 200%;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: 0.4s ease-out;
+  color: #ffffff;
 }
 .animated-text-red:hover, .page-area .page-content-wrapper .blog-post-nav .title:hover, .icon-card .content .title:hover, .icon-card .content .desc:hover, .single-post-item .post-title a:hover, .widget_latest_post ul li .latest-post-desc .latest-post-title a:hover, .causes-slider-area.style-3 .causes-card-2 .content .title:hover, .causes-card .content .title:hover, .service-area.style-2 .service-content .title:hover {
   background-position: -100%;
