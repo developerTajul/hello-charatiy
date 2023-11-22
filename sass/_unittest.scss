@@ -389,6 +389,12 @@ blockquote {
 }
 .wp-block-button {
   margin-bottom: 10px;
+  &.is-style-outline{
+    .wp-block-button__link{
+      color: $black-3;
+      border-color: $black-3;
+    }
+  }
 }
 .wp-block-archives,
 .wp-block-categories {

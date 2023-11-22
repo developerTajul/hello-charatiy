@@ -2542,6 +2542,10 @@ blockquote footer {
 .wp-block-button {
   margin-bottom: 10px;
 }
+.wp-block-button.is-style-outline .wp-block-button__link {
+  color: #5E5E5E;
+  border-color: #5E5E5E;
+}
 
 .wp-block-archives select,
 .wp-block-categories select {
