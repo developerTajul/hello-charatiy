@@ -8436,6 +8436,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .blog-details-wrapper .single-post-item .post-meta {
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .blog-details-wrapper .single-post-item .post-gallery:hover img {
   transform: scale(1) !important;
