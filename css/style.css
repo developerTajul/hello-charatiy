@@ -8596,6 +8596,9 @@ button.testimonial-arrow-btn:hover i {
 .single-post-item.sticky .post-content p {
   margin-bottom: 0;
 }
+.single-post-item.post-24 .wp-block-button a {
+  color: #ffffff;
+}
 .single-post-item .post-title {
   margin-bottom: 0;
   line-height: inherit;
