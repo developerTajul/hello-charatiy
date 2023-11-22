@@ -11301,7 +11301,7 @@ button.testimonial-arrow-btn:hover i {
   border-top: 1px solid #D2D2D2;
 }
 .latest-comments li .comments-box {
-  padding: 28px 0px;
+  padding: 28px;
   border: 1px solid #dfe2e9;
   border-radius: 8px;
 }
