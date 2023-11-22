@@ -158,6 +158,10 @@
         const html = document.documentElement;
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
+        if (100 < $(window).scrollTop()) {
+            $(".header-menu-area.sticky-header").addClass("sticky_menu");
+        }
+        
         if( height  > 1400 ) {
             const nav = $(".header-menu-area.sticky-header");
             let scrolled = false;
