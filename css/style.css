@@ -8503,6 +8503,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .blog-details-wrapper .single-post-item .post-content p {
   margin-bottom: 20px;
+  margin-top: 17px;
 }
 .blog-details-wrapper .single-post-item .post-content p img {
   margin: 20px 0;
@@ -8636,7 +8637,7 @@ button.testimonial-arrow-btn:hover i {
   font-weight: 400;
   line-height: 170%; /* 27.2px */
   letter-spacing: 0.32px;
-  margin-top: 17px;
+  margin-top: 10px;
   cursor: default;
 }
 .single-post-item .post-content h2,
