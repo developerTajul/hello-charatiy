@@ -8483,6 +8483,9 @@ button.testimonial-arrow-btn:hover i {
 .blog-details-wrapper .single-post-item .post-content-wrapper img {
   margin-right: 8px;
 }
+.blog-details-wrapper .single-post-item .post-content-wrapper .post-title {
+  line-height: initial;
+}
 .blog-details-wrapper .single-post-item .post-content {
   margin-bottom: 17px;
   /* Unit Test Data Compatibility Start */
@@ -8610,9 +8613,6 @@ button.testimonial-arrow-btn:hover i {
 }
 .single-post-item.post-24 .wp-block-button a {
   color: #ffffff;
-}
-.single-post-item.post-1786 .post-content-wrapper .post-title {
-  margin-bottom: 20px;
 }
 .single-post-item .post-title {
   margin-bottom: 0;

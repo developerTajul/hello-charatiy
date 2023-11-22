@@ -168,6 +168,9 @@
             // border-radius: 20px;
             margin-right: 8px;
       }
+      .post-title{
+        line-height: initial;
+      }
     }
     .post-content {
       margin-bottom: 17px;
@@ -332,7 +335,7 @@
   &.post-1786{
     .post-content-wrapper{
       .post-title{
-        margin-bottom: 20px;
+        // margin-bottom: 20px;
       }
     }
   }
