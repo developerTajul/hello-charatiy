@@ -548,6 +548,9 @@
         // }
       }
       &:hover {
+        a{
+          color: $brand;
+        }
         > ul {
           visibility: visible;
           transition: all 300ms ease;

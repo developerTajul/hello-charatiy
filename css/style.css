@@ -3670,6 +3670,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Font Awesome 6 Pro";
   font-size: 14px;
 }
+.main-menu ul li:hover a {
+  color: #FF4638;
+}
 .main-menu ul li:hover > ul {
   visibility: visible;
   transition: all 300ms ease;
@@ -8678,7 +8681,6 @@ button.testimonial-arrow-btn:hover i {
 .single-post-item .blog-post-tag > span {
   font-size: 16px;
   font-weight: 700;
-  display: inline-block;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #196A5C;
   margin-bottom: 0;
@@ -11420,7 +11422,7 @@ ul.children {
   font-size: 36px;
   line-height: 28px;
   font-weight: 700;
-  color: #196A5C;
+  color: #121212;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
