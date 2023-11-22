@@ -313,11 +313,13 @@ input.theme-btn {
   align-items: center;
   border-radius: 50px;
   overflow: hidden;
+  gap: 8px;
 }
 .theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
   color: #ffffff;
+  background-color: #FF4638;
 }
 .theme-btn.style-1,
 .wp-block-loginout a.style-1,
