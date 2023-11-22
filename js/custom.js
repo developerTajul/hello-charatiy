@@ -133,6 +133,24 @@
     };
 
 
+        
+        var widget = $('#post_button_style'); // Replace 'your-widget-id' with the actual ID of your widget
+        var buttonStyleControl = widget.find('[data-setting="button_style"]');
+
+        // Function to update the button style class
+        function updateButtonStyleClass() {
+            var selectedStyle = buttonStyleControl.val();
+            widget.find('.blog-btn .theme-btn').removeClass('style-1 style-2 style-3 style-4 style-5 style-6').addClass(selectedStyle);
+        }
+
+        // Initial update
+        updateButtonStyleClass();
+
+        // Update class on control change
+        buttonStyleControl.on('change', function () {
+            updateButtonStyleClass();
+        });
+
         /*
         Stikey Js
         ============================*/
