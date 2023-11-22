@@ -2841,7 +2841,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 10px;
 }
 .wp-block-button.is-style-outline .wp-block-button__link {
-  color: #5E5E5E;
+  color: #5E5E5E !important;
   border-color: #5E5E5E;
 }
 

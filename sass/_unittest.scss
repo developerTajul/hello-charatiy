@@ -783,7 +783,7 @@ body {
   margin-bottom: 10px;
   &.is-style-outline{
     .wp-block-button__link{
-      color: $black-3;
+      color: $black-3 !important;
       border-color: $black-3;
     }
   }
