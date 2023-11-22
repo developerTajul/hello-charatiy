@@ -8449,6 +8449,7 @@ button.testimonial-arrow-btn:hover i {
   overflow: hidden;
   margin-bottom: 45px;
   position: relative;
+  margin-top: 0;
 }
 @media (max-width: 767px) {
   .blog-details-wrapper .single-post-item .post-thumbnail,
