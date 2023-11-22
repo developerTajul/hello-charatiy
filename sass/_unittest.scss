@@ -310,7 +310,6 @@ blockquote {
     font-weight: 400;
     line-height: 170%; /* 34px */
     letter-spacing: 0.4px;
-    padding-bottom: 16px;
 
     @include sm {
       font-size: 18px;
@@ -335,6 +334,12 @@ blockquote {
 }
 .wp-block-quote, blockquote {
   border-left: solid 5px $primary-color;
+}
+.wp-block-quote{
+  padding: 16px;
+  p{
+    padding-bottom: 0;
+  }
 }
 .wp-block-pullquote {
   border-top: 5px solid $primary-color !important;

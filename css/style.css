@@ -2457,7 +2457,6 @@ blockquote p {
   font-weight: 400;
   line-height: 170%; /* 34px */
   letter-spacing: 0.4px;
-  padding-bottom: 16px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   blockquote p {
@@ -2482,6 +2481,13 @@ blockquote footer {
 
 .wp-block-quote, blockquote {
   border-left: solid 5px #FFE144;
+}
+
+.wp-block-quote {
+  padding: 16px;
+}
+.wp-block-quote p {
+  padding-bottom: 0;
 }
 
 .wp-block-pullquote {
