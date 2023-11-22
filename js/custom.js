@@ -133,24 +133,6 @@
     };
 
 
-        
-        var widget = $('#post_button_style'); // Replace 'your-widget-id' with the actual ID of your widget
-        var buttonStyleControl = widget.find('[data-setting="button_style"]');
-
-        // Function to update the button style class
-        function updateButtonStyleClass() {
-            var selectedStyle = buttonStyleControl.val();
-            widget.find('.blog-btn .theme-btn').removeClass('style-1 style-2 style-3 style-4 style-5 style-6').addClass(selectedStyle);
-        }
-
-        // Initial update
-        updateButtonStyleClass();
-
-        // Update class on control change
-        buttonStyleControl.on('change', function () {
-            updateButtonStyleClass();
-        });
-
         /*
         Stikey Js
         ============================*/
@@ -158,10 +140,6 @@
         const html = document.documentElement;
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-        if (100 < $(window).scrollTop()) {
-            $(".header-menu-area.sticky-header").addClass("sticky_menu");
-        }
-        
         if( height  > 1400 ) {
             const nav = $(".header-menu-area.sticky-header");
             let scrolled = false;
