@@ -8481,6 +8481,7 @@ button.testimonial-arrow-btn:hover i {
   padding: 0 0 10px 0;
 }
 .blog-details-wrapper .single-post-item .post-content-wrapper img {
+  border-radius: 8px;
   margin-right: 8px;
 }
 .blog-details-wrapper .single-post-item .post-content-wrapper .post-title {
@@ -8512,6 +8513,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .blog-details-wrapper .single-post-item .post-content p img {
   margin: 20px 0;
+  border-radius: 8px;
 }
 .blog-details-wrapper .single-post-item .blog-post-tag .social-share {
   padding-bottom: 20px;
