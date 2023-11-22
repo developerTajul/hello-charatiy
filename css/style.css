@@ -8675,7 +8675,7 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
   display: inline-block;
 }
-.single-post-item .blog-post-tag span {
+.single-post-item .blog-post-tag > span {
   font-size: 16px;
   font-weight: 700;
   display: inline-block;
@@ -8767,7 +8767,7 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
 }
 .single-post-item .post-meta {
-  margin-top: 42px;
+  margin-top: 32px;
   display: flex;
   align-items: center;
   gap: 32px;
