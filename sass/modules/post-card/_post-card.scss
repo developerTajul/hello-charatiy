@@ -449,7 +449,7 @@
         border: 1px solid $white-50;
 
         &:hover {
-          color: $white;
+          color: $black-3;
           background: $primary-color;
           border-color: $primary-color;
           @include transition;

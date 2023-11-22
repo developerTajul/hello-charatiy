@@ -61,7 +61,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
-  color: #5e6f92;
+  color: #5E5E5E;
   vertical-align: baseline;
   line-height: 30px;
   font-smoothing: antialiased;
@@ -141,7 +141,7 @@ h6 {
 }
 
 label {
-  color: #5e6f92;
+  color: #5E5E5E;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -2590,7 +2590,7 @@ nav.wp-calendar-nav {
   display: flex;
 }
 nav.wp-calendar-nav a {
-  color: #5e6f92;
+  color: #5E5E5E;
 }
 nav.wp-calendar-nav a:hover {
   color: #FFE144;
@@ -3903,7 +3903,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .mean-container .mean-nav ul li a {
   width: 100%;
   padding: 10px 0;
-  color: #5e6f92;
+  color: #5E5E5E;
   border-top: 1px solid #dfe2e9;
   font-size: 14px;
   text-transform: capitalize;
@@ -4038,7 +4038,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   align-items: center;
   gap: 13px;
-  color: #5e6f92;
+  color: #5E5E5E;
   font-size: 16px;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
@@ -4054,7 +4054,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #5e6f92;
+  color: #5E5E5E;
   font-size: 16px;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
@@ -4069,7 +4069,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-top: 20px;
 }
 .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a {
-  color: #5e6f92;
+  color: #5E5E5E;
   font-size: 22px;
 }
 .menu-sidebar-area .menu-sidebar-content .menu-sidebar-single-widget .social-profile a:hover {
@@ -5569,7 +5569,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   letter-spacing: 0.36px;
 }
 .icon-card .content .desc a {
-  color: #5e6f92;
+  color: #5E5E5E;
 }
 
 .icon-card.style-two {
@@ -8577,7 +8577,7 @@ button.testimonial-arrow-btn:hover i {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #5e6f92;
+  color: #5E5E5E;
   margin-top: 20px;
   font-style: normal;
   transition: all 0.5s ease-out;
@@ -8697,7 +8697,7 @@ button.testimonial-arrow-btn:hover i {
   align-items: center;
 }
 .single-post-item .blog-post-tag .post-tag-list a {
-  color: #5e6f92;
+  color: #5E5E5E;
   display: inline-block;
   font-size: 16px;
   line-height: 1;
@@ -8707,7 +8707,7 @@ button.testimonial-arrow-btn:hover i {
   border: 1px solid #bfc5cb;
 }
 .single-post-item .blog-post-tag .post-tag-list a:hover {
-  color: #ffffff;
+  color: #5E5E5E;
   background: #FFE144;
   border-color: #FFE144;
   transition: all 0.5s ease-out;
@@ -9687,7 +9687,7 @@ button.testimonial-arrow-btn:hover i {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #5e6f92;
+  color: #5E5E5E;
   background-color: #ffffff;
   border-radius: 6px;
   height: 53px;
@@ -10181,7 +10181,7 @@ button.testimonial-arrow-btn:hover i {
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
-  color: #5e6f92;
+  color: #5E5E5E;
   margin: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -10413,7 +10413,7 @@ button.testimonial-arrow-btn:hover i {
   border: 1px solid #BDBDBD;
   padding: 0 10px;
   border-radius: 5px;
-  color: #5e6f92;
+  color: #5E5E5E;
   margin-bottom: 0;
 }
 .widget .has-login-form .login-username label,
@@ -10428,7 +10428,7 @@ button.testimonial-arrow-btn:hover i {
   border: 1px solid #31373f;
   padding: 0 10px;
   border-radius: 5px;
-  color: #5e6f92;
+  color: #5E5E5E;
 }
 .widget .has-login-form .login-remember label {
   display: flex;
@@ -10504,7 +10504,7 @@ button.testimonial-arrow-btn:hover i {
   padding: 0 25px;
   height: 60px;
   width: 100%;
-  color: #5e6f92;
+  color: #5E5E5E;
   font-size: 15px;
 }
 .widget .wp-block-search button,
@@ -11335,7 +11335,7 @@ button.testimonial-arrow-btn:hover i {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #5e6f92;
+  color: #5E5E5E;
   cursor: default;
 }
 .latest-comments li .comments-box .comments-text .avatar-name {
