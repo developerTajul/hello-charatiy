@@ -64,12 +64,10 @@ body {
   color: #5E5E5E;
   vertical-align: baseline;
   line-height: 30px;
-  font-smoothing: antialiased;
 }
 
 p {
-  margin: 0;
-  color: #5E5E5E;
+  margin: 0 0 15px;
 }
 
 img {
