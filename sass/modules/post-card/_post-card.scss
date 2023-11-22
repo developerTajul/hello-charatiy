@@ -329,6 +329,13 @@
   &.post-24 .wp-block-button a {
     color: $white;
   }
+  &.post-1786{
+    .post-content-wrapper{
+      .post-title{
+        margin-bottom: 20px;
+      }
+    }
+  }
 
   .post-title {
     margin-bottom: 0;
