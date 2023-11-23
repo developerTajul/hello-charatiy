@@ -30,14 +30,14 @@
         }
     }
     .single-counter{
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        @include sm{
-            width: 44%;
-        }
+        // @include sm{
+        //     width: 44%;
+        // }
         .counter-icon{
             display: flex;
             justify-content: center;
