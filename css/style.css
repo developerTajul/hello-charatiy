@@ -313,11 +313,13 @@ input.theme-btn {
   align-items: center;
   border-radius: 50px;
   overflow: hidden;
+  gap: 8px;
 }
 .theme-btn:hover,
 .wp-block-loginout a:hover,
 input.theme-btn:hover {
   color: #ffffff;
+  background-color: #FF4638;
 }
 .theme-btn.style-1,
 .wp-block-loginout a.style-1,
@@ -2379,10 +2381,6 @@ table td#today a {
   display: block;
 }
 
-.size-thumbnail {
-  margin-bottom: 20px;
-}
-
 img.emoji {
   width: 15px;
   height: 15px;
@@ -2459,7 +2457,6 @@ blockquote p {
   font-weight: 400;
   line-height: 170%; /* 34px */
   letter-spacing: 0.4px;
-  padding-bottom: 16px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   blockquote p {
@@ -2484,6 +2481,13 @@ blockquote footer {
 
 .wp-block-quote, blockquote {
   border-left: solid 5px #FFE144;
+}
+
+.wp-block-quote {
+  padding: 16px;
+}
+.wp-block-quote p {
+  padding-bottom: 0;
 }
 
 .wp-block-pullquote {
@@ -2531,12 +2535,8 @@ blockquote footer {
 }
 
 .has-very-light-gray-color.has-very-light-gray-color {
-  color: #fff;
+  color: #5E5E5E;
   background: #FFE144 !important;
-}
-
-.wp-block-button {
-  margin-bottom: 10px;
 }
 
 .wp-block-archives select,
@@ -2820,7 +2820,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
 }
 .post-template-default.postid-1785 .blog-details-wrapper .single-post-item .post-content .wp-block-button__link {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 .post-template-default.postid-1149 .blog-details-wrapper .latest-comments li .comments-box .comments-text p {
   margin-bottom: 0;
@@ -2835,6 +2835,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .error-404.not-found .error-content .error-btn-bh {
   margin-top: 20px;
+}
+
+.wp-block-button {
+  margin-bottom: 10px;
+}
+.wp-block-button.is-style-outline .wp-block-button__link {
+  color: #5E5E5E !important;
+  border-color: #5E5E5E;
 }
 
 @keyframes MovefadeUp {
@@ -8427,7 +8435,8 @@ button.testimonial-arrow-btn:hover i {
   height: 522px;
 }
 .blog-details-wrapper .single-post-item .post-meta {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  margin-top: 0;
 }
 .blog-details-wrapper .single-post-item .post-gallery:hover img {
   transform: scale(1) !important;
@@ -8441,6 +8450,7 @@ button.testimonial-arrow-btn:hover i {
   overflow: hidden;
   margin-bottom: 45px;
   position: relative;
+  margin-top: 0;
 }
 @media (max-width: 767px) {
   .blog-details-wrapper .single-post-item .post-thumbnail,
@@ -8471,8 +8481,11 @@ button.testimonial-arrow-btn:hover i {
   padding: 0 0 10px 0;
 }
 .blog-details-wrapper .single-post-item .post-content-wrapper img {
-  border-radius: 20px;
+  border-radius: 8px;
   margin-right: 8px;
+}
+.blog-details-wrapper .single-post-item .post-content-wrapper .post-title {
+  line-height: initial;
 }
 .blog-details-wrapper .single-post-item .post-content {
   margin-bottom: 17px;
@@ -8496,6 +8509,7 @@ button.testimonial-arrow-btn:hover i {
 }
 .blog-details-wrapper .single-post-item .post-content p {
   margin-bottom: 20px;
+  margin-top: 17px;
 }
 .blog-details-wrapper .single-post-item .post-content p img {
   margin: 20px 0;
@@ -8597,6 +8611,12 @@ button.testimonial-arrow-btn:hover i {
 }
 .single-post-item.sticky .post-content p {
   margin-bottom: 0;
+}
+.single-post-item.post-24 .wp-block-button a {
+  color: #ffffff;
+}
+.single-post-item.tag-quote {
+  margin-top: 48px;
 }
 .single-post-item .post-title {
   margin-bottom: 0;
@@ -11303,7 +11323,7 @@ button.testimonial-arrow-btn:hover i {
   border-top: 1px solid #D2D2D2;
 }
 .latest-comments li .comments-box {
-  padding: 28px 0px;
+  padding: 28px;
   border: 1px solid #dfe2e9;
   border-radius: 8px;
 }
@@ -11368,7 +11388,7 @@ button.testimonial-arrow-btn:hover i {
   border-radius: 6px;
   font-size: 14px;
   font-weight: 700;
-  color: #196A5C;
+  color: #FF4638;
   border: 1px solid rgb(255, 103, 49);
   padding: 4px 26px;
   gap: 8px;
@@ -11435,7 +11455,7 @@ ul.children {
 .post-comments-title h2 small {
   font-size: 16px;
   font-family: "PT Sans", sans-serif;
-  color: #FFE144;
+  color: #FF4638;
 }
 
 .comment-respond {
@@ -16451,27 +16471,6 @@ ul.children {
   font-weight: 500;
   line-height: 130%;
   letter-spacing: 0.36px;
-}
-.page-area .page-content-wrapper .post-comments .comments-box .comment-reply-link {
-  background-color: #ffffff;
-  border-radius: 100%;
-  border: none;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 11px;
-}
-.page-area .page-content-wrapper .post-comments .comments-box .comment-reply-link i {
-  font-size: 16px;
-  color: #FF4638;
-}
-.page-area .page-content-wrapper .post-comments .comments-box .comment-reply-link:hover {
-  background-color: #FF4638 !important;
-}
-.page-area .page-content-wrapper .post-comments .comments-box .comment-reply-link:hover i {
-  color: #ffffff !important;
 }
 .page-area .page-content-wrapper .post-comments .comments-box .comments-text .avatar-name span {
   color: #FF4638 !important;

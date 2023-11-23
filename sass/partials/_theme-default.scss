@@ -229,8 +229,10 @@ input.theme-btn{
   align-items: center;
   border-radius: 50px;
   overflow: hidden;
+  gap: 8px;
   &:hover{
     color: $white;
+    background-color: $brand;
   }
   &.style-1{
     background-color: $primary-color;

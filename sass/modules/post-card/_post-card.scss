@@ -126,7 +126,8 @@
       height: 522px;
     }
     .post-meta {
-      margin-bottom: 20px;
+      margin-bottom: 12px;
+      margin-top: 0;
     }
     .post-gallery {
       &:hover {
@@ -144,6 +145,7 @@
       overflow: hidden;
       margin-bottom: 45px;
       position: relative;
+      margin-top: 0;
 
       @include rmaxwd(767) {
         margin-bottom: 30px;
@@ -163,8 +165,12 @@
     .post-content-wrapper {
       padding: 0 0 10px 0;
       img{
-            border-radius: 20px;
+            // border-radius: 20px;
+          border-radius: 8px;
             margin-right: 8px;
+      }
+      .post-title{
+        line-height: initial;
       }
     }
     .post-content {
@@ -193,6 +199,7 @@
       /* Unit Test Data Compatibility End */
       p {
         margin-bottom: 20px;
+        margin-top: 17px;
 
         img {
           margin: 20px 0;
@@ -322,6 +329,19 @@
         margin-bottom: 0;
       }
     }
+  }
+  &.post-24 .wp-block-button a {
+    color: $white;
+  }
+  &.post-1786{
+    .post-content-wrapper{
+      .post-title{
+        // margin-bottom: 20px;
+      }
+    }
+  }
+  &.tag-quote{
+    margin-top: 48px;
   }
 
   .post-title {

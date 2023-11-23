@@ -395,27 +395,27 @@
                     line-height: 130%;
                     letter-spacing: 0.36px;
                 }
-                .comment-reply-link{
-                    background-color: $white;
-                    border-radius: 100%;
-                    border: none;
-                    width: 40px;
-                    height: 40px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 12px 11px;
-                    i{
-                        font-size: 16px;
-                        color: $brand;
-                    }
-                    &:hover{
-                        background-color: $brand !important;
-                        i{
-                            color: $white !important;
-                        }
-                    }
-                }
+                // .comment-reply-link{
+                //     background-color: $white;
+                //     border-radius: 100%;
+                //     border: none;
+                //     width: 40px;
+                //     height: 40px;
+                //     display: flex;
+                //     justify-content: center;
+                //     align-items: center;
+                //     padding: 12px 11px;
+                //     i{
+                //         font-size: 16px;
+                //         color: $brand;
+                //     }
+                //     &:hover{
+                //         background-color: $brand !important;
+                //         i{
+                //             color: $white !important;
+                //         }
+                //     }
+                // }
                 .comments-text{
                     .avatar-name{
                         span{

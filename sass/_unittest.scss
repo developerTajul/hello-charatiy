@@ -217,7 +217,7 @@ table {
   display: block;
 }
 .size-thumbnail {
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 }
 
 img {
@@ -310,7 +310,6 @@ blockquote {
     font-weight: 400;
     line-height: 170%; /* 34px */
     letter-spacing: 0.4px;
-    padding-bottom: 16px;
 
     @include sm {
       font-size: 18px;
@@ -335,6 +334,12 @@ blockquote {
 }
 .wp-block-quote, blockquote {
   border-left: solid 5px $primary-color;
+}
+.wp-block-quote{
+  padding: 16px;
+  p{
+    padding-bottom: 0;
+  }
 }
 .wp-block-pullquote {
   border-top: 5px solid $primary-color !important;
@@ -379,11 +384,8 @@ blockquote {
 }
 
 .has-very-light-gray-color.has-very-light-gray-color {
-  color: #fff;
+  color: $black-3;
   background: $primary-color !important;
-}
-.wp-block-button {
-  margin-bottom: 10px;
 }
 .wp-block-archives,
 .wp-block-categories {
@@ -739,7 +741,7 @@ body {
     .blog-details-wrapper {
       .single-post-item .post-content {
         .wp-block-button__link {
-          color: $white !important;
+          color: $white;
         }
       }
     }
@@ -773,6 +775,16 @@ body {
   .error-content {
     .error-btn-bh {
       margin-top: 20px;
+    }
+  }
+}
+
+.wp-block-button {
+  margin-bottom: 10px;
+  &.is-style-outline{
+    .wp-block-button__link{
+      color: $black-3 !important;
+      border-color: $black-3;
     }
   }
 }
