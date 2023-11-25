@@ -14960,6 +14960,37 @@ ul.children {
   width: 100%;
   justify-content: end;
   align-items: center;
+  gap: 16px;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button {
+  width: auto !important;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border {
+  display: inline-flex;
+  background-color: #FFE144;
+  justify-content: center;
+  color: #121212;
+  height: 64px;
+  padding: 16px 24px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-out;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  gap: 8px;
+  border: 1px solid #4F4F4F;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button {
+  color: #121212;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
 }
 
 .event-area.style-1 {
