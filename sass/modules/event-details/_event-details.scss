@@ -92,6 +92,12 @@
                 margin: 0;
             }
         }
+        .tribe-events-meta-group{
+            border-right: 1px solid #BDBDBD;
+            &.tribe-events-meta-group-venue{
+                border: none !important;
+            }
+        }
         .event-meta-wrapper{
             display: flex;
             justify-content: center;
