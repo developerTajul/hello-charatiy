@@ -93,9 +93,16 @@
             }
         }
         .tribe-events-meta-group{
-            border-right: 1px solid #BDBDBD;
+            &:after{
+                height: 200px;
+                width: 1px;
+                background-color: #BDBDBD;
+            }
+            // border-right: 1px solid #BDBDBD;
             &.tribe-events-meta-group-venue{
-                border: none !important;
+                &:after{
+                    display: none;
+                }
             }
         }
         .event-meta-wrapper{

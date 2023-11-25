@@ -14947,11 +14947,13 @@ ul.children {
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-event-meta dl {
   margin: 0;
 }
-.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
-  border-right: 1px solid #BDBDBD;
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group:after {
+  height: 200px;
+  width: 1px;
+  background-color: #BDBDBD;
 }
-.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue {
-  border: none !important;
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue:after {
+  display: none;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper {
   display: flex;
