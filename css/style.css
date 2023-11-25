@@ -12126,7 +12126,6 @@ ul.children {
 }
 .counter-container-wrapper .single-counter .counter-inner {
   position: relative;
-  height: 66px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14923,6 +14922,44 @@ ul.children {
 }
 .page-area.event-details .single-post-item .post-content .post-gallery-columns-2, .page-area.event-details .single-post-item .post-content .gallery-columns-2 {
   margin-top: 30px;
+}
+
+.events_group_details_wrapper {
+  position: relative;
+  border-radius: 24px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.events_group_details_wrapper .bottom-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 24px;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-single-section-title {
+  color: #FF4638;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-single-section.tribe-events-event-meta.primary {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-event-meta.secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
 }
 
 .event-area.style-1 {
