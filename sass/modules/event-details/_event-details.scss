@@ -116,7 +116,7 @@
                         width: auto !important;
                         &.tribe-common-c-btn-border{
                             display: inline-flex;
-                            background-color: $primary-color;
+                            background-color: $white;
                             justify-content: center;
                             color: $black-2;
                             height: 64px;
@@ -139,6 +139,9 @@
                                 color: $black-2;
                                 font-family: $heading-font;
                                 font-size: 16px;
+                            }
+                            .tribe-events-c-subscribe-dropdown__button-icon{
+                                display: none !important;
                             }
                         }
                     }

@@ -14967,7 +14967,7 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border {
   display: inline-flex;
-  background-color: #FFE144;
+  background-color: #ffffff;
   justify-content: center;
   color: #121212;
   height: 64px;
@@ -14991,6 +14991,9 @@ ul.children {
   color: #121212;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button-icon {
+  display: none !important;
 }
 
 .event-area.style-1 {
