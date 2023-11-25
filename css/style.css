@@ -14938,6 +14938,10 @@ ul.children {
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-single-section-title {
   color: #FF4638;
 }
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-event-meta:before {
+  display: none !important;
+  border: none !important;
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper {
   display: flex;
   justify-content: center;

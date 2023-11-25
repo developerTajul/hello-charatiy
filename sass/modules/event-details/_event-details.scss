@@ -81,6 +81,12 @@
         .tribe-events-single-section-title{
             color: $brand;
         }
+        .tribe-events-event-meta{
+            &:before{
+                display: none !important;
+                border: none !important;
+            }
+        }
         .event-meta-wrapper{
             display: flex;
             justify-content: center;
