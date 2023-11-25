@@ -14960,6 +14960,7 @@ ul.children {
   justify-content: end;
   align-items: center;
   gap: 16px;
+  margin-right: 48px;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container {
   width: auto;
