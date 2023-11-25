@@ -80,11 +80,16 @@
     .events_group_details_inner_wrapper{
         .tribe-events-single-section-title{
             color: $brand;
+            margin: 0;
+            margin-bottom: 40px;
         }
         .tribe-events-event-meta{
             &:before{
                 display: none !important;
                 border: none !important;
+            }
+            dl{
+                margin: 0;
             }
         }
         .event-meta-wrapper{
