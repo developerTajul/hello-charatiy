@@ -14947,7 +14947,11 @@ ul.children {
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-event-meta dl {
   margin: 0;
 }
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
+  position: relative;
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group:after {
+  content: "";
   height: 200px;
   width: 1px;
   background-color: #BDBDBD;

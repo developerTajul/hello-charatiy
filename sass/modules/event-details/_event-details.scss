@@ -93,7 +93,10 @@
             }
         }
         .tribe-events-meta-group{
+            position: relative;
             &:after{
+                // position: ;
+                content: "";
                 height: 200px;
                 width: 1px;
                 background-color: #BDBDBD;
