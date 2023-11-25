@@ -14928,6 +14928,7 @@ ul.children {
   position: relative;
   border-radius: 24px;
   background-color: #ffffff;
+  padding: 48px 40px;
 }
 .events_group_details_wrapper .bottom-shape {
   position: absolute;
@@ -14949,12 +14950,6 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
   position: relative;
-}
-.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group:after {
-  content: "";
-  height: 200px;
-  width: 1px;
-  background-color: #BDBDBD;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue:after {
   display: none;
