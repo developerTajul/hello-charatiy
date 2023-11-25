@@ -78,6 +78,9 @@
         margin-left: 24px;
     }
     .events_group_details_inner_wrapper{
+        .tribe-events-single-section-title{
+            color: $bran;
+        }
         .event-meta-wrapper{
             display: flex;
             justify-content: center;
@@ -106,7 +109,7 @@
             width: 100%;
             justify-content: end;
             align-items: center;
-            
+
         }
     }
 }
