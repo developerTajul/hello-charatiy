@@ -70,7 +70,7 @@
     position: relative;
     border-radius: 24px;
     background-color: $white;
-    overflow: hidden;
+    // overflow: hidden;
     .bottom-shape{
         position: absolute;
         bottom: 0;
@@ -111,6 +111,7 @@
             align-items: center;
             gap: 16px;
             .tribe-events-c-subscribe-dropdown__container{
+                width: auto;
                 .tribe-events-c-subscribe-dropdown{
                     .tribe-events-c-subscribe-dropdown__button{
                         width: auto !important;
