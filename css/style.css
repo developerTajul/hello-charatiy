@@ -8037,6 +8037,7 @@ button.testimonial-arrow-btn:hover i {
   color: #020a27;
   font-weight: 500;
   margin-bottom: 0;
+  text-align: start;
 }
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   padding: 0px 40px;
