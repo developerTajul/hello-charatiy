@@ -9,7 +9,6 @@
             margin-bottom: 296px;
             width: 130px;
             height: 51.12px;
-            background-color: teal;
             @include rmaxwd(1400){
                 width: 100px;
                 margin-left: 10px;
@@ -24,7 +23,6 @@
             margin-bottom: 765px;
             width: 250px;
             height: 164px;
-            background-color: red;
             @include rmaxwd(1400){
                 margin-right: 10px;
             }
