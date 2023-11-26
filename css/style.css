@@ -14948,6 +14948,7 @@ ul.children {
   margin-bottom: 24px;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 22px;
+  cursor: default;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-event-meta:before {
   display: none !important;
@@ -14963,6 +14964,7 @@ ul.children {
   line-height: 130%;
   letter-spacing: 0.36px;
   color: #020a27;
+  cursor: default;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-event-meta dl abbr {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -14972,6 +14974,7 @@ ul.children {
   letter-spacing: 0.32px;
   color: #5E5E5E;
   text-decoration: none;
+  cursor: default;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
   position: relative;
@@ -15045,6 +15048,14 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn .theme-btn {
   height: 61px;
+}
+.events_group_details_wrapper .tribe-organizer-url a {
+  color: #121212;
+  cursor: pointer;
+}
+.events_group_details_wrapper .tribe-events-event-categories a {
+  color: #121212;
+  cursor: default;
 }
 
 .event-area.style-1 {
