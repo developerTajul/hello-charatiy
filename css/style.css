@@ -14876,7 +14876,7 @@ ul.children {
 }
 @media (max-width: 1400px) {
   .page-area.event-details .feature-image-2 {
-    width: 100px;
+    width: 120px;
     margin-left: 10px;
     margin-bottom: 10px;
   }
@@ -14891,11 +14891,6 @@ ul.children {
   height: 164px;
 }
 @media (max-width: 1400px) {
-  .page-area.event-details .feature-image-3 {
-    margin-right: 10px;
-  }
-}
-@media (max-width: 1200px) {
   .page-area.event-details .feature-image-3 {
     display: none !important;
   }

@@ -10,7 +10,7 @@
             width: 130px;
             height: 51.12px;
             @include rmaxwd(1400){
-                width: 100px;
+                width: 120px;
                 margin-left: 10px;
                 margin-bottom: 10px;
             }
@@ -24,11 +24,9 @@
             width: 250px;
             height: 164px;
             @include rmaxwd(1400){
-                margin-right: 10px;
-            }
-            @include rmaxwd(1200){
                 display: none !important;
             }
+            
         }
         .author-info{
             position: relative;
