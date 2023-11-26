@@ -15089,8 +15089,20 @@ ul.children {
   height: 61px;
 }
 .events_group_details_wrapper .tribe-organizer-url a {
-  color: #121212;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #FF4638;
   cursor: pointer;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.events_group_details_wrapper .tribe-organizer-url a:after {
+  content: "\f061";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 14px;
+  color: #FF4638;
 }
 .events_group_details_wrapper .tribe-events-event-categories a {
   color: #121212;
