@@ -88,7 +88,7 @@
             height: 80px;
         }
         @include sm{
-            display: none;
+            display: none !important;
         }
     }
     .events_group_details_inner_wrapper{
@@ -203,6 +203,9 @@
                     margin: 0 !important;
                     .tribe-events-c-subscribe-dropdown__button{
                         width: auto !important;
+                        @include sm{
+                            width: 100% !important;  
+                        }
                         &.tribe-common-c-btn-border{
                             display: inline-flex;
                             background-color: $white;
@@ -224,6 +227,9 @@
                             border-radius: 50px;
                             overflow: hidden;
                             border: 1px solid $gray-2;
+                            @include sm{
+                                width: 100% !important;  
+                            }
                             button{
                                 color: $black-2;
                                 font-family: $heading-font;
@@ -248,7 +254,12 @@
                             }
                         }
                     }
-                    
+                    @include sm{
+                        width: 100% !important;  
+                    }
+                }
+                @include sm{
+                    width: 100% !important;  
                 }
             }
             .event_register_now_btn{

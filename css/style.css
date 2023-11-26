@@ -14950,7 +14950,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .events_group_details_wrapper .bottom-shape {
-    display: none;
+    display: none !important;
   }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-single-section-title {
@@ -15069,6 +15069,11 @@ ul.children {
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button {
   width: auto !important;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button {
+    width: 100% !important;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border {
   display: inline-flex;
   background-color: #ffffff;
@@ -15091,6 +15096,11 @@ ul.children {
   overflow: hidden;
   border: 1px solid #4F4F4F;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border {
+    width: 100% !important;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button {
   color: #121212;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -15112,6 +15122,16 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button-icon {
   display: none !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container {
+    width: 100% !important;
+  }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn .theme-btn {
   height: 61px;
