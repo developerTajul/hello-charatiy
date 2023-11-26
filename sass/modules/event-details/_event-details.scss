@@ -110,6 +110,7 @@
                     line-height: 170%;
                     letter-spacing: 0.32px;
                     color: $black-3;
+                    text-decoration: none;
                 }
             }
            
@@ -119,6 +120,7 @@
             border-right: 1px solid #BDBDBD;
             padding: 0;
             margin: 0;
+            margin-right: 111px;
             &.tribe-events-meta-group-venue{
                 border: none !important;
             }

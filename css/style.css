@@ -14967,12 +14967,14 @@ ul.children {
   line-height: 170%;
   letter-spacing: 0.32px;
   color: #5E5E5E;
+  text-decoration: none;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
   position: relative;
   border-right: 1px solid #BDBDBD;
   padding: 0;
   margin: 0;
+  margin-right: 111px;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue {
   border: none !important;
