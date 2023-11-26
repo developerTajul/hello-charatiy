@@ -10,20 +10,23 @@
             width: 130px;
             height: 51.12px;
             background-color: teal;
-            
-            @include rmaxwd(1200){
-                display: none !important;
+            @include rmaxwd(1400){
+                margin-left: 10px;
+                margin-bottom: 10px;
             }
         }
         .feature-image-3{
             position: absolute;
             bottom: 0;
             right: 0;
-            margin-right: 64px;
+            margin-right: 54px;
             margin-bottom: 765px;
             width: 250px;
             height: 164px;
             background-color: red;
+            @include rmaxwd(1400){
+                margin-right: 10px;
+            }
             @include rmaxwd(1200){
                 display: none !important;
             }
