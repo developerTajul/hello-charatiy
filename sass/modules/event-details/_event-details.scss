@@ -196,6 +196,14 @@
                 justify-content: start;
                 align-items: start;
             }
+            .tribe-events{
+                &.tribe-common{
+                    @include sm{
+                        width: 100% !important;  
+                    }
+                }
+
+            }
             // margin-right: 48px;
             .tribe-events-c-subscribe-dropdown__container{
                 width: auto;
