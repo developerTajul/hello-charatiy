@@ -14937,6 +14937,10 @@ ul.children {
   bottom: 0;
   left: 0;
   margin-left: 24px;
+  animation: beat 1.4s infinite alternate;
+  width: 258px;
+  height: 178px;
+  flex-shrink: 0;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-single-section-title {
   color: #FF4638;
