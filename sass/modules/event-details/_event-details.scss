@@ -128,6 +128,14 @@
             padding: 0;
             margin: 0;
             margin-right: 111px;
+            @include md{
+                margin-right: 0 !important;
+                border: none !important;
+            }
+            @include sm{
+                margin-right: 0 !important;
+                border: none !important;
+            }
             &.tribe-events-meta-group-venue{
                 border: none !important;
             }
@@ -135,6 +143,9 @@
         .event-meta-wrapper{
             display: flex;
             justify-content: center;
+            @include sm{
+                flex-direction: column;
+            }
             .tribe-events-single-section
             {
                 &.tribe-events-event-meta{
@@ -143,6 +154,12 @@
                         justify-content: space-between;
                         width: 70%;
                         align-items: center;
+                        @include sm{
+                            flex-direction: column;
+                            gap: 20px;
+                            width: 100%;
+                            align-items: start;
+                        }
                     }
                 }
             }
@@ -152,6 +169,10 @@
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
+                    @include sm{
+                        justify-self: start;
+                        align-items: start;
+                    }
                 }
             }
         }

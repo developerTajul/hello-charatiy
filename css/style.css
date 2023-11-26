@@ -14983,6 +14983,18 @@ ul.children {
   margin: 0;
   margin-right: 111px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
+    margin-right: 0 !important;
+    border: none !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
+    margin-right: 0 !important;
+    border: none !important;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue {
   border: none !important;
 }
@@ -14990,17 +15002,36 @@ ul.children {
   display: flex;
   justify-content: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper {
+    flex-direction: column;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-single-section.tribe-events-event-meta.primary {
   display: flex;
   justify-content: space-between;
   width: 70%;
   align-items: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-single-section.tribe-events-event-meta.primary {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: start;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-event-meta.secondary {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .event-meta-wrapper .tribe-events-event-meta.secondary {
+    justify-self: start;
+    align-items: start;
+  }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper {
   display: flex;
