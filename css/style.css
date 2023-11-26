@@ -14660,7 +14660,8 @@ ul.children {
     margin-right: 40px;
   }
 }
-.donor-wall-area.style-1 .donor-profile {
+
+.donor-profile {
   padding: 32px 0px;
   background-color: #ffffff;
   display: flex;
@@ -14671,24 +14672,26 @@ ul.children {
   position: relative;
   z-index: 20;
 }
-.donor-wall-area.style-1 .donor-profile .image-wrapper {
+.donor-profile .image-wrapper {
   overflow: hidden;
   border-radius: 100px;
   width: 120px;
   height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.donor-wall-area.style-1 .donor-profile .image-wrapper img {
+.donor-profile .image-wrapper img {
   width: 100%;
   height: 100%;
 }
-.donor-wall-area.style-1 .donor-profile .image-wrapper:hover img {
+.donor-profile .image-wrapper:hover img {
   transform: scale(1.03);
   transition: all 0.5s ease-out;
 }
-.donor-wall-area.style-1 .donor-profile .donor-details {
+.donor-profile .donor-details {
   margin-top: 16px;
 }
-.donor-wall-area.style-1 .donor-profile .donor-details .name {
+.donor-profile .donor-details .name {
   text-align: center;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #121212;
@@ -14696,7 +14699,7 @@ ul.children {
   font-style: normal;
   letter-spacing: 0.36px;
 }
-.donor-wall-area.style-1 .donor-profile .donor-details p {
+.donor-profile .donor-details p {
   text-align: center;
   font-family: "PT Sans", sans-serif;
   color: #FF4638;
@@ -14707,13 +14710,13 @@ ul.children {
   letter-spacing: 0.28px;
   cursor: default;
 }
-.donor-wall-area.style-1 .donor-profile .divider {
+.donor-profile .divider {
   background-color: #BDBDBD;
   height: 1px;
   width: 100%;
   margin: 16px 0px;
 }
-.donor-wall-area.style-1 .donor-profile .donate-amount p {
+.donor-profile .donate-amount p {
   text-align: center;
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;
@@ -14724,7 +14727,7 @@ ul.children {
   letter-spacing: 0.32px;
   cursor: default;
 }
-.donor-wall-area.style-1 .donor-profile .donate-amount h5 {
+.donor-profile .donate-amount h5 {
   text-align: center;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #121212;
@@ -14735,7 +14738,7 @@ ul.children {
   letter-spacing: 0.44px;
   cursor: default;
 }
-.donor-wall-area.style-1 .donor-profile .button {
+.donor-profile .button {
   position: relative;
   margin-top: 32px;
   display: flex;
@@ -14750,13 +14753,13 @@ ul.children {
   transition: 0.3s;
   z-index: 99;
 }
-.donor-wall-area.style-1 .donor-profile .button i {
+.donor-profile .button i {
   font-size: 24px;
   color: #121212;
   transition: all 0.5s ease-out;
   margin-left: 0px;
 }
-.donor-wall-area.style-1 .donor-profile .button:before {
+.donor-profile .button:before {
   position: absolute;
   width: 0;
   height: 100%;
@@ -14767,14 +14770,14 @@ ul.children {
   transition: all 0.5s ease-out;
   z-index: -1;
 }
-.donor-wall-area.style-1 .donor-profile .button:hover {
+.donor-profile .button:hover {
   transition: all 0.5s ease-out;
 }
-.donor-wall-area.style-1 .donor-profile .button:hover:before {
+.donor-profile .button:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
 }
-.donor-wall-area.style-1 .donor-profile .button:hover i {
+.donor-profile .button:hover i {
   color: #ffffff !important;
   margin-left: 5px;
 }
