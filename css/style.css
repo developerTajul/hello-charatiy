@@ -15059,6 +15059,7 @@ ul.children {
   display: inline-flex;
   background-color: #ffffff;
   justify-content: center;
+  align-items: center;
   color: #121212;
   height: 64px;
   padding: 16px 24px;
@@ -15074,13 +15075,25 @@ ul.children {
   align-items: center;
   border-radius: 50px;
   overflow: hidden;
-  gap: 8px;
   border: 1px solid #4F4F4F;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button {
   color: #121212;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
+  transition: all 0.5s ease-out;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover {
+  background-color: #FF4638 !important;
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover button {
+  color: #ffffff !important;
+  transition: all 0.5s ease-out;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover svg {
+  color: #ffffff !important;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button-icon {
   display: none !important;
@@ -15094,7 +15107,7 @@ ul.children {
   cursor: pointer;
   display: flex;
   gap: 8px;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   font-size: 16px;
 }
