@@ -107,6 +107,7 @@
         bottom: 0;
         left: 0;
         margin-left: 24px;
+        margin-bottom: -26px;
         animation: beat 1.4s infinite alternate;
         width: 258px;
         height: 178px;
@@ -114,6 +115,7 @@
         @include md{
             width: 100px;
             height: 80px;
+            margin-bottom: 10px;
         }
         @include sm{
             display: none !important;

@@ -14971,6 +14971,7 @@ ul.children {
   bottom: 0;
   left: 0;
   margin-left: 24px;
+  margin-bottom: -26px;
   animation: beat 1.4s infinite alternate;
   width: 258px;
   height: 178px;
@@ -14980,6 +14981,7 @@ ul.children {
   .events_group_details_wrapper .bottom-shape {
     width: 100px;
     height: 80px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
