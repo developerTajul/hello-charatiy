@@ -1,5 +1,33 @@
 .page-area{
     &.event-details{
+        position: relative;
+        .feature-image-2{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-left: 64px;
+            margin-bottom: 296px;
+            width: 130px;
+            height: 51.12px;
+            background-color: teal;
+            
+            @include rmaxwd(1200){
+                display: none !important;
+            }
+        }
+        .feature-image-3{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-right: 64px;
+            margin-bottom: 765px;
+            width: 250px;
+            height: 164px;
+            background-color: red;
+            @include rmaxwd(1200){
+                display: none !important;
+            }
+        }
         .author-info{
             position: relative;
             display: flex;
