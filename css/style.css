@@ -14930,7 +14930,7 @@ ul.children {
   position: relative;
   border-radius: 24px;
   background-color: #ffffff;
-  padding: 48px 48px 16px 40px;
+  padding: 48px 48px 48px 40px;
 }
 .events_group_details_wrapper .bottom-shape {
   position: absolute;
@@ -15039,10 +15039,18 @@ ul.children {
   justify-content: end;
   align-items: center;
   gap: 16px;
-  margin-right: 48px;
+  margin-top: 40px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper {
+    margin-top: 20px;
+  }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container {
   width: auto;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown {
+  margin: 0 !important;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button {
   width: auto !important;

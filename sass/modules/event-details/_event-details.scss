@@ -72,7 +72,7 @@
     position: relative;
     border-radius: 24px;
     background-color: $white;
-    padding: 48px 48px 16px 40px;
+    padding: 48px 48px 48px 40px;
     // overflow: hidden;
     .bottom-shape{
         position: absolute;
@@ -182,10 +182,15 @@
             justify-content: end;
             align-items: center;
             gap: 16px;
-            margin-right: 48px;
+            margin-top: 40px;
+            @include sm{
+                margin-top: 20px;
+            }
+            // margin-right: 48px;
             .tribe-events-c-subscribe-dropdown__container{
                 width: auto;
                 .tribe-events-c-subscribe-dropdown{
+                    margin: 0 !important;
                     .tribe-events-c-subscribe-dropdown__button{
                         width: auto !important;
                         &.tribe-common-c-btn-border{
