@@ -224,6 +224,7 @@
                                 background-color: $brand !important;
                                 @include transition;
                                 color: $white;
+                                border-color: transparent !important;
                                 button{
                                     color: $white !important;
                                     @include transition;
