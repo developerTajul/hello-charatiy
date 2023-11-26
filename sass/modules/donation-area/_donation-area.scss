@@ -648,18 +648,18 @@
         border-bottom: 1px solid $white-100 !important;
     }
     .give-label{
-        // display: none !important;
-        font-family: $heading-font;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 130%;
-        color: $white;
-        .give-required-indicator{
-            color: $white !important;
-        }
-        .give-tooltip{
-            display: none !important;
-        }
+        display: none !important;
+        // font-family: $heading-font;
+        // font-size: 18px;
+        // font-weight: 500;
+        // line-height: 130%;
+        // color: $white;
+        // .give-required-indicator{
+        //     color: $white !important;
+        // }
+        // .give-tooltip{
+        //     display: none !important;
+        // }
     }
     .give-input{
         font-size: 18px !important;

@@ -14523,16 +14523,6 @@ ul.children {
   border-bottom: 1px solid #c7cdda !important;
 }
 .give-form-wrap .give-label {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 130%;
-  color: #ffffff;
-}
-.give-form-wrap .give-label .give-required-indicator {
-  color: #ffffff !important;
-}
-.give-form-wrap .give-label .give-tooltip {
   display: none !important;
 }
 .give-form-wrap .give-input {
