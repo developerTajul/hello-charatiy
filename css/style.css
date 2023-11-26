@@ -14942,6 +14942,17 @@ ul.children {
   height: 178px;
   flex-shrink: 0;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .events_group_details_wrapper .bottom-shape {
+    width: 100px;
+    height: 80px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .bottom-shape {
+    display: none;
+  }
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-single-section-title {
   color: #FF4638;
   margin: 0;
@@ -15043,7 +15054,10 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper {
-    margin-top: 20px;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
   }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container {
@@ -15101,6 +15115,14 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn .theme-btn {
   height: 61px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn {
+    width: 100%;
+  }
+  .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn .theme-btn {
+    width: 100%;
+  }
 }
 .events_group_details_wrapper .tribe-organizer-url a {
   font-family: "Plus Jakarta Sans", sans-serif;
