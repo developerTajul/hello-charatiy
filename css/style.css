@@ -15199,6 +15199,9 @@ ul.children {
   color: #121212;
   cursor: default;
 }
+.events_group_details_wrapper .tribe-events-c-subscribe-dropdown__button-text:focus {
+  outline: none !important;
+}
 
 .event-area.style-1 {
   background-color: #F8F8F8;

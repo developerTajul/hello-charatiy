@@ -335,4 +335,9 @@
             cursor: default;
         }
     }
+    .tribe-events-c-subscribe-dropdown__button-text{
+        &:focus{
+            outline: none !important;
+        }
+    }
 }
