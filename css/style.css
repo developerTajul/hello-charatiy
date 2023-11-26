@@ -14877,7 +14877,7 @@ ul.children {
 }
 @media (max-width: 1400px) {
   .page-area.event-details .feature-image-2 {
-    width: 100;
+    width: 100px;
     margin-left: 10px;
     margin-bottom: 10px;
   }
