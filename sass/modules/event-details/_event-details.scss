@@ -97,14 +97,14 @@
         }
         .tribe-events-meta-group{
             position: relative;
-            // &:after{
-            //     // position: ;
-            //     content: "";
-            //     height: 200px;
-            //     width: 1px;
-            //     background-color: #BDBDBD;
-            // }
-            // border-right: 1px solid #BDBDBD;
+            &:after{
+                position: absolute ;
+                content: "";
+                height: 200px;
+                width: 1px;
+                background-color: #BDBDBD;
+            }
+            border-right: 1px solid #BDBDBD;
             &.tribe-events-meta-group-venue{
                 &:after{
                     display: none;
