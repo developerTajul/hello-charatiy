@@ -14952,6 +14952,14 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
   position: relative;
+  border-right: 1px solid #BDBDBD;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group:after {
+  position: absolute;
+  content: "";
+  height: 200px;
+  width: 1px;
+  background-color: #BDBDBD;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group.tribe-events-meta-group-venue:after {
   display: none;
