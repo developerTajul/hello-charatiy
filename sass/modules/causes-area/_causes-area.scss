@@ -32,10 +32,7 @@
                 height: 130px;
             }
             @include rmaxwd(1024){
-                bottom: 45px;
-            }
-            @include sm{
-                animation: rotating 12s linear infinite;
+                display: none !important;
             }
         }
         .feature-shape-2{

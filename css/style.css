@@ -12817,12 +12817,7 @@ ul.children {
 }
 @media (max-width: 1024px) {
   .causes-area.style-1 .feature-shape {
-    bottom: 45px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .causes-area.style-1 .feature-shape {
-    animation: rotating 12s linear infinite;
+    display: none !important;
   }
 }
 .causes-area.style-1 .feature-shape-2 {
