@@ -15719,7 +15719,7 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .causes-area.style-1 {
     padding-top: 100px;
-    padding-bottom: 220px;
+    padding-bottom: 175px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -16230,7 +16230,6 @@ ul.children {
   }
 }
 .single-donor-page .donor-profile-wrapper .section-title p {
-  margin: 0 !important;
   padding: 0 !important;
 }
 .single-donor-page .donor-profile .image-wrapper {
