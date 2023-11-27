@@ -6023,6 +6023,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-image-wrapper .first-wrapper .image-1 .sketch-1:hover, .about-us-image-wrapper .second-wrapper .image-1 .sketch-1:hover {
   animation: rotating 12s linear infinite !important;
 }
+@media (max-width: 1200px) {
+  .about-us-image-wrapper .first-wrapper .image-1 .sketch-1, .about-us-image-wrapper .second-wrapper .image-1 .sketch-1 {
+    left: -48px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-image-wrapper .first-wrapper .image-1 .sketch-1, .about-us-image-wrapper .second-wrapper .image-1 .sketch-1 {
     left: -10px;

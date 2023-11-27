@@ -174,6 +174,9 @@
                 &:hover{
                     animation: rotating 12s linear infinite !important;
                 }
+                @include rmaxwd(1200){
+                    left: -48px;
+                }
                 @include sm{
                     left: -10px;
                     width: 80px;
