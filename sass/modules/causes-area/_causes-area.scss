@@ -30,8 +30,8 @@
                 width: 130px;
                 height: 130px;
             }
-            @include rmaxwd(1000){
-                bottom: 20px;
+            @include rmaxwd(1024){
+                bottom: 45px;
             }
             @include sm{
                 animation: rotating 12s linear infinite;

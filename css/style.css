@@ -12814,9 +12814,9 @@ ul.children {
     height: 130px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .causes-area.style-1 .feature-shape {
-    bottom: 20px;
+    bottom: 45px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
