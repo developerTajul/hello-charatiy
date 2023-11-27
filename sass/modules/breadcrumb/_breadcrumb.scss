@@ -135,8 +135,7 @@
   }
 }
 .breadcrumb-list {
-      margin-top: 6px;
-
+      // margin-top: 6px;
   text-align: center;
 
   ul {
@@ -144,6 +143,8 @@
     padding-left: 0;
     display: inline-flex;
     gap:0 12px;
+    justify-content: center;
+    align-items: center;
     li {
       list-style: none;
       display: inline-flex;

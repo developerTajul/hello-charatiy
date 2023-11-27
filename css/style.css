@@ -9503,7 +9503,6 @@ button.testimonial-arrow-btn:hover i {
 }
 
 .breadcrumb-list {
-  margin-top: 6px;
   text-align: center;
 }
 .breadcrumb-list ul {
@@ -9511,6 +9510,8 @@ button.testimonial-arrow-btn:hover i {
   padding-left: 0;
   display: inline-flex;
   gap: 0 12px;
+  justify-content: center;
+  align-items: center;
 }
 .breadcrumb-list ul li {
   list-style: none;
