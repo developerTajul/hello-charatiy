@@ -546,6 +546,9 @@
         &:before,&:after{
             display: none !important;
         }
+        @include sm{
+            grid-template-columns: repeat(2, 1fr);
+        }
         li{
             // width: 127px !important;
             margin: 0 !important;

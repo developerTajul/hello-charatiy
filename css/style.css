@@ -14431,6 +14431,11 @@ ul.children {
 .give-form-wrap ul:before, .give-form-wrap ul:after {
   display: none !important;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .give-form-wrap ul li {
   margin: 0 !important;
   height: 48px !important;
@@ -17199,7 +17204,6 @@ ul.children {
   font-weight: 400;
   line-height: 200%;
   letter-spacing: 0.36px;
-  width: 161px;
   line-height: 30px !important;
   cursor: default;
 }
@@ -17283,6 +17287,7 @@ ul.children {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding-left: 2px;
 }
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text span,
 .footer-widget .footer-widget-contact .footer-contact ul li .contact-text p,
