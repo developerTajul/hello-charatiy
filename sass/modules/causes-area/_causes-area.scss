@@ -26,6 +26,7 @@
             left: 71px;
             width: 169px;
             height: 169px;
+            z-index: 20;
             @include rmaxwd(1600){
                 width: 130px;
                 height: 130px;
