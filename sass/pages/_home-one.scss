@@ -111,12 +111,12 @@
 // Event Area
 .event-area{
   &.style-1{
-    padding: 120px 0;
+    padding: 0 !important;
      @include md{
-        padding: 100px 0;
+        padding:  0 !important;
       }
       @include sm{
-        padding: 80px 0px;
+        padding: 0 !important;
       }
     .section-title{
       .short-title{

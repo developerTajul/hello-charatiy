@@ -15718,16 +15718,16 @@ ul.children {
 }
 
 .event-area.style-1 {
-  padding: 120px 0;
+  padding: 0 !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .event-area.style-1 {
-    padding: 100px 0;
+    padding: 0 !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .event-area.style-1 {
-    padding: 80px 0px;
+    padding: 0 !important;
   }
 }
 .event-area.style-1 .section-title .short-title {
