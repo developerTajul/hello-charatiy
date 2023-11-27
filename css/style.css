@@ -16211,6 +16211,10 @@ ul.children {
   flex-direction: column;
   padding-left: 48px;
 }
+.single-donor-page .donor-profile-wrapper .section-title p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .single-donor-page .donor-profile .image-wrapper {
   width: 250px;
   height: 250px;
