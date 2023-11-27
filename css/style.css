@@ -2418,7 +2418,8 @@ img.emoji {
   border: 1px solid #dfe2e9 !important;
 }
 
-.wp-block-search__button {
+.wp-block-search__button,
+.widget .search-form button {
   margin-left: 0 !important;
 }
 
