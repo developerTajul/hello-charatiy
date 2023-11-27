@@ -16224,6 +16224,11 @@ ul.children {
   flex-direction: column;
   padding-left: 48px;
 }
+@media (max-width: 1024px) {
+  .single-donor-page .donor-profile-wrapper {
+    padding-left: 0;
+  }
+}
 .single-donor-page .donor-profile-wrapper .section-title p {
   margin: 0 !important;
   padding: 0 !important;
@@ -16240,6 +16245,12 @@ ul.children {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1024px) {
+  .single-donor-page .donor-info-wrapper {
+    gap: 12px;
+  }
 }
 .single-donor-page .donor-info-wrapper .single-info {
   display: flex;
@@ -16250,6 +16261,12 @@ ul.children {
   gap: 8px;
   border-radius: 16px;
   border: 1px solid #BDBDBD;
+}
+@media (max-width: 1024px) {
+  .single-donor-page .donor-info-wrapper .single-info {
+    width: 160px;
+    padding: 16px;
+  }
 }
 .single-donor-page .donor-info-wrapper .single-info .info-inner h4 {
   text-align: center;
