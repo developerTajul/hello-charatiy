@@ -14674,7 +14674,7 @@ ul.children {
 }
 .donor-profile .image-wrapper {
   overflow: hidden;
-  border-radius: 100px;
+  border-radius: 100%;
   width: 120px;
   height: 120px;
   -o-object-fit: cover;
@@ -16187,6 +16187,77 @@ ul.children {
   .donor-wall-area.style-1 {
     padding: 80px 0px;
   }
+}
+
+.single-donor-page {
+  padding: 120px 0;
+  background-color: #F8F8F8;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-donor-page {
+    padding: 100px 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-donor-page {
+    padding: 80px 0;
+  }
+}
+.single-donor-page .donor-profile-wrapper {
+  display: flex;
+  gap: 32px;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 48px;
+}
+.single-donor-page .donor-profile .image-wrapper {
+  width: 250px;
+  height: 250px;
+}
+.single-donor-page .donor-profile .divider {
+  margin: 32px 0px;
+}
+.single-donor-page .donor-info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.single-donor-page .donor-info-wrapper .single-info {
+  display: flex;
+  width: 170px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  border: 1px solid #BDBDBD;
+}
+.single-donor-page .donor-info-wrapper .single-info .info-inner h4 {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #020a27;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.56px;
+}
+.single-donor-page .donor-info-wrapper .single-info .title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #020a27;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+}
+.single-donor-page .theme-btn {
+  display: flex;
+  height: 64px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .causes-content-wrapper.style-2 .blog-banner {
