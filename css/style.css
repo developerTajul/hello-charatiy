@@ -3297,7 +3297,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-top .header-contact-info li i, .header-top .header-contact-info span i,
 .header-top ul li i,
 .header-top ul span i {
-  color: #ffffff;
+  color: #FFE144 !important;
 }
 .header-top .header-contact-info li:first-child:before, .header-top .header-contact-info span:first-child:before,
 .header-top ul li:first-child:before,
