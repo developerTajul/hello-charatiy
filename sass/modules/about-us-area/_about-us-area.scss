@@ -143,6 +143,7 @@
         width: 712px;
         height: 814px;
         z-index: 20;
+        object-fit: cover;
         @include transition;
         @include rmaxwd(767){
             width: auto;
