@@ -12709,6 +12709,189 @@ ul.children {
 .causes-details-area.style-1 .tags-content .tags_share-inner .share-link-inner .all-share-link a:hover i {
   color: #ffffff !important;
 }
+.causes-details-area.style-1 .give-form-wrap {
+  background-color: #ffffff !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-form-title {
+  color: #FF4638 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .form-title {
+  color: #121212 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-goal-progress .raised {
+  color: #FF4638 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-goal-progress .raised .income {
+  color: #121212 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-goal-progress .raised .goal-text {
+  color: #FF4638 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar span {
+  background: #FF4638 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 4px !important;
+  overflow: hidden;
+}
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
+  width: 65px !important;
+  height: 60px !important;
+  background-color: #FFE144 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
+    height: 60px !important;
+  }
+}
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol i, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before i {
+  color: #121212 !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
+  border: none !important;
+  padding: 22px 10px 21px 10px !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  line-height: 130% !important; /* 36.4px */
+  letter-spacing: 0.56px !important;
+  color: #121212 !important;
+  width: 100% !important;
+  height: 60px !important;
+}
+@media (max-width: 460px) {
+  .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
+    font-size: 14px !important;
+    padding: 8px !important;
+  }
+}
+.causes-details-area.style-1 .give-form-wrap .form-wrap {
+  display: none !important;
+}
+.causes-details-area.style-1 .give-form-wrap ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.causes-details-area.style-1 .give-form-wrap ul:before, .causes-details-area.style-1 .give-form-wrap ul:after {
+  display: none !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-details-area.style-1 .give-form-wrap ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.causes-details-area.style-1 .give-form-wrap ul li {
+  margin: 0 !important;
+  height: 48px !important;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button {
+  cursor: pointer !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: 1px solid #ffffff;
+  border-radius: 4px !important;
+  color: #ffffff !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 130% !important; /* 23.4px */
+  letter-spacing: 0.36px !important;
+  text-align: center !important;
+  transition: all 0.5s ease-out;
+  position: relative !important;
+  background: transparent !important;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button:before {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #FFE144;
+  content: "";
+  transition: all 0.5s ease-out;
+  z-index: -1;
+  border-color: #FFE144;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button.active {
+  background-color: #FFE144 !important;
+  color: #121212 !important;
+  border-color: #FFE144 !important;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button.style-2.active {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #FFE144;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button:hover {
+  border-color: #FFE144;
+  color: #121212 !important;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button:hover:before {
+  width: 100%;
+  transition: all 0.5s ease-out;
+}
+.causes-details-area.style-1 .give-form-wrap ul li button:hover.style-2 {
+  background-color: #ffffff;
+  color: #121212;
+  border-color: #ffffff;
+}
+.causes-details-area.style-1 .give-form-wrap .give-submit {
+  margin-top: 20px;
+  background: transparent;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  display: inline-flex;
+  justify-content: center;
+  padding: 16px 32px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-out;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+  align-items: center;
+  border-radius: 50px;
+  overflow: hidden;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  position: relative;
+}
+.causes-details-area.style-1 .give-form-wrap .give-submit:hover {
+  color: #020a27 !important;
+  background-color: #ffffff !important;
+}
+.causes-details-area.style-1 .give-form-wrap legend {
+  color: #ffffff;
+  border-bottom: 1px solid #c7cdda !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-label {
+  display: none !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-input {
+  font-size: 18px !important;
+  border-radius: 4px !important;
+  border: none !important;
+}
+.causes-details-area.style-1 .give-form-wrap .give-progress-bar {
+  height: 12px !important;
+}
 
 .causes-slider-area {
   position: relative;
