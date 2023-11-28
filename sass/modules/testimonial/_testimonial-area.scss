@@ -218,8 +218,12 @@
                 transform: translate(18%, 50%);
                 left: 0;
                 top: 0;
+                margin-left:60px;
+                width: 250px;
+                height: 164px;
                 @include rmaxwd(1780){ 
                      width: 120px;
+                     margin-left: 20px;
                 }
                  @include rmaxwd(1200){
                     width: 80px;

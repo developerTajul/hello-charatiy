@@ -7746,10 +7746,14 @@ button.testimonial-arrow-btn:hover i {
   transform: translate(18%, 50%);
   left: 0;
   top: 0;
+  margin-left: 60px;
+  width: 250px;
+  height: 164px;
 }
 @media (max-width: 1780px) {
   .testimonial-slider-area.style-2 .feature-shape-2 {
     width: 120px;
+    margin-left: 20px;
   }
 }
 @media (max-width: 1200px) {
