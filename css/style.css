@@ -12731,87 +12731,23 @@ ul.children {
   background: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 4px !important;
-  overflow: hidden;
+  background-color: #F8F8F8;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
-  width: 65px !important;
-  height: 60px !important;
-  background-color: #FFE144 !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  border: none !important;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
-    height: 60px !important;
-  }
+  background-color: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol i, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before i {
-  color: #121212 !important;
+  color: #ffffff !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
-  border: none !important;
-  padding: 22px 10px 21px 10px !important;
-  font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 22px !important;
-  font-weight: 500 !important;
-  line-height: 130% !important; /* 36.4px */
-  letter-spacing: 0.56px !important;
   color: #121212 !important;
-  width: 100% !important;
-  height: 60px !important;
-}
-@media (max-width: 460px) {
-  .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
-    font-size: 14px !important;
-    padding: 8px !important;
-  }
 }
 .causes-details-area.style-1 .give-form-wrap .form-wrap {
   display: none !important;
 }
-.causes-details-area.style-1 .give-form-wrap ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 4px;
-}
-.causes-details-area.style-1 .give-form-wrap ul:before, .causes-details-area.style-1 .give-form-wrap ul:after {
-  display: none !important;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .causes-details-area.style-1 .give-form-wrap ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.causes-details-area.style-1 .give-form-wrap ul li {
-  margin: 0 !important;
-  height: 48px !important;
-}
 .causes-details-area.style-1 .give-form-wrap ul li button {
-  cursor: pointer !important;
-  width: 100% !important;
-  height: 100% !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  border: 1px solid #ffffff;
-  border-radius: 4px !important;
   color: #ffffff !important;
-  font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  line-height: 130% !important; /* 23.4px */
-  letter-spacing: 0.36px !important;
-  text-align: center !important;
-  transition: all 0.5s ease-out;
-  position: relative !important;
-  background: transparent !important;
+  background: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:before {
   position: absolute;
