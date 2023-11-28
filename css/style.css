@@ -3054,6 +3054,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .elementor-1385 .elementor-element.elementor-element-27f5917 {
   width: auto !important;
 }
+@media (max-width: 1400px) {
+  .elementor-1385 .elementor-element.elementor-element-27f5917 {
+    display: none !important;
+  }
+}
 .elementor-1385 .elementor-element.elementor-element-75aab82 {
   width: auto !important;
   right: 0;
