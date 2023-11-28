@@ -678,3 +678,12 @@
     }
     
 }
+.Donors_slider_wrapper{
+    background-color: $gray-5;
+    .donors_slider_header_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+    }
+}

@@ -14586,6 +14586,16 @@ ul.children {
   height: 12px !important;
 }
 
+.Donors_slider_wrapper {
+  background-color: #F8F8F8;
+}
+.Donors_slider_wrapper .donors_slider_header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;
