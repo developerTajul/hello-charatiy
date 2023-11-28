@@ -12740,6 +12740,7 @@ ul.children {
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
   background-color: #FF4638 !important;
+  color: #ffffff !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol i, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before i {
   color: #ffffff !important;
