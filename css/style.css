@@ -12789,7 +12789,7 @@ ul.children {
 }
 .causes-details-area.style-1 .give-form-wrap .give-submit {
   margin-top: 20px;
-  background: transparent;
+  background: #FF4638;
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
   display: inline-flex;
@@ -13798,14 +13798,14 @@ ul.children {
   transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 
-.bubble {
+.bubble, .causes-details-area.style-1 .give-form-wrap .give-submit {
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
   text-align: center;
 }
-.bubble span {
+.bubble span, .causes-details-area.style-1 .give-form-wrap .give-submit span {
   position: absolute;
   width: 25%;
   height: 100%;
@@ -13817,19 +13817,19 @@ ul.children {
   transition-delay: calc((var(--n) - 1) * 0.1s);
   z-index: -1;
 }
-.bubble:hover span {
+.bubble:hover span, .causes-details-area.style-1 .give-form-wrap .give-submit:hover span {
   transform: translateY(0) scale(2);
 }
-.bubble span:nth-child(1) {
+.bubble span:nth-child(1), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(1) {
   --n: 1;
 }
-.bubble span:nth-child(2) {
+.bubble span:nth-child(2), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(2) {
   --n: 2;
 }
-.bubble span:nth-child(3) {
+.bubble span:nth-child(3), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(3) {
   --n: 3;
 }
-.bubble span:nth-child(4) {
+.bubble span:nth-child(4), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(4) {
   --n: 4;
 }
 

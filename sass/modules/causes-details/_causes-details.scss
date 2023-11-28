@@ -471,7 +471,7 @@
             }
             .give-submit{
                 margin-top:20px ;
-                background: transparent;
+                background: $brand;
                 color: $white !important;
                 border: 2px solid $white !important;
                 display: inline-flex;
@@ -493,7 +493,7 @@
                 color: $white;
                 border: 2px solid $white;
                 position: relative;
-                
+                @extend .bubble;
                 &:hover{
                     color: $black !important;
                     background-color: $white !important;
