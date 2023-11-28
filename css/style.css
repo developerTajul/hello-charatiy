@@ -6683,7 +6683,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-post-card .card-wrapper-content .comment-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 32px;
+  gap: 10px 16px;
   padding-bottom: 16px;
 }
 .latest-post-card .card-wrapper-content .comment-bar a {
