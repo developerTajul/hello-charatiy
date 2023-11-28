@@ -9533,6 +9533,8 @@ button.testimonial-arrow-btn:hover i {
 
 .breadcrumb-wrapper {
   margin-left: 8px;
+  position: relative;
+  z-index: 20;
 }
 @media (max-width: 1199px) {
   .breadcrumb-wrapper {
