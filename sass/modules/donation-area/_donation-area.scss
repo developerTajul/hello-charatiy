@@ -429,6 +429,11 @@
         padding: 40px;
         margin-bottom: 50px;
     }
+    .form{
+        &.give-form legend{
+            margin: 10px 0 25px;
+        }
+    }
     .give-form-title{
         font-family: $heading-font;
         font-size: 18px;
@@ -449,6 +454,7 @@
         color: $white !important;
         cursor: default;
         margin: 36px 0;
+        font-weight: 700;
         @include rmaxwd(767){
             font-size: 32px;
         }

@@ -14318,6 +14318,9 @@ ul.children {
     margin-bottom: 50px;
   }
 }
+.give-form-wrap .form.give-form legend {
+  margin: 10px 0 25px;
+}
 .give-form-wrap .give-form-title {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
@@ -14340,6 +14343,7 @@ ul.children {
   color: #ffffff !important;
   cursor: default;
   margin: 36px 0;
+  font-weight: 700;
 }
 @media (max-width: 767px) {
   .give-form-wrap .form-title {
