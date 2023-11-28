@@ -433,7 +433,7 @@
                             height: 100%;
                             left: 0;
                             top: 0;
-                            background: $primary-color !important;
+                            background: $primary-color ;
                             content: "";
                             @include transition;
                             z-index: -1;
