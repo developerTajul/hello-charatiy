@@ -6319,6 +6319,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0px;
   margin-top: 16px;
 }
+@media (max-width: 1024px) {
+  .about-us-content-wrapper-2 .desc {
+    padding-right: 0;
+  }
+}
 .about-us-content-wrapper-2 .about-us-inner {
   display: flex;
   gap: 54px;

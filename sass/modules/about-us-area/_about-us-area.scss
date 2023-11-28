@@ -447,6 +447,9 @@
             padding-right: 76px;
             margin: 0px;
             margin-top: 16px;
+            @include rmaxwd(1024){
+                padding-right: 0;
+            }
         }
         .about-us-inner{
             display: flex;
