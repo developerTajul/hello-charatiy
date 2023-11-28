@@ -12729,6 +12729,9 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap .give-goal-progress .raised .goal-text {
   color: #FF4638 !important;
 }
+.causes-details-area.style-1 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar {
+  background-color: #e7eaec !important;
+}
 .causes-details-area.style-1 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar span {
   background: #FF4638 !important;
 }

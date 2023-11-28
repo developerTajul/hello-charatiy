@@ -398,6 +398,7 @@
                 }
                 .progress-bar{
                     .give-progress-bar{
+                        background-color: $gray-400 !important;
                         span{
                             background: $brand !important;
                         }
