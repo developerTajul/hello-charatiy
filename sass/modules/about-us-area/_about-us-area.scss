@@ -447,8 +447,11 @@
             padding-right: 76px;
             margin: 0px;
             margin-top: 16px;
-            @include rmaxwd(1024){
-                padding-right: 0;
+            @include md{
+                padding-right: 0 !important;
+            }
+            @include sm{
+                padding-right: 0 !important;
             }
         }
         .about-us-inner{
