@@ -12832,6 +12832,9 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap .give-progress-bar {
   height: 12px !important;
 }
+.causes-details-area.style-1 .give-form-wrap .form-row-first, .causes-details-area.style-1 .give-form-wrap .form-row-last {
+  width: 49.4%;
+}
 
 .causes-slider-area {
   position: relative;
