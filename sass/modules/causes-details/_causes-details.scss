@@ -397,6 +397,7 @@
                     }
                 }
                 .progress-bar{
+                    background-color: $gray-400 !important;
                     .give-progress-bar{
                         background-color: $gray-400 !important;
                         span{
@@ -436,7 +437,6 @@
                             content: "";
                             @include transition;
                             z-index: -1;
-                            
                             border-color: $primary-color;
                         }
                         // @include sm{
@@ -494,11 +494,11 @@
                 color: $white;
                 border: 2px solid $white;
                 position: relative;
-                // @extend .bubble;
-                &:hover{
-                    color: $black !important;
-                    background-color: $white !important;
-                }
+                @extend .bubble-yellow;
+                // &:hover{
+                //     color: $black !important;
+                //     background-color: $white !important;
+                // }
             }
             legend{
                 color: $white;
