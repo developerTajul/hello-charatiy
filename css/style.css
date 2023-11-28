@@ -14595,7 +14595,7 @@ ul.children {
   align-items: baseline;
   text-align: center;
 }
-.Donors_slider_wrapper .button.slick-arrow {
+.Donors_slider_wrapper button.slick-arrow {
   position: absolute;
   top: 50%;
   display: flex;
@@ -14610,21 +14610,21 @@ ul.children {
   transition: 0.3s;
   z-index: 99;
 }
-.Donors_slider_wrapper .button.slick-arrow.next-btn {
+.Donors_slider_wrapper button.slick-arrow.next-btn {
   right: 0;
   margin-right: -80px;
 }
-.Donors_slider_wrapper .button.slick-arrow.prev-btn {
+.Donors_slider_wrapper button.slick-arrow.prev-btn {
   left: 0;
   margin-left: -80px;
 }
-.Donors_slider_wrapper .button.slick-arrow i {
+.Donors_slider_wrapper button.slick-arrow i {
   font-size: 24px;
   color: #121212;
   transition: all 0.5s ease-out;
   margin-left: 0px;
 }
-.Donors_slider_wrapper .button.slick-arrow:before {
+.Donors_slider_wrapper button.slick-arrow:before {
   position: absolute;
   width: 0;
   height: 100%;
@@ -14635,14 +14635,14 @@ ul.children {
   transition: all 0.5s ease-out;
   z-index: -1;
 }
-.Donors_slider_wrapper .button.slick-arrow:hover {
+.Donors_slider_wrapper button.slick-arrow:hover {
   transition: all 0.5s ease-out;
 }
-.Donors_slider_wrapper .button.slick-arrow:hover:before {
+.Donors_slider_wrapper button.slick-arrow:hover:before {
   width: 100%;
   transition: all 0.5s ease-out;
 }
-.Donors_slider_wrapper .button.slick-arrow:hover i {
+.Donors_slider_wrapper button.slick-arrow:hover i {
   color: #ffffff !important;
   margin-left: 5px;
 }
