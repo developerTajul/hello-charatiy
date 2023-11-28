@@ -382,7 +382,9 @@
                 color: $brand !important;        
             }
             .form-title{
+                margin-top: 0 !important;
                 color: $black-2 !important;
+                margin-bottom: 36px !important;
             }
             .give-goal-progress{
                 .raised{
@@ -411,6 +413,7 @@
                     }
                 }
                 .give-text-input{
+                    background-color: $gray-5 !important;
                     color: $black-2 !important;
                 }
             }
@@ -515,9 +518,7 @@
                 // }
             }
             .give-input{
-                font-size: 18px !important;
-                border-radius: 4px !important;
-                border: none !important;
+                background-color: $gray-5 !important;
             }
             .give-progress-bar{
                 height: 12px !important;
