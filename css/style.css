@@ -12833,6 +12833,7 @@ ul.children {
 }
 .causes-details-area.style-1 .give-form-wrap .form-row-first, .causes-details-area.style-1 .give-form-wrap .form-row-last {
   width: 49.4%;
+  margin-right: 0;
 }
 
 .causes-slider-area {
