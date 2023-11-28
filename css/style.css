@@ -15861,6 +15861,9 @@ ul.children {
   overflow: hidden;
 }
 
+.testimonial-slider-area.style-2 {
+  background-color: unset;
+}
 .testimonial-slider-area.style-2 button.testimonial-arrow-btn:before {
   position: absolute;
   width: 0;
