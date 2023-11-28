@@ -14633,6 +14633,11 @@ ul.children {
   left: 0;
   margin-left: -80px;
 }
+@media (max-width: 1400px) {
+  .Donors_slider_wrapper button.slick-arrow {
+    display: none;
+  }
+}
 .Donors_slider_wrapper button.slick-arrow i {
   font-size: 24px;
   color: #121212;
