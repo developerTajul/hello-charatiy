@@ -15861,20 +15861,6 @@ ul.children {
   overflow: hidden;
 }
 
-.testimonial-slider-area.style-2 {
-  padding: 120px 0px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .testimonial-slider-area.style-2 {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .testimonial-slider-area.style-2 {
-    padding: 72px 0px;
-    padding-bottom: 15px;
-  }
-}
 .testimonial-slider-area.style-2 button.testimonial-arrow-btn:before {
   position: absolute;
   width: 0;

@@ -43,14 +43,14 @@
 //Testimonial-slider-area
 .testimonial-slider-area{
     &.style-2{
-        padding: 120px 0px;
-        @include md{
-            padding: 100px 0;
-        }
-        @include sm {
-            padding: 72px 0px;
-            padding-bottom: 15px;
-        }
+        // padding: 120px 0px;
+        // @include md{
+        //     padding: 100px 0;
+        // }
+        // @include sm {
+        //     padding: 72px 0px;
+        //     padding-bottom: 15px;
+        // }
         button.testimonial-arrow-btn {
             &:before {
                 position: absolute;
