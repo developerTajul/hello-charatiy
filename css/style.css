@@ -12818,6 +12818,10 @@ ul.children {
   border: 2px solid #ffffff;
   position: relative;
 }
+.causes-details-area.style-1 .give-form-wrap .give-submit:hover {
+  color: #020a27 !important;
+  background-color: #FFE144 !important;
+}
 .causes-details-area.style-1 .give-form-wrap legend {
   color: #ffffff;
   border-bottom: 1px solid #c7cdda !important;
@@ -13839,14 +13843,14 @@ ul.children {
   --n: 4;
 }
 
-.bubble-yellow, .causes-details-area.style-1 .give-form-wrap .give-submit {
+.bubble-yellow {
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
   text-align: center;
 }
-.bubble-yellow span, .causes-details-area.style-1 .give-form-wrap .give-submit span {
+.bubble-yellow span {
   position: absolute;
   width: 25%;
   height: 100%;
@@ -13858,19 +13862,19 @@ ul.children {
   transition-delay: calc((var(--n) - 1) * 0.1s);
   z-index: -1;
 }
-.bubble-yellow:hover span, .causes-details-area.style-1 .give-form-wrap .give-submit:hover span {
+.bubble-yellow:hover span {
   transform: translateY(0) scale(2);
 }
-.bubble-yellow span:nth-child(1), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(1) {
+.bubble-yellow span:nth-child(1) {
   --n: 1;
 }
-.bubble-yellow span:nth-child(2), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(2) {
+.bubble-yellow span:nth-child(2) {
   --n: 2;
 }
-.bubble-yellow span:nth-child(3), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(3) {
+.bubble-yellow span:nth-child(3) {
   --n: 3;
 }
-.bubble-yellow span:nth-child(4), .causes-details-area.style-1 .give-form-wrap .give-submit span:nth-child(4) {
+.bubble-yellow span:nth-child(4) {
   --n: 4;
 }
 

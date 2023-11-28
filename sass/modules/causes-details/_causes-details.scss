@@ -494,11 +494,10 @@
                 color: $white;
                 border: 2px solid $white;
                 position: relative;
-                @extend .bubble-yellow;
-                // &:hover{
-                //     color: $black !important;
-                //     background-color: $white !important;
-                // }
+                &:hover{
+                    color: $black !important;
+                    background-color: $primary-color !important;
+                }
             }
             legend{
                 color: $white;
