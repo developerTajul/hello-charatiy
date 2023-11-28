@@ -471,7 +471,7 @@
             }
             .give-submit{
                 margin-top:20px ;
-                background: $brand;
+                background: $brand !important;
                 color: $white !important;
                 border: 2px solid $white !important;
                 display: inline-flex;
@@ -493,7 +493,7 @@
                 color: $white;
                 border: 2px solid $white;
                 position: relative;
-                @extend .bubble;
+                // @extend .bubble;
                 &:hover{
                     color: $black !important;
                     background-color: $white !important;
@@ -518,7 +518,7 @@
                 // }
             }
             .give-input{
-                background-color: $gray-5 !important;
+                background-color: $gray-400 !important;
             }
             .give-progress-bar{
                 height: 12px !important;
