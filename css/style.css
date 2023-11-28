@@ -14592,8 +14592,12 @@ ul.children {
 .Donors_slider_wrapper .donors_slider_header_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   text-align: center;
+  margin: 0;
+}
+.Donors_slider_wrapper .donors_slider {
+  margin-top: 60px;
 }
 .Donors_slider_wrapper button.slick-arrow {
   position: absolute;
@@ -14604,7 +14608,7 @@ ul.children {
   padding: 16px 24px;
   justify-content: center;
   align-items: center;
-  background-color: #F8F8F8;
+  background-color: #ffffff;
   border-radius: 100px;
   overflow: hidden;
   transition: 0.3s;
