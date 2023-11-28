@@ -690,7 +690,6 @@
         &.slick-arrow {
             position: absolute;
             top: 50%;
-            position: relative;
             margin-top: 32px;
             display: flex;
             width: 64px;
@@ -703,6 +702,14 @@
             overflow: hidden;
             transition: 0.3s;
             z-index: 99;
+            &.next-btn{
+                right: 0;
+                margin-right: -80px;
+            }
+            &.prev-btn{
+                left: 0;
+                margin-left: -80px;
+            }
             i{
                 font-size: 24px;
                 color: $black-2;
@@ -731,14 +738,8 @@
                     margin-left: 5px;
                 }
             }
+           
         }
-        .next-btn{
-            right: 0;
-            margin-right: -80px;
-        }
-        .prev-btn{
-            left: 0;
-            margin-left: -80px;
-        }
+        
     }
 }

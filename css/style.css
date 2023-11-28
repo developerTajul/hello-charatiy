@@ -14598,7 +14598,6 @@ ul.children {
 .Donors_slider_wrapper .button.slick-arrow {
   position: absolute;
   top: 50%;
-  position: relative;
   margin-top: 32px;
   display: flex;
   width: 64px;
@@ -14611,6 +14610,14 @@ ul.children {
   overflow: hidden;
   transition: 0.3s;
   z-index: 99;
+}
+.Donors_slider_wrapper .button.slick-arrow.next-btn {
+  right: 0;
+  margin-right: -80px;
+}
+.Donors_slider_wrapper .button.slick-arrow.prev-btn {
+  left: 0;
+  margin-left: -80px;
 }
 .Donors_slider_wrapper .button.slick-arrow i {
   font-size: 24px;
@@ -14639,14 +14646,6 @@ ul.children {
 .Donors_slider_wrapper .button.slick-arrow:hover i {
   color: #ffffff !important;
   margin-left: 5px;
-}
-.Donors_slider_wrapper .button .next-btn {
-  right: 0;
-  margin-right: -80px;
-}
-.Donors_slider_wrapper .button .prev-btn {
-  left: 0;
-  margin-left: -80px;
 }
 
 .skill-progressbar.page .progress-inner .title {
