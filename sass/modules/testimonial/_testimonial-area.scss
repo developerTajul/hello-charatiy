@@ -215,23 +215,21 @@
         overflow: hidden;
         .feature-shape-2{
                 position: absolute;
-                transform: translate(18%, 50%);
+                // transform: translate(18%, 50%);
                 left: 0;
                 top: 0;
-                margin-left:60px;
+                margin-left:20px;
                 width: 250px;
                 height: 164px;
-                @include rmaxwd(1780){ 
-                     width: 120px;
-                     margin-left: 20px;
+                @include rmaxwd(1700){ 
+                    width: 120px;
+                    height: 100px;
                 }
-                 @include rmaxwd(1200){
-                    width: 80px;
+                @include rmaxwd(1400){ 
+                    display: none !important;
                 }
-                 @include rmaxwd(992){
-                    // transform: translate(5%, 10%);
-                    width: 80px;
-                }
+
+                 
             }
         .testimonial-container-wrapper{
             position: relative;
