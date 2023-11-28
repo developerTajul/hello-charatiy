@@ -8112,7 +8112,8 @@ button.testimonial-arrow-btn:hover i {
 }
 .accordion-wrapper.style-two .accordion-list-item .accordion-head:after {
   color: #121212;
-  font-size: 12px;
+  font-size: 22px;
+  font-weight: 500;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -8124,7 +8125,8 @@ button.testimonial-arrow-btn:hover i {
 .accordion-wrapper.style-two .accordion-list-item .accordion-head.collapsed:after {
   border-radius: 50px;
   color: #121212;
-  font-size: 12px;
+  font-size: 22px;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
