@@ -6357,6 +6357,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   letter-spacing: 0.36px;
   color: #121212;
   cursor: default;
+  margin: 0;
 }
 .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area {
   display: flex;
