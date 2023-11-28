@@ -14595,6 +14595,59 @@ ul.children {
   align-items: baseline;
   text-align: center;
 }
+.Donors_slider_wrapper .button.slick-arrow {
+  position: absolute;
+  top: 50%;
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F8F8;
+  border-radius: 100px;
+  overflow: hidden;
+  transition: 0.3s;
+  z-index: 99;
+}
+.Donors_slider_wrapper .button.slick-arrow i {
+  font-size: 24px;
+  color: #121212;
+  transition: all 0.5s ease-out;
+  margin-left: 0px;
+}
+.Donors_slider_wrapper .button.slick-arrow:before {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #FF4638;
+  content: "";
+  transition: all 0.5s ease-out;
+  z-index: -1;
+}
+.Donors_slider_wrapper .button.slick-arrow:hover {
+  transition: all 0.5s ease-out;
+}
+.Donors_slider_wrapper .button.slick-arrow:hover:before {
+  width: 100%;
+  transition: all 0.5s ease-out;
+}
+.Donors_slider_wrapper .button.slick-arrow:hover i {
+  color: #ffffff !important;
+  margin-left: 5px;
+}
+.Donors_slider_wrapper .button .next-btn {
+  right: 0;
+  margin-right: -80px;
+}
+.Donors_slider_wrapper .button .prev-btn {
+  left: 0;
+  margin-left: -80px;
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;

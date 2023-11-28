@@ -686,4 +686,59 @@
         align-items: baseline;
         text-align: center;
     }
+    .button{
+        &.slick-arrow {
+            position: absolute;
+            top: 50%;
+            position: relative;
+            margin-top: 32px;
+            display: flex;
+            width: 64px;
+            height: 64px;
+            padding: 16px 24px;
+            justify-content: center;
+            align-items: center;
+            background-color: $gray-5;
+            border-radius: 100px;
+            overflow: hidden;
+            transition: 0.3s;
+            z-index: 99;
+            i{
+                font-size: 24px;
+                color: $black-2;
+                @include transition;
+                margin-left: 0px;
+            }
+            &:before {
+                position: absolute;
+                width: 0;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: $brand;
+                content: "";
+                @include transition;
+                z-index: -1;
+            }
+            &:hover{
+                @include transition;
+                &:before {
+                    width: 100%;
+                    @include transition;
+                }
+                i{
+                    color: $white !important;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .next-btn{
+            right: 0;
+            margin-right: -80px;
+        }
+        .prev-btn{
+            left: 0;
+            margin-left: -80px;
+        }
+    }
 }
