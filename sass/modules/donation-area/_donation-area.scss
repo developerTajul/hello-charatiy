@@ -430,8 +430,8 @@
         margin-bottom: 50px;
     }
     .form{
-        &.give-form legend{
-            margin: 10px 0 25px;
+        legend{
+            margin: 10px 0 25px !important;
         }
     }
     .give-form-title{

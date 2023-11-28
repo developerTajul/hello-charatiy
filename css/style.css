@@ -14318,8 +14318,8 @@ ul.children {
     margin-bottom: 50px;
   }
 }
-.give-form-wrap .form.give-form legend {
-  margin: 10px 0 25px;
+.give-form-wrap .form legend {
+  margin: 10px 0 25px !important;
 }
 .give-form-wrap .give-form-title {
   font-family: "Plus Jakarta Sans", sans-serif;
