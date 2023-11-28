@@ -680,6 +680,13 @@
 }
 .Donors_slider_wrapper{
     background-color: $gray-5;
+    padding-bottom: 120px;
+    @include rmaxwd(1024){
+        padding-bottom: 100px;
+    }
+    @include rmaxwd(767){
+        padding-bottom: 80px;
+    }
     .donors_slider_header_wrapper{
         display: flex;
         justify-content: space-between;
