@@ -13206,6 +13206,13 @@ ul.children {
     gap: 16px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-card .content .btn-section {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+}
 .causes-card .content .btn-section .theme-btn.style-1 {
   justify-content: center;
   border-radius: 10px;
