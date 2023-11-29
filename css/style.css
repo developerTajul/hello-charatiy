@@ -6591,6 +6591,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-posts-area.style-1 .latest-post-card .img-wrapper img {
   border-radius: 0;
 }
+.latest-posts-area.style-1 .latest-post-card .comment-bar {
+  margin-top: 14px;
+}
 .latest-posts-area.style-1 .latest-post-card .comment-bar .single-item i {
   color: #FF4638 !important;
 }
