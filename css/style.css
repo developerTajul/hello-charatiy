@@ -15435,6 +15435,15 @@ ul.children {
     width: 100% !important;
   }
 }
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:before {
+  content: "\f073";
+  font-family: "Font Awesome 6 Pro";
+  font-size: 16px;
+  color: #ffffff;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border svg {
   display: none !important;
 }
@@ -15450,8 +15459,7 @@ ul.children {
   gap: 16px;
   z-index: 10;
 }
-.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button:after {
-  position: absolute;
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button:before {
   content: "";
   font-family: "Font Awesome 6 Pro";
   font-size: 16px;
