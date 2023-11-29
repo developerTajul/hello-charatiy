@@ -14643,7 +14643,7 @@ ul.children {
   height: 100%;
   left: 0;
   top: 0;
-  background: #FFE144;
+  background: #FFE144 !important;
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
@@ -14664,7 +14664,7 @@ ul.children {
   color: #121212 !important;
 }
 .give-form-wrap ul li button:hover:before {
-  width: 100%;
+  width: 100% !important;
   transition: all 0.5s ease-out;
 }
 .give-form-wrap ul li button:hover.style-2 {
