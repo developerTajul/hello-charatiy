@@ -12483,6 +12483,9 @@ ul.children {
     display: none;
   }
 }
+.causes-details-area.style-1 .post-title {
+  margin-bottom: 12px;
+}
 .causes-details-area.style-1 .image-wrapper img {
   border-radius: 30px;
 }
