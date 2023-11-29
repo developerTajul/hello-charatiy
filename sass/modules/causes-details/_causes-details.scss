@@ -424,22 +424,23 @@
             }
             ul{
                 li{
+                    background-color: $brand;
                     button{
-                        // color: $white;
-                        background-color: $brand !important;
-                        position: relative;
-                        &:after {
-                            position: absolute;
-                            width: 0;
-                            height: 100%;
-                            left: 0;
-                            top: 0;
-                            background: $primary-color ;
-                            content: "";
-                            @include transition;
-                            z-index: -1;
-                            border-color: $primary-color;
-                        }
+                        // // color: $white;
+                        // background-color: transparent !important;
+                        // position: relative;
+                        // &:after {
+                        //     position: absolute;
+                        //     width: 0;
+                        //     height: 100%;
+                        //     left: 0;
+                        //     top: 0;
+                        //     background: $primary-color !important;
+                        //     content: "";
+                        //     @include transition;
+                        //     z-index: -1;
+                        //     border-color: $primary-color;
+                        // }
                         @include sm{
                             width: 155px !important;
                         }
@@ -458,11 +459,11 @@
                         &:hover{
                             border-color: $primary-color;
                             color: $black-2 !important;
-                            &:after {
-                                width: 100% !important;
-                                @include transition;
+                            // &:after {
+                            //     width: 100% !important;
+                            //     @include transition;
 
-                            }
+                            // }
                             &.style-2{
                                 background-color: $white;
                                 color: $black-2;

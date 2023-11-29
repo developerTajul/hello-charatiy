@@ -12753,21 +12753,8 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap .form-wrap {
   display: none !important;
 }
-.causes-details-area.style-1 .give-form-wrap ul li button {
-  background-color: #FF4638 !important;
-  position: relative;
-}
-.causes-details-area.style-1 .give-form-wrap ul li button:after {
-  position: absolute;
-  width: 0;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #FFE144;
-  content: "";
-  transition: all 0.5s ease-out;
-  z-index: -1;
-  border-color: #FFE144;
+.causes-details-area.style-1 .give-form-wrap ul li {
+  background-color: #FF4638;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .causes-details-area.style-1 .give-form-wrap ul li button {
@@ -12787,10 +12774,6 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap ul li button:hover {
   border-color: #FFE144;
   color: #121212 !important;
-}
-.causes-details-area.style-1 .give-form-wrap ul li button:hover:after {
-  width: 100% !important;
-  transition: all 0.5s ease-out;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:hover.style-2 {
   background-color: #ffffff;
