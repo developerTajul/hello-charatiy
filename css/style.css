@@ -6595,7 +6595,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 14px;
   padding: 0 16px;
   display: flex;
-  gap: 14px;
+  flex-wrap: wrap;
+  gap: 4px 14px;
   justify-content: center;
   align-items: center;
 }
