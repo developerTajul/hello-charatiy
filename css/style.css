@@ -12731,13 +12731,13 @@ ul.children {
   color: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar {
-  background-color: #e7eaec !important;
+  background-color: #F8F8F8 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar span {
   background: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount {
-  background-color: #e7eaec;
+  background-color: #F8F8F8;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
   background-color: #FF4638 !important;
@@ -12747,7 +12747,7 @@ ul.children {
   color: #ffffff !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
-  background-color: #e7eaec !important;
+  background-color: #F8F8F8 !important;
   color: #121212 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .form-wrap {
@@ -12829,7 +12829,7 @@ ul.children {
   display: none !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-input {
-  background-color: #e7eaec !important;
+  background-color: #F8F8F8 !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-progress-bar {
   height: 12px !important;
