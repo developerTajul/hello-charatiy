@@ -14720,16 +14720,16 @@ ul.children {
 
 .Donors_slider_wrapper {
   background-color: #F8F8F8;
-  padding-bottom: 120px;
+  padding: 120px;
 }
 @media (max-width: 1024px) {
   .Donors_slider_wrapper {
-    padding-bottom: 100px;
+    padding: 100px;
   }
 }
 @media (max-width: 767px) {
   .Donors_slider_wrapper {
-    padding-bottom: 80px;
+    padding: 80px;
   }
 }
 .Donors_slider_wrapper .donors_slider_header_wrapper {
