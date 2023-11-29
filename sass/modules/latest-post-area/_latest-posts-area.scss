@@ -19,7 +19,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 4px 14px;
-                justify-content: center;
+                justify-content: start;
                 align-items: center;
                 .single-item{
                     i{
@@ -27,6 +27,7 @@
                     }
                     .title{
                         color: $black-2 !important;
+                        font-size: 16px !important;
                     }
                 }
             }

@@ -6597,7 +6597,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 14px;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .latest-posts-area.style-1 .latest-post-card .comment-bar .single-item i {
@@ -6605,6 +6605,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .latest-posts-area.style-1 .latest-post-card .comment-bar .single-item .title {
   color: #121212 !important;
+  font-size: 16px !important;
 }
 .latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title {
   padding-top: 0;
