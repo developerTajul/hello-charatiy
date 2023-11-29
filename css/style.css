@@ -6591,7 +6591,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-posts-area.style-1 .latest-post-card .img-wrapper img {
   border-radius: 0;
 }
-.latest-posts-area.style-1 .latest-post-card .card-wrapper-content title {
+.latest-posts-area.style-1 .latest-post-card .comment-bar .single-item i {
+  color: #FF4638 !important;
+}
+.latest-posts-area.style-1 .latest-post-card .comment-bar .single-item .title {
+  color: #121212 !important;
+}
+.latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title {
   text-decoration: none;
   background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
   background-size: 200%;
@@ -6600,7 +6606,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: 0.5s ease-out;
   color: #121212;
 }
-.latest-posts-area.style-1 .latest-post-card .card-wrapper-content title:hover {
+.latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title:hover {
   background-position: -100%;
 }
 .latest-posts-area.style-1 .latest-post-card .theme-btn span {
@@ -14017,7 +14023,7 @@ ul.children {
   --n: 4;
 }
 
-.animated-text, .blog-card .content-wrapper h3, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3, .event-card .content-wrapper .title, blockquote footer, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content title {
+.animated-text, .blog-card .content-wrapper h3, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3, .event-card .content-wrapper .title, blockquote footer, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title {
   text-decoration: none;
   background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
   background-size: 200%;
@@ -14026,7 +14032,7 @@ ul.children {
   transition: 0.5s ease-out;
   color: #121212;
 }
-.animated-text:hover, .blog-card .content-wrapper h3:hover, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3:hover, .event-card .content-wrapper .title:hover, blockquote footer:hover, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content title:hover {
+.animated-text:hover, .blog-card .content-wrapper h3:hover, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3:hover, .event-card .content-wrapper .title:hover, blockquote footer:hover, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title:hover {
   background-position: -100%;
 }
 
