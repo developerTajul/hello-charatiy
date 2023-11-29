@@ -15443,6 +15443,17 @@ ul.children {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   transition: all 0.5s ease-out;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button:after {
+  content: "\f073";
+  font-family: "Font Awesome 6 Pro";
+  font-family: 16px;
+  color: #ffffff;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover {
   background-color: #FF4638 !important;

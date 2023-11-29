@@ -276,6 +276,18 @@
                                 font-family: $heading-font;
                                 font-size: 16px;
                                 @include transition;
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 16px;
+                                &:after{
+                                    content: '\f073';
+                                    font-family: $font-awesome;
+                                    font-family: 16px;
+                                    color: $white;
+
+                                }
                             }
                             &:hover{
                                 background-color: $brand !important;
