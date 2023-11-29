@@ -190,8 +190,10 @@
             }
             .goals_actions-inner{
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 gap: 16px;
+                justify-content: center;
+                align-items: center;
                 @include rmaxwd(767){
                     justify-content: center;
                     align-items: center;

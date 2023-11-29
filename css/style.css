@@ -12546,8 +12546,9 @@ ul.children {
 }
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
   display: flex;
-  flex-direction: column;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 767px) {
   .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
