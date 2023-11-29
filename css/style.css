@@ -4145,7 +4145,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area .single-slider .slider-content-wrapper .slider-content .slider-btn-wrapper {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
 
