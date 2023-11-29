@@ -12754,8 +12754,8 @@ ul.children {
   display: none !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button {
-  color: #ffffff !important;
-  background: #FF4638 !important;
+  color: #ffffff;
+  background: #FF4638;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:before {
   position: absolute;
@@ -12763,7 +12763,7 @@ ul.children {
   height: 100%;
   left: 0;
   top: 0;
-  background: #FFE144 !important;
+  background: #FFE144;
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
@@ -12786,8 +12786,6 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap ul li button:hover:before {
   width: 100% !important;
   transition: all 0.5s ease-out;
-  background-color: #FFE144 !important;
-  color: #020a27 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:hover.style-2 {
   background-color: #ffffff;

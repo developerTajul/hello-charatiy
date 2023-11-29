@@ -425,15 +425,15 @@
             ul{
                 li{
                     button{
-                        color: $white !important;
-                        background: $brand !important;
+                        color: $white;
+                        background: $brand;
                         &:before {
                             position: absolute;
                             width: 0;
                             height: 100%;
                             left: 0;
                             top: 0;
-                            background: $primary-color !important;
+                            background: $primary-color ;
                             content: "";
                             @include transition;
                             z-index: -1;
@@ -460,9 +460,7 @@
                             &:before {
                                 width: 100% !important;
                                 @include transition;
-                                background-color: $primary-color !important;
-                                color: $black !important;
-                                
+
                             }
                             &.style-2{
                                 background-color: $white;
