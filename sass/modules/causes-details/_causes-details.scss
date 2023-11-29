@@ -426,7 +426,7 @@
                 li{
                     button{
                         color: $white !important;
-                        background: $brand;
+                        background: $brand !important;
                         &:before {
                             position: absolute;
                             width: 0;

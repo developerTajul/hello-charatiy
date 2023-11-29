@@ -12780,7 +12780,7 @@ ul.children {
 }
 .causes-details-area.style-1 .give-form-wrap ul li button {
   color: #ffffff !important;
-  background: #FF4638;
+  background: #FF4638 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:before {
   position: absolute;
