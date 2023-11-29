@@ -265,17 +265,15 @@
                             border-radius: 50px;
                             overflow: hidden;
                             border: 1px solid $gray-4;
+                            gap: 16px;
                             @include sm{
                                 width: 100% !important;  
                             }
                             &:before{
                                 content: '\f073';
                                 font-family: $font-awesome;
-                                font-size: 16px;
-                                color: $white;
-                                background-color: red;
-                                width: 10px;
-                                height: 10px;
+                                font-size: 18px;
+                                color: $black-2;
                             }
                             svg{
                                 display: none !important;
@@ -291,16 +289,6 @@
                                 align-items: center;
                                 gap: 16px;
                                 z-index: 10;
-                                &:before{
-                                    content: '';
-                                    font-family: $font-awesome;
-                                    font-size: 16px;
-                                    color: $white;
-                                    z-index: 20;
-                                    background-color: red;
-                                    width: 10px;
-                                    height: 10px;
-                                }
                             }
                             &:hover{
                                 background-color: $brand !important;
