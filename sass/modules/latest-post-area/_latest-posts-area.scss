@@ -15,6 +15,7 @@
             }
             .comment-bar{
                 margin-top: 14px;
+                padding: 0 16px;
                 .single-item{
                     i{
                         color: $brand !important;
@@ -52,8 +53,9 @@
                 } 
             }
             .divider{
-                margin: 32px;
+                margin: 24px 16px;
                 background-color: $gray-4;
+               ;
             }
         }
     }

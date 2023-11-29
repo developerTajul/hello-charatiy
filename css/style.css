@@ -6593,6 +6593,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .latest-posts-area.style-1 .latest-post-card .comment-bar {
   margin-top: 14px;
+  padding: 0 16px;
 }
 .latest-posts-area.style-1 .latest-post-card .comment-bar .single-item i {
   color: #FF4638 !important;
@@ -6623,7 +6624,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #FF4638 !important;
 }
 .latest-posts-area.style-1 .latest-post-card .divider {
-  margin: 32px;
+  margin: 24px 16px;
   background-color: #BDBDBD;
 }
 .latest-posts-area.style-2 .feature-shape-1 {
