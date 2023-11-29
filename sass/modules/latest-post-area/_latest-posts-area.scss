@@ -1,4 +1,5 @@
 .latest-posts-area {
+    
     position: relative;
     &.style-1{
         .latest-post-card{
@@ -7,14 +8,12 @@
             overflow: hidden;
             box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
         }
-        
-        
-           .img-wrapper{
+        .img-wrapper{
                 border-radius: 0;
                 img{
                     border-radius: 0;
                 }
-            }
+        }
             .comment-bar{
                 margin-top: 14px;
                 padding: 0 16px;
@@ -66,7 +65,7 @@
                ;
             }
         }
-    }
+    
     &.style-2{
         .feature-shape-1{
             position: absolute;

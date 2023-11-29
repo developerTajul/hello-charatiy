@@ -6578,20 +6578,20 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .latest-posts-area {
   position: relative;
-  background: #F8F8F8;
 }
 .latest-posts-area.style-1 .latest-post-card {
   padding: 0px;
   border-radius: 30px;
   overflow: hidden;
+  box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
 }
-.latest-posts-area.style-1 .latest-post-card .img-wrapper {
+.latest-posts-area.style-1 .img-wrapper {
   border-radius: 0;
 }
-.latest-posts-area.style-1 .latest-post-card .img-wrapper img {
+.latest-posts-area.style-1 .img-wrapper img {
   border-radius: 0;
 }
-.latest-posts-area.style-1 .latest-post-card .comment-bar {
+.latest-posts-area.style-1 .comment-bar {
   margin-top: 14px;
   padding: 0 16px;
   display: flex;
@@ -6600,14 +6600,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: start;
   align-items: center;
 }
-.latest-posts-area.style-1 .latest-post-card .comment-bar .single-item i {
+.latest-posts-area.style-1 .comment-bar .single-item i {
   color: #FF4638 !important;
 }
-.latest-posts-area.style-1 .latest-post-card .comment-bar .single-item .title {
+.latest-posts-area.style-1 .comment-bar .single-item .title {
   color: #121212 !important;
   font-size: 16px !important;
 }
-.latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title {
+.latest-posts-area.style-1 .card-wrapper-content .title {
   padding-top: 0;
   text-decoration: none;
   background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
@@ -6617,19 +6617,19 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: 0.5s ease-out;
   color: #121212;
 }
-.latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title:hover {
+.latest-posts-area.style-1 .card-wrapper-content .title:hover {
   background-position: -100%;
 }
-.latest-posts-area.style-1 .latest-post-card .theme-btn span {
+.latest-posts-area.style-1 .theme-btn span {
   background-color: #FF4638 !important;
 }
-.latest-posts-area.style-1 .latest-post-card .theme-btn:hover {
+.latest-posts-area.style-1 .theme-btn:hover {
   color: #ffffff !important;
 }
-.latest-posts-area.style-1 .latest-post-card .theme-btn:hover span {
+.latest-posts-area.style-1 .theme-btn:hover span {
   background-color: #FF4638 !important;
 }
-.latest-posts-area.style-1 .latest-post-card .divider {
+.latest-posts-area.style-1 .divider {
   margin: 24px 16px;
   background-color: #BDBDBD;
 }
@@ -14038,7 +14038,7 @@ ul.children {
   --n: 4;
 }
 
-.animated-text, .blog-card .content-wrapper h3, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3, .event-card .content-wrapper .title, blockquote footer, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title {
+.animated-text, .blog-card .content-wrapper h3, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3, .event-card .content-wrapper .title, blockquote footer, .latest-posts-area.style-1 .card-wrapper-content .title {
   text-decoration: none;
   background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
   background-size: 200%;
@@ -14047,7 +14047,7 @@ ul.children {
   transition: 0.5s ease-out;
   color: #121212;
 }
-.animated-text:hover, .blog-card .content-wrapper h3:hover, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3:hover, .event-card .content-wrapper .title:hover, blockquote footer:hover, .latest-posts-area.style-1 .latest-post-card .card-wrapper-content .title:hover {
+.animated-text:hover, .blog-card .content-wrapper h3:hover, .page-area .page-content-wrapper .single-post-item.style-1 .post-content-wrapper h3:hover, .event-card .content-wrapper .title:hover, blockquote footer:hover, .latest-posts-area.style-1 .card-wrapper-content .title:hover {
   background-position: -100%;
 }
 
