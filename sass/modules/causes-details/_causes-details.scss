@@ -398,7 +398,7 @@
                 }
                 .progress-bar{
                     .give-progress-bar{
-                        background-color: $gray-5 !important;
+                        background-color: $gray-400 !important;
                         span{
                             background: $brand !important;
                         }
@@ -406,7 +406,7 @@
                 }
             }
             .give-donation-amount{
-                background-color: $gray-5;
+                background-color: $gray-400;
                 .give-currency-symbol,.give-currency-position-before{
                     background-color: $brand !important;
                     color: $white !important;
@@ -415,7 +415,7 @@
                     }
                 }
                 .give-text-input{
-                    background-color: $gray-5 !important;
+                    background-color: $gray-400 !important;
                     color: $black-2 !important;
                 }
             }
@@ -424,67 +424,24 @@
             }
             ul{
                 li{
-                    background-color: $brand;
-                    cursor: pointer !important;
-                    width: 100% !important;
-                    height: 100% !important;
-                    display: flex !important;
-                    justify-content: center !important;
-                    align-items: center !important;
-                    border: 1px solid $white;
-                    border-radius: 4px !important;
-                    color: $white !important;
-                    font-family: $heading-font !important;
-                    font-size: 18px !important;
-                    font-weight: 500 !important;
-                    line-height: 130% !important; /* 23.4px */
-                    letter-spacing: 0.36px !important;
-                    text-align: center !important;
-                    @include transition ;
-                    position: relative !important;
-                    &:before {
-                        position: absolute;
-                        width: 0;
-                        height: 100%;
-                        left: 0;
-                        top: 0;
-                        background: $primary-color;
-                        content: "";
-                        @include transition;
-                        z-index: -1;
-                        color: $black-2;
-                        border-color: $primary-color;
-                    }
-                    &:hover{
-                        &:before {
-                            width: 100% !important;
-                            @include transition;
-
-                        }
-                        
-                    }
                     button{
-                        color: $white;
-                        background-color: transparent !important;
-                        position: relative;
-                        &:before{
-                            display: none !important;
+                        color: $white !important;
+                        background: $brand;
+                        &:before {
+                            position: absolute;
+                            width: 0;
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                            background: $primary-color ;
+                            content: "";
+                            @include transition;
+                            z-index: -1;
+                            border-color: $primary-color;
                         }
-                        // &:after {
-                        //     position: absolute;
-                        //     width: 0;
-                        //     height: 100%;
-                        //     left: 0;
-                        //     top: 0;
-                        //     background: $primary-color !important;
-                        //     content: "";
-                        //     @include transition;
-                        //     z-index: -1;
-                        //     border-color: $primary-color;
+                        // @include sm{
+                        //     width: 155px !important;
                         // }
-                        @include sm{
-                            width: 155px !important;
-                        }
                         &.active{
                             background-color: $primary-color !important;
                             color: $black-2 !important;
@@ -492,7 +449,7 @@
                         }
                         &.style-2{
                         &.active{
-                                background-color: $primary-color;
+                                background-color: $white;
                                 color: $black-2;
                                 border-color: $primary-color;
                             } 
@@ -500,11 +457,10 @@
                         &:hover{
                             border-color: $primary-color;
                             color: $black-2 !important;
-                            // &:after {
-                            //     width: 100% !important;
-                            //     @include transition;
-
-                            // }
+                            &:before {
+                                width: 100%;
+                                @include transition;
+                            }
                             &.style-2{
                                 background-color: $white;
                                 color: $black-2;
@@ -562,7 +518,7 @@
                 // }
             }
             .give-input{
-                background-color: $gray-5 !important;
+                background-color: $gray-400 !important;
             }
             .give-progress-bar{
                 height: 12px !important;
