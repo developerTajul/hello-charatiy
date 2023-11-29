@@ -4421,7 +4421,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   bottom: 0;
   margin-bottom: -6px;
   margin-right: 0px;
-  animation: rotating 12s linear infinite;
   z-index: 10;
 }
 @media (max-width: 1800px) {

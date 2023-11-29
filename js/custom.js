@@ -872,6 +872,7 @@
             $(".sketch-4").parallax(-25, e);
         });
         $("#slider-area").mousemove(function(e) {
+            $(".sketch-3").parallax(-25, e);
             $(".sketch-2").parallax(-25, e);
             $(".sketch-4").parallax(-25, e);
             $(".top-shape").parallax(20, e);
