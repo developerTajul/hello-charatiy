@@ -14540,10 +14540,10 @@ ul.children {
   }
 }
 .give-form-wrap .form-title {
-  font-size: 51px;
+  font-size: 48px;
   color: #ffffff !important;
   cursor: default;
-  margin: 36px 0;
+  margin: 24px 0;
   font-weight: 700;
 }
 @media (max-width: 767px) {
@@ -16522,7 +16522,7 @@ ul.children {
   margin: 32px 0px;
 }
 .single-donor-page .donor-profile .social-profile-link {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .single-donor-page .donor-info-wrapper {
   display: flex;
