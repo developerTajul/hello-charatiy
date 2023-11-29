@@ -13,6 +13,14 @@
                     border-radius: 0;
                 }
             }
+            .theme-btn{
+                &:hover{
+                    color: $white !important;
+                    span{
+                        background-color: $brand !important;
+                    }
+                } 
+            }
         }
     }
     &.style-2{

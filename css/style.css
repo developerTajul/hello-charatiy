@@ -6591,6 +6591,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-posts-area.style-1 .latest-post-card .img-wrapper img {
   border-radius: 0;
 }
+.latest-posts-area.style-1 .latest-post-card .theme-btn:hover {
+  color: #ffffff !important;
+}
+.latest-posts-area.style-1 .latest-post-card .theme-btn:hover span {
+  background-color: #FF4638 !important;
+}
 .latest-posts-area.style-2 .feature-shape-1 {
   position: absolute;
   bottom: 152px;
