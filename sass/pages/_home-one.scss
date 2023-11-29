@@ -160,7 +160,7 @@
         width: 80px;
       }
       @include sm{
-        animation: move2 2s infinite alternate;
+        display: none !important;
       }
     }
     .shape-3{
@@ -173,7 +173,7 @@
         bottom: 10px;
       }
       @include sm{
-          animation: rotating 12s linear infinite;
+        display: none !important;
       }
     }
     
