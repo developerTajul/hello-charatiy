@@ -6580,6 +6580,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   background: #F8F8F8;
 }
+.latest-posts-area.style-1 .latest-post-card {
+  padding: 0px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.latest-posts-area.style-1 .latest-post-card .img-wrapper {
+  border-radius: 0;
+}
 .latest-posts-area.style-2 .feature-shape-1 {
   position: absolute;
   bottom: 152px;

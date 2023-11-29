@@ -2,6 +2,16 @@
     
     position: relative;
     background: $gray-5;
+    &.style-1{
+        .latest-post-card{
+            padding: 0px;
+            border-radius: 16px;
+            overflow: hidden;
+           .img-wrapper{
+                border-radius: 0;
+            }
+        }
+    }
     &.style-2{
         .feature-shape-1{
             position: absolute;
