@@ -14516,6 +14516,9 @@ ul.children {
     margin-bottom: 50px;
   }
 }
+.give-form-wrap .give-form {
+  margin: 0 !important;
+}
 .give-form-wrap legend {
   margin: 10px 0 20px !important;
 }
