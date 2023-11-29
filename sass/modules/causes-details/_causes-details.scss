@@ -452,12 +452,10 @@
                         content: "";
                         @include transition;
                         z-index: -1;
-                        
+                        color: $black-2;
                         border-color: $primary-color;
                     }
                     &:hover{
-                        border-color: $primary-color;
-                        color: $black-2 !important;
                         &:before {
                             width: 100% !important;
                             @include transition;

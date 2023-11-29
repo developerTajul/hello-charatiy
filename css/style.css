@@ -12783,11 +12783,8 @@ ul.children {
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
+  color: #121212;
   border-color: #FFE144;
-}
-.causes-details-area.style-1 .give-form-wrap ul li:hover {
-  border-color: #FFE144;
-  color: #121212 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li:hover:before {
   width: 100% !important;
