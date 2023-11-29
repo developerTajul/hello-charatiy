@@ -13,6 +13,21 @@
                     border-radius: 0;
                 }
             }
+            .card-wrapper-content{
+                title{
+                    @extend .animated-text;
+                    text-decoration: none;
+                    background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
+                    background-size: 200%;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 0.5s ease-out;
+                    color: $black-2;
+                    &:hover {
+                    background-position: -100%;
+                    }
+                }
+            }
             .theme-btn{
                 &:hover{
                     color: $white !important;
