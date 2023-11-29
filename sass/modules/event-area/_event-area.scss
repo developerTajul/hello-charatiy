@@ -8,14 +8,8 @@
             top: 210px;
             left: 98px;
             z-index: 2;
-            @include rmaxwd(1100){
-                top: 10px;
-                left: 10px;
-                width: 120px;
-            }
-            @include rmaxwd(630){
-                width: 80px;
-                animation: rotating 12s linear infinite;
+            @include rmaxwd(1024){
+                display: none !important;
             }
         }
         .sketch-2{
@@ -28,13 +22,7 @@
                 right: 60px;
             }
             @include rmaxwd(992){
-                width: 120px;
-                bottom: 20px;
-                right: 20px;
-            }
-            @include rmaxwd(767){
-                bottom: 15px;
-                right: 15px;
+                display: none !important;
             }
         }
         .section-title{
