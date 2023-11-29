@@ -12784,8 +12784,10 @@ ul.children {
   color: #121212 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:hover:before {
-  width: 100%;
+  width: 100% !important;
   transition: all 0.5s ease-out;
+  background-color: #FFE144 !important;
+  color: #020a27 !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:hover.style-2 {
   background-color: #ffffff;

@@ -458,8 +458,11 @@
                             border-color: $primary-color;
                             color: $black-2 !important;
                             &:before {
-                                width: 100%;
+                                width: 100% !important;
                                 @include transition;
+                                background-color: $primary-color !important;
+                                color: $black !important;
+                                
                             }
                             &.style-2{
                                 background-color: $white;
