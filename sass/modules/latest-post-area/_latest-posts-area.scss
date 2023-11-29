@@ -9,6 +9,9 @@
             overflow: hidden;
            .img-wrapper{
                 border-radius: 0;
+                img{
+                    border-radius: 0;
+                }
             }
         }
     }

@@ -6588,6 +6588,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-posts-area.style-1 .latest-post-card .img-wrapper {
   border-radius: 0;
 }
+.latest-posts-area.style-1 .latest-post-card .img-wrapper img {
+  border-radius: 0;
+}
 .latest-posts-area.style-2 .feature-shape-1 {
   position: absolute;
   bottom: 152px;
