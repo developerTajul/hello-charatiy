@@ -426,14 +426,14 @@
                 li{
                     button{
                         color: $white !important;
-                        background: $brand;
+                        background: $brand !important;
                         &:before {
                             position: absolute;
                             width: 0;
                             height: 100%;
                             left: 0;
                             top: 0;
-                            background: $primary-color ;
+                            background: $primary-color !important;
                             content: "";
                             @include transition;
                             z-index: -1;
@@ -449,7 +449,7 @@
                         }
                         &.style-2{
                         &.active{
-                                background-color: $white;
+                                background-color: $primary-color;
                                 color: $black-2;
                                 border-color: $primary-color;
                             } 
