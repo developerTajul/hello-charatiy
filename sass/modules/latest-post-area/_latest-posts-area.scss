@@ -29,6 +29,9 @@
                 }
             }
             .theme-btn{
+                span{
+                    background-color: $brand !important;
+                }
                 &:hover{
                     color: $white !important;
                     span{

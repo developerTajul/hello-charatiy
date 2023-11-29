@@ -6603,6 +6603,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-posts-area.style-1 .latest-post-card .card-wrapper-content title:hover {
   background-position: -100%;
 }
+.latest-posts-area.style-1 .latest-post-card .theme-btn span {
+  background-color: #FF4638 !important;
+}
 .latest-posts-area.style-1 .latest-post-card .theme-btn:hover {
   color: #ffffff !important;
 }
