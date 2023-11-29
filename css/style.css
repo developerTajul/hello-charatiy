@@ -16459,6 +16459,9 @@ ul.children {
 .single-donor-page .donor-profile-wrapper .section-title p {
   padding: 0 !important;
 }
+.single-donor-page .donor-profile {
+  box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+}
 .single-donor-page .donor-profile .image-wrapper {
   width: 240px;
   height: 240px;
