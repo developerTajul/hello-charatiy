@@ -14637,7 +14637,7 @@ ul.children {
   text-align: center !important;
   transition: all 0.5s ease-out;
   position: relative !important;
-  background: transparent !important;
+  background: transparent;
 }
 .give-form-wrap ul li button:before {
   position: absolute;

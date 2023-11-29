@@ -575,7 +575,7 @@
                 text-align: center !important;
                 @include transition ;
                 position: relative !important;
-                background: transparent !important;
+                background: transparent ;
                 &:before {
                     position: absolute;
                     width: 0;
