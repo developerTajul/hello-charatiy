@@ -268,6 +268,9 @@
                             @include sm{
                                 width: 100% !important;  
                             }
+                            svg{
+                                display: none !important;
+                            }
                             button{
                                 color: $black-2;
                                 font-family: $heading-font;
@@ -283,9 +286,7 @@
                                     color: $white !important;
                                     @include transition;
                                 }
-                                svg{
-                                    display: none !important;
-                                }
+                                
                             }
                             .tribe-events-c-subscribe-dropdown__button-icon{
                                 display: none !important;
