@@ -15441,6 +15441,7 @@ ul.children {
   font-family: "Font Awesome 6 Pro";
   font-size: 18px;
   color: #121212;
+  transition: all 0.5s ease-out;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border svg {
   display: none !important;
@@ -15466,6 +15467,10 @@ ul.children {
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover button {
   color: #ffffff !important;
+  transition: all 0.5s ease-out;
+}
+.events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover:after {
+  color: #ffffff;
   transition: all 0.5s ease-out;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button-icon {

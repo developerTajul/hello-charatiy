@@ -274,6 +274,7 @@
                                 font-family: $font-awesome;
                                 font-size: 18px;
                                 color: $black-2;
+                                @include transition;
                             }
                             svg{
                                 display: none !important;
@@ -298,6 +299,10 @@
                                 border-color: transparent !important;
                                 button{
                                     color: $white !important;
+                                    @include transition;
+                                }
+                                &:after{
+                                    color: $white;
                                     @include transition;
                                 }
                                 
