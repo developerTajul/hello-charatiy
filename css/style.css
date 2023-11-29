@@ -15448,7 +15448,7 @@ ul.children {
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button {
   color: #121212;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   transition: all 0.5s ease-out;
   position: relative;
   display: flex;
@@ -15456,6 +15456,7 @@ ul.children {
   align-items: center;
   gap: 16px;
   z-index: 10;
+  text-transform: capitalize;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover {
   background-color: #FF4638 !important;
@@ -15481,6 +15482,7 @@ ul.children {
   }
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .event_register_now_btn .theme-btn {
+  font-size: 18px !important;
   height: 64px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
