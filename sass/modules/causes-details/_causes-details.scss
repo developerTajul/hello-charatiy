@@ -425,10 +425,53 @@
             ul{
                 li{
                     background-color: $brand;
+                    cursor: pointer !important;
+                    width: 100% !important;
+                    height: 100% !important;
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    border: 1px solid $white;
+                    border-radius: 4px !important;
+                    color: $white !important;
+                    font-family: $heading-font !important;
+                    font-size: 18px !important;
+                    font-weight: 500 !important;
+                    line-height: 130% !important; /* 23.4px */
+                    letter-spacing: 0.36px !important;
+                    text-align: center !important;
+                    @include transition ;
+                    position: relative !important;
+                    &:before {
+                        position: absolute;
+                        width: 0;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        background: $primary-color;
+                        content: "";
+                        @include transition;
+                        z-index: -1;
+                        
+                        border-color: $primary-color;
+                    }
+                    &:hover{
+                        border-color: $primary-color;
+                        color: $black-2 !important;
+                        &:before {
+                            width: 100% !important;
+                            @include transition;
+
+                        }
+                        
+                    }
                     button{
-                        // // color: $white;
-                        // background-color: transparent !important;
-                        // position: relative;
+                        color: $white;
+                        background-color: transparent !important;
+                        position: relative;
+                        &:before{
+                            display: none !important;
+                        }
                         // &:after {
                         //     position: absolute;
                         //     width: 0;
