@@ -426,8 +426,9 @@
                 li{
                     button{
                         color: $white;
-                        background: $brand;
-                        &:before {
+                        background: $brand !important;
+                        position: relative;
+                        &:after {
                             position: absolute;
                             width: 0;
                             height: 100%;
@@ -457,7 +458,7 @@
                         &:hover{
                             border-color: $primary-color;
                             color: $black-2 !important;
-                            &:before {
+                            &:after {
                                 width: 100% !important;
                                 @include transition;
 

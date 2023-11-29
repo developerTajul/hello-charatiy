@@ -12755,9 +12755,10 @@ ul.children {
 }
 .causes-details-area.style-1 .give-form-wrap ul li button {
   color: #ffffff;
-  background: #FF4638;
+  background: #FF4638 !important;
+  position: relative;
 }
-.causes-details-area.style-1 .give-form-wrap ul li button:before {
+.causes-details-area.style-1 .give-form-wrap ul li button:after {
   position: absolute;
   width: 0;
   height: 100%;
@@ -12783,7 +12784,7 @@ ul.children {
   border-color: #FFE144;
   color: #121212 !important;
 }
-.causes-details-area.style-1 .give-form-wrap ul li button:hover:before {
+.causes-details-area.style-1 .give-form-wrap ul li button:hover:after {
   width: 100% !important;
   transition: all 0.5s ease-out;
 }
@@ -14635,7 +14636,7 @@ ul.children {
   text-align: center !important;
   transition: all 0.5s ease-out;
   position: relative !important;
-  background: transparent;
+  background: transparent !important;
 }
 .give-form-wrap ul li button:before {
   position: absolute;
@@ -14643,7 +14644,7 @@ ul.children {
   height: 100%;
   left: 0;
   top: 0;
-  background: #FFE144 !important;
+  background: #FFE144;
   content: "";
   transition: all 0.5s ease-out;
   z-index: -1;
@@ -14664,7 +14665,7 @@ ul.children {
   color: #121212 !important;
 }
 .give-form-wrap ul li button:hover:before {
-  width: 100% !important;
+  width: 100%;
   transition: all 0.5s ease-out;
 }
 .give-form-wrap ul li button:hover.style-2 {
