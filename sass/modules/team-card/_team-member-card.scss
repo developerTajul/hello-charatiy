@@ -131,7 +131,7 @@
           color:$white !important;
         }
         .social-profile-link{
-        .fa-times{
+            .fa-times{
                 display: block;
             }
             .fa-plus{
@@ -281,5 +281,31 @@
              margin-left: -200px;
         }
       }
+  }
+  &:hover{
+    .fa-times{
+        display: block;
+    }
+    .fa-plus{
+        display: none;
+    }
+    .social {
+      opacity: 1;
+      .social-inner {
+            margin-left: 0;
+            transition: all 0.5s ease-out;
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            padding-left: 25px;
+            i{
+              color: $black-2;
+            }
+      }
+    }
+    .social-profile-btn{
+      @include transition;
+      width: 25px !important;
+    }
   }
 }

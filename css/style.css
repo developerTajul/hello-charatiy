@@ -11813,6 +11813,30 @@ ul.children {
 .social-profile-link.active .social .social-inner {
   margin-left: -200px;
 }
+.social-profile-link:hover .fa-times {
+  display: block;
+}
+.social-profile-link:hover .fa-plus {
+  display: none;
+}
+.social-profile-link:hover .social {
+  opacity: 1;
+}
+.social-profile-link:hover .social .social-inner {
+  margin-left: 0;
+  transition: all 0.5s ease-out;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding-left: 25px;
+}
+.social-profile-link:hover .social .social-inner i {
+  color: #121212;
+}
+.social-profile-link:hover .social-profile-btn {
+  transition: all 0.5s ease-out;
+  width: 25px !important;
+}
 
 .team-member-slider-wrapper {
   position: relative;
@@ -16469,6 +16493,9 @@ ul.children {
 }
 .single-donor-page .donor-profile .divider {
   margin: 32px 0px;
+}
+.single-donor-page .donor-profile .social-profile-link {
+  margin-top: 30px;
 }
 .single-donor-page .donor-info-wrapper {
   display: flex;
