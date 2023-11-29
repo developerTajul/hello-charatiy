@@ -15456,6 +15456,9 @@ ul.children {
   font-size: 16px;
   color: #ffffff;
   z-index: 20;
+  background-color: red;
+  width: 10px;
+  height: 10px;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border:hover {
   background-color: #FF4638 !important;
