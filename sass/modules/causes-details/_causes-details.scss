@@ -457,6 +457,7 @@
                         &:hover{
                             border-color: $primary-color;
                             color: $black-2 !important;
+                            background-color: $primary-color !important;
                             &:before {
                                 width: 100%;
                                 @include transition;
