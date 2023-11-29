@@ -12754,8 +12754,7 @@ ul.children {
   display: none !important;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button {
-  color: #ffffff;
-  background: #FF4638 !important;
+  background-color: #FF4638 !important;
   position: relative;
 }
 .causes-details-area.style-1 .give-form-wrap ul li button:after {
@@ -12769,6 +12768,11 @@ ul.children {
   transition: all 0.5s ease-out;
   z-index: -1;
   border-color: #FFE144;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-details-area.style-1 .give-form-wrap ul li button {
+    width: 155px !important;
+  }
 }
 .causes-details-area.style-1 .give-form-wrap ul li button.active {
   background-color: #FFE144 !important;

@@ -425,8 +425,8 @@
             ul{
                 li{
                     button{
-                        color: $white;
-                        background: $brand !important;
+                        // color: $white;
+                        background-color: $brand !important;
                         position: relative;
                         &:after {
                             position: absolute;
@@ -440,9 +440,9 @@
                             z-index: -1;
                             border-color: $primary-color;
                         }
-                        // @include sm{
-                        //     width: 155px !important;
-                        // }
+                        @include sm{
+                            width: 155px !important;
+                        }
                         &.active{
                             background-color: $primary-color !important;
                             color: $black-2 !important;
