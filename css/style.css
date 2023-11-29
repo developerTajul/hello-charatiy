@@ -15450,6 +15450,7 @@ ul.children {
   gap: 16px;
 }
 .events_group_details_wrapper .events_group_details_inner_wrapper .btn-wrapper .tribe-events-c-subscribe-dropdown__container .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-common-c-btn-border button:after {
+  position: absolute;
   content: "\f073";
   font-family: "Font Awesome 6 Pro";
   font-size: 16px;
