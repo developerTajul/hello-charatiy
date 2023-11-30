@@ -14694,6 +14694,14 @@ ul.children {
   display: none !important;
 }
 .give-form-wrap ul {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  list-style: none;
+  margin: 48px 0;
+  padding-left: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 4px;
@@ -14707,6 +14715,8 @@ ul.children {
   }
 }
 .give-form-wrap ul li {
+  width: 127px !important;
+  list-style: none !important;
   margin: 0 !important;
   height: 48px !important;
 }
