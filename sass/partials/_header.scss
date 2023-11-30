@@ -21,16 +21,16 @@
             >a{
               color: $black-2 !important;
               &:after{
-                // content: "\f105";
-                // font-size: 12px;
-                // font-family: $font-awesome;
-                // margin-left: auto;
-                // float: right;
-                // right: 0;
-                // padding-right: 12px;
-                // visibility: hidden;
-                // transform: scale(0);
-                // @include transition;
+                content: "\f105";
+                font-size: 12px;
+                font-family: $font-awesome;
+                margin-left: auto;
+                float: right;
+                right: 0;
+                padding-right: 12px;
+                visibility: hidden;
+                transform: scale(0);
+                @include transition;
               }
             }
             &:hover{
