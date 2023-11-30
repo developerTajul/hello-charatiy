@@ -14700,7 +14700,7 @@ ul.children {
   justify-content: start;
   align-items: start;
   list-style: none;
-  margin: 48px 0;
+  margin: 24px 0;
   padding-left: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -14822,6 +14822,31 @@ ul.children {
 }
 .give-form-wrap .give-hidden {
   display: none !important;
+}
+.give-form-wrap .form-row-first {
+  width: 48%;
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .give-form-wrap .form-row-first {
+    width: 100%;
+  }
+}
+.give-form-wrap .form-row-last {
+  width: 48%;
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .give-form-wrap .form-row-last {
+    width: 100%;
+    margin-top: 12px;
+  }
+}
+.give-form-wrap .form-row-wide {
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 .Donors_slider_wrapper {
