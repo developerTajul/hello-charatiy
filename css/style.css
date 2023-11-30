@@ -14824,27 +14824,27 @@ ul.children {
 .give-form-wrap .give-hidden {
   display: none !important;
 }
-.give-form-wrap .form-row-first {
+.give-form-wrap .form-row-first input {
   width: 48%;
   margin-right: 12px;
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
-  .give-form-wrap .form-row-first {
+  .give-form-wrap .form-row-first input {
     width: 100%;
   }
 }
-.give-form-wrap .form-row-last {
+.give-form-wrap .form-row-last input {
   width: 48%;
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
-  .give-form-wrap .form-row-last {
+  .give-form-wrap .form-row-last input {
     width: 100%;
     margin-top: 12px;
   }
 }
-.give-form-wrap .form-row-wide {
+.give-form-wrap .form-row-wide input {
   width: 100%;
   margin-top: 12px;
   margin-bottom: 0;

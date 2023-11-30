@@ -675,26 +675,33 @@
         display: none !important;
     }
     .form-row-first{
-        width: 48%;
-        margin-right: 12px;
-        margin-bottom: 0;
-        @include rmaxwd(992){
-            width: 100%;
+        input{
+            width: 48%;
+            margin-right: 12px;
+            margin-bottom: 0;
+            @include rmaxwd(992){
+                width: 100%;
+            }
         }
+        
     }
     .form-row-last{
-        width: 48%;
-        margin-bottom: 0;
-        @include rmaxwd(992){
-            width: 100%;
-            margin-top: 12px;
+        input{
+            width: 48%;
+            margin-bottom: 0;
+            @include rmaxwd(992){
+                width: 100%;
+                margin-top: 12px;
+            }
         }
+        
     }
     .form-row-wide{
-        width: 100%;
-        margin-top: 12px;
-        margin-bottom: 0;
-        
+        input{
+            width: 100%;
+            margin-top: 12px;
+            margin-bottom: 0;
+        }
     }
     
 }
