@@ -14830,27 +14830,13 @@ ul.children {
   flex-wrap: wrap;
 }
 .give-form-wrap #give_checkout_user_info .form-row-first input {
-  width: 48%;
   margin-right: 12px;
   margin-bottom: 0;
 }
-@media (max-width: 992px) {
-  .give-form-wrap #give_checkout_user_info .form-row-first input {
-    width: 100%;
-  }
-}
 .give-form-wrap #give_checkout_user_info .form-row-last input {
-  width: 48%;
   margin-bottom: 0;
 }
-@media (max-width: 992px) {
-  .give-form-wrap #give_checkout_user_info .form-row-last input {
-    width: 100%;
-    margin-top: 12px;
-  }
-}
 .give-form-wrap #give_checkout_user_info .form-row-wide input {
-  width: 100%;
   margin-top: 12px;
   margin-bottom: 0;
 }

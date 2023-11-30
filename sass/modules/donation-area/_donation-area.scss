@@ -680,29 +680,21 @@
         flex-wrap: wrap;
         .form-row-first{
             input{
-                width: 48%;
                 margin-right: 12px;
                 margin-bottom: 0;
-                @include rmaxwd(992){
-                    width: 100%;
-                }
+                
             }
             
         }
         .form-row-last{
             input{
-                width: 48%;
                 margin-bottom: 0;
-                @include rmaxwd(992){
-                    width: 100%;
-                    margin-top: 12px;
-                }
+                
             }
             
         }
         .form-row-wide{
             input{
-                width: 100%;
                 margin-top: 12px;
                 margin-bottom: 0;
             }
