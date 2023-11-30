@@ -433,7 +433,7 @@
         margin: 0 !important;
     }
     legend{
-            margin: 10px 0 20px !important;
+        margin-bottom: 24px !important;
     }
     .give-form-title{
         font-family: $heading-font;
@@ -545,11 +545,11 @@
         justify-content: start;
         align-items: start;
         list-style: none;
-        margin: 24px 0;
+        margin: 24px 0 18px;
         padding-left: 0;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 4px;
+        gap: 7px;
         &:before,&:after{
             display: none !important;
         }
@@ -694,7 +694,7 @@
             }
         }
         .form-row-wide{
-            width: 100%;
+            width: 99%;
             margin-top: 12px;
             margin-bottom: 0;
             input{
