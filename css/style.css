@@ -3181,18 +3181,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area .submenu li > a {
   color: #121212 !important;
 }
-.header-area .submenu li > a:after {
-  content: "\f105";
-  font-size: 12px;
-  font-family: "Font Awesome 6 Pro";
-  margin-left: auto;
-  float: right;
-  right: 0;
-  padding-right: 12px;
-  visibility: hidden;
-  transform: scale(0);
-  transition: all 0.5s ease-out;
-}
 .header-area .submenu li:hover {
   transition: all 0.5s ease-out;
   background-color: #dfdcca !important;
