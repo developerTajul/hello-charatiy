@@ -14836,12 +14836,24 @@ ul.children {
 .give-form-wrap #give_checkout_user_info .form-row-first input {
   width: 100%;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap #give_checkout_user_info .form-row-first {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 .give-form-wrap #give_checkout_user_info .form-row-last {
   width: 48%;
   margin-bottom: 0;
 }
 .give-form-wrap #give_checkout_user_info .form-row-last input {
   width: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap #give_checkout_user_info .form-row-last {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .give-form-wrap #give_checkout_user_info .form-row-wide {
   width: 99%;
