@@ -6591,7 +6591,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 0;
 }
 .latest-posts-area.style-1 .comment-bar {
-  margin-top: 14px;
+  margin-top: 18px;
   padding: 0 16px;
   display: flex;
   flex-wrap: wrap;
@@ -6629,7 +6629,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #FF4638 !important;
 }
 .latest-posts-area.style-1 .divider {
-  margin: 24px 16px;
+  margin: 18px 16px;
   background-color: #BDBDBD;
 }
 .latest-posts-area.style-2 .feature-shape-1 {
