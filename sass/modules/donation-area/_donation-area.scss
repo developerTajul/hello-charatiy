@@ -679,24 +679,26 @@
         align-items: center;
         flex-wrap: wrap;
         .form-row-first{
+            width: 48%;
+            margin-right: 12px;
+            margin-bottom: 0;
             input{
-                margin-right: 12px;
-                margin-bottom: 0;
-                
+                width: 100%;
             }
-            
         }
         .form-row-last{
+            width: 48%;
+            margin-bottom: 0;
             input{
-                margin-bottom: 0;
-                
+                width: 100%;
             }
-            
         }
         .form-row-wide{
+            width: 100%;
+            margin-top: 12px;
+            margin-bottom: 0;
             input{
-                margin-top: 12px;
-                margin-bottom: 0;
+                width: 100%;
             }
         }
     }
