@@ -3204,7 +3204,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-left: 12px;
 }
 .header-area .submenu li:hover > a:after {
-  visibility: visible;
   transform: scale(1);
 }
 .header-area .sticky_menu {
