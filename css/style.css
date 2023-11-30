@@ -14816,6 +14816,7 @@ ul.children {
   border-radius: 4px !important;
   border: none !important;
   padding-left: 12px !important;
+  height: 48px;
 }
 .give-form-wrap .give-progress-bar {
   height: 8px !important;
