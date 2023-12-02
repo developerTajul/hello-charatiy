@@ -685,12 +685,20 @@
             input{
                 width: 100%;
             }
+            @include sm{
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
         .form-row-last{
             width: 48%;
             margin-bottom: 0;
             input{
                 width: 100%;
+            }
+            @include sm{
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
         .form-row-wide{
