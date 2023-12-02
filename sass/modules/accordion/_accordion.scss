@@ -71,6 +71,7 @@
         border-top: 1px solid $gray-4;
         padding-top: 16px;
         cursor: default;
+        text-align: start;
       }
       @include rmaxwd(1080){
         padding: 20px !important;

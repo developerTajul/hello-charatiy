@@ -8147,6 +8147,7 @@ button.testimonial-arrow-btn:hover i {
   border-top: 1px solid #BDBDBD;
   padding-top: 16px;
   cursor: default;
+  text-align: start;
 }
 @media (max-width: 1080px) {
   .accordion-wrapper .accordion-list-item .accordion-item-body {
