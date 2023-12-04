@@ -17524,6 +17524,7 @@ ul.children {
 @media (max-width: 1199px) {
   .footer-widget .footer-widget-info {
     padding-right: 0;
+    width: auto;
   }
 }
 .footer-widget .footer-widget-info p {
