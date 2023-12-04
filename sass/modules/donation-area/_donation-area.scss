@@ -729,6 +729,11 @@
         align-items: center;
         text-align: center;
         margin: 0;
+        @include rmaxwd{
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
     }
     .donors_slider{
         margin-top: 60px;
