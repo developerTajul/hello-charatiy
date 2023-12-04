@@ -38,8 +38,8 @@
     }
     .donor-info-wrapper{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
         gap: 24px;
         flex-wrap: wrap;
         @include rmaxwd(1024){

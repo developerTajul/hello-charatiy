@@ -16625,8 +16625,8 @@ ul.children {
 }
 .single-donor-page .donor-info-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   gap: 24px;
   flex-wrap: wrap;
 }
