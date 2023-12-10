@@ -6710,6 +6710,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   animation: beat 1.4s infinite alternate;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section .about-us-area .elementor-container .elementor-col-50 {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .elementor-section .about-us-area .elementor-container .elementor-col-50:last-child .elementor-widget-wrap {
+    padding-left: 0;
+  }
+}
+
 .about-us-area.style-2 {
   background-color: #EFF5F4;
 }

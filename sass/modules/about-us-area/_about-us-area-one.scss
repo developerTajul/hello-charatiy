@@ -1,10 +1,30 @@
 .about-us-area {
-    &.style-1{
-        .heart-sketch{
+    &.style-1 {
+        .heart-sketch {
             position: absolute;
             bottom: 68px;
             right: 36px;
             animation: beat 1.4s infinite alternate;
+        }
+    }
+}
+
+.elementor-section {
+    .about-us-area {
+        .elementor-container {
+            .elementor-col-50 {
+                @include lg {
+                    width: 70%;
+                }
+
+                &:last-child {
+                    .elementor-widget-wrap {
+                        @include xl {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }
