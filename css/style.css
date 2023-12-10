@@ -6711,12 +6711,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section .about-us-area .elementor-container .elementor-col-50 {
+  .elementor-section.about-us-area .elementor-container .elementor-col-50 {
     width: 70%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
-  .elementor-section .about-us-area .elementor-container .elementor-col-50:last-child .elementor-widget-wrap {
+  .elementor-section.about-us-area .elementor-container .elementor-col-50:last-child .elementor-widget-wrap {
     padding-left: 0;
   }
 }

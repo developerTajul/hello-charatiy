@@ -10,7 +10,7 @@
 }
 
 .elementor-section {
-    .about-us-area {
+    &.about-us-area {
         .elementor-container {
             .elementor-col-50 {
                 @include lg {
