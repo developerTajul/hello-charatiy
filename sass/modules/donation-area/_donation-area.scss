@@ -1,96 +1,114 @@
-.donation-area{
-    &.style-1{
-            position: relative;
-            background-color: black;
-             background-repeat: no-repeat;
-            background-position: bottom;
-            z-index: 2;
-            padding: 97px 0px;
-            .shape1{
-                position: absolute;
-                top: -110px;
-                left: 31px;
-                &:hover{
-                    animation: MoveUpDown 2s linear infinite alternate;
-                }
-                @include rmaxwd(1100){
-                    top: -40px;
-                    width: 160px;
-                }
+.donation-area {
+    &.style-1 {
+        position: relative;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        z-index: 2;
+        padding: 97px 0px;
+
+        .shape1 {
+            position: absolute;
+            top: -110px;
+            left: 31px;
+
+            &:hover {
+                animation: MoveUpDown 2s linear infinite alternate;
             }
-             .shape2{
-                position: absolute;
-                top: -110px;
-                right: 31px;
-                &:hover{
-                    animation: rotating 12s linear infinite;
-                }
-                @include rmaxwd(1100){
-                    top: -40px;
-                    width: 100px;
-                }
+
+            @include rmaxwd(1100) {
+                top: -40px;
+                width: 160px;
             }
-            .feature-item1{
-                position: absolute;
-                right: 0;
-                top: 0;
-                opacity: 0.6;
+        }
+
+        .shape2 {
+            position: absolute;
+            top: -110px;
+            right: 31px;
+
+            &:hover {
+                animation: rotating 12s linear infinite;
             }
-            .feature-item2{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                opacity: 0.6;
+
+            @include rmaxwd(1100) {
+                top: -40px;
+                width: 100px;
             }
-        .donation-inner{
-            
-            .section-title{
+        }
+
+        .feature-item1 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            opacity: 0.6;
+        }
+
+        .feature-item2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            opacity: 0.6;
+        }
+
+        .donation-inner {
+
+            .section-title {
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
                 align-items: center;
-                
-                @include rmaxwd(1100){
+
+                @include rmaxwd(1100) {
                     flex-direction: column;
                     align-items: start;
                 }
-                .contact-inner{
+
+                .contact-inner {
                     display: flex;
                     gap: 24px;
-                    @include sm{
+
+                    @include sm {
                         gap: 12px;
                     }
                 }
-                .short-title{
+
+                .short-title {
                     color: $primary-color;
                 }
-                .title{
+
+                .title {
                     color: $white;
                 }
-                .desc{
+
+                .desc {
                     color: $white;
                 }
             }
-            
+
         }
     }
 }
-.donate-area{
-    &.style-1{
+
+.donate-area {
+    &.style-1 {
         padding-top: 175px;
         padding-bottom: 120px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+
         // overflow: hidden;
-        @include md{
+        @include md {
             padding-bottom: 100px;
         }
-        @include sm{
+
+        @include sm {
             padding-bottom: 80px;
         }
-        .feature-shape{
+
+        .feature-shape {
             position: absolute;
             z-index: 20;
             top: 139px;
@@ -98,16 +116,19 @@
             width: 250px;
             height: 164px;
             animation: MoveUpDown 2s linear infinite alternate;
-            @include rmaxwd(1674){
+
+            @include rmaxwd(1674) {
                 width: 120px;
                 height: 100px;
                 top: 40px;
             }
-            @include rmaxwd(1000){
-               display: none;
+
+            @include rmaxwd(1000) {
+                display: none;
             }
         }
-        .feature-icon{
+
+        .feature-icon {
             position: absolute;
             z-index: 20;
             top: 220px;
@@ -115,27 +136,32 @@
             width: 250px;
             height: 164px;
             animation: MoveUpDown 2s linear infinite alternate;
-            @include rmaxwd(1600){
-               display: none;
+
+            @include rmaxwd(1600) {
+                display: none;
             }
         }
-        .sketch-1{
+
+        .sketch-1 {
             position: absolute;
             right: 200px;
             bottom: 108px;
             z-index: 1;
             animation: rotating 12s linear infinite;
-            @include md{
+
+            @include md {
                 bottom: 60px;
                 right: 60px;
             }
-            @include sm{
+
+            @include sm {
                 right: 20px;
                 bottom: 105px;
                 width: 80px;
             }
         }
-        .overlay{
+
+        .overlay {
             background: linear-gradient(rgba(18, 18, 18, 1), rgba(18, 18, 18, 0.5));
             position: absolute;
             top: 0;
@@ -144,343 +170,406 @@
             height: 100%;
             // opacity: 0.8;
             z-index: 0;
-            &.style-2{
+
+            &.style-2 {
                 background: rgba(18, 18, 18, 0.6);
             }
         }
-        .section-title{
+
+        .section-title {
             z-index: 10;
             position: relative;
             padding-right: 40px;
             margin-bottom: 48px;
-            .short-title{
+
+            .short-title {
                 color: $primary-color;
             }
-            .title{
+
+            .title {
                 color: $white;
             }
-            .desc{
+
+            .desc {
                 margin-top: 32px;
                 color: $white;
             }
 
         }
-        
+
     }
 }
-// Donation Form
-.donate-form{
-            padding: 60px;
-            margin: 0 5px;
-            background-color: $brand;
-            border-radius: 20px;
-            z-index: 20;
-            position: relative;
-            @include sm{
-                padding: 40px;
-                margin-bottom: 50px;
-            }
-            &.style-2{
-                border-radius: 50px 50px 50px 0px;
-                background-color: $secondary-color;
-                @include sm{
-                    border-radius: 20px 20px 20px 0px;
-                }
-                .value{
-                    &:before {
-                        position: absolute;
-                        width: 0;
-                        height: 100%;
-                        left: 0;
-                        top: 0;
-                        background: $white !important;
-                        content: "";
-                        @include transition;
-                        z-index: -1;
-                        border-color: $white !important;
-                    }
-                    &.active{
-                        background-color: $white !important;
-                        color: $black-2 !important;
-                        border-color: $white !important;
-                    }
-                    &:hover{
-                        border-color: $white !important;
-                        color: $black-2 !important;
-                        &:before {
-                            width: 100%;
-                            @include transition;
-                        }
-                    }
-                }
-            }
-            .theme-btn{
-                &.style-1{
-                    padding: 17px 32px !important;
-                }
-                &.style-2{
-                    padding: 16px 24px !important;
-                    &:hover{
-                        border-color: transparent;
-                        color: $black!important;
-                    }
-                }
-            }
-            .sub-title{
-                font-family: $heading-font;
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 130%; /* 23.4px */
-                letter-spacing: 0.36px;
-                color: $white;
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 8px;
-                cursor: default;
-                @include sm{
-                    font-size: 14px;
-                }
-            }
-            .title-wrapper{
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 24px;
-                h5{
-                    cursor: default;
-                    color: $white;
-                    @include sm{
-                        font-size: 18px;
-                    }
-                }
-            }
-            .form-title{
-                color: $white !important;
-                cursor: default;
-                @include rmaxwd(767){
-                    font-size: 32px;
-                }
-                @include rmaxwd(767){
-                    font-size: 32px;
-                }
-                 @include rmaxwd(500){
-                    font-size: 22px;
-                }
-            }
-            .desc{
-                font-family: $body-font;
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 170%; /* 30.6px */
-                letter-spacing: 0.36px;
-                margin-top: 16px;
-                margin-bottom: 48px;
-                color: $white;
-                cursor: default;
-                @include sm{
-                    margin-bottom: 20px;
-                }
-            }
-                .progress-content-outter{
-                    height: 8px;
-                    background-color: #e7eaec;
-                    display: flex;
-                    .progress-content{
-                        height: 8px;
-                        background: $primary-color;
-                        width: 0%;
-                        position: relative;
-                        
-                    }
-                     .circle{
-                        position: relative;
-                            width: 16px;
-                            height: 16px;
-                            border-radius: 50px;
-                            background-color: $primary-color;
-                            display: block;
-                            top: -4px;
-                            left: -4px;
-                        }
-                    
-                }
-                    
-            .input-wrapper{
-                position: relative;
-                display: flex;
-                align-items: center;
-                background-color: $white;
-                margin-top: 48px;
-                border-radius: 4px;
-                overflow: hidden;
-            }
-            .donate-input-field{
-                padding: 22px 10px 21px 10px;
-                font-family: $heading-font;
-                font-size: 22px;
-                font-weight: 500;
-                line-height: 130%; /* 36.4px */
-                letter-spacing: 0.56px;
-                color: $black-2;
-                width: 100%;
-                height: 60px;
-                @include rmaxwd(460){
-                    font-size: 14px;
-                    padding: 8px;
-                }
-            }
-            .input-icon{
-                width: 65px;
-                height: 60px;
-                background-color: $primary-color;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: $black-2 !important;
-                @include sm{
-                    height: 60px !important;
-                }
-                i{
-                    color: $black-2 !important;
-                }
-            }
-            .value-list{
-                display: flex !important;
-                flex-direction: row !important;
-                flex-wrap: wrap;
-                list-style: none;
-                gap: 8px;
-                margin: 48px 0;
-                padding-left: 0;
-                @include sm{
-                    gap: 8px;
-                }
-                .value{
-                    cursor: pointer;
-                    width: 120px;
-                    height: 48px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border: 1px solid $white;
-                    border-radius: 4px;
-                    color: $white;
-                    font-family: $heading-font;
-                    font-size: 18px;
-                    font-weight: 500;
-                    line-height: 130%; /* 23.4px */
-                    letter-spacing: 0.36px;
-                    text-align: center;
-                    @include transition;
-                    position: relative;
-                    &:before {
-                        position: absolute;
-                        width: 0;
-                        height: 100%;
-                        left: 0;
-                        top: 0;
-                        background: $primary-color;
-                        content: "";
-                        @include transition;
-                        z-index: -1;
-                        
-                        border-color: $primary-color;
-                    }
-                    @include sm{
-                        width: 48%;
-                    }
-                    &.active{
-                        background-color: $primary-color;
-                        color: $black-2;
-                         border-color: $primary-color;
-                    }
-                    &.style-2{
-                       &.active{
-                            background-color: $white;
-                            color: $black-2;
-                            border-color: $primary-color;
-                        } 
-                    }
-                    &:hover{
-                        border-color: $primary-color;
-                        color: $black-2 !important;
-                        &:before {
-                            width: 100%;
-                            @include transition;
-                        }
-                        &.style-2{
-                            background-color: $white;
-                            color: $black-2;
-                            border-color: $white; 
-                        }
-                    }
-                }
-            }
-}
 
-// Form
-.give-form-wrap{
-    padding: 50px;
+// Donation Form
+.donate-form {
+    padding: 60px;
     margin: 0 5px;
     background-color: $brand;
     border-radius: 20px;
     z-index: 20;
     position: relative;
-    @include sm{
+
+    @include sm {
         padding: 40px;
         margin-bottom: 50px;
     }
-    .give-form{
-        margin: 0 !important;
+
+    &.style-2 {
+        border-radius: 50px 50px 50px 0px;
+        background-color: $secondary-color;
+
+        @include sm {
+            border-radius: 20px 20px 20px 0px;
+        }
+
+        .value {
+            &:before {
+                position: absolute;
+                width: 0;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: $white !important;
+                content: "";
+                @include transition;
+                z-index: -1;
+                border-color: $white !important;
+            }
+
+            &.active {
+                background-color: $white !important;
+                color: $black-2 !important;
+                border-color: $white !important;
+            }
+
+            &:hover {
+                border-color: $white !important;
+                color: $black-2 !important;
+
+                &:before {
+                    width: 100%;
+                    @include transition;
+                }
+            }
+        }
     }
-    legend{
-        margin-bottom: 24px !important;
+
+    .theme-btn {
+        &.style-1 {
+            padding: 17px 32px !important;
+        }
+
+        &.style-2 {
+            padding: 16px 24px !important;
+
+            &:hover {
+                border-color: transparent;
+                color: $black !important;
+            }
+        }
     }
-    .give-form-title{
+
+    .sub-title {
         font-family: $heading-font;
         font-size: 18px;
         font-weight: 500;
-        line-height: 130%; /* 23.4px */
+        line-height: 130%;
+        /* 23.4px */
         letter-spacing: 0.36px;
         color: $white;
         display: flex;
         justify-content: space-between;
         margin-bottom: 8px;
         cursor: default;
-        @include sm{
+
+        @include sm {
             font-size: 14px;
-        }        
+        }
     }
-    .form-title{
+
+    .title-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        h5 {
+            cursor: default;
+            color: $white;
+
+            @include sm {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .form-title {
+        color: $white !important;
+        cursor: default;
+
+        @include rmaxwd(767) {
+            font-size: 32px;
+        }
+
+        @include rmaxwd(767) {
+            font-size: 32px;
+        }
+
+        @include rmaxwd(500) {
+            font-size: 22px;
+        }
+    }
+
+    .desc {
+        font-family: $body-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 170%;
+        /* 30.6px */
+        letter-spacing: 0.36px;
+        margin-top: 16px;
+        margin-bottom: 48px;
+        color: $white;
+        cursor: default;
+
+        @include sm {
+            margin-bottom: 20px;
+        }
+    }
+
+    .progress-content-outter {
+        height: 8px;
+        background-color: #e7eaec;
+        display: flex;
+
+        .progress-content {
+            height: 8px;
+            background: $primary-color;
+            width: 0%;
+            position: relative;
+
+        }
+
+        .circle {
+            position: relative;
+            width: 16px;
+            height: 16px;
+            border-radius: 50px;
+            background-color: $primary-color;
+            display: block;
+            top: -4px;
+            left: -4px;
+        }
+
+    }
+
+    .input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        margin-top: 48px;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .donate-input-field {
+        padding: 22px 10px 21px 10px;
+        font-family: $heading-font;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 130%;
+        /* 36.4px */
+        letter-spacing: 0.56px;
+        color: $black-2;
+        width: 100%;
+        height: 60px;
+
+        @include rmaxwd(460) {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+
+    .input-icon {
+        width: 65px;
+        height: 60px;
+        background-color: $primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $black-2 !important;
+
+        @include sm {
+            height: 60px !important;
+        }
+
+        i {
+            color: $black-2 !important;
+        }
+    }
+
+    .value-list {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 8px;
+        margin: 48px 0;
+        padding-left: 0;
+
+        @include sm {
+            gap: 8px;
+        }
+
+        .value {
+            cursor: pointer;
+            width: 120px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $white;
+            border-radius: 4px;
+            color: $white;
+            font-family: $heading-font;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 130%;
+            /* 23.4px */
+            letter-spacing: 0.36px;
+            text-align: center;
+            @include transition;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                width: 0;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: $primary-color;
+                content: "";
+                @include transition;
+                z-index: -1;
+
+                border-color: $primary-color;
+            }
+
+            @include sm {
+                width: 48%;
+            }
+
+            &.active {
+                background-color: $primary-color;
+                color: $black-2;
+                border-color: $primary-color;
+            }
+
+            &.style-2 {
+                &.active {
+                    background-color: $white;
+                    color: $black-2;
+                    border-color: $primary-color;
+                }
+            }
+
+            &:hover {
+                border-color: $primary-color;
+                color: $black-2 !important;
+
+                &:before {
+                    width: 100%;
+                    @include transition;
+                }
+
+                &.style-2 {
+                    background-color: $white;
+                    color: $black-2;
+                    border-color: $white;
+                }
+            }
+        }
+    }
+}
+
+// Form
+.give-form-wrap {
+    padding: 50px;
+    margin: 0 5px;
+    background-color: $brand;
+    border-radius: 20px;
+    z-index: 20;
+    position: relative;
+
+    @include sm {
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    .give-form {
+        margin: 0 !important;
+    }
+
+    legend {
+        margin-bottom: 24px !important;
+    }
+
+    .give-form-title {
+        font-family: $heading-font;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 130%;
+        /* 23.4px */
+        letter-spacing: 0.36px;
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        cursor: default;
+
+        @include sm {
+            font-size: 14px;
+        }
+    }
+
+    .form-title {
         font-size: 48px;
         color: $white !important;
         cursor: default;
         margin: 24px 0;
         font-weight: 700;
-        @include rmaxwd(767){
+
+        @include rmaxwd(767) {
             font-size: 32px;
         }
-        @include rmaxwd(767){
+
+        @include rmaxwd(767) {
             font-size: 32px;
         }
-        @include rmaxwd(500){
+
+        @include rmaxwd(500) {
             font-size: 22px;
         }
     }
-    .give-goal-progress{
-        .raised{
+
+    .give-goal-progress {
+        .raised {
             font-size: 18px;
             color: $primary-color;
-            .income{
+
+            .income {
                 font-family: $heading-font;
                 font-size: 32px;
                 font-weight: 500;
                 color: $white;
                 cursor: default;
-                @include sm{
+
+                @include sm {
                     font-size: 24px;
                 }
             }
-            .goal-text{
+
+            .goal-text {
                 font-family: $heading-font;
                 font-size: 18px;
                 font-weight: 500;
@@ -488,22 +577,26 @@
                 cursor: default;
             }
         }
-        .progress-bar{
-            .give-progress-bar{
-                span{
+
+        .progress-bar {
+            .give-progress-bar {
+                span {
                     background: $primary-color !important;
                 }
             }
         }
     }
-    .give-donation-amount{
-        position: relative ;
+
+    .give-donation-amount {
+        position: relative;
         display: flex;
         align-items: center;
         background-color: $white;
         border-radius: 4px !important;
         overflow: hidden;
-        .give-currency-symbol,.give-currency-position-before{
+
+        .give-currency-symbol,
+        .give-currency-position-before {
             width: 65px !important;
             height: 60px !important;
             background-color: $primary-color !important;
@@ -511,34 +604,41 @@
             justify-content: center !important;
             align-items: center !important;
             border: none !important;
-            @include sm{
+
+            @include sm {
                 height: 60px !important;
             }
-            i{
+
+            i {
                 color: $black-2 !important;
             }
         }
-        .give-text-input{
+
+        .give-text-input {
             border: none !important;
             padding: 22px 10px 21px 10px !important;
             font-family: $heading-font !important;
             font-size: 22px !important;
             font-weight: 500 !important;
-            line-height: 130% !important; /* 36.4px */
+            line-height: 130% !important;
+            /* 36.4px */
             letter-spacing: 0.56px !important;
             color: $black-2 !important;
             width: 100% !important;
             height: 60px !important;
-            @include rmaxwd(460){
+
+            @include rmaxwd(460) {
                 font-size: 14px !important;
                 padding: 8px !important;
             }
         }
     }
+
     .form-wrap {
         display: none !important;
     }
-    ul{
+
+    ul {
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: wrap;
@@ -550,18 +650,23 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 7px;
-        &:before,&:after{
+
+        &:before,
+        &:after {
             display: none !important;
         }
-        @include sm{
+
+        @include sm {
             grid-template-columns: repeat(2, 1fr);
         }
-        li{
+
+        li {
             width: 127px !important;
             list-style: none !important;
             margin: 0 !important;
             height: 48px !important;
-            button{
+
+            button {
                 cursor: pointer !important;
                 width: 100% !important;
                 height: 100% !important;
@@ -574,12 +679,14 @@
                 font-family: $heading-font !important;
                 font-size: 18px !important;
                 font-weight: 500 !important;
-                line-height: 130% !important; /* 23.4px */
+                line-height: 130% !important;
+                /* 23.4px */
                 letter-spacing: 0.36px !important;
                 text-align: center !important;
-                @include transition ;
+                @include transition;
                 position: relative !important;
                 background: transparent !important;
+
                 &:before {
                     position: absolute;
                     width: 0;
@@ -590,42 +697,48 @@
                     content: "";
                     @include transition;
                     z-index: -1;
-                    
+
                     border-color: $primary-color;
                 }
+
                 // @include sm{
                 //     width: 155px !important;
                 // }
-                &.active{
+                &.active {
                     background-color: $primary-color !important;
                     color: $black-2 !important;
                     border-color: $primary-color !important;
                 }
-                &.style-2{
-                   &.active{
+
+                &.style-2 {
+                    &.active {
                         background-color: $white;
                         color: $black-2;
                         border-color: $primary-color;
-                    } 
+                    }
                 }
-                &:hover{
+
+                &:hover {
                     border-color: $primary-color;
                     color: $black-2 !important;
+
                     &:before {
                         width: 100%;
                         @include transition;
                     }
-                    &.style-2{
+
+                    &.style-2 {
                         background-color: $white;
                         color: $black-2;
-                        border-color: $white; 
+                        border-color: $white;
                     }
                 }
             }
         }
     }
-    .give-submit{
-        margin-top:20px ;
+
+    .give-submit {
+        margin-top: 20px;
         background: transparent;
         color: $white !important;
         border: 2px solid $white !important;
@@ -648,97 +761,117 @@
         color: $white;
         border: 2px solid $white;
         position: relative;
-        
-        &:hover{
+
+        &:hover {
             color: $black !important;
             background-color: $white !important;
         }
     }
-    legend{
+
+    legend {
         color: $white;
         border-bottom: 1px solid $white-100 !important;
     }
-    .give-label{
+
+    .give-label {
         display: none !important;
     }
-    .give-input{
+
+    .give-input {
         font-size: 18px !important;
         border-radius: 4px !important;
         border: none !important;
         padding-left: 12px !important;
         height: 48px;
     }
-    .give-progress-bar{
+
+    .give-progress-bar {
         height: 8px !important;
     }
-    .give-hidden{
+
+    .give-hidden {
         display: none !important;
     }
-    #give_checkout_user_info{
+
+    #give_checkout_user_info {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        .form-row-first{
+
+        .form-row-first {
             width: 48%;
             margin-right: 20px;
             margin-bottom: 0;
-            input{
+
+            input {
                 width: 100%;
             }
-            @include sm{
+
+            @include sm {
                 width: 100%;
                 margin-bottom: 20px;
             }
         }
-        .form-row-last{
+
+        .form-row-last {
             width: 48%;
             margin-bottom: 0;
-            input{
+
+            input {
                 width: 100%;
             }
-            @include sm{
+
+            @include sm {
                 width: 100%;
                 margin-bottom: 20px;
             }
         }
-        .form-row-wide{
+
+        .form-row-wide {
             width: 99%;
             margin-top: 20px;
             margin-bottom: 0;
-            input{
+
+            input {
                 width: 100%;
             }
         }
     }
-    
+
 }
 
 // Donor Slider
-.Donors_slider_wrapper{
+.Donors_slider_wrapper {
     background-color: $gray-5;
     padding: 120px 0;
-    @include rmaxwd(1024){
+
+    @include rmaxwd(1024) {
         padding: 100px 0;
     }
-    @include rmaxwd(767){
+
+    @include rmaxwd(767) {
         padding: 80px 0;
     }
-    .donors_slider_header_wrapper{
+
+    .donors_slider_header_wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
         margin: 0;
-        @include rmaxwd{
-            flex-direction: column;
-            justify-content: start;
-            align-items: start;
-        }
+
+        // @include rmaxwd {
+        //     flex-direction: column;
+        //     justify-content: start;
+        //     align-items: start;
+        // }
     }
-    .donors_slider{
+
+    .donors_slider {
         margin-top: 60px;
     }
-    button{
+
+    button {
         &.slick-arrow {
             position: absolute;
             top: 50%;
@@ -753,23 +886,28 @@
             overflow: hidden;
             transition: 0.3s;
             z-index: 99;
-            &.next-btn{
+
+            &.next-btn {
                 right: 0;
                 margin-right: -80px;
             }
-            &.prev-btn{
+
+            &.prev-btn {
                 left: 0;
                 margin-left: -80px;
             }
-            @include rmaxwd(1400){
+
+            @include rmaxwd(1400) {
                 display: none;
             }
-            i{
+
+            i {
                 font-size: 24px;
                 color: $black-2;
                 @include transition;
                 margin-left: 0px;
             }
+
             &:before {
                 position: absolute;
                 width: 0;
@@ -781,19 +919,22 @@
                 @include transition;
                 z-index: -1;
             }
-            &:hover{
+
+            &:hover {
                 @include transition;
+
                 &:before {
                     width: 100%;
                     @include transition;
                 }
-                i{
+
+                i {
                     color: $white !important;
                     margin-left: 5px;
                 }
             }
-           
+
         }
-        
+
     }
 }
