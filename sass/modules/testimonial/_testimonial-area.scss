@@ -50,6 +50,10 @@
                         display: block;
                         bottom: -120px;
 
+                        @include lg {
+                            bottom: -90px;
+                        }
+
                         @include rmaxwd(1000) {
                             bottom: -60px
                         }
@@ -65,7 +69,7 @@
 
                 @include rmaxwd(1000) {
                     width: 70px !important;
-                    height: 70px;
+                    height: 70px !important;
                 }
             }
 
@@ -262,7 +266,7 @@
 
             // padding: 31px 100px;
             @include md {
-                padding: 10px 115px;
+                padding: 10px 64px;
                 padding-top: 114px;
                 padding-bottom: 28px;
             }
