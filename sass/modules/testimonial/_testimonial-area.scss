@@ -200,6 +200,10 @@
                     top: 0;
                     @include transition;
 
+                    @include lg {
+                        transform: translate(50%, 0);
+                    }
+
                     @include rmaxwd(1000) {
                         right: -20%;
                         top: 20%;
@@ -265,6 +269,16 @@
 
             @include sm {
                 padding: 31px 10px;
+            }
+
+            .slick-list {
+                .slick-slide {
+                    .testimonial-card {
+                        @include xl {
+                            margin-top: 0;
+                        }
+                    }
+                }
             }
         }
     }
