@@ -42,6 +42,11 @@
                                 height: 130px !important;
                             }
 
+                            @include lg {
+                                width: 120px !important;
+                                height: 120px !important;
+                            }
+
                             img {
                                 filter: blur(0);
                                 border-radius: 100%;
@@ -136,6 +141,11 @@
                 align-items: center;
                 @include transition;
 
+                @include lg {
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+
                 &:hover {
                     img {
                         border: 3px solid $primary-color;
@@ -174,10 +184,13 @@
                     top: 0;
                     @include transition;
 
+                    @include lg {
+                        transform: translate(-50%, 0);
+                    }
+
                     @include rmaxwd(1000) {
                         left: 50%;
                         top: 20%;
-
                         transform: translate(-50%, 0);
                     }
                 }
