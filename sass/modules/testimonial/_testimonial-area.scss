@@ -3,6 +3,12 @@
     &.style-1 {
         position: relative;
 
+        .section-title {
+            @include md {
+                margin-bottom: 40px;
+            }
+        }
+
         .testimonial-user-wrapper {
             position: absolute;
             top: 0;

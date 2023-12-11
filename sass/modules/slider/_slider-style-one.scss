@@ -110,7 +110,11 @@
         height: 880px;
       }
 
-      @include rmaxwd(992) {
+      @include lg {
+        height: 680px;
+      }
+
+      @include rmaxwd(991) {
         height: 1060px;
       }
 
@@ -145,7 +149,11 @@
         height: 880px;
       }
 
-      @include rmaxwd(1000) {
+      @include lg {
+        height: 780px;
+      }
+
+      @include rmaxwd(991) {
         height: 1060px;
       }
 

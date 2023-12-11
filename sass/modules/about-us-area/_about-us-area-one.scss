@@ -12,7 +12,7 @@
 .elementor-section {
     &.about-us-area {
         .elementor-container {
-            .elementor-col-50 {
+            >.elementor-col-50 {
                 @include lg {
                     width: 70%;
                 }
