@@ -16,6 +16,59 @@
                 margin-top: 0px
             }
 
+            .single-user {
+                cursor: pointer;
+                width: 130px !important;
+
+                @include xl {
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+
+                &.slick-current {
+                    width: 170px !important;
+                    height: 170px !important;
+
+                    @include xl {
+                        width: 130px !important;
+                        height: 130px !important;
+                    }
+
+                    @include lg {
+                        width: 120px !important;
+                        height: 120px !important;
+                    }
+
+                    img {
+                        filter: blur(0);
+                        border-radius: 100%;
+                        border: 3px solid $primary-color;
+                    }
+
+                    .name {
+                        font-size: 18px;
+                        display: block;
+                        bottom: -120px;
+
+                        @include rmaxwd(1000) {
+                            bottom: -60px
+                        }
+
+                        @include transition;
+                    }
+
+                    @include rmaxwd(1000) {
+                        width: 90px !important;
+                        height: 90px !important;
+                    }
+                }
+
+                @include rmaxwd(1000) {
+                    width: 70px !important;
+                    height: 70px;
+                }
+            }
+
             .slick-list {
                 height: 100%;
                 overflow: visible;
@@ -23,59 +76,6 @@
                 .slick-track {
                     height: 100%;
                     transform: none !important;
-
-                    .slick-slide {
-                        cursor: pointer;
-                        width: 130px !important;
-
-                        @include xl {
-                            width: 100px !important;
-                            height: 100px !important;
-                        }
-
-                        &.slick-current {
-                            width: 170px !important;
-                            height: 170px !important;
-
-                            @include xl {
-                                width: 130px !important;
-                                height: 130px !important;
-                            }
-
-                            @include lg {
-                                width: 120px !important;
-                                height: 120px !important;
-                            }
-
-                            img {
-                                filter: blur(0);
-                                border-radius: 100%;
-                                border: 3px solid $primary-color;
-                            }
-
-                            .name {
-                                font-size: 18px;
-                                display: block;
-                                bottom: -120px;
-
-                                @include rmaxwd(1000) {
-                                    bottom: -60px
-                                }
-
-                                @include transition;
-                            }
-
-                            @include rmaxwd(1000) {
-                                width: 90px !important;
-                                height: 90px !important;
-                            }
-                        }
-
-                        @include rmaxwd(1000) {
-                            width: 70px !important;
-                            height: 70px;
-                        }
-                    }
                 }
             }
 
