@@ -7768,11 +7768,18 @@ button.testimonial-arrow-btn:hover i {
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide {
     width: 100px !important;
+    height: 100px !important;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide.slick-current {
   width: 170px !important;
   height: 170px !important;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide.slick-current {
+    width: 130px !important;
+    height: 130px !important;
+  }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide.slick-current img {
   filter: blur(0);
