@@ -953,6 +953,18 @@
                         @include xl {
                             display: none;
                         }
+
+                        @include lg {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .elementor-container {
+                .elementor-col-50 {
+                    @include lg {
+                        width: 70%;
                     }
                 }
             }

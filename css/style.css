@@ -4472,6 +4472,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   padding-left: 20px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .slider-area.style-1 .single-slider .slider-image {
+    right: 0;
+  }
+}
 @media (max-width: 1000px) {
   .slider-area.style-1 .single-slider .slider-image {
     top: 80px;
@@ -15172,6 +15177,16 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
   .elementor-section.donate-area.style-1 .section-title .title br {
     display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.donate-area.style-1 .section-title .title br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50 {
+    width: 70%;
   }
 }
 

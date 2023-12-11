@@ -178,6 +178,10 @@
         justify-content: center;
         padding-left: 20px;
 
+        @include xl {
+          right: 0;
+        }
+
         @include rmaxwd(1000) {
           top: 80px;
         }
