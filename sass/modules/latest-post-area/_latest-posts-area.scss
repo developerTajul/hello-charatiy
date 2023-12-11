@@ -1,112 +1,136 @@
 .latest-posts-area {
-    
+
     position: relative;
-    &.style-1{
-        .latest-post-card{
+
+    &.style-1 {
+        .latest-post-card {
             padding: 0px;
             border-radius: 30px;
             overflow: hidden;
             box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
         }
-        .img-wrapper{
+
+        .img-wrapper {
+            border-radius: 0;
+
+            img {
                 border-radius: 0;
-                img{
-                    border-radius: 0;
-                }
+                object-fit: cover;
+            }
         }
-            .comment-bar{
-                margin-top: 18px;
-                padding: 0 16px;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 4px 14px;
-                justify-content: start;
-                align-items: center;
-                .single-item{
-                    i{
-                        color: $brand !important;
-                    }
-                    .title{
-                        color: $black-2 !important;
-                        font-size: 16px !important;
-                    }
+
+        .comment-bar {
+            margin-top: 18px;
+            padding: 0 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 14px;
+            justify-content: start;
+            align-items: center;
+
+            .single-item {
+                i {
+                    color: $brand !important;
+                }
+
+                .title {
+                    color: $black-2 !important;
+                    font-size: 16px !important;
                 }
             }
-            .card-wrapper-content{
-                .title{
-                    padding-top: 0;
-                    @extend .animated-text;
-                    text-decoration: none;
-                    background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
-                    background-size: 200%;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    transition: 0.5s ease-out;
-                    color: $black-2;
-                    &:hover {
-                        background-position: -100%;
-                    }
+        }
+
+        .card-wrapper-content {
+            .title {
+                padding-top: 0;
+                @extend .animated-text;
+                text-decoration: none;
+                background: linear-gradient(to right, #121212 50%, #FF4638 50%, #FF4638);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: 0.5s ease-out;
+                color: $black-2;
+
+                &:hover {
+                    background-position: -100%;
                 }
             }
-            .theme-btn{
-                span{
+        }
+
+        .theme-btn {
+            span {
+                background-color: $brand !important;
+            }
+
+            &:hover {
+                color: $white !important;
+
+                span {
                     background-color: $brand !important;
                 }
-                &:hover{
-                    color: $white !important;
-                    span{
-                        background-color: $brand !important;
-                    }
-                } 
-            }
-            .divider{
-                margin: 18px 16px;
-                background-color: $gray-4;
-               ;
             }
         }
-    
-    &.style-2{
-        .feature-shape-1{
+
+        .divider {
+            margin: 18px 16px;
+            background-color: $gray-4;
+            ;
+        }
+    }
+
+    &.style-2 {
+        .feature-shape-1 {
             position: absolute;
             bottom: 152px;
             left: 57px;
-            @include lg{
+
+            @include lg {
                 bottom: 0;
                 left: 0;
             }
-             @include md{
+
+            @include md {
                 bottom: 0;
                 left: 0;
             }
-            @include sm{
+
+            @include sm {
                 display: none;
             }
         }
-        .blog-container-wrapper{
+
+        .blog-container-wrapper {
             position: relative;
-            .feature-shape-2{
+
+            .feature-shape-2 {
                 position: absolute;
                 right: 0;
                 top: 31px;
-                @include lg{
+
+                @include lg {
                     width: 200px;
                 }
-                @include md{
+
+                @include md {
                     width: 140px;
                 }
-                @include sm{
 
-                   display: none;
+                @include sm {
+
+                    display: none;
                 }
             }
-            .section-title{
+
+            .section-title {
                 align-items: center;
                 text-align: center;
                 padding-bottom: 64px;
-                .title{
+
+                .title {
                     width: 713px;
-                    @include rmaxwd(1400){
+
+                    @include rmaxwd(1400) {
                         width: auto;
                     }
                 }

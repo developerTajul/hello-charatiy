@@ -6760,6 +6760,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .latest-posts-area.style-1 .img-wrapper img {
   border-radius: 0;
+  object-fit: cover;
 }
 .latest-posts-area.style-1 .comment-bar {
   margin-top: 18px;
