@@ -7999,7 +7999,7 @@ button.testimonial-arrow-btn:hover i {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
-    padding: 75px 64px 28px 64px;
+    padding: 100px 64px 28px 64px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
