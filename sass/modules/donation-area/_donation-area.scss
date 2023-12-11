@@ -938,3 +938,24 @@
 
     }
 }
+
+// Elementor responsive
+.elementor-section {
+    &.donate-area {
+        &.style-1 {
+            .section-title {
+                @include xl {
+                    padding-right: 0;
+                }
+
+                .title {
+                    br {
+                        @include xl {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

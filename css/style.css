@@ -15164,6 +15164,17 @@ ul.children {
   margin-left: 5px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .elementor-section.donate-area.style-1 .section-title {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .elementor-section.donate-area.style-1 .section-title .title br {
+    display: none;
+  }
+}
+
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;
