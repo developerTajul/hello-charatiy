@@ -964,7 +964,13 @@
             .elementor-container {
                 .elementor-col-50 {
                     @include lg {
-                        width: 70%;
+                        width: 80%;
+                    }
+
+                    &:last-child {
+                        @include lg {
+                            margin: 0 auto;
+                        }
                     }
                 }
             }

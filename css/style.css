@@ -7765,6 +7765,11 @@ button.testimonial-arrow-btn:hover i {
   cursor: pointer;
   width: 130px !important;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide {
+    width: 100px !important;
+  }
+}
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list .slick-track .slick-slide.slick-current {
   width: 170px !important;
   height: 170px !important;
@@ -8243,7 +8248,8 @@ button.testimonial-arrow-btn:hover i {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
+  /* 23.4px */
   letter-spacing: 0.36px;
 }
 
@@ -15186,7 +15192,12 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50 {
-    width: 70%;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50:last-child {
+    margin: 0 auto;
   }
 }
 
