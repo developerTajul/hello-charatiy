@@ -54,8 +54,8 @@
                             bottom: -90px;
                         }
 
-                        @include rmaxwd(1000) {
-                            bottom: -60px
+                        @include rmaxwd(991) {
+                            bottom: -85px
                         }
 
                         @include transition;
@@ -96,8 +96,8 @@
                 margin-top: -10px;
                 padding-left: 0px;
 
-                @include rmaxwd(1000) {
-                    margin-top: 30px;
+                @include rmaxwd(991) {
+                    margin-top: 80px;
                 }
 
                 @include rmaxwd(767) {
@@ -231,11 +231,11 @@
                     top: 170px;
                     @include transition;
 
-                    @include rmaxwd(1000) {
+                    @include rmaxwd(991) {
                         right: 50%;
                         top: unset;
                         bottom: 0;
-                        transform: translate(50%, 0);
+                        transform: translate(50%, 23%);
                     }
                 }
 
@@ -266,9 +266,7 @@
 
             // padding: 31px 100px;
             @include md {
-                padding: 10px 64px;
-                padding-top: 114px;
-                padding-bottom: 28px;
+                padding: 75px 64px 28px 64px;
             }
 
             @include sm {

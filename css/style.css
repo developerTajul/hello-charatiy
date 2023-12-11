@@ -7800,9 +7800,9 @@ button.testimonial-arrow-btn:hover i {
     bottom: -90px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current .name {
-    bottom: -60px;
+    bottom: -85px;
   }
 }
 @media (max-width: 1000px) {
@@ -7837,9 +7837,9 @@ button.testimonial-arrow-btn:hover i {
   margin-top: -10px;
   padding-left: 0px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-dots {
-    margin-top: 30px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 767px) {
@@ -7966,12 +7966,12 @@ button.testimonial-arrow-btn:hover i {
   top: 170px;
   transition: all 0.5s ease-out;
 }
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(4) {
     right: 50%;
     top: unset;
     bottom: 0;
-    transform: translate(50%, 0);
+    transform: translate(50%, 23%);
   }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(5) {
@@ -7999,9 +7999,7 @@ button.testimonial-arrow-btn:hover i {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
-    padding: 10px 64px;
-    padding-top: 114px;
-    padding-bottom: 28px;
+    padding: 75px 64px 28px 64px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
