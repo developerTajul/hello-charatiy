@@ -6817,6 +6817,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: start;
   align-items: center;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .latest-posts-area.style-1 .comment-bar {
+    justify-content: space-between;
+  }
+}
 .latest-posts-area.style-1 .comment-bar .single-item i {
   color: #FF4638 !important;
 }
@@ -15996,6 +16001,11 @@ ul.children {
   position: relative;
   overflow: hidden;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .event-area.style-1 {
+    overflow: hidden;
+  }
+}
 .event-area.style-1 .sketch-1 {
   position: absolute;
   top: 210px;
@@ -16013,13 +16023,13 @@ ul.children {
   right: 95px;
   z-index: 2;
 }
-@media (max-width: 1823px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .event-area.style-1 .sketch-2 {
-    bottom: 10px;
+    bottom: -50px;
     right: 60px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
   .event-area.style-1 .sketch-2 {
     display: none !important;
   }
@@ -16061,6 +16071,11 @@ ul.children {
   gap: 5px 16px;
   flex-wrap: wrap;
   margin-bottom: 16px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .event-card .content-wrapper .meta-info {
+    justify-content: space-between;
+  }
 }
 .event-card .content-wrapper .meta-info .single-meta {
   display: flex;
@@ -16108,7 +16123,8 @@ ul.children {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 170%; /* 30.6px */
+  line-height: 170%;
+  /* 30.6px */
   letter-spacing: 0.36px;
   margin-top: 16px;
   cursor: default;

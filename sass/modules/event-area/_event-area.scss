@@ -1,41 +1,53 @@
-.event-area{
-    &.style-1{
+.event-area {
+    &.style-1 {
         // background-color: $gray-5;
         position: relative;
         overflow: hidden;
-        .sketch-1{
+
+        @include xl {
+            overflow: hidden;
+        }
+
+        .sketch-1 {
             position: absolute;
             top: 210px;
             left: 98px;
             z-index: 2;
-            @include rmaxwd(1024){
+
+            @include rmaxwd(1024) {
                 display: none !important;
             }
         }
-        .sketch-2{
+
+        .sketch-2 {
             position: absolute;
             bottom: 342px;
             right: 95px;
-             z-index: 2;
-            @include rmaxwd(1823){
-                bottom: 10px;
+            z-index: 2;
+
+            @include xl {
+                bottom: -50px;
                 right: 60px;
             }
-            @include rmaxwd(992){
+
+            @include rmaxwd(1199) {
                 display: none !important;
             }
         }
-        .section-title{
+
+        .section-title {
             align-items: center;
             margin-bottom: 64px;
-            .title{
-                 width: 752px;
-                 text-align: center;
-                @include rmaxwd(1400){
-                width: auto;
+
+            .title {
+                width: 752px;
+                text-align: center;
+
+                @include rmaxwd(1400) {
+                    width: auto;
+                }
             }
-            }
-           
+
         }
     }
 }

@@ -28,6 +28,10 @@
             justify-content: start;
             align-items: center;
 
+            @include xl {
+                justify-content: space-between;
+            }
+
             .single-item {
                 i {
                     color: $brand !important;
