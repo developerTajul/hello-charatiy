@@ -138,7 +138,7 @@
 .header-menu-area-inner {
   padding: 0px 24px;
 
-  @include rmaxwd(1281) {
+  @include rmaxwd(1700) {
     padding: 0;
   }
 }
@@ -157,7 +157,7 @@
     justify-content: space-between;
     padding: 0 24px;
 
-    @include lg {
+    @include rmaxwd(1700) {
       padding: 0;
     }
 

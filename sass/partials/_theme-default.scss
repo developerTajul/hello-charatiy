@@ -417,26 +417,40 @@ input.theme-btn {
   max-width: 100%;
   margin: 0 150px;
 
-  @include xl {
-    max-width: 1140px;
-    margin: 0 auto;
+  @include rmaxwd(1400) {
     padding-right: calc(1.5rem * .5);
     padding-left: calc(1.5rem * .5);
   }
 
-  @include lg {
+  @include rwd(576) {
+    max-width: 540px;
+    margin: 0 auto;
+
+  }
+
+  @include rwd(768) {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  @include rwd(992) {
     max-width: 960px;
     margin: 0 auto;
-    padding-right: calc(1.5rem * .5);
-    padding-left: calc(1.5rem * .5);
   }
 
-  @include rmaxwd(1600) {
-    // margin: 0 80px;
+  @include rwd(1200) {
+    max-width: 1140px;
+    margin: 0 auto;
   }
+
+  @include rwd (1400) {
+    max-width: 1323px;
+    margin: 0 auto;
+  }
+
 
   @include rmaxwd(767) {
-    margin: 0 20px;
+    // margin: 0 20px;
   }
 }
 
