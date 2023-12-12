@@ -53,6 +53,13 @@
         @include rmaxwd(1600) {
           left: 10px;
         }
+
+        @include lg {
+          left: unset;
+          right: 100px;
+          bottom: 100px;
+          top: unset;
+        }
       }
 
       &.next-btn {
@@ -60,6 +67,12 @@
 
         @include rmaxwd(1600) {
           right: 10px;
+        }
+
+        @include lg {
+          right: 30px;
+          bottom: 100px;
+          top: unset;
         }
       }
 
@@ -111,7 +124,7 @@
       }
 
       @include lg {
-        height: 680px;
+        height: 780px;
       }
 
       @include rmaxwd(991) {
@@ -150,7 +163,7 @@
       }
 
       @include lg {
-        height: 780px;
+        height: 830px;
       }
 
       @include rmaxwd(991) {
