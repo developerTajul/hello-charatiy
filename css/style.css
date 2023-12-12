@@ -7997,7 +7997,7 @@ button.testimonial-arrow-btn:hover i {
     transform: translate(-50%, 0);
   }
 }
-@media (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(1) {
     left: 50%;
     top: 20%;
@@ -8019,7 +8019,7 @@ button.testimonial-arrow-btn:hover i {
     transform: translate(50%, 0);
   }
 }
-@media (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(2) {
     right: -20%;
     top: 20%;
@@ -15314,12 +15314,13 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50 {
+  .elementor-section.donate-area.style-1 .elementor-container > .elementor-col-50 {
     width: 65%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50:last-child {
+  .elementor-section.donate-area.style-1 .elementor-container > .elementor-col-50:last-child {
+    width: 65%;
     margin: 0 auto;
   }
 }

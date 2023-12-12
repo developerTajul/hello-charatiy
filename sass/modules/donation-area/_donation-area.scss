@@ -962,13 +962,14 @@
             }
 
             .elementor-container {
-                .elementor-col-50 {
+                >.elementor-col-50 {
                     @include lg {
                         width: 65%;
                     }
 
                     &:last-child {
                         @include lg {
+                            width: 65%;
                             margin: 0 auto;
                         }
                     }
