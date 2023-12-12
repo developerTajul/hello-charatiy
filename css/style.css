@@ -6842,6 +6842,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     justify-content: space-between;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .latest-posts-area.style-1 .comment-bar {
+    justify-content: space-between;
+  }
+}
 .latest-posts-area.style-1 .comment-bar .single-item i {
   color: #FF4638 !important;
 }
@@ -17640,7 +17645,7 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .blog-area.style-1 .latest-title .elementor-widget-wrap {
+  .blog-area.style-1 .latest-title .elementor-widget-wrap .elementor-element {
     max-width: unset;
     width: 100%;
   }

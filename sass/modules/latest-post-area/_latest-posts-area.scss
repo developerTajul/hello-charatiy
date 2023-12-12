@@ -32,6 +32,10 @@
                 justify-content: space-between;
             }
 
+            @include lg {
+                justify-content: space-between;
+            }
+
             .single-item {
                 i {
                     color: $brand !important;

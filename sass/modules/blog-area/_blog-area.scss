@@ -67,9 +67,11 @@
 
         .latest-title {
             .elementor-widget-wrap {
-                @include lg {
-                    max-width: unset;
-                    width: 100%;
+                .elementor-element {
+                    @include lg {
+                        max-width: unset;
+                        width: 100%;
+                    }
                 }
             }
         }
