@@ -11976,7 +11976,7 @@ ul.children {
 }
 .team-member-card .image img {
   padding-top: 20px;
-  transform: scale(1.01);
+  transform: scale(1);
   transition: all 0.5s ease-out;
 }
 .team-member-card .content-wrapper {
@@ -16098,6 +16098,11 @@ ul.children {
     justify-content: space-between;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .event-card .content-wrapper .meta-info {
+    justify-content: space-between;
+  }
+}
 .event-card .content-wrapper .meta-info .single-meta {
   display: flex;
   align-items: center;
@@ -17634,21 +17639,17 @@ ul.children {
     animation: rotating 12s linear infinite;
   }
 }
-.blog-area.style-1 .section-title {
-  width: 442px;
-  margin-bottom: 193px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-area.style-1 .latest-title .elementor-widget-wrap {
+    max-width: unset;
+    width: 100%;
+  }
 }
 @media (max-width: 1400px) {
   .blog-area.style-1 .section-title {
     width: auto;
   }
 }
-@media (max-width: 992px) {
-  .blog-area.style-1 .section-title {
-    margin-bottom: 32px;
-  }
-}
-
 .blog-card {
   display: flex;
   flex-direction: column;

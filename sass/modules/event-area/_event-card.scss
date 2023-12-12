@@ -28,6 +28,10 @@
                 justify-content: space-between;
             }
 
+            @include lg {
+                justify-content: space-between;
+            }
+
             .single-meta {
                 display: flex;
                 align-items: center;
