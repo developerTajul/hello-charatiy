@@ -6791,6 +6791,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-left: 0;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.about-us-area > .elementor-container > .elementor-col-50:last-child .elementor-widget-wrap {
+    padding-left: 0;
+  }
+}
 
 .about-us-area.style-2 {
   background-color: #EFF5F4;
@@ -15310,7 +15315,7 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.donate-area.style-1 .elementor-container .elementor-col-50 {
-    width: 80%;
+    width: 65%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

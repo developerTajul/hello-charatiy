@@ -22,6 +22,10 @@
                         @include xl {
                             padding-left: 0;
                         }
+
+                        @include lg {
+                            padding-left: 0;
+                        }
                     }
                 }
             }
