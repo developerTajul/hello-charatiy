@@ -198,11 +198,16 @@
                         transform: translate(-50%, 0);
                     }
 
-                    @include rmaxwd(1000) {
+                    @include rmaxwd(1199) {
                         left: 50%;
                         top: 20%;
                         transform: translate(-50%, 0);
                     }
+
+                    @include xl {
+                        transform: translate(-50%, 0);
+                    }
+
                 }
 
                 &:nth-child(2) {
@@ -214,9 +219,13 @@
                         transform: translate(50%, 0);
                     }
 
-                    @include rmaxwd(1000) {
+                    @include rmaxwd(1199) {
                         right: -20%;
                         top: 20%;
+                    }
+
+                    @include xl {
+                        transform: translate(50%, 0);
                     }
                 }
 
