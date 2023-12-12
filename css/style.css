@@ -477,9 +477,20 @@ input.theme-btn {
   max-width: 100%;
   margin: 0 150px;
 }
-@media (max-width: 1600px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .custom-container {
-    margin: 0 80px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .custom-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
   }
 }
 @media (max-width: 767px) {
@@ -518,7 +529,8 @@ input.theme-btn {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  line-height: 140%; /* 30.8px */
+  line-height: 140%;
+  /* 30.8px */
   letter-spacing: 0.44px;
   color: #ffffff;
   margin: 0;
@@ -3377,7 +3389,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 1281px) {
   .header-menu-area-inner {
-    padding: 0 12px;
+    padding: 0;
   }
 }
 
@@ -3397,22 +3409,27 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-top .header-top-inner {
-    padding: 0 12px;
+    padding: 0;
   }
 }
-.header-top .header-top-info {
+.header-top .header-top-inner .header-top-info {
   display: flex;
   gap: 0 24px;
 }
 @media (max-width: 1199px) {
-  .header-top .header-top-info {
+  .header-top .header-top-inner .header-top-info {
     justify-content: space-between;
     width: 100%;
   }
 }
 @media (max-width: 991px) {
-  .header-top .header-top-info {
+  .header-top .header-top-inner .header-top-info {
     padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-top .header-top-inner .header-top-info:last-child {
+    justify-content: end;
   }
 }
 .header-top .header-contact-info,
@@ -4008,7 +4025,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
 }
 .mobile-menu-bar a i {
-  color: #196A5C;
+  color: #ffffff;
   font-size: 22px;
 }
 
@@ -4398,7 +4415,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 100%;
   height: 100%;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .slider-area.style-1 .slider-bg-image {
     height: 880px;
   }
@@ -4437,7 +4454,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
   height: 1083px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .slider-area.style-1 .single-slider {
     height: 880px;
   }
@@ -4482,7 +4499,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   padding-left: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .slider-area.style-1 .single-slider .slider-image {
     right: 0;
   }
@@ -6740,7 +6757,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 70%;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .elementor-section.about-us-area .elementor-container > .elementor-col-50:last-child .elementor-widget-wrap {
     padding-left: 0;
   }
@@ -7777,7 +7794,7 @@ button.testimonial-arrow-btn:hover i {
   cursor: pointer;
   width: 130px !important;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user {
     width: 100px !important;
     height: 100px !important;
@@ -7787,7 +7804,7 @@ button.testimonial-arrow-btn:hover i {
   width: 170px !important;
   height: 170px !important;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current {
     width: 130px !important;
     height: 130px !important;
@@ -8022,7 +8039,7 @@ button.testimonial-arrow-btn:hover i {
     padding: 31px 10px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card {
     margin-top: 0;
   }
@@ -15232,12 +15249,12 @@ ul.children {
   margin-left: 5px;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .elementor-section.donate-area.style-1 .section-title {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .elementor-section.donate-area.style-1 .section-title .title br {
     display: none;
   }
@@ -17707,7 +17724,8 @@ ul.children {
     gap: 20px;
   }
 }
-.footer .footer-sec .shape-1, .footer .footer-sec .shape-2 {
+.footer .footer-sec .shape-1,
+.footer .footer-sec .shape-2 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -17803,6 +17821,11 @@ ul.children {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-widget ul li a {
+    align-items: start;
+  }
 }
 .footer-widget ul li a:before {
   content: "\f105";

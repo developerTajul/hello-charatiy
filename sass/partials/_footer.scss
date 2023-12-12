@@ -8,37 +8,43 @@
     position: relative;
     padding-top: 120px;
     padding-bottom: 120px;
-    
+
     @include rmaxwd(992) {
       padding-top: 100px;
       padding-bottom: 100px;
     }
-    
+
     @include rmaxwd(767) {
       padding-top: 80px;
       padding-bottom: 80px;
     }
-    .footer-widget-wrapper{
+
+    .footer-widget-wrapper {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
       @include rmaxwd(992) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 60px;
       }
+
       @include rmaxwd(767) {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
       }
     }
-    .shape-1,.shape-2{
+
+    .shape-1,
+    .shape-2 {
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
-    .shape-1{
+
+    .shape-1 {
       position: absolute;
       top: 0;
       right: 50px;
@@ -46,12 +52,14 @@
       margin-right: 28px;
       width: 264px;
       height: 236px;
-      @include rmaxwd(1717){
+
+      @include rmaxwd(1717) {
         width: 160px;
         height: 160px;
       }
     }
-    .shape-2{
+
+    .shape-2 {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -60,37 +68,44 @@
       width: 100px;
       height: 100px;
       animation: rotate 4s infinite alternate;
-      i{
+
+      i {
         color: $white;
         font-size: 100px;
       }
-      img{
+
+      img {
         width: 100px;
         height: 100px;
       }
-      @include rmaxwd(1717){
+
+      @include rmaxwd(1717) {
         width: 60px;
         height: 60px;
         margin-bottom: -42px;
         margin-left: 20px;
-        i{
+
+        i {
           color: $white;
           font-size: 60px;
         }
-        img{
+
+        img {
           width: 60px;
           height: 60px;
         }
       }
-      @include rmaxwd(1717){
+
+      @include rmaxwd(1717) {
         width: 60px;
         height: 60px;
         margin-bottom: -24px;
         margin-left: 20px;
-        
+
       }
     }
   }
+
   //footer Background
   .footer-bg {
     position: absolute;
@@ -100,6 +115,7 @@
     z-index: -1;
   }
 }
+
 .footer-widget-title {
   font-family: $heading-font;
   font-size: 21px;
@@ -110,46 +126,58 @@
   font-weight: 700;
   cursor: default;
 }
+
 .footer-widget {
-  ul{
+  ul {
     padding-left: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    li{
+
+    li {
       color: $gray-4 ;
-        a{
-          color: $gray-4 ;
-          display: flex;
-          gap: 8px;
-          align-items: center;
-          @extend .animated-text-yellow;
-            &:before{
-            content: "\f105";
-            font-size: 16px;
-            font-family: $font-awesome;
-            margin-left: -2px;
-            color: $gray-4 ;
-          }
+
+      a {
+        color: $gray-4 ;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        @include lg {
+          align-items: start;
         }
+
+        @extend .animated-text-yellow;
+
+        &:before {
+          content: "\f105";
+          font-size: 16px;
+          font-family: $font-awesome;
+          margin-left: -2px;
+          color: $gray-4 ;
+        }
+      }
     }
   }
-  .footer-widget-menu{
-    &.style-2{
-      ul{
-        li{
-          a{
+
+  .footer-widget-menu {
+    &.style-2 {
+      ul {
+        li {
+          a {
             @extend .animated-text-three;
           }
         }
       }
     }
   }
+
   // Footer Latest Post
   &.widget_boomdevs-latest-posts-footer {
     margin-top: -5px;
   }
+
   // Footer Instagram
   &.zoom-instagram-widget {
     @include rmaxwd(767) {
@@ -157,6 +185,7 @@
       margin-top: -10px;
     }
   }
+
   // Footer About Info
   &.widget_boomdevs_contact_info_widget {
     @include rmaxwd(767) {
@@ -169,26 +198,32 @@
       width: 170px;
     }
   }
+
   // Footer Info Widget
   .footer-widget-info {
-   width: 306px;
+    width: 306px;
+
     @include rmaxwd(1199) {
       padding-right: 0;
       width: auto;
     }
+
     p {
       color: $gray-4;
       margin-bottom: 30px;
       cursor: default;
     }
+
     .footer-logo {
       margin-bottom: 30px;
       display: inline-block;
     }
-    .social-profile{
+
+    .social-profile {
       display: flex;
       gap: 16px;
-      a{
+
+      a {
         width: 40px;
         height: 40px;
         border-radius: 50px;
@@ -196,18 +231,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        i{
+
+        i {
           font-size: 16px;
           color: $white;
         }
-        &:hover{
+
+        &:hover {
           background-color: $primary-color;
-          i{
+
+          i {
             color: $black-2;
           }
         }
       }
     }
+
     .info-form-and-social-icon {
       display: flex;
       align-items: center;
@@ -215,18 +254,21 @@
 
       .subscribe-form-widget {
         border-radius: 6px;
+
         .single-field {
           input {
             height: 60px;
           }
         }
       }
-      
+
     }
+
     .social-profile {
       gap: 16px;
       margin-top: 30px;
     }
+
     @include sm {
       .info-form-and-social-icon {
         flex-direction: column;
@@ -273,44 +315,48 @@
   // Footer Contact Widget
   .footer-widget-contact {
     .address {
-          p {
-            font-family: $body-font;
-          font-size: 10px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 200%;
-          letter-spacing: 0.36px;
-          // width: 161px;
-          line-height: 30px !important;
-          cursor: default;
-          // @extend .animated-text-three;
-          }
-        }
-    &.style-2{
-      .footer-contact ul{
-        
-        li{
+      p {
+        font-family: $body-font;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.36px;
+        // width: 161px;
+        line-height: 30px !important;
+        cursor: default;
+        // @extend .animated-text-three;
+      }
+    }
+
+    &.style-2 {
+      .footer-contact ul {
+
+        li {
           .contact-icon {
             &:before {
-                position: absolute;
-                width: 0;
-                height: 100%;
-                left: 0;
-                top: 0;
-                border-color: $primary-color !important;
-                background-color: $primary-color;
-                content: "";
-                @include transition;
-                z-index: -1;
-                }
-                &:hover{
-                  border-color: $primary-color;
-                }
+              position: absolute;
+              width: 0;
+              height: 100%;
+              left: 0;
+              top: 0;
+              border-color: $primary-color !important;
+              background-color: $primary-color;
+              content: "";
+              @include transition;
+              z-index: -1;
+            }
+
+            &:hover {
+              border-color: $primary-color;
+            }
           }
-          .contact-text{
+
+          .contact-text {
             @extend .animated-text-three;
           }
-          &:hover{
+
+          &:hover {
             .contact-icon {
               border-color: $primary-color;
             }
@@ -318,12 +364,14 @@
         }
       }
     }
+
     p {
       color: $white-100;
     }
+
     .footer-contact ul {
       list-style: none;
-      
+
       li {
         margin-bottom: 23px;
         display: flex;
@@ -333,13 +381,16 @@
 
         &:first-child {
           align-items: flex-start;
+
           .contact-icon {
             margin-top: 5px;
           }
         }
+
         &:last-child {
           margin-bottom: 0;
         }
+
         .contact-icon {
           border: 1px solid $gray-4;
           color: $gray-4;
@@ -355,27 +406,31 @@
           transition: 0.3s;
           z-index: 99;
           position: relative;
+
           &:before {
-              position: absolute;
-              width: 0;
-              height: 100%;
-              left: 0;
-              top: 0;
-              border-color: $primary-color;
-              background-color: $primary-color;
-              content: "";
-              @include transition;
-              z-index: -1;
-              }
-           @include transition;
-           i{
+            position: absolute;
+            width: 0;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border-color: $primary-color;
+            background-color: $primary-color;
+            content: "";
+            @include transition;
+            z-index: -1;
+          }
+
+          @include transition;
+
+          i {
             color: $white;
             @include transition;
-           
-            
-           }
-         
+
+
+          }
+
         }
+
         .contact-text {
           color: $white-100;
           font-size: 18px;
@@ -385,6 +440,7 @@
           gap: 8px;
           padding-left: 2px;
           @extend .animated-text-yellow;
+
           span,
           p,
           a {
@@ -394,31 +450,37 @@
             display: inline-block;
             margin-bottom: 0;
             @include transition;
-            &:before{
+
+            &:before {
               content: "";
             }
           }
-          
+
         }
-         &:hover{
-            @include transition;
-            .contact-icon{
-              border-color: transparent !important ;
-              &:before {
-                width: 100%;
-                border-color: transparent !important;
-                @include transition;
-              }
-              i{
-                color: $black-2;
-                transform: rotateY(360deg);
-                @include transition;
-              }
+
+        &:hover {
+          @include transition;
+
+          .contact-icon {
+            border-color: transparent !important;
+
+            &:before {
+              width: 100%;
+              border-color: transparent !important;
+              @include transition;
             }
-            .contact-text{
-              background-position: -100%;
+
+            i {
+              color: $black-2;
+              transform: rotateY(360deg);
+              @include transition;
             }
           }
+
+          .contact-text {
+            background-position: -100%;
+          }
+        }
       }
     }
   }
@@ -431,6 +493,7 @@
           width: 60px;
           height: 60px;
         }
+
         .latest-post-desc {
           .latest-post-title {
             margin-bottom: 8px;
@@ -454,6 +517,7 @@
               }
             }
           }
+
           .latest-post-meta {
             font-size: 14px;
             display: flex;
@@ -474,9 +538,11 @@
   align-items: center;
   justify-content: end;
   gap: 16px;
+
   @include rmaxwd(1000) {
-      justify-content: center ;
+    justify-content: center;
   }
+
   ul {
     list-style: none;
     display: flex;
@@ -492,21 +558,25 @@
     }
 
     li {
-      &:first-child{
+      &:first-child {
         color: $primary-color;
-        a{
+
+        a {
           color: $primary-color;
           cursor: default;
         }
       }
+
       a {
         font-size: 16px;
         text-transform: capitalize;
         color: $white-100;
         @include transition;
-        @include rmaxwd(396){
+
+        @include rmaxwd(396) {
           font-size: 12px;
         }
+
         &:hover {
           @include transition;
           color: $primary-color;
@@ -514,11 +584,13 @@
       }
     }
   }
-  .card-wrapper{
+
+  .card-wrapper {
     display: flex;
     align-items: center;
     gap: 8px;
-    img{
+
+    img {
       border-radius: 5px;
     }
   }
@@ -527,10 +599,11 @@
 .footer-bottom-area {
   padding-top: 28px;
   padding-bottom: 17px;
-  background-color:#232323;
+  background-color: #232323;
+
   @include rmaxwd(1000) {
-      text-align: center;
-    }
+    text-align: center;
+  }
 
   // @include rmaxwd(991) {
   //   padding-top: 28px;
@@ -540,12 +613,14 @@
     @include rmaxwd(767) {
       margin-bottom: 20px;
     }
+
     p {
       font-size: 16px;
       color: $white-100;
       margin-bottom: 0;
       cursor: default;
-      span{
+
+      span {
         color: $primary-color;
       }
 
@@ -559,6 +634,7 @@
       }
     }
   }
+
   .credit-text {
     p {
       color: $white-100;
@@ -568,6 +644,7 @@
       justify-content: flex-end;
       gap: 10px;
     }
+
     a {
       color: $primary-color;
     }
@@ -575,44 +652,51 @@
 }
 
 // Newsletter-area style-1
-.newsletter-area{
-  &.style-1{
+.newsletter-area {
+  &.style-1 {
     padding: 53px 0;
     background-color: $primary-color;
     position: relative;
     overflow: hidden;
-    .sketch-1{
+
+    .sketch-1 {
       position: absolute;
       left: 0;
       bottom: 0;
       margin-bottom: 40px;
       margin-left: 85px;
       animation: beat 1.4s infinite alternate;
-	    transform-origin: center;
+      transform-origin: center;
     }
-    .sketch-2{
+
+    .sketch-2 {
       position: absolute;
       top: 83px;
       right: 144px;
       width: 83px;
       height: 32px;
-      @include sm{
+
+      @include sm {
         display: none;
       }
     }
-    .subscribe-form{
+
+    .subscribe-form {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      @include rmaxwd(1000){
-         flex-direction: column;
-         gap: 20px;
+
+      @include rmaxwd(1000) {
+        flex-direction: column;
+        gap: 20px;
       }
-      .section-title{
-        @include rmaxwd(1000){
-          width: 100% ;
+
+      .section-title {
+        @include rmaxwd(1000) {
+          width: 100%;
         }
-        .short-title{
+
+        .short-title {
           font-family: $sub-heading;
           color: $black-2;
           font-size: 32px;
@@ -633,6 +717,7 @@
   z-index: 99;
   margin-bottom: -136px;
 }
+
 .subscribe-area {
   background-color: $orange-color;
   border-radius: 18px;
@@ -644,6 +729,7 @@
   @include md {
     padding: 40px;
   }
+
   @include sm {
     padding: 40px;
   }
@@ -659,6 +745,7 @@
     transform: rotate(39deg);
     z-index: -1;
   }
+
   .shape-bg {
     position: absolute;
     z-index: -1;
@@ -678,6 +765,7 @@
       top: 0;
     }
   }
+
   .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -688,6 +776,7 @@
       color: $white;
       margin-bottom: 0;
     }
+
     .subscribe-title {
       color: $white;
       text-transform: capitalize;
@@ -698,15 +787,18 @@
       @include rmaxwd(375) {
         font-size: 34px !important;
       }
+
       @include md {
         font-size: 40px;
         line-height: 42px;
       }
+
       @include sm {
         font-size: 36px;
         line-height: 42px;
       }
     }
+
     .text {
       font-size: 22px;
       color: $white;
@@ -719,59 +811,72 @@
     display: flex;
     align-items: center;
     gap: 30px;
+
     @include sm {
       flex-direction: column;
     }
+
     .subscribe-form-wrapper {
       margin-top: -12px;
     }
+
     .content-wrapper,
     .subscribe-form-wrapper {
       width: 50%;
 
       @include sm {
-       width: 100%;
+        width: 100%;
       }
     }
   }
 }
+
 .subscribe-form-widget {
   position: relative;
   width: 50%;
-  @include rmaxwd(1000){
-        width: 100%;
-      }
+
+  @include rmaxwd(1000) {
+    width: 100%;
+  }
+
   .mc4wp-form-fields {
     display: flex;
     background-color: $white;
     border-radius: 50px;
     overflow: hidden;
   }
-  .sketch-3{
+
+  .sketch-3 {
     position: absolute;
     top: -50%;
     right: 22%;
-    @include rmaxwd(1000){
-          display: none ;
+
+    @include rmaxwd(1000) {
+      display: none;
     }
   }
+
   .single-field {
     flex-grow: 1;
     position: relative;
-    .theme-btn{
+
+    .theme-btn {
       position: absolute;
       right: 8px;
       top: 50%;
       transform: translate(0, -50%);
       padding: 20px 32px;
-       @include sm{
+
+      @include sm {
         right: 0px;
       }
-      &:hover{
+
+      &:hover {
         border: transparent !important;
         background-color: $black !important;
       }
     }
+
     input {
       color: $black-300;
       height: 80px;
@@ -779,32 +884,40 @@
       font-size: 18px;
       border-radius: 50px;
       width: 100%;
-      @include sm{
+
+      @include sm {
         height: 60px;
         padding: 0 14px;
       }
     }
+
     *::-webkit-input-placeholder {
       color: $black-300;
     }
+
     *:-moz-placeholder {
       color: $black-300;
       opacity: 1;
     }
+
     *::-moz-placeholder {
       color: $black-300;
       opacity: 1;
     }
+
     *:-ms-input-placeholder {
       color: $black-300;
     }
+
     *::-ms-input-placeholder {
       color: $black-300;
     }
+
     *::placeholder {
       color: $black-300;
     }
   }
+
   .submit-btn {
     background-color: $white;
     color: $orange-color;
@@ -820,15 +933,17 @@
     font-size: 18px;
     font-weight: 500;
   }
+
   // Form Submit Message
   .mc4wp-response {
     position: relative;
     top: 15px;
+
     .mc4wp-alert {
+
       &.mc4wp-error,
       &.mc4wp-success,
-      &.mc4wp-notice
-      {
+      &.mc4wp-notice {
         p {
           color: #fff;
           position: relative;
