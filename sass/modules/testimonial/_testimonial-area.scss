@@ -82,7 +82,11 @@
                         }
 
                         @include rmaxwd(991) {
-                            bottom: -85px
+                            bottom: -85px;
+                        }
+
+                        @include sm {
+                            bottom: -65px !important;
                         }
 
                         @include transition;

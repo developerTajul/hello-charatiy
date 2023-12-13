@@ -6852,6 +6852,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     justify-content: space-between;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .latest-posts-area.style-1 .comment-bar {
+    justify-content: space-between;
+  }
+}
 .latest-posts-area.style-1 .comment-bar .single-item i {
   color: #FF4638 !important;
 }
@@ -7909,6 +7914,11 @@ button.testimonial-arrow-btn:hover i {
 @media (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current .name {
     bottom: -85px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current .name {
+    bottom: -65px !important;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .slick-list {
