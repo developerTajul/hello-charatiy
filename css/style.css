@@ -8171,8 +8171,10 @@ button.testimonial-arrow-btn:hover i {
     padding-top: 0;
   }
 }
-.testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card .content .text {
-  width: auto;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card .content .text {
+    width: auto;
+  }
 }
 .testimonial-slider-area.style-2 {
   background: #F8F8F8;
@@ -14729,6 +14731,11 @@ ul.children {
   position: relative;
   padding-right: 40px;
   margin-bottom: 48px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .donate-area.style-1 .section-title {
+    padding-right: 0;
+  }
 }
 @media (max-width: 991px) {
   .donate-area.style-1 .section-title {

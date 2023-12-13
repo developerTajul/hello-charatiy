@@ -350,7 +350,9 @@
 
                         .content {
                             .text {
-                                width: auto;
+                                @include sm {
+                                    width: auto;
+                                }
                             }
                         }
                     }
