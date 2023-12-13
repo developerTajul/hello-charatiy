@@ -1005,11 +1005,13 @@
                 >.elementor-col-50 {
                     @include lg {
                         width: 65%;
+                        padding-left: 60px;
                     }
 
                     &:last-child {
                         @include lg {
                             width: 65%;
+                            padding-left: 60px;
                             margin: unset;
                         }
 
