@@ -31,6 +31,16 @@
                     height: 100px !important;
                 }
 
+                @include md {
+                    width: 70px !important;
+                    height: 70px !important;
+                }
+
+                @include sm {
+                    width: 50px !important;
+                    height: 50px !important;
+                }
+
                 &.slick-current {
                     width: 170px !important;
                     height: 170px !important;
@@ -43,6 +53,16 @@
                     @include lg {
                         width: 120px !important;
                         height: 120px !important;
+                    }
+
+                    @include md {
+                        width: 90px !important;
+                        height: 90px !important;
+                    }
+
+                    @include sm {
+                        width: 70px !important;
+                        height: 70px !important;
                     }
 
                     img {
@@ -66,16 +86,6 @@
 
                         @include transition;
                     }
-
-                    @include rmaxwd(1000) {
-                        width: 90px !important;
-                        height: 90px !important;
-                    }
-                }
-
-                @include rmaxwd(1000) {
-                    width: 70px !important;
-                    height: 70px !important;
                 }
             }
 
@@ -198,7 +208,7 @@
                         transform: translate(-50%, 0);
                     }
 
-                    @include md {
+                    @include rmaxwd(991) {
                         top: unset;
                         transform: translate(-50%, 0);
                         bottom: 0;
