@@ -199,9 +199,10 @@
                     }
 
                     @include md {
-                        left: 50%;
-                        top: 20%;
+                        top: unset;
                         transform: translate(-50%, 0);
+                        bottom: 0;
+                        left: -13%;
                     }
 
                     @include xl {
@@ -219,9 +220,10 @@
                         transform: translate(50%, 0);
                     }
 
-                    @include md {
+                    @include rmaxwd(991) {
                         right: -20%;
-                        top: 20%;
+                        top: unset;
+                        bottom: 0;
                     }
 
                     @include xl {
@@ -234,10 +236,11 @@
                     top: 170px;
                     @include transition;
 
-                    @include rmaxwd(1000) {
-                        left: 0;
-                        top: 20%;
+                    @include rmaxwd(991) {
                         transform: translate(-50%, 0);
+                        top: unset;
+                        bottom: -4%;
+                        left: 32%;
                     }
                 }
 
@@ -247,7 +250,7 @@
                     @include transition;
 
                     @include rmaxwd(991) {
-                        right: 50%;
+                        right: 35%;
                         top: unset;
                         bottom: 0;
                         transform: translate(50%, 23%);
@@ -259,8 +262,10 @@
                     bottom: 0;
                     @include transition;
 
-                    @include rmaxwd(1000) {
+                    @include rmaxwd(991) {
                         transform: translate(-50%, 0);
+                        left: 10%;
+                        bottom: -2%;
                     }
                 }
 
@@ -269,7 +274,9 @@
                     bottom: 0;
                     @include transition;
 
-                    @include rmaxwd(1000) {
+                    @include rmaxwd(991) {
+                        right: 12%;
+                        bottom: -3%;
                         transform: translate(50%, 0);
                     }
                 }
