@@ -14672,6 +14672,11 @@ ul.children {
   padding-right: 40px;
   margin-bottom: 48px;
 }
+@media (max-width: 991px) {
+  .donate-area.style-1 .section-title {
+    padding-right: 0;
+  }
+}
 .donate-area.style-1 .section-title .short-title {
   color: #FFE144;
 }
@@ -15234,6 +15239,7 @@ ul.children {
   .give-form-wrap #give_checkout_user_info .form-row-first {
     width: 100%;
     margin-bottom: 20px;
+    margin-right: 0;
   }
 }
 .give-form-wrap #give_checkout_user_info .form-row-last {
@@ -15253,6 +15259,11 @@ ul.children {
   width: 99%;
   margin-top: 20px;
   margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .give-form-wrap #give_checkout_user_info .form-row-wide {
+    margin-top: 0;
+  }
 }
 .give-form-wrap #give_checkout_user_info .form-row-wide input {
   width: 100%;

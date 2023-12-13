@@ -182,6 +182,10 @@
             padding-right: 40px;
             margin-bottom: 48px;
 
+            @include rmaxwd(991) {
+                padding-right: 0;
+            }
+
             .short-title {
                 color: $primary-color;
             }
@@ -810,6 +814,7 @@
             @include sm {
                 width: 100%;
                 margin-bottom: 20px;
+                margin-right: 0;
             }
         }
 
@@ -831,6 +836,10 @@
             width: 99%;
             margin-top: 20px;
             margin-bottom: 0;
+
+            @include sm {
+                margin-top: 0;
+            }
 
             input {
                 width: 100%;
