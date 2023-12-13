@@ -7370,7 +7370,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-card {
-    margin-top: 130px;
+    margin-top: 30px;
     padding: 35px;
   }
 }
@@ -7887,6 +7887,7 @@ button.testimonial-arrow-btn:hover i {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current {
     width: 70px !important;
     height: 70px !important;
+    z-index: 30;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current img {
@@ -8027,6 +8028,11 @@ button.testimonial-arrow-btn:hover i {
     left: -13%;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(1) {
+    left: -26% !important;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(1) {
     transform: translate(-50%, 0);
@@ -8047,6 +8053,11 @@ button.testimonial-arrow-btn:hover i {
     right: -20%;
     top: unset;
     bottom: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(2) {
+    right: -39% !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
@@ -8080,6 +8091,11 @@ button.testimonial-arrow-btn:hover i {
     transform: translate(50%, 23%);
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(4) {
+    right: 32% !important;
+  }
+}
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(5) {
   left: 0;
   bottom: 0;
@@ -8092,6 +8108,11 @@ button.testimonial-arrow-btn:hover i {
     bottom: -2%;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(5) {
+    left: 3% !important;
+  }
+}
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(6) {
   right: 0;
   bottom: 0;
@@ -8102,6 +8123,12 @@ button.testimonial-arrow-btn:hover i {
     right: 12%;
     bottom: -3%;
     transform: translate(50%, 0);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user:nth-child(6) {
+    right: 3% !important;
+    bottom: -2% !important;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
