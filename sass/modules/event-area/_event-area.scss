@@ -2,10 +2,10 @@
     &.style-1 {
         // background-color: $gray-5;
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
 
         @include xl {
-            overflow: hidden;
+            // overflow: hidden;
         }
 
         .sketch-1 {

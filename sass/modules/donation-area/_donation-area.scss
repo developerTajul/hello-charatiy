@@ -972,6 +972,11 @@
                             width: 65%;
                             margin: 0 auto;
                         }
+
+                        @include md {
+                            width: 65%;
+                            margin: 0 auto;
+                        }
                     }
                 }
             }

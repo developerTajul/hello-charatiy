@@ -279,6 +279,10 @@
         .testimonial-slider-wrapper {
             padding: 60px;
 
+            @include lg {
+                padding-top: 0;
+            }
+
             // padding: 31px 100px;
             @include md {
                 padding: 100px 64px 28px 64px;

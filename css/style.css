@@ -8083,6 +8083,11 @@ button.testimonial-arrow-btn:hover i {
 .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
   padding: 60px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
+    padding-top: 0;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
     padding: 100px 64px 28px 64px;
@@ -10187,8 +10192,13 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  height: 595px;
+  height: 570px;
   width: 100%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-slider-banner {
+    height: 600px;
+  }
 }
 .team-slider-banner:after {
   content: "";
@@ -15329,6 +15339,12 @@ ul.children {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.donate-area.style-1 .elementor-container > .elementor-col-50:last-child {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
 
 .skill-progressbar.page .progress-inner .title {
   font-family: "PT Sans", sans-serif;
@@ -16025,12 +16041,6 @@ ul.children {
 
 .event-area.style-1 {
   position: relative;
-  overflow: hidden;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1700px) {
-  .event-area.style-1 {
-    overflow: hidden;
-  }
 }
 .event-area.style-1 .sketch-1 {
   position: absolute;
