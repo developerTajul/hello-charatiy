@@ -7887,7 +7887,7 @@ button.testimonial-arrow-btn:hover i {
   .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current {
     width: 70px !important;
     height: 70px !important;
-    z-index: 30;
+    z-index: 33;
   }
 }
 .testimonial-slider-area.style-1 .testimonial-user-wrapper .single-user.slick-current img {
@@ -8154,6 +8154,15 @@ button.testimonial-arrow-btn:hover i {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card {
     margin-top: 0;
   }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+.testimonial-slider-area.style-1 .testimonial-slider-wrapper .slick-list .slick-slide .testimonial-card .content .text {
+  width: auto;
 }
 .testimonial-slider-area.style-2 {
   background: #F8F8F8;

@@ -63,7 +63,7 @@
                     @include sm {
                         width: 70px !important;
                         height: 70px !important;
-                        z-index: 30;
+                        z-index: 33;
                     }
 
                     img {
@@ -337,6 +337,17 @@
                     .testimonial-card {
                         @include xl {
                             margin-top: 0;
+                        }
+
+                        @include sm {
+                            margin-top: 0;
+                            padding-top: 0;
+                        }
+
+                        .content {
+                            .text {
+                                width: auto;
+                            }
                         }
                     }
                 }
