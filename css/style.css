@@ -3868,6 +3868,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 12px;
   }
 }
+.header-area.style-2 .mobile-menu-bar a i {
+  color: #196A5C;
+}
 
 .header-area.style-3 {
   background: #F8F8F8;
