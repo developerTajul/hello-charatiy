@@ -389,6 +389,12 @@
             }
         }
 
+        .section-title {
+            @include md {
+                margin-bottom: 40px;
+            }
+        }
+
         .testimonial-container-wrapper {
             position: relative;
 

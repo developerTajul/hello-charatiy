@@ -8219,6 +8219,11 @@ button.testimonial-arrow-btn:hover i {
     display: none !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-slider-area.style-2 .section-title {
+    margin-bottom: 40px;
+  }
+}
 .testimonial-slider-area.style-2 .testimonial-container-wrapper {
   position: relative;
 }
@@ -15481,7 +15486,7 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.donate-area.style-2 .elementor-container > .elementor-col-50:last-child {
     width: 65%;
-    padding-left: 60px;
+    padding-left: 70px;
     margin: unset;
   }
 }
