@@ -13480,6 +13480,19 @@ ul.children {
 .causes-area.style-1 .title-area .theme-btn.style-6 {
   padding: 17px 32px !important;
 }
+.causes-area.style-1 .slick-list .slick-slide {
+  margin: 0 12px !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-area.style-1 .slick-list .slick-slide {
+    margin: 0 4px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .causes-area.style-1 .container {
+    padding: 0;
+  }
+}
 
 .causes-top-area {
   background-size: cover;

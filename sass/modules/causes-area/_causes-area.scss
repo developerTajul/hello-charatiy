@@ -1,4 +1,4 @@
-.badge-btn{
+.badge-btn {
     font-family: $body-font;
     font-size: 16px;
     font-style: normal;
@@ -11,84 +11,117 @@
     border-radius: 10px;
     cursor: default;
 }
-.causes-area{
-    .slick-list{
-        .slick-slide{
+
+.causes-area {
+    .slick-list {
+        .slick-slide {
             margin: 0 12px !important;
         }
     }
-    &.style-1{
+
+    &.style-1 {
         background-color: $gray-5;
         position: relative;
-        .feature-shape{
+
+        .feature-shape {
             position: absolute;
             bottom: 136px;
             left: 71px;
             width: 169px;
             height: 169px;
             z-index: 20;
-            @include rmaxwd(1600){
+
+            @include rmaxwd(1600) {
                 width: 130px;
                 height: 130px;
             }
-            @include rmaxwd(1024){
+
+            @include rmaxwd(1024) {
                 display: none !important;
             }
         }
-        .feature-shape-2{
+
+        .feature-shape-2 {
             position: absolute;
             top: 101px;
             right: 33px;
             width: 235px;
             height: 214px;
             animation: beat 1.4s infinite alternate;
-            @include rmaxwd(1600){
+
+            @include rmaxwd(1600) {
                 width: 130px;
             }
-            @include rmaxwd(1000){
+
+            @include rmaxwd(1000) {
                 bottom: 20px;
             }
         }
-        .title-area{
+
+        .title-area {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 64px;
-            @include rmaxwd(500){
+
+            @include rmaxwd(500) {
                 flex-direction: column;
                 gap: 20px;
                 justify-content: start;
                 align-items: start;
                 margin-bottom: 40px;
             }
-            .section-title{
+
+            .section-title {
                 width: 450px;
-                @include rmaxwd(992){
+
+                @include rmaxwd(992) {
                     width: auto;
                 }
             }
-            .short-title{
+
+            .short-title {
                 color: $brand;
             }
-            .btn-wrapper{
+
+            .btn-wrapper {
                 flex-shrink: 0;
             }
-            .theme-btn{
-                 &.style-6{
+
+            .theme-btn {
+                &.style-6 {
                     padding: 17px 32px !important;
                 }
             }
-        } 
+        }
+
+        .slick-list {
+            .slick-slide {
+                margin: 0 12px !important;
+
+                @include sm {
+                    margin: 0 4px !important;
+                }
+            }
+        }
+
+        .container {
+            @include sm {
+                padding: 0;
+            }
+        }
     }
-   
+
 }
-.causes-top-area{
+
+.causes-top-area {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
     z-index: 2;
     overflow: hidden;
+
     // background-size: cover;
     // background-repeat: no-repeat;
     // background-position: center center;
@@ -102,7 +135,7 @@
     // @include sm{
     //     padding-top: 80px;
     // }
-    .feature-image-1{
+    .feature-image-1 {
         position: absolute;
         top: 0;
         left: 0;
@@ -110,61 +143,72 @@
         margin-left: 25px;
         width: 250px;
         height: 164px;
-        @include sm{
+
+        @include sm {
             display: none;
         }
-        @include rmaxwd(1763){
+
+        @include rmaxwd(1763) {
             margin-top: 40px;
             margin-left: 6px;
             top: 0;
             left: 0;
-            width: 100px; 
+            width: 100px;
         }
     }
-    .feature-image-2{
+
+    .feature-image-2 {
         position: absolute;
         top: 29px;
         right: 9px;
-        @include rmaxwd(1600){
+
+        @include rmaxwd(1600) {
             top: 0;
             right: 40px;
             width: 160px;
             height: 140px;
         }
-        @include sm{
+
+        @include sm {
             animation: beat 1.4s infinite alternate;
         }
     }
-    .feature-image-3{
+
+    .feature-image-3 {
         position: absolute;
         bottom: -80px;
         right: 51px;
         animation: rotating 12s linear infinite;
-        @include rmaxwd(1200){
+
+        @include rmaxwd(1200) {
             display: none;
         }
     }
-     .theme-btn{
+
+    .theme-btn {
         height: 50%;
-        &:hover{
+
+        &:hover {
             background-color: transparent !important;
             color: $black-2 !important;
-            border-color:  transparent !important;
+            border-color: transparent !important;
 
         }
     }
 }
-.causes-bottom-area{
-position: relative;
-// margin-top: -300px;
-z-index: 20;
-overflow: hidden;
-        
-    
-        .short-title{
-            color: $primary-color;
-        }
-        .title{
-            color: $white;
-        }
+
+.causes-bottom-area {
+    position: relative;
+    // margin-top: -300px;
+    z-index: 20;
+    overflow: hidden;
+
+
+    .short-title {
+        color: $primary-color;
+    }
+
+    .title {
+        color: $white;
+    }
 }
