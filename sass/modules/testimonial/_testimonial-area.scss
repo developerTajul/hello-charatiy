@@ -293,6 +293,7 @@
             // padding: 31px 100px;
             @include md {
                 padding: 100px 64px 28px 64px;
+                padding-top: 0;
             }
 
             @include sm {

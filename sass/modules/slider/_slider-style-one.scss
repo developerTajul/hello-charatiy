@@ -132,7 +132,7 @@
       }
 
       @include sm {
-        height: 900px;
+        height: 1000px;
       }
 
     }
@@ -166,12 +166,12 @@
         height: 830px;
       }
 
-      @include rmaxwd(991) {
+      @include md {
         height: 1060px;
       }
 
-      @include rmaxwd(767) {
-        height: 880px;
+      @include sm {
+        height: 951px;
       }
 
       @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -281,6 +281,10 @@
 
           @include rmaxwd(1200) {
             width: 200px;
+          }
+
+          @include rmaxwd(767) {
+            width: 115px;
           }
 
           @include sm {

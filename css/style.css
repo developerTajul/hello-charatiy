@@ -483,7 +483,7 @@ input.theme-btn {
     padding-left: 0.75rem;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .custom-container {
     max-width: 540px;
     margin: 0 auto;
@@ -4461,7 +4461,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area.style-1 .slider-bg-image {
-    height: 900px;
+    height: 1000px;
   }
 }
 .slider-area.style-1 .slider-wrapper {
@@ -4493,14 +4493,14 @@ body.admin-bar .header-menu-area.sticky_menu {
     height: 830px;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area.style-1 .single-slider {
     height: 1060px;
   }
 }
-@media (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area.style-1 .single-slider {
-    height: 880px;
+    height: 951px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -4616,6 +4616,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 1200px) {
   .slider-area.style-1 .single-slider .slider-image .sketch-1 {
     width: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .slider-area.style-1 .single-slider .slider-image .sketch-1 {
+    width: 115px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -8098,6 +8103,7 @@ button.testimonial-arrow-btn:hover i {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
     padding: 100px 64px 28px 64px;
+    padding-top: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

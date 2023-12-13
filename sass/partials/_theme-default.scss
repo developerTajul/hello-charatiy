@@ -422,7 +422,7 @@ input.theme-btn {
     padding-left: calc(1.5rem * .5);
   }
 
-  @include rwd(576) {
+  @include rmaxwd(576) {
     max-width: 540px;
     margin: 0 auto;
 
