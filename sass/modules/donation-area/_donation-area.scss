@@ -1001,7 +1001,7 @@
         }
 
         &.style-2 {
-            .elementor-container {
+            >.elementor-container {
                 >.elementor-col-50 {
                     @include lg {
                         width: 65%;
