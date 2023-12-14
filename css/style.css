@@ -15493,6 +15493,7 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.donate-area.style-2 > .elementor-container {
     width: 93%;
+    padding-left: 70px;
     margin: unset;
   }
 }
@@ -15507,6 +15508,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.donate-area.style-2 .donate-area-title > .elementor-widget-wrap .section-title .title br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.donate-area.style-2 .donate-area-title > .elementor-widget-wrap .section-title .title br {
     display: none;
   }

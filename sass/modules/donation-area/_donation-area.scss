@@ -1017,6 +1017,7 @@
 
                 @include md {
                     width: 93%;
+                    padding-left: 70px;
                     margin: unset;
                 }
             }
@@ -1035,6 +1036,10 @@
                                 }
 
                                 @include lg {
+                                    display: none;
+                                }
+
+                                @include md {
                                     display: none;
                                 }
                             }
