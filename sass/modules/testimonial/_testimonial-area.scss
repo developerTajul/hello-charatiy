@@ -453,6 +453,10 @@
                     position: relative;
 
                     // border-radius: 40px 40px 40px 0px;
+                    @include sm {
+                        padding: 0;
+                    }
+
                     .quote-text {
                         position: absolute;
                         transform: translate(0%, -40%);
@@ -493,7 +497,7 @@
                         position: relative;
 
                         @include sm {
-                            padding: 50px 0px 30px 30px;
+                            padding: 50px 30px 30px 30px;
                             border-radius: 20px 20px 20px 0px;
                         }
                     }
