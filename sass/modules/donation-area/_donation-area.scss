@@ -1007,29 +1007,6 @@
                         width: 65%;
                         padding-left: 60px;
                     }
-
-                    &:last-child {
-                        >.elementor-widget-wrap {
-                            @include xl {
-                                padding-left: 0;
-                            }
-
-                        }
-
-                        .section-title {
-                            .title {
-                                br {
-                                    @include xl {
-                                        display: none;
-                                    }
-
-                                    @include lg {
-                                        display: none;
-                                    }
-                                }
-                            }
-                        }
-                    }
                 }
 
                 @include lg {
@@ -1041,6 +1018,28 @@
                 @include md {
                     width: 93%;
                     margin: unset;
+                }
+            }
+
+            .donate-area-title {
+                >.elementor-widget-wrap {
+                    @include xl {
+                        padding-left: 0;
+                    }
+
+                    .section-title {
+                        .title {
+                            br {
+                                @include xl {
+                                    display: none;
+                                }
+
+                                @include lg {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
