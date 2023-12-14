@@ -1014,16 +1014,17 @@
                                 padding-left: 0;
                             }
 
-                            .section-title {
-                                .title {
-                                    br {
-                                        @include xl {
-                                            display: none;
-                                        }
+                        }
 
-                                        @include lg {
-                                            display: none;
-                                        }
+                        .section-title {
+                            .title {
+                                br {
+                                    @include xl {
+                                        display: none;
+                                    }
+
+                                    @include lg {
+                                        display: none;
                                     }
                                 }
                             }
