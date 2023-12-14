@@ -1009,17 +1009,33 @@
                     }
 
                     &:last-child {
-                        @include lg {
-                            width: 65%;
-                            padding-left: 70px;
-                            margin: unset;
-                        }
+                        >.elementor-widget-wrap {
+                            @include xl {
+                                padding-left: 0;
+                            }
 
-                        @include md {
-                            width: 93%;
-                            margin: unset;
+                            .section-title {
+                                .title {
+                                    br {
+                                        @include xl {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
+                }
+
+                @include lg {
+                    width: 65%;
+                    padding-left: 70px;
+                    margin: unset;
+                }
+
+                @include md {
+                    width: 93%;
+                    margin: unset;
                 }
             }
         }

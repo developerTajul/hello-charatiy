@@ -15483,15 +15483,25 @@ ul.children {
     padding-left: 60px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .elementor-section.donate-area.style-2 .elementor-container > .elementor-col-50:last-child > .elementor-widget-wrap {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .elementor-section.donate-area.style-2 .elementor-container > .elementor-col-50:last-child > .elementor-widget-wrap .section-title .title br {
+    display: none;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.donate-area.style-2 .elementor-container > .elementor-col-50:last-child {
+  .elementor-section.donate-area.style-2 .elementor-container {
     width: 65%;
     padding-left: 70px;
     margin: unset;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.donate-area.style-2 .elementor-container > .elementor-col-50:last-child {
+  .elementor-section.donate-area.style-2 .elementor-container {
     width: 93%;
     margin: unset;
   }
