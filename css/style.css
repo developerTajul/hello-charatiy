@@ -12619,7 +12619,7 @@ ul.children {
   position: relative;
   overflow: hidden;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .portfolio-area .img-content-wrapper {
     width: 48%;
   }
