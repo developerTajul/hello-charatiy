@@ -10,6 +10,10 @@
             margin-top: 114px;
             width: 100%;
 
+            @include sm {
+                top: 129px;
+            }
+
             @include md {
                 top: 84px;
             }
@@ -153,6 +157,7 @@
             // overflow: hidden;
             @include rmaxwd(992) {
                 flex-direction: column;
+                margin: 0 12px;
             }
 
             @include xl {
@@ -236,6 +241,16 @@
                         justify-content: center;
                         align-items: center;
 
+                        @include sm {
+                            align-items: start;
+                            margin-top: 4px;
+                        }
+
+                        @include md {
+                            align-items: start;
+                            margin-top: 4px;
+                        }
+
                         @include lg {
                             align-items: start;
                             margin-top: 4px;
@@ -268,6 +283,10 @@
 
                             br {
                                 @include lg {
+                                    display: none;
+                                }
+
+                                @include sm {
                                     display: none;
                                 }
                             }

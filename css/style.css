@@ -7216,6 +7216,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 114px;
   width: 100%;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .process-step-slider-area.style-2 .line-dots {
+    top: 129px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .process-step-slider-area.style-2 .line-dots {
     top: 84px;
@@ -7350,6 +7355,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 992px) {
   .process-step-slider-area.style-2 .process-step {
     flex-direction: column;
+    margin: 0 12px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
@@ -7427,6 +7433,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
+    align-items: start;
+    margin-top: 4px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
+    align-items: start;
+    margin-top: 4px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
     align-items: start;
@@ -7457,6 +7475,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #121212;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .title br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .title br {
     display: none;
   }
