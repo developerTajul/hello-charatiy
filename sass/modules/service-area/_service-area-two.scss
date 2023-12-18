@@ -62,8 +62,7 @@
       height: 143px;
       bottom: 0;
       right: 0;
-      margin-bottom: 117px;
-      margin-right: 106px;
+      transform: translate(100%, 50%);
 
       @include rmaxwd(1740) {
         margin-bottom: 10px;

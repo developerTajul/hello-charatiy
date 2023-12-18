@@ -10347,19 +10347,6 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   overflow: hidden;
 }
-.team-slider-area.style-1 {
-  padding-bottom: 120px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-slider-area.style-1 {
-    padding-bottom: 100px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-slider-area.style-1 {
-    padding-bottom: 80px;
-  }
-}
 .team-slider-area.style-1 .section-title {
   text-align: center;
   margin-bottom: 64px;
@@ -14154,8 +14141,7 @@ ul.children {
   height: 143px;
   bottom: 0;
   right: 0;
-  margin-bottom: 117px;
-  margin-right: 106px;
+  transform: translate(100%, 50%);
 }
 @media (max-width: 1740px) {
   .service-area.style-2 .bottom-feature {
