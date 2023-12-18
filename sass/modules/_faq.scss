@@ -22,7 +22,7 @@
         }
 
         @include rmaxwd(1199) {
-            display: none;
+            display: none !important;
         }
     }
 
@@ -36,7 +36,7 @@
         margin-left: 196px;
 
         @include rmaxwd(1199) {
-            display: none;
+            display: none !important;
         }
 
         @include xl {
@@ -58,7 +58,7 @@
         animation: none !important;
 
         @include rmaxwd(1199) {
-            display: none;
+            display: none !important;
         }
 
         @include xl {

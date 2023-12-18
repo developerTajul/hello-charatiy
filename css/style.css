@@ -16603,7 +16603,7 @@ ul.children {
 }
 @media (max-width: 1199px) {
   .faq-area .feature-shape {
-    display: none;
+    display: none !important;
   }
 }
 .faq-area .feature-shape2 {
@@ -16617,7 +16617,7 @@ ul.children {
 }
 @media (max-width: 1199px) {
   .faq-area .feature-shape2 {
-    display: none;
+    display: none !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
@@ -16640,7 +16640,7 @@ ul.children {
 }
 @media (max-width: 1199px) {
   .faq-area .feature-shape3 {
-    display: none;
+    display: none !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
