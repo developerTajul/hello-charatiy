@@ -16598,7 +16598,7 @@ ul.children {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape {
-    width: 320px;
+    display: none !important;
   }
 }
 @media (max-width: 1199px) {
@@ -16622,10 +16622,7 @@ ul.children {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape2 {
-    width: 140px;
-    height: 80px;
-    margin-top: 10px;
-    margin-left: 10px;
+    display: none !important;
   }
 }
 .faq-area .feature-shape3 {
@@ -16645,11 +16642,7 @@ ul.children {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape3 {
-    right: 0;
-    width: 100px;
-    height: 100px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    display: none !important;
   }
 }
 .faq-area .section-title {
