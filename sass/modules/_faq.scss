@@ -17,7 +17,7 @@
         right: 0;
         z-index: 20;
 
-        @include rmaxwd(1500) {
+        @include xl {
             width: 320px;
         }
 
@@ -35,15 +35,15 @@
         left: 0px;
         margin-left: 196px;
 
-        @include rmaxwd(1533) {
+        @include rmaxwd(1199) {
+            display: none;
+        }
+
+        @include xl {
             width: 140px;
             height: 80px;
             margin-top: 10px;
             margin-left: 10px;
-        }
-
-        @include rmaxwd(1199) {
-            display: none;
         }
     }
 
@@ -57,16 +57,16 @@
         margin-bottom: 109px;
         animation: none !important;
 
-        @include rmaxwd(1557) {
+        @include rmaxwd(1199) {
+            display: none;
+        }
+
+        @include xl {
             right: 0;
             width: 100px;
             height: 100px;
             margin-right: 50px;
             margin-bottom: 10px;
-        }
-
-        @include rmaxwd(1199) {
-            display: none;
         }
     }
 

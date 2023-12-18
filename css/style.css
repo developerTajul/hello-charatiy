@@ -16596,7 +16596,7 @@ ul.children {
   right: 0;
   z-index: 20;
 }
-@media (max-width: 1500px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape {
     width: 320px;
   }
@@ -16615,17 +16615,17 @@ ul.children {
   left: 0px;
   margin-left: 196px;
 }
-@media (max-width: 1533px) {
+@media (max-width: 1199px) {
+  .faq-area .feature-shape2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape2 {
     width: 140px;
     height: 80px;
     margin-top: 10px;
     margin-left: 10px;
-  }
-}
-@media (max-width: 1199px) {
-  .faq-area .feature-shape2 {
-    display: none;
   }
 }
 .faq-area .feature-shape3 {
@@ -16638,18 +16638,18 @@ ul.children {
   margin-bottom: 109px;
   animation: none !important;
 }
-@media (max-width: 1557px) {
+@media (max-width: 1199px) {
+  .faq-area .feature-shape3 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .faq-area .feature-shape3 {
     right: 0;
     width: 100px;
     height: 100px;
     margin-right: 50px;
     margin-bottom: 10px;
-  }
-}
-@media (max-width: 1199px) {
-  .faq-area .feature-shape3 {
-    display: none;
   }
 }
 .faq-area .section-title {
