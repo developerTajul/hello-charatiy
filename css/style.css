@@ -7433,22 +7433,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   align-items: center;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 1199px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
     align-items: start;
-    margin-top: 4px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
-    align-items: start;
-    margin-top: 4px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
-    align-items: start;
-    margin-top: 4px;
   }
 }
 .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .icon {
@@ -7473,6 +7460,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 170%;
   letter-spacing: 0.36px;
   color: #121212;
+}
+@media (max-width: 1199px) {
+  .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .title {
+    margin-top: 4px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .title br {
