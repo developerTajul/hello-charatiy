@@ -40,6 +40,10 @@
         height: 600px;
     }
 
+    @include sm {
+        height: 500px;
+    }
+
     &:after {
         content: "";
         background: $black;
