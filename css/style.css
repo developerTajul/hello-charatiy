@@ -16601,11 +16601,9 @@ ul.children {
     width: 320px;
   }
 }
-@media (max-width: 765px) {
+@media (max-width: 1199px) {
   .faq-area .feature-shape {
-    width: 160px;
-    top: -30px;
-    animation: MoveUpDown 2s linear infinite alternate;
+    display: none;
   }
 }
 .faq-area .feature-shape2 {
@@ -16625,7 +16623,7 @@ ul.children {
     margin-left: 10px;
   }
 }
-@media (max-width: 452px) {
+@media (max-width: 1199px) {
   .faq-area .feature-shape2 {
     display: none;
   }
@@ -16649,13 +16647,9 @@ ul.children {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1199px) {
   .faq-area .feature-shape3 {
-    right: 0;
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    display: none;
   }
 }
 .faq-area .section-title {
