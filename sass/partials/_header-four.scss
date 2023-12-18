@@ -37,6 +37,12 @@
         }
 
         .header-menu-area {
+            &.sticky_menu {
+                .header-menu-area-inner {
+                    padding: 0;
+                }
+            }
+
             .header-menu-area-inner {
                 background-color: $white;
                 border-radius: 10px;

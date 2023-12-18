@@ -3926,6 +3926,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-4 .header-top.style-2 .header-top-inner {
   padding: 0;
 }
+.header-area.style-4 .header-menu-area.sticky_menu .header-menu-area-inner {
+  padding: 0;
+}
 .header-area.style-4 .header-menu-area .header-menu-area-inner {
   background-color: #ffffff;
   border-radius: 10px;
