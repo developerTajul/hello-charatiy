@@ -3931,6 +3931,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 10px;
   padding: 0 24px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .header-area.style-4 .header-menu-area .header-menu-area-inner {
+    padding: 0 12px;
+  }
+}
 @media (max-width: 992px) {
   .header-area.style-4 .header-menu-area .header-menu-area-inner {
     border-radius: 0px !important;

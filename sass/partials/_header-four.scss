@@ -42,6 +42,10 @@
                 border-radius: 10px;
                 padding: 0 24px;
 
+                @include sm {
+                    padding: 0 12px;
+                }
+
                 @include rmaxwd(992) {
                     border-radius: 0px !important;
                 }
