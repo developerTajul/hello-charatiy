@@ -3948,6 +3948,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-4 .submenu li:hover a {
   color: #121212 !important;
 }
+.header-area.style-4 .mobile-menu-bar a i {
+  color: #020a27;
+}
 
 .mean-container a.meanmenu-reveal {
   display: none;
