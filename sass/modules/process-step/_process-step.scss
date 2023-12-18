@@ -10,6 +10,10 @@
             margin-top: 114px;
             width: 100%;
 
+            @include md {
+                top: 84px;
+            }
+
             @include lg {
                 top: 117px;
             }
