@@ -9870,19 +9870,19 @@ button.testimonial-arrow-btn:hover i {
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .section-title .title {
-    font-size: 47px;
+    font-size: 47px !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title .title {
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 38px !important;
+    line-height: 48px !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .title {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 30px !important;
+    line-height: 42px !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 439px) {
@@ -9900,7 +9900,8 @@ button.testimonial-arrow-btn:hover i {
   color: #5E5E5E;
   margin-bottom: 0;
   margin-top: 10px;
-  line-height: 170%; /* 30.6px */
+  line-height: 170%;
+  /* 30.6px */
   letter-spacing: 0.36px;
 }
 .section-title .text {
