@@ -14142,20 +14142,6 @@ ul.children {
     border-radius: 0px;
   }
 }
-.service-area.style-2 .service-wrapper {
-  padding-top: 120px;
-  padding-bottom: 110px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-area.style-2 .service-wrapper {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area.style-2 .service-wrapper {
-    padding: 80px 0px;
-  }
-}
 .service-area.style-2 .top-feature {
   position: absolute;
   top: 81px;
