@@ -930,7 +930,7 @@
                 }
 
                 @include sm {
-                    display: none;
+                    display: none !important;
                 }
             }
 
@@ -951,7 +951,7 @@
                 }
 
                 @include sm {
-                    display: none;
+                    display: none !important;
                 }
             }
 

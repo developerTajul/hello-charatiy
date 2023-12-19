@@ -15581,7 +15581,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .Donors_slider_wrapper button.slick-arrow.next-btn {
-    display: none;
+    display: none !important;
   }
 }
 .Donors_slider_wrapper button.slick-arrow.prev-btn {
@@ -15605,7 +15605,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .Donors_slider_wrapper button.slick-arrow.prev-btn {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 1400px) {
