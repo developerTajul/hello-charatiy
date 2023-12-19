@@ -13164,7 +13164,7 @@ ul.children {
   gap: 16px;
   justify-content: center;
   align-items: center;
-  width: 315px;
+  min-width: 315px;
 }
 @media (max-width: 767px) {
   .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
