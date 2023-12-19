@@ -13164,7 +13164,16 @@ ul.children {
   gap: 16px;
   justify-content: center;
   align-items: center;
-  min-width: 315px;
+}
+@media (max-width: 991px) {
+  .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
+    justify-content: start;
+  }
+}
+@media (min-width: 1700px) {
+  .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
+    min-width: 315px;
+  }
 }
 @media (max-width: 767px) {
   .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
