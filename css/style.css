@@ -15272,6 +15272,8 @@ ul.children {
 }
 .give-form-wrap .give-goal-progress .progress-bar .give-progress-bar span {
   background: #FFE144 !important;
+  display: block;
+  height: 100%;
 }
 .give-form-wrap .give-donation-amount {
   position: relative;

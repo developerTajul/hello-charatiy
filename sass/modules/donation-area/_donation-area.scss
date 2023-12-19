@@ -593,6 +593,8 @@
             .give-progress-bar {
                 span {
                     background: $primary-color !important;
+                    display: block;
+                    height: 100%;
                 }
             }
         }
