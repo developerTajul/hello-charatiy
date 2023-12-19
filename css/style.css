@@ -13164,6 +13164,7 @@ ul.children {
   gap: 16px;
   justify-content: center;
   align-items: center;
+  width: 315px;
 }
 @media (max-width: 767px) {
   .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
@@ -13380,11 +13381,13 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount {
   background-color: #e7eaec;
 }
-.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol,
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before {
   background-color: #FF4638 !important;
   color: #ffffff !important;
 }
-.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol i, .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before i {
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-symbol i,
+.causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-currency-position-before i {
   color: #ffffff !important;
 }
 .causes-details-area.style-1 .give-form-wrap .give-donation-amount .give-text-input {
@@ -13476,7 +13479,8 @@ ul.children {
 .causes-details-area.style-1 .give-form-wrap .give-progress-bar {
   height: 12px !important;
 }
-.causes-details-area.style-1 .give-form-wrap .form-row-first, .causes-details-area.style-1 .give-form-wrap .form-row-last {
+.causes-details-area.style-1 .give-form-wrap .form-row-first,
+.causes-details-area.style-1 .give-form-wrap .form-row-last {
   width: 49.4%;
   margin-right: 0;
 }
