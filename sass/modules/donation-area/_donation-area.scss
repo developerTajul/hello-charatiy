@@ -906,7 +906,7 @@
         &.slick-arrow {
             position: absolute;
             top: 50%;
-            display: flex;
+            display: flex !important;
             width: 64px;
             height: 64px;
             padding: 16px 24px;
