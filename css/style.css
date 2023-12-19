@@ -15274,6 +15274,10 @@ ul.children {
   background: #FFE144 !important;
   display: block;
   height: 100%;
+  border-radius: 10px;
+}
+.give-form-wrap .give-total-wrap {
+  margin-top: 48px;
 }
 .give-form-wrap .give-donation-amount {
   position: relative;
@@ -15453,6 +15457,7 @@ ul.children {
 }
 .give-form-wrap .give-progress-bar {
   height: 8px !important;
+  border-radius: 10px;
 }
 .give-form-wrap .give-hidden {
   display: none !important;

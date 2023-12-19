@@ -595,9 +595,14 @@
                     background: $primary-color !important;
                     display: block;
                     height: 100%;
+                    border-radius: 10px;
                 }
             }
         }
+    }
+
+    .give-total-wrap {
+        margin-top: 48px;
     }
 
     .give-donation-amount {
@@ -800,6 +805,7 @@
 
     .give-progress-bar {
         height: 8px !important;
+        border-radius: 10px;
     }
 
     .give-hidden {
