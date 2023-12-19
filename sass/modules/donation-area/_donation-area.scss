@@ -205,6 +205,9 @@
 
         }
 
+        .give-form-wrap {
+            padding: 40px;
+        }
     }
 }
 
@@ -510,7 +513,7 @@
     position: relative;
 
     @include sm {
-        padding: 40px;
+        padding: 32px;
         margin-bottom: 50px;
     }
 

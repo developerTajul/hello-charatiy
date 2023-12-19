@@ -14916,6 +14916,9 @@ ul.children {
   margin-top: 32px;
   color: #ffffff;
 }
+.donate-area.style-1 .give-form-wrap {
+  padding: 40px;
+}
 
 .donate-form {
   padding: 60px;
@@ -15193,7 +15196,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .give-form-wrap {
-    padding: 40px;
+    padding: 32px;
     margin-bottom: 50px;
   }
 }
@@ -18119,6 +18122,7 @@ ul.children {
   .footer .footer-sec .shape-1 {
     width: 160px;
     height: 160px;
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
