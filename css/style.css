@@ -16104,7 +16104,8 @@ ul.children {
   flex-direction: column;
   align-items: start;
 }
-.page-area.event-details .author-info .author-text p, .page-area.event-details .author-info .author-text .decs {
+.page-area.event-details .author-info .author-text p,
+.page-area.event-details .author-info .author-text .decs {
   text-align: start;
   margin-top: 11px;
   margin-bottom: 16px;
@@ -16146,7 +16147,8 @@ ul.children {
   margin-top: 40px;
   margin-bottom: 32px;
 }
-.page-area.event-details .single-post-item .post-content .post-gallery-columns-2, .page-area.event-details .single-post-item .post-content .gallery-columns-2 {
+.page-area.event-details .single-post-item .post-content .post-gallery-columns-2,
+.page-area.event-details .single-post-item .post-content .gallery-columns-2 {
   margin-top: 30px;
 }
 
@@ -16220,6 +16222,16 @@ ul.children {
   padding: 0;
   margin: 0;
   margin-right: 111px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
+    margin-right: 50px !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
+    margin-right: 90px !important;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .events_group_details_wrapper .events_group_details_inner_wrapper .tribe-events-meta-group {
