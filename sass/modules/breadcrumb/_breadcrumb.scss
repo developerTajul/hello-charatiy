@@ -113,7 +113,15 @@
     color: $white;
   }
 
-  @include rmaxwd(991) {
+  @include xl {
+    margin-right: 35px;
+  }
+
+  @include lg {
+    margin-right: 35px;
+  }
+
+  @include md {
     transform: translate(12%, 82%);
     margin-right: 10px;
     width: 100px;
@@ -123,7 +131,7 @@
     }
   }
 
-  @include rmaxwd(767) {
+  @include sm {
     transform: translate(12%, 82%);
     width: 60px;
     margin-right: 10px;

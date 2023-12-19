@@ -806,6 +806,8 @@
     .give-progress-bar {
         height: 8px !important;
         border-radius: 10px;
+        background-color: $white;
+        margin-top: 28px;
     }
 
     .give-hidden {
@@ -914,11 +916,19 @@
             &.next-btn {
                 right: 0;
                 margin-right: -80px;
+
+                @include xl {
+                    margin-right: -48px;
+                }
             }
 
             &.prev-btn {
                 left: 0;
                 margin-left: -80px;
+
+                @include xl {
+                    margin-left: -48px;
+                }
             }
 
             @include rmaxwd(1400) {

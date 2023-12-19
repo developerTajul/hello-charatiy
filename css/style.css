@@ -10079,7 +10079,17 @@ button.testimonial-arrow-btn:hover i {
   font-size: 143px;
   color: #ffffff;
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .feature-shape3 {
+    margin-right: 35px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-shape3 {
+    margin-right: 35px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .feature-shape3 {
     transform: translate(12%, 82%);
     margin-right: 10px;
@@ -10089,7 +10099,7 @@ button.testimonial-arrow-btn:hover i {
     font-size: 100px;
   }
 }
-@media (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-shape3 {
     transform: translate(12%, 82%);
     width: 60px;
@@ -15458,6 +15468,8 @@ ul.children {
 .give-form-wrap .give-progress-bar {
   height: 8px !important;
   border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 28px;
 }
 .give-form-wrap .give-hidden {
   display: none !important;
@@ -15552,9 +15564,19 @@ ul.children {
   right: 0;
   margin-right: -80px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .Donors_slider_wrapper button.slick-arrow.next-btn {
+    margin-right: -48px;
+  }
+}
 .Donors_slider_wrapper button.slick-arrow.prev-btn {
   left: 0;
   margin-left: -80px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .Donors_slider_wrapper button.slick-arrow.prev-btn {
+    margin-left: -48px;
+  }
 }
 @media (max-width: 1400px) {
   .Donors_slider_wrapper button.slick-arrow {
