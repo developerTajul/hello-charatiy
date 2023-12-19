@@ -886,6 +886,11 @@
         text-align: center;
         margin: 0;
 
+        @include rmaxwd(991) {
+            flex-direction: column;
+            gap: 28px;
+        }
+
         // @include rmaxwd {
         //     flex-direction: column;
         //     justify-content: start;

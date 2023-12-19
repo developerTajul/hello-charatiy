@@ -15542,6 +15542,12 @@ ul.children {
   text-align: center;
   margin: 0;
 }
+@media (max-width: 991px) {
+  .Donors_slider_wrapper .donors_slider_header_wrapper {
+    flex-direction: column;
+    gap: 28px;
+  }
+}
 .Donors_slider_wrapper .donors_slider {
   margin-top: 60px;
 }
