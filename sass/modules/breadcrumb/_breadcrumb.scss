@@ -33,7 +33,12 @@
     width: 280px;
   }
 
-  @include rmaxwd(991) {
+  @include lg {
+    width: 200px;
+    height: 152px;
+  }
+
+  @include md {
     margin-bottom: 10px;
     margin-left: 20px;
     width: 180px;
@@ -41,6 +46,8 @@
 
   @include rmaxwd(767) {
     width: 100px;
+    height: 100px;
+
   }
 }
 
@@ -64,13 +71,18 @@
     margin-right: 105px;
   }
 
-  @include rmaxwd(991) {
+  @include lg {
+    margin-top: 210px;
+    margin-right: 110px;
+  }
+
+  @include md {
     margin-top: 125px;
     margin-right: 20px;
   }
 
   @include rmaxwd(767) {
-    margin-top: 100px;
+    margin-top: 76px;
     margin-right: 20px;
     width: 60px;
 

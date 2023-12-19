@@ -9996,7 +9996,13 @@ button.testimonial-arrow-btn:hover i {
     width: 280px;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-shape1 {
+    width: 200px;
+    height: 152px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .feature-shape1 {
     margin-bottom: 10px;
     margin-left: 20px;
@@ -10006,6 +10012,7 @@ button.testimonial-arrow-btn:hover i {
 @media (max-width: 767px) {
   .feature-shape1 {
     width: 100px;
+    height: 100px;
   }
 }
 
@@ -10029,7 +10036,13 @@ button.testimonial-arrow-btn:hover i {
     margin-right: 105px;
   }
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-shape2 {
+    margin-top: 210px;
+    margin-right: 110px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .feature-shape2 {
     margin-top: 125px;
     margin-right: 20px;
@@ -10037,7 +10050,7 @@ button.testimonial-arrow-btn:hover i {
 }
 @media (max-width: 767px) {
   .feature-shape2 {
-    margin-top: 100px;
+    margin-top: 76px;
     margin-right: 20px;
     width: 60px;
   }
@@ -18106,6 +18119,12 @@ ul.children {
   .footer .footer-sec .shape-1 {
     width: 160px;
     height: 160px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer .footer-sec .shape-1 {
+    margin-top: 0;
+    margin-right: 0;
   }
 }
 .footer .footer-sec .shape-2 {
