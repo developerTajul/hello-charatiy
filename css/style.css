@@ -15569,6 +15569,11 @@ ul.children {
     margin-right: -48px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Donors_slider_wrapper button.slick-arrow.next-btn {
+    margin-right: -30px;
+  }
+}
 .Donors_slider_wrapper button.slick-arrow.prev-btn {
   left: 0;
   margin-left: -80px;
@@ -15576,6 +15581,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .Donors_slider_wrapper button.slick-arrow.prev-btn {
     margin-left: -48px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Donors_slider_wrapper button.slick-arrow.prev-btn {
+    margin-left: -30px;
   }
 }
 @media (max-width: 1400px) {

@@ -920,6 +920,10 @@
                 @include xl {
                     margin-right: -48px;
                 }
+
+                @include lg {
+                    margin-right: -30px;
+                }
             }
 
             &.prev-btn {
@@ -928,6 +932,10 @@
 
                 @include xl {
                     margin-left: -48px;
+                }
+
+                @include lg {
+                    margin-left: -30px;
                 }
             }
 
