@@ -10023,6 +10023,12 @@ button.testimonial-arrow-btn:hover i {
   font-size: 52px;
   color: #ffffff;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .feature-shape2 {
+    margin-top: 170px;
+    margin-right: 105px;
+  }
+}
 @media (max-width: 991px) {
   .feature-shape2 {
     margin-top: 125px;
