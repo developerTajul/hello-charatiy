@@ -12473,6 +12473,7 @@ ul.children {
   position: relative;
   overflow: hidden;
   padding-bottom: 7px;
+  margin-top: 24px;
 }
 .team-member-slider-wrapper .slick-list {
   padding-left: 0px !important;
