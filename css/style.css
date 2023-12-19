@@ -15571,7 +15571,17 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .Donors_slider_wrapper button.slick-arrow.next-btn {
-    margin-right: -30px;
+    margin-right: -20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Donors_slider_wrapper button.slick-arrow.next-btn {
+    margin-right: -20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .Donors_slider_wrapper button.slick-arrow.next-btn {
+    display: none;
   }
 }
 .Donors_slider_wrapper button.slick-arrow.prev-btn {
@@ -15585,7 +15595,17 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .Donors_slider_wrapper button.slick-arrow.prev-btn {
-    margin-left: -30px;
+    margin-left: -20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Donors_slider_wrapper button.slick-arrow.prev-btn {
+    margin-left: -20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .Donors_slider_wrapper button.slick-arrow.prev-btn {
+    display: none;
   }
 }
 @media (max-width: 1400px) {
