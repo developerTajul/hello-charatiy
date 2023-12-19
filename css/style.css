@@ -13170,7 +13170,7 @@ ul.children {
     justify-content: start;
   }
 }
-@media (min-width: 1700px) {
+@media (min-width: 992px) {
   .causes-details-area.style-1 .author-profile .content .goals_actions-inner {
     min-width: 315px;
   }

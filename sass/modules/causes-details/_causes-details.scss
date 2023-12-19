@@ -239,7 +239,7 @@
                         justify-content: start;
                     }
 
-                    @include rwd(1700) {
+                    @include rwd(992) {
                         min-width: 315px;
                     }
 
