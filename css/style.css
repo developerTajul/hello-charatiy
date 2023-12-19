@@ -13090,6 +13090,12 @@ ul.children {
   color: #121212;
   font-size: 57px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .causes-details-area.style-1 .feature-icon2 {
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 1200px) {
   .causes-details-area.style-1 .feature-icon2 {
     display: none;
