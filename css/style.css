@@ -10071,7 +10071,7 @@ button.testimonial-arrow-btn:hover i {
 @media (max-width: 767px) {
   .feature-shape2 {
     margin-top: 76px;
-    margin-right: 20px;
+    margin-right: 32px;
     width: 60px;
   }
   .feature-shape2 i {
@@ -15520,6 +15520,11 @@ ul.children {
     width: 100%;
     margin-bottom: 20px;
     margin-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .give-form-wrap #give_checkout_user_info .form-row-first {
+    margin-right: 10px;
   }
 }
 .give-form-wrap #give_checkout_user_info .form-row-last {

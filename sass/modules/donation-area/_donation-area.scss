@@ -833,6 +833,10 @@
                 margin-bottom: 20px;
                 margin-right: 0;
             }
+
+            @include lg {
+                margin-right: 10px;
+            }
         }
 
         .form-row-last {
