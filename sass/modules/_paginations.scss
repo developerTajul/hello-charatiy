@@ -7,10 +7,12 @@
   .wp-block-query-pagination-numbers {
     width: inherit;
   }
+
   .nav-links {
     display: flex;
     gap: 20px;
   }
+
   .wp-block-query-pagination-previous,
   .wp-block-query-pagination-next,
   .nav-next a,
@@ -30,8 +32,9 @@
     text-transform: capitalize;
     overflow: hidden;
     transition: 0.3s;
-     z-index: 99;
-     position: relative;
+    z-index: 99;
+    position: relative;
+
     @include rmaxwd(767) {
       height: 40px;
     }
@@ -55,7 +58,11 @@
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  margin-top: 56px;
+  margin-top: 20px;
+
+  @include sm {
+    margin-top: 32px;
+  }
 
   ul {
     display: inline-flex;
@@ -70,15 +77,15 @@
     li {
       padding-top: 0;
     }
+
     .prev,
-    .next
-    {
+    .next {
       span {
         display: none;
       }
     }
   }
-  
+
   .page-numbers,
   .post-page-numbers {
     display: flex;
@@ -98,6 +105,7 @@
     transition: 0.3s;
     z-index: 99;
     position: relative;
+
     &:before {
       position: absolute;
       width: 0;
@@ -112,16 +120,19 @@
       color: $black-2;
       border-color: $primary-color;
     }
+
     @include rmaxwd(767) {
       width: 40px;
       height: 40px;
       font-size: 16px;
     }
+
     &:hover {
       @include transition;
-       &:before {
-          width: 100%;
-          @include transition;
+
+      &:before {
+        width: 100%;
+        @include transition;
       }
     }
 
