@@ -14381,7 +14381,8 @@ ul.children {
 }
 @media (max-width: 1700px) {
   .service-area.style-2 .top-feature .elementor-widget-container {
-    margin: 0 !important;
+    text-align: start;
+    margin-top: -173px !important;
   }
 }
 @media (max-width: 1700px) {

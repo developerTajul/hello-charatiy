@@ -57,7 +57,8 @@
 
       .elementor-widget-container {
         @include rmaxwd(1700) {
-          margin: 0 !important;
+          text-align: start;
+          margin-top: -173px !important;
         }
       }
 
