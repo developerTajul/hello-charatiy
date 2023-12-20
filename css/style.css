@@ -6421,6 +6421,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-content-wrapper .section-title .desc {
   padding-right: 118px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper .section-title .desc {
+    padding-right: 12px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-content-wrapper .section-title .desc {
     padding-right: 0px;
@@ -6431,7 +6436,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-content-wrapper .about-us-list .elementor-widget-container {
-    padding-right: 0;
+    padding-right: 0 !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -6855,6 +6860,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .certified-wrapper {
   position: absolute;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .certified-wrapper {
+    right: 20px;
+    top: 30px;
+  }
 }
 
 .about-us-area.style-1 .heart-sketch {
@@ -15716,8 +15727,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.donate-area.style-1 .elementor-container > .elementor-col-50:last-child {
-    width: 93%;
-    margin: unset;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

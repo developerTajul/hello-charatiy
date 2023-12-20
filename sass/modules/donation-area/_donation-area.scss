@@ -1046,8 +1046,8 @@
                         }
 
                         @include md {
-                            width: 93%;
-                            margin: unset;
+                            // width: 93%;
+                            margin: 0 auto;
                         }
                     }
                 }
