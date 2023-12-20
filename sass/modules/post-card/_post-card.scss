@@ -815,12 +815,7 @@
     background-color: rgb(223, 226, 233);
     width: 1px;
 
-    @media only screen and (min-width: 992px) and (max-width: 1024px) {
-      width: 100%;
-      height: 1px;
-    }
-
-    @include rmaxwd(767) {
+    @include rmaxwd(1199) {
       width: 100%;
       height: 1px;
     }
