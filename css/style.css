@@ -7492,7 +7492,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1700px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item {
     align-items: start;
   }
@@ -7520,7 +7520,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   letter-spacing: 0.36px;
   color: #121212;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1700px) {
   .process-step-slider-area.style-2 .process-step .content-wrapper .checkbox-items .single-item .title {
     margin-top: 4px;
   }

@@ -241,7 +241,7 @@
                         justify-content: center;
                         align-items: center;
 
-                        @include rmaxwd(1199) {
+                        @include rmaxwd(1700) {
                             align-items: start;
                         }
 
@@ -270,7 +270,7 @@
                             letter-spacing: 0.36px;
                             color: $black-2;
 
-                            @include rmaxwd(1199) {
+                            @include rmaxwd(1700) {
                                 margin-top: 4px;
                             }
 
