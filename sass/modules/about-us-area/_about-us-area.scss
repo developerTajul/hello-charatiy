@@ -656,7 +656,7 @@
                 }
 
                 .content {
-                    @include lg {
+                    @include rmaxwd(1199) {
                         flex-shrink: 0;
                     }
 
