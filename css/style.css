@@ -17293,6 +17293,11 @@ ul.children {
     top: -125px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .page-area .contact-info-area .feature-image {
+    top: -116px;
+  }
+}
 
 .contact-form {
   padding-top: 64px;

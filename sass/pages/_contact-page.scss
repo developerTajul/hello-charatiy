@@ -126,6 +126,10 @@
             @include lg {
                 top: -125px;
             }
+
+            @include xl {
+                top: -116px;
+            }
         }
     }
 }
