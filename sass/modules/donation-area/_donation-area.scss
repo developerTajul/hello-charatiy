@@ -1052,32 +1052,13 @@
                     }
                 }
             }
-        }
-
-        &.style-2 {
-            >.elementor-container {
-                >.elementor-col-50 {
-                    @include lg {
-                        width: 65%;
-                        padding-left: 60px;
-                    }
-                }
-
-                @include lg {
-                    width: 70%;
-                    padding-left: 70px;
-                    margin: unset;
-                }
-
-                @include md {
-                    width: 93%;
-                    padding-left: 38px;
-                    margin: unset;
-                }
-            }
 
             .donate-area-title {
                 >.elementor-widget-wrap {
+                    @include lg {
+                        padding-left: 0;
+                    }
+
                     @include xl {
                         padding-left: 0;
                     }
@@ -1099,6 +1080,29 @@
                             }
                         }
                     }
+                }
+            }
+        }
+
+        &.style-2 {
+            >.elementor-container {
+                >.elementor-col-50 {
+                    @include lg {
+                        width: 65%;
+                        padding-left: 60px;
+                    }
+                }
+
+                @include lg {
+                    width: 70%;
+                    padding-left: 70px;
+                    margin: unset;
+                }
+
+                @include md {
+                    width: 93%;
+                    padding-left: 38px;
+                    margin: unset;
                 }
             }
         }
