@@ -9012,6 +9012,7 @@ button.testimonial-arrow-btn:hover i {
 
 .single-post-item {
   margin-bottom: 0px;
+  margin-top: 44px;
   /* Quote Format Post */
   /* Sticky Post */
 }
@@ -9062,6 +9063,9 @@ button.testimonial-arrow-btn:hover i {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+}
+.single-post-item:first-child {
+  margin-top: 0;
 }
 .single-post-item.format-quote .post-content {
   margin: 0;
@@ -9132,7 +9136,8 @@ button.testimonial-arrow-btn:hover i {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 170%; /* 27.2px */
+  line-height: 170%;
+  /* 27.2px */
   letter-spacing: 0.32px;
   margin-top: 10px;
   cursor: default;
@@ -9223,7 +9228,6 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
-  margin-top: 44px;
 }
 .single-post-item .post-thumbnail a,
 .single-post-item .post-video a {
@@ -9364,7 +9368,8 @@ button.testimonial-arrow-btn:hover i {
   flex-direction: column;
   gap: 16px;
 }
-.author-info .author-text h3, .author-info .author-text .author-name {
+.author-info .author-text h3,
+.author-info .author-text .author-name {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #121212;
   font-size: 22px;
@@ -9384,7 +9389,8 @@ button.testimonial-arrow-btn:hover i {
   letter-spacing: 0.36px;
   cursor: default;
 }
-.author-info .author-text p, .author-info .author-text .desc {
+.author-info .author-text p,
+.author-info .author-text .desc {
   margin-bottom: 0;
   font-family: "PT Sans", sans-serif;
   color: #5E5E5E;

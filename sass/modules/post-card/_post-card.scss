@@ -1,73 +1,78 @@
 .popup-video-wrapper {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .popup-video-wrapper2 {
-      position: absolute;
-      top: 50%;
-      right: 15%;
-      transform: translate(-50%, -50%);
-      @include rmaxwd(1000){
-        display: none;
-      }
-      
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+
+  @include rmaxwd(1000) {
+    display: none;
+  }
+
 }
 
 .video-btn {
-      a {
-        width: 70px;
-        height: 70px;
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-        background-color: #ffffff;
-        border-radius: 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+  a {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    background-color: #ffffff;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        i {
-          color: $primary-color;
-          font-size: 18px;
-        }
-        &:hover {
-          animation: none;
-        }
-      }
+    i {
+      color: $primary-color;
+      font-size: 18px;
+    }
+
+    &:hover {
+      animation: none;
+    }
+  }
 }
 
 .video-btn2 {
-        width: 138px;
-        height: 138px;
-        box-shadow: 0 0 0 0 $gray-4;
-        border-radius: 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      a {
-        width: 64px;
-        height: 64px;
-        border-radius: 100%;
-        background-color: $white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        i {
-          color: $brand;
-          font-size: 18px;
-        }
-        &:hover {
-          animation: none;
-        }
-      }
+  width: 138px;
+  height: 138px;
+  box-shadow: 0 0 0 0 $gray-4;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      color: $brand;
+      font-size: 18px;
+    }
+
+    &:hover {
+      animation: none;
+    }
+  }
 }
 
 // Archive Post Title
@@ -79,6 +84,7 @@
   @include rmaxwd(991) {
     padding-left: 30px;
   }
+
   .page-title {
     font-size: 48px;
     line-height: 60px;
@@ -92,6 +98,7 @@
 
 // Blog Details Page
 .blog-area {
+
   ol,
   ul {
     padding-left: 20px;
@@ -107,9 +114,11 @@
     margin-top: 78px;
     margin-bottom: 40px;
   }
+
   .post-comments {
     margin-top: 70px;
   }
+
   .wp-block-group.has-background {
     .wp-block-button {
       .wp-block-button__link {
@@ -117,6 +126,7 @@
       }
     }
   }
+
   .single-post-item {
     border: 0;
     overflow: visible;
@@ -125,10 +135,12 @@
       width: 100%;
       height: 522px;
     }
+
     .post-meta {
       margin-bottom: 12px;
       margin-top: 0;
     }
+
     .post-gallery {
       &:hover {
         img {
@@ -136,6 +148,7 @@
         }
       }
     }
+
     .post-thumbnail,
     .post-video,
     .post-gallery,
@@ -150,6 +163,7 @@
       @include rmaxwd(767) {
         margin-bottom: 30px;
       }
+
       &:hover {
         img {
           transform: scale(1.06);
@@ -162,17 +176,21 @@
         @include transition;
       }
     }
+
     .post-content-wrapper {
       padding: 0 0 10px 0;
-      img{
-            // border-radius: 20px;
-          border-radius: 8px;
-            margin-right: 8px;
+
+      img {
+        // border-radius: 20px;
+        border-radius: 8px;
+        margin-right: 8px;
       }
-      .post-title{
+
+      .post-title {
         line-height: initial;
       }
     }
+
     .post-content {
       margin-bottom: 17px;
       /* Unit Test Data Compatibility Start */
@@ -184,6 +202,7 @@
           margin-bottom: 30px;
         }
       }
+
       .wp-block-navigation__responsive-container-content {
         .wp-block-page-list {
           padding-left: 0;
@@ -192,10 +211,12 @@
 
       .wp-block-group {
         margin: 15px 0;
+
         p {
           margin-bottom: 0;
         }
       }
+
       /* Unit Test Data Compatibility End */
       p {
         margin-bottom: 20px;
@@ -207,59 +228,70 @@
         }
       }
     }
+
     .blog-post-tag {
       .social-share {
         padding-bottom: 20px;
       }
     }
   }
+
   .wp-block-calendar {
     margin-bottom: 30px;
   }
 }
+
 // Blog Details End
 
 // Standard Blog Post
 .single-post-item {
   margin-bottom: 0px;
+  margin-top: 44px;
+
   .slick-list {
-    &.draggable{
+    &.draggable {
       border-radius: 20px;
       overflow: hidden;
     }
   }
-  .post-thumbnail{
+
+  .post-thumbnail {
     position: relative;
-    &:before{
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0;
-          // background: linear-gradient(rgba(0, 0, 0, 0), rgba(18, 18, 18, 1));
-          z-index: 1;
-        }
-  }
-  .post-video {
-      img {
-        border-radius: 20px;
-        width: 100%;
-      }
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      // background: linear-gradient(rgba(0, 0, 0, 0), rgba(18, 18, 18, 1));
+      z-index: 1;
     }
+  }
+
+  .post-video {
+    img {
+      border-radius: 20px;
+      width: 100%;
+    }
+  }
+
   &:hover {
+
     // Post Image
     .post-thumbnail,
     .post-video {
       position: relative;
+
       img {
         border-radius: 20px;
         // width: 100%;
         transform: scale(1.03);
         @include transition;
-        
+
       }
-      
+
     }
   }
 
@@ -271,7 +303,9 @@
       height: 350px;
     }
   }
+
   .post-content-wrapper {
+
     // padding: 45px 47px 41px 47px;
     .read-more {
       margin-top: 32px;
@@ -283,16 +317,24 @@
       gap: 30px;
     }
   }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
   /* Quote Format Post */
   &.format-quote {
     .post-content {
       margin: 0;
     }
+
     blockquote {
       margin: 0;
+
       p {
         margin-top: 0;
       }
+
       cite {
         a {
           font-family: $body-font;
@@ -312,35 +354,41 @@
       }
     }
   }
+
   /* Sticky Post */
   &.sticky {
     border: 2px solid $primary-color;
     padding: 24px;
     border-radius: 10px;
-    .post-content-wrapper{
-      .post-meta{
+
+    .post-content-wrapper {
+      .post-meta {
         margin-top: 0;
       }
     }
 
     .post-content {
       margin-bottom: 0;
+
       p {
         margin-bottom: 0;
       }
     }
   }
+
   &.post-24 .wp-block-button a {
     color: $white;
   }
-  &.post-1786{
-    .post-content-wrapper{
-      .post-title{
+
+  &.post-1786 {
+    .post-content-wrapper {
+      .post-title {
         // margin-bottom: 20px;
       }
     }
   }
-  &.tag-quote{
+
+  &.tag-quote {
     margin-top: 48px;
   }
 
@@ -348,19 +396,20 @@
     margin-bottom: 0;
     line-height: initial;
     margin-top: 6px;
-      a{
-        color: $black-2;
-        font-family: $heading-font;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 130%; 
-        letter-spacing: 0.56px;
-        @extend .animated-text-red;
-        //  @include sm {
-        //   font-size: 32px;
-        // }
-      }
+
+    a {
+      color: $black-2;
+      font-family: $heading-font;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      letter-spacing: 0.56px;
+      @extend .animated-text-red;
+      //  @include sm {
+      //   font-size: 32px;
+      // }
+    }
 
     @include sm {
       font-size: 28px;
@@ -369,15 +418,17 @@
       //margin-bottom: 5px;
     }
 
-    
+
   }
+
   .post-content {
     p {
       font-family: $body-font;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 170%; /* 27.2px */
+      line-height: 170%;
+      /* 27.2px */
       letter-spacing: 0.32px;
       margin-top: 10px;
       cursor: default;
@@ -392,7 +443,7 @@
     }
 
     p {
-      
+
       margin-bottom: unset;
     }
   }
@@ -406,6 +457,7 @@
     flex-direction: column;
     width: 100%;
   }
+
   // Social Share
   .social-share {
     display: flex;
@@ -417,9 +469,11 @@
       &.facebook {
         color: #1877f2;
       }
+
       &.twitter {
         color: #1da1f2;
       }
+
       &.linkedin {
         color: #1a70c6;
       }
@@ -435,6 +489,7 @@
       cursor: default;
     }
   }
+
   // Post Tags
   .blog-post-tag {
     width: 100%;
@@ -452,6 +507,7 @@
       float: left;
       cursor: default;
     }
+
     .post-tag-list {
       display: flex;
       flex-wrap: wrap;
@@ -484,10 +540,11 @@
     position: relative;
     overflow: hidden;
     border-radius: 20px;
-    margin-top: 44px;
-    a{
+
+    a {
       border-radius: 20px;
     }
+
     img {
       // width: 100%;
       border-radius: 20px;
@@ -495,8 +552,9 @@
       @include transition;
     }
 
-    
+
   }
+
   // Post Gallery Slick Button
   button.post-gallery-btn {
     position: absolute;
@@ -514,9 +572,11 @@
     &.prev-btn {
       left: 30px;
     }
+
     &.next-btn {
       right: 30px;
     }
+
     i {
       position: absolute;
       top: 50%;
@@ -526,6 +586,7 @@
       font-size: 17px;
       @include transition;
     }
+
     &:hover {
       @include transition;
       background-color: $primary-color;
@@ -543,6 +604,7 @@
       width: 100%;
     }
   }
+
   // Post Meta
   .post-meta {
     margin-top: 32px;
@@ -551,7 +613,8 @@
     gap: 32px;
     margin-bottom: 0;
     flex-wrap: wrap;
-    &.style-2{ 
+
+    &.style-2 {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -563,9 +626,10 @@
       gap: 10px;
       align-items: flex-start;
     }
+
     span {
       color: $black-2;
-      font-family:$body-font;
+      font-family: $body-font;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -579,12 +643,13 @@
         color: $brand;
         font-size: 16px;
       }
+
       a {
         display: flex;
         align-items: center;
         gap: 10px;
         color: $black-2;
-        font-family:$body-font;
+        font-family: $body-font;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -618,28 +683,34 @@
   text-align: center;
   // margin-top: 130px;
   margin-bottom: 70px;
+
   .author-thumb {
     flex-shrink: 0;
     width: 142px;
     height: 142px;
     overflow: hidden;
     border-radius: 100%;
+
     img {
       @include transition;
     }
-    &:hover{
-      img{
+
+    &:hover {
+      img {
         transform: scale(1.03);
         @include transition;
       }
     }
   }
+
   .author-text {
     margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    h3, .author-name{
+
+    h3,
+    .author-name {
       font-family: $heading-font;
       color: $black-2;
       font-size: 22px;
@@ -649,19 +720,22 @@
       letter-spacing: 0.36px;
       cursor: default;
     }
-    .designation{
+
+    .designation {
       font-family: $heading-font;
       color: $black-2;
       font-size: 18px;
       font-style: normal;
       font-weight: 500;
-      line-height: 130%; 
+      line-height: 130%;
       letter-spacing: 0.36px;
       cursor: default;
     }
-    p, .desc{
+
+    p,
+    .desc {
       margin-bottom: 0;
-      font-family:$body-font;
+      font-family: $body-font;
       color: $black-3;
       font-size: 18px;
       font-style: normal;
@@ -671,7 +745,8 @@
       cursor: default;
     }
   }
-  .author-social-profiles{
+
+  .author-social-profiles {
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -687,17 +762,20 @@
       justify-content: center;
       border: 1px solid $gray-4;
       border-radius: 100px;
-      i{
+
+      i {
         font-size: 16px;
       }
-      &:hover{
+
+      &:hover {
         @include transition;
         background-color: $primary-color;
         color: $black-2;
       }
     }
   }
-  .author-post{
+
+  .author-post {
     a {
       font-size: 16px;
       font-weight: 700;
@@ -732,6 +810,7 @@
     padding: 30px;
     margin: 30px 0;
   }
+
   @include rmaxwd(767) {
     flex-direction: column;
     padding: 30px;
@@ -741,10 +820,12 @@
   .divider {
     background-color: rgb(223, 226, 233);
     width: 1px;
+
     @media only screen and (min-width: 992px) and (max-width: 1024px) {
       width: 100%;
       height: 1px;
     }
+
     @include rmaxwd(767) {
       width: 100%;
       height: 1px;
@@ -757,12 +838,15 @@
     flex-basis: 0;
     flex-grow: 1;
     width: 50%;
+
     @include rmaxwd(374) {
       flex-direction: column !important;
     }
+
     @media only screen and (min-width: 992px) and (max-width: 1024px) {
       width: 100%;
     }
+
     @include rmaxwd(767) {
       width: 100%;
     }
@@ -778,10 +862,12 @@
         }
       }
     }
+
     .icon {
       font-size: 24px;
       cursor: default;
     }
+
     .post-img {
       width: 96px;
       height: 96px;
@@ -794,6 +880,7 @@
         width: 100% !important;
         height: 150px !important;
       }
+
       img {
         position: absolute;
         width: 100%;
@@ -803,6 +890,7 @@
         top: 0;
       }
     }
+
     .text {
       width: 100%;
 
@@ -814,6 +902,7 @@
         display: block;
         color: #ff5b5b;
       }
+
       h4 {
         font-size: 21px;
         margin: 0;
@@ -826,26 +915,30 @@
 
 
 // Post Gallery Image
-.post-gallery-columns-2{
+.post-gallery-columns-2 {
   display: flex;
   flex-shrink: 0;
   gap: 24px;
-  .post-gallery-item{
+
+  .post-gallery-item {
     border-radius: 20px;
     overflow: hidden;
-    img{
+
+    img {
       @include transition;
     }
-     &:hover{
-      img{
+
+    &:hover {
+      img {
         transform: scale(1.03);
         @include transition;
       }
     }
   }
 }
-.post-thumbnail{
-  img{
+
+.post-thumbnail {
+  img {
     width: 100%;
     height: 500px;
     object-fit: cover;
