@@ -46,6 +46,12 @@
             .title {
                 margin-bottom: 10px;
             }
+
+            .desc {
+                @include md {
+                    text-align: center;
+                }
+            }
         }
 
         &:hover {

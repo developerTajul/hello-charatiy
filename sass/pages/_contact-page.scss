@@ -2,13 +2,16 @@
     position: relative;
     padding-top: 120px;
     background-color: $gray-5;
+
     @include rmaxwd(991) {
         padding: 100px 14px;
     }
+
     @include rmaxwd(767) {
-        padding:80px 14px;
+        padding: 80px 14px;
     }
-    .feature-image{
+
+    .feature-image {
         position: absolute;
         width: 250px;
         height: 164px;
@@ -17,101 +20,136 @@
         margin-top: 85px;
         margin-left: 28px;
         z-index: 10;
-	    transform-origin: center;
-        i{
+        transform-origin: center;
+
+        i {
             animation: color 4s infinite alternate;
             color: $black-2;
             font-size: 164px;
         }
-        @include rmaxwd(1800){
+
+        @include rmaxwd(1800) {
             margin-top: 60px;
-            i{
+
+            i {
                 font-size: 100px;
             }
-            img{
+
+            img {
                 height: 100px;
                 width: 100px;
             }
         }
-        @include rmaxwd(1200){
+
+        @include rmaxwd(1200) {
             margin-top: 40px;
-            i{
+
+            i {
                 font-size: 60px;
             }
-            img{
+
+            img {
                 height: 60px;
                 width: 80px;
             }
         }
-        @include rmaxwd(688){
+
+        @include rmaxwd(688) {
             margin-top: 20px;
-            i{
+
+            i {
                 font-size: 40px;
             }
-            img{
+
+            img {
                 height: 40px;
                 width: 60px;
             }
         }
     }
-    .icon-card{
+
+    .icon-card {
         position: relative;
         z-index: 20;
         width: 100%;
-        @include rmaxwd(1400){
+
+        @include rmaxwd(1400) {
             width: 48%;
         }
-        @include rmaxwd(767){
+
+        @include rmaxwd(767) {
             width: 100%;
         }
-       
+
     }
-    .contact-wrapper{
+
+    .contact-wrapper {
         display: flex;
         gap: 24px;
-         @include rmaxwd(1400){
+
+        @include rmaxwd(1400) {
             flex-wrap: wrap;
         }
-        
+
     }
 
 }
-.contact-form{
+
+.page-area {
+    .contact-info-area {
+        .feature-image {
+            top: -125px;
+        }
+    }
+}
+
+.contact-form {
     padding-top: 64px;
     background: $gray-5;
     padding-bottom: 120px;
+
     @include rmaxwd(992) {
         padding: 0 14px;
-        padding-bottom: 120px ;
+        padding-bottom: 120px;
     }
+
     @include rmaxwd(767) {
         padding: 0 14px;
-        padding-bottom: 80px ;
+        padding-bottom: 80px;
     }
 }
+
 .contact-form-area {
     background-color: $white;
     border-radius: 20px;
     padding: 40px;
+
     @include rmaxwd(767) {
         padding: 20px;
     }
+
     .comment-respond {
         margin-top: 32px;
+        margin-bottom: 0;
+
         @include rmaxwd(767) {
             padding: 0px;
         }
     }
 }
+
 .contact-map-area {
-     @include rmaxwd(991) {
+    @include rmaxwd(991) {
         padding-top: 50px;
     }
+
     @include rmaxwd(767) {
         padding-top: 30px;
     }
+
     .map-wedget {
         border-radius: 0px;
+
         iframe {
             -webkit-filter: grayscale(100%);
             -moz-filter: grayscale(100%);
@@ -123,22 +161,25 @@
         }
     }
 }
+
 // contact-page
 .contact-title {
-    .sub-title{
-        color:$brand;
-        font-family:$heading-font;
+    .sub-title {
+        color: $brand;
+        font-family: $heading-font;
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 130%; /* 23.4px */
+        line-height: 130%;
+        /* 23.4px */
         letter-spacing: 0.36px;
         margin-bottom: 8px;
         cursor: default;
     }
+
     .title {
-        color:$black-2;
-        font-family:$heading-font;
+        color: $black-2;
+        font-family: $heading-font;
         font-size: 22px;
         font-style: normal;
         font-weight: 600;
@@ -147,5 +188,3 @@
         cursor: default;
     }
 }
-
-
