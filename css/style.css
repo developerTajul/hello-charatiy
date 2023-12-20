@@ -6633,12 +6633,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0px;
   margin-top: 16px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-us-content-wrapper-2 .desc {
-    padding-right: 0 !important;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 1199px) {
   .about-us-content-wrapper-2 .desc {
     padding-right: 0 !important;
   }

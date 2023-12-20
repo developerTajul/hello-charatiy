@@ -566,11 +566,7 @@
         margin: 0px;
         margin-top: 16px;
 
-        @include md {
-            padding-right: 0 !important;
-        }
-
-        @include sm {
+        @include rmaxwd(1199) {
             padding-right: 0 !important;
         }
     }
