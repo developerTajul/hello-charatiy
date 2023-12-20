@@ -44,7 +44,7 @@
         height: 520px;
     }
 
-    @include sm {
+    @include rmaxwd(991) {
         height: 500px;
     }
 

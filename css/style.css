@@ -10508,7 +10508,7 @@ button.testimonial-arrow-btn:hover i {
     height: 520px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .team-slider-banner {
     height: 500px;
   }
@@ -13289,6 +13289,10 @@ ul.children {
 }
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content {
   display: flex;
+}
+.causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content .actions,
+.causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content .goals {
+  width: 90px;
 }
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content h1 {
   color: #5E5E5E;

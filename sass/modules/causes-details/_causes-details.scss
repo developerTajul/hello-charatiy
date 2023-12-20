@@ -256,6 +256,11 @@
                     .goals_actions-content {
                         display: flex;
 
+                        .actions,
+                        .goals {
+                            width: 90px;
+                        }
+
                         h1 {
                             color: $black-3;
                             font-family: $body-font;
