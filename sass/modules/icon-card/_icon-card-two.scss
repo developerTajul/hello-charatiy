@@ -8,6 +8,10 @@
         margin-bottom: 0;
         background-color: $white;
 
+        @include md {
+            padding: 48px 0;
+        }
+
         .icon {
             width: 120px;
             height: 120px;
@@ -16,31 +20,48 @@
             background-color: $gray-5;
             align-items: center;
             margin-bottom: 24px;
+
+            @include lg {
+                width: 100px;
+                height: 100px;
+            }
+
             i {
                 font-size: 40px;
                 color: $brand;
+
+                @include lg {
+                    font-size: 32px;
+                }
             }
         }
+
         .content {
             width: 100%;
             justify-content: center;
             align-items: center;
             gap: 8px;
             border-radius: 8px;
-            .title{
+
+            .title {
                 margin-bottom: 10px;
             }
         }
-        &:hover{
+
+        &:hover {
             @include transition;
-            .content{
-                .title,.desc{
+
+            .content {
+
+                .title,
+                .desc {
                     @include transition;
                     color: $brand;
                 }
             }
-            .icon{
-                i{
+
+            .icon {
+                i {
                     transform: rotateY(360deg);
                     @include transition;
                 }

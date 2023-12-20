@@ -5709,6 +5709,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
   background-color: #ffffff;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .icon-card.style-two {
+    padding: 48px 0;
+  }
+}
 .icon-card.style-two .icon {
   width: 120px;
   height: 120px;
@@ -5718,9 +5723,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
   margin-bottom: 24px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .icon-card.style-two .icon {
+    width: 100px;
+    height: 100px;
+  }
+}
 .icon-card.style-two .icon i {
   font-size: 40px;
   color: #FF4638;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .icon-card.style-two .icon i {
+    font-size: 32px;
+  }
 }
 .icon-card.style-two .content {
   width: 100%;
@@ -5735,7 +5751,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .icon-card.style-two:hover {
   transition: all 0.5s ease-out;
 }
-.icon-card.style-two:hover .content .title, .icon-card.style-two:hover .content .desc {
+.icon-card.style-two:hover .content .title,
+.icon-card.style-two:hover .content .desc {
   transition: all 0.5s ease-out;
   color: #FF4638;
 }
