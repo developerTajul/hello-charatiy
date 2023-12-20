@@ -15775,7 +15775,7 @@ ul.children {
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 1700px) {
   .elementor-section.donate-area.style-1 .donate-area-title > .elementor-widget-wrap .section-title {
     margin-bottom: 0;
   }

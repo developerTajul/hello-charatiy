@@ -1064,7 +1064,7 @@
                     }
 
                     .section-title {
-                        @include sm {
+                        @include rmaxwd(1700) {
                             margin-bottom: 0;
                         }
 
