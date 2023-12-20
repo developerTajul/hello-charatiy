@@ -10473,9 +10473,14 @@ button.testimonial-arrow-btn:hover i {
   height: 570px;
   width: 100%;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .team-slider-banner {
+    height: 520px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-slider-banner {
-    height: 600px;
+    height: 520px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

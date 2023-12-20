@@ -36,8 +36,12 @@
     height: 570px;
     width: 100%;
 
+    @include xl {
+        height: 520px;
+    }
+
     @include lg {
-        height: 600px;
+        height: 520px;
     }
 
     @include sm {
