@@ -4057,6 +4057,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   font-size: 22px;
 }
+@media (max-width: 991px) {
+  .mobile-menu-bar a i {
+    color: #020a27;
+  }
+}
 
 .menu-sidebar-area {
   position: fixed;
@@ -16430,6 +16435,10 @@ ul.children {
 }
 .events_group_details_wrapper .tribe-events-c-subscribe-dropdown__button-text:focus {
   outline: none !important;
+}
+
+#tribe-events-pg-template {
+  padding: 0 !important;
 }
 
 .event-area.style-1 {
