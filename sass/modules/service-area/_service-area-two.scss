@@ -54,6 +54,17 @@
       top: 81px;
       left: 127px;
       animation: beat 1.4s infinite alternate;
+
+      .elementor-widget-container {
+        @include rmaxwd(1700) {
+          margin: 0 !important;
+        }
+      }
+
+      @include rmaxwd(1700) {
+        left: 20px;
+      }
+
     }
 
     .bottom-feature {

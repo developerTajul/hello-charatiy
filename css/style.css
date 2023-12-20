@@ -14379,6 +14379,16 @@ ul.children {
   left: 127px;
   animation: beat 1.4s infinite alternate;
 }
+@media (max-width: 1700px) {
+  .service-area.style-2 .top-feature .elementor-widget-container {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 1700px) {
+  .service-area.style-2 .top-feature {
+    left: 20px;
+  }
+}
 .service-area.style-2 .bottom-feature {
   position: absolute;
   width: 143px;
