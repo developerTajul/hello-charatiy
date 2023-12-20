@@ -902,6 +902,11 @@
         margin: 0;
         line-height: 30px;
         text-transform: capitalize;
+
+        @include sm {
+          font-size: 16px;
+          line-height: normal;
+        }
       }
     }
   }

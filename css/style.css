@@ -9549,6 +9549,12 @@ button.testimonial-arrow-btn:hover i {
   line-height: 30px;
   text-transform: capitalize;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-post-nav .post-navigation .text h4 {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
 
 .post-gallery-columns-2 {
   display: flex;
@@ -10159,6 +10165,7 @@ button.testimonial-arrow-btn:hover i {
   gap: 0 12px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .breadcrumb-list ul li {
   list-style: none;
