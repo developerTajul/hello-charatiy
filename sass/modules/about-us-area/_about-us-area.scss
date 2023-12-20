@@ -603,6 +603,10 @@
                     justify-content: center;
                     align-items: center;
 
+                    @include lg {
+                        align-items: start;
+                    }
+
                     .icon {
                         width: 24px;
                         height: 24px;
@@ -611,6 +615,10 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+
+                        @include lg {
+                            margin-top: 4px;
+                        }
 
                         i {
                             font-size: 11px;
@@ -635,6 +643,10 @@
             .signature-area {
                 display: flex;
                 gap: 12px;
+
+                @include lg {
+                    flex-direction: column;
+                }
 
                 .profile-img {
                     width: 64px;
@@ -769,7 +781,13 @@
         }
     }
 
+    .about-counter-area {
+        @include lg {
+            padding-bottom: 30px;
+        }
+    }
 }
+
 
 .about-info-card {
     display: flex;

@@ -6672,6 +6672,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-us-inner .checkbox .checkbox-items .single-item {
+    align-items: start;
+  }
+}
 .about-us-content-wrapper-2 .about-us-inner .checkbox .checkbox-items .single-item .icon {
   width: 24px;
   height: 24px;
@@ -6680,6 +6685,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-us-inner .checkbox .checkbox-items .single-item .icon {
+    margin-top: 4px;
+  }
 }
 .about-us-content-wrapper-2 .about-us-inner .checkbox .checkbox-items .single-item .icon i {
   font-size: 11px;
@@ -6699,6 +6709,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area {
   display: flex;
   gap: 12px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area {
+    flex-direction: column;
+  }
 }
 .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area .profile-img {
   width: 64px;
@@ -6805,6 +6820,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-content-wrapper-2 .about-us-inner .counter-area .divider {
     width: 2px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-counter-area {
+    padding-bottom: 30px;
   }
 }
 
@@ -7721,7 +7741,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-slider-wrapper.style-2 button.testimonial-arrow-btn.prev-btn {
-    top: 51%;
+    top: 16%;
     left: 0px;
   }
 }
@@ -7730,7 +7750,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-slider-wrapper.style-2 button.testimonial-arrow-btn.next-btn {
-    top: 51%;
+    top: 16%;
     right: 0px;
   }
 }
