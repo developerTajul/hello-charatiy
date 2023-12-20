@@ -17283,8 +17283,15 @@ ul.children {
   }
 }
 
-.page-area .contact-info-area .feature-image {
-  top: -125px;
+@media (max-width: 991px) {
+  .page-area .contact-info-area .feature-image {
+    top: -105px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .page-area .contact-info-area .feature-image {
+    top: -125px;
+  }
 }
 
 .contact-form {

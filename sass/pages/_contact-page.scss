@@ -119,7 +119,13 @@
 .page-area {
     .contact-info-area {
         .feature-image {
-            top: -125px;
+            @include rmaxwd(991) {
+                top: -105px;
+            }
+
+            @include lg {
+                top: -125px;
+            }
         }
     }
 }
