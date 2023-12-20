@@ -1,100 +1,119 @@
 .testimonial-slider-wrapper {
   position: relative;
-  &.style-1{
-  .slick-list {
-    margin: 0 -12px;
-    padding: 0;
 
-    @include md {
-      padding: 40px 10px;
-    }
-    @include sm {
-      padding: 30px 10px;
-    }
-    .slick-slide {
-      margin: 0 12px;
-      border-radius: 40px 40px 40px 0px;
-      @include transition;
+  &.style-1 {
+    .slick-list {
+      margin: 0 -12px;
+      padding: 0;
 
-      &.slick-active {
+      @include md {
+        padding: 40px 10px;
+      }
+
+      @include sm {
+        padding: 30px 10px;
+      }
+
+      .slick-slide {
+        margin: 0 12px;
+        border-radius: 40px 40px 40px 0px;
         @include transition;
-        box-shadow: none;
-        background-color: transparent;
+
+        &.slick-active {
+          @include transition;
+          box-shadow: none;
+          background-color: transparent;
+        }
       }
     }
   }
-}
-  &.style-2{
+
+  &.style-2 {
     button.testimonial-arrow-btn {
-    position: absolute;
-    top: 20%;
+      position: absolute;
+      top: 20%;
 
-    &.prev-btn {
-      left: -30px;
-      @include sm{
-        top: 16%;
-        left: 0px;
+      &.prev-btn {
+        left: -30px;
+
+        @include sm {
+          top: 51%;
+          left: 0px;
+        }
+      }
+
+      &.next-btn {
+        right: -30px;
+
+        @include sm {
+          top: 51%;
+          right: 0px;
+        }
       }
     }
-    &.next-btn {
-      right: -30px;
-      @include sm{
-        top: 16%;
-        right: 0px;
-      }
-    }
-  }
 
   }
- &.style-3{
-     button.testimonial-arrow-btn {
-     position: absolute;
-     top: 72%;
-     @include rmaxwd(767){
-          top: 70%;
+
+  &.style-3 {
+    button.testimonial-arrow-btn {
+      position: absolute;
+      top: 72%;
+
+      @include rmaxwd(767) {
+        top: 70%;
       }
 
-    &.prev-btn {
-      left: 0;
-      margin-left: 524px;
-      transform: translate(50%, 50%);
-      @include rmaxwd(1400){
+      &.prev-btn {
+        left: 0;
+        margin-left: 524px;
+        transform: translate(50%, 50%);
+
+        @include rmaxwd(1400) {
           margin-left: -10px;
-      }
-      @include rmaxwd(767){
+        }
+
+        @include rmaxwd(767) {
           margin-left: 0px;
+        }
       }
-    }
-    &.next-btn {
-      right: 0;
-      margin-right: 100px;
-      transform: translate(50%, 50%);
-      @include rmaxwd(1400){
+
+      &.next-btn {
+        right: 0;
+        margin-right: 100px;
+        transform: translate(50%, 50%);
+
+        @include rmaxwd(1400) {
           margin-right: 50px;
+        }
       }
     }
-  }
-  .slick-list {
-    padding-top: 0px;
-    padding-bottom: 60px;
-    margin: 0 -12px;
+
+    .slick-list {
+      padding-top: 0px;
+      padding-bottom: 60px;
+      margin: 0 -12px;
+
       .slick-slide {
         margin: 0 60px;
       }
     }
 
   }
+
   .slick-list {
     padding-top: 56px;
     padding-bottom: 60px;
     margin: 0 -12px;
     overflow: hidden;
+
     @include md {
       padding: 40px 10px;
     }
+
     @include sm {
       padding: 30px 10px;
     }
+
     .slick-slide {
       margin: 0 12px;
       // border-radius: 40px 40px 40px 0px;
@@ -126,6 +145,7 @@
     @media only screen and (min-width: 991px) and (max-width: 1280px) {
       right: -15px;
     }
+
     @include rmaxwd(991) {
       position: unset;
       right: unset;
@@ -154,6 +174,7 @@
         position: relative;
         @include transition;
       }
+
       &.slick-active {
         @include transition;
         border: 2px solid $primary-color;
@@ -165,27 +186,33 @@
       }
     }
   }
-  
+
   // Slick Nav Arrow Button
   button.testimonial-arrow-btn {
-     position: absolute;
+    position: absolute;
     top: 44%;
-    @include rmaxwd(992){
+
+    @include rmaxwd(992) {
       top: 43%;
     }
+
     &.prev-btn {
       left: -30px;
-      @include rmaxwd(992){
+
+      @include rmaxwd(992) {
         left: -10px;
       }
     }
+
     &.next-btn {
       right: -30px;
-      @include rmaxwd(992){
+
+      @include rmaxwd(992) {
         right: -10px;
       }
     }
   }
+
   &:before,
   &:after {
     background: #f3f7fc;
@@ -212,12 +239,13 @@ button.testimonial-arrow-btn {
     height: 100%;
     left: 0;
     top: 0;
-    background:$brand;
+    background: $brand;
     content: "";
     @include transition;
     z-index: -1;
   }
-  @include rmaxwd(1200){
+
+  @include rmaxwd(1200) {
     width: 50px;
     height: 50px;
   }
@@ -231,6 +259,7 @@ button.testimonial-arrow-btn {
     font-size: 21px;
     @include transition;
   }
+
   &:hover {
     @include transition;
     border-color: $brand;
@@ -239,6 +268,7 @@ button.testimonial-arrow-btn {
       width: 100%;
       @include transition;
     }
+
     i {
       color: $white;
       @include transition;
@@ -269,6 +299,7 @@ button.testimonial-arrow-btn {
       @include rmaxwd(767) {
         padding-bottom: 30px;
       }
+
       .slick-slide {
         border-radius: 40px 40px 40px 0px;
         @include transition;

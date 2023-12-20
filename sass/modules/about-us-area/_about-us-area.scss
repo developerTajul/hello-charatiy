@@ -311,6 +311,10 @@
         padding: 0 24px;
     }
 
+    @include sm {
+        padding: 0 12px;
+    }
+
     .section-title {
         .short-title {
             color: $brand;
