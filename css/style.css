@@ -9479,12 +9479,7 @@ button.testimonial-arrow-btn:hover i {
     flex-direction: column !important;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1024px) {
-  .blog-post-nav .post-navigation {
-    width: 100%;
-  }
-}
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .blog-post-nav .post-navigation {
     width: 100%;
   }
@@ -9542,6 +9537,12 @@ button.testimonial-arrow-btn:hover i {
   margin: 0;
   line-height: 30px;
   text-transform: capitalize;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .blog-post-nav .post-navigation .text h4 {
+    font-size: 16px;
+    line-height: normal;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-post-nav .post-navigation .text h4 {

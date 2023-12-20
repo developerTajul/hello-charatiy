@@ -832,11 +832,7 @@
       flex-direction: column !important;
     }
 
-    @media only screen and (min-width: 992px) and (max-width: 1024px) {
-      width: 100%;
-    }
-
-    @include rmaxwd(767) {
+    @include rmaxwd(1199) {
       width: 100%;
     }
 
@@ -897,6 +893,11 @@
         margin: 0;
         line-height: 30px;
         text-transform: capitalize;
+
+        @include xl {
+          font-size: 16px;
+          line-height: normal;
+        }
 
         @include sm {
           font-size: 16px;
