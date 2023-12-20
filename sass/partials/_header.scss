@@ -77,11 +77,11 @@
     .mobile-menu-bar {
       a {
         i {
-          color: $primary-color;
+          color: $black-2;
 
-          @include rmaxwd(992) {
-            color: $black-2;
-          }
+          // @include rmaxwd(992) {
+          //   color: $black-2;
+          // }
         }
       }
     }

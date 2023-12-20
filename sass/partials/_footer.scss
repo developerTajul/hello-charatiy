@@ -209,6 +209,10 @@
   .footer-widget-info {
     width: 306px;
 
+    @include xl {
+      width: auto;
+    }
+
     @include rmaxwd(1199) {
       padding-right: 0;
       width: auto;

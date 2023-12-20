@@ -3365,12 +3365,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #121212;
 }
 .header-area .sticky_menu .mobile-menu-bar a i {
-  color: #FFE144;
-}
-@media (max-width: 992px) {
-  .header-area .sticky_menu .mobile-menu-bar a i {
-    color: #121212;
-  }
+  color: #121212;
 }
 .header-area .sticky_menu .dropdown.active a {
   color: #FF4638;
@@ -9988,10 +9983,10 @@ button.testimonial-arrow-btn:hover i {
   position: absolute;
   bottom: 0;
   margin-bottom: 28px;
-  margin-left: 122px;
+  margin-left: 125px;
   transform-origin: center;
-  width: 487px;
-  height: 337px;
+  width: 485px;
+  height: 335px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -18329,6 +18324,11 @@ ul.children {
 }
 .footer-widget .footer-widget-info {
   width: 306px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+  .footer-widget .footer-widget-info {
+    width: auto;
+  }
 }
 @media (max-width: 1199px) {
   .footer-widget .footer-widget-info {
