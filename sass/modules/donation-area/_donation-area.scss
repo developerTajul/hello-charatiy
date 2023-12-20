@@ -1064,6 +1064,10 @@
                     }
 
                     .section-title {
+                        @include sm {
+                            margin-bottom: 0;
+                        }
+
                         .title {
                             br {
                                 @include xl {

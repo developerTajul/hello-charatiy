@@ -645,7 +645,7 @@
                 gap: 12px;
 
                 @include lg {
-                    flex-direction: column;
+                    // flex-direction: column;
                 }
 
                 .profile-img {
@@ -654,9 +654,16 @@
                     border-radius: 100%;
                     overflow: hidden;
 
+                    @include lg {
+                        flex-shrink: 0;
+                    }
                 }
 
                 .content {
+                    @include lg {
+                        flex-shrink: 0;
+                    }
+
                     .name {
                         font-family: $heading-font;
                         color: $black-2;

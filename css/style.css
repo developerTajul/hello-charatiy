@@ -6710,16 +6710,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   gap: 12px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area {
-    flex-direction: column;
-  }
-}
 .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area .profile-img {
   width: 64px;
   height: 64px;
   border-radius: 100%;
   overflow: hidden;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area .profile-img {
+    flex-shrink: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area .content {
+    flex-shrink: 0;
+  }
 }
 .about-us-content-wrapper-2 .about-us-inner .checkbox .signature-area .content .name {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -15768,6 +15773,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
   .elementor-section.donate-area.style-1 .donate-area-title > .elementor-widget-wrap {
     padding-left: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.donate-area.style-1 .donate-area-title > .elementor-widget-wrap .section-title {
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
