@@ -87,6 +87,27 @@
         display: flex;
         gap: 24px;
 
+        .icon-card {
+            &.style-two {
+                @include sm {
+                    padding: 48px 0;
+                }
+
+                .icon {
+                    @include sm {
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    i {
+                        @include sm {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
         @include rmaxwd(1400) {
             flex-wrap: wrap;
         }
