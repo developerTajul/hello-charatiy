@@ -44,10 +44,10 @@
     width: 180px;
   }
 
-  @include rmaxwd(767) {
+  @include sm {
     width: 100px;
     height: 100px;
-
+    margin-left: 48px;
   }
 }
 
@@ -78,7 +78,7 @@
 
   @include md {
     margin-top: 125px;
-    margin-right: 20px;
+    margin-right: 85px;
   }
 
   @include rmaxwd(767) {

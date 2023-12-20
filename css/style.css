@@ -10014,10 +10014,11 @@ button.testimonial-arrow-btn:hover i {
     width: 180px;
   }
 }
-@media (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-shape1 {
     width: 100px;
     height: 100px;
+    margin-left: 48px;
   }
 }
 
@@ -10050,7 +10051,7 @@ button.testimonial-arrow-btn:hover i {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .feature-shape2 {
     margin-top: 125px;
-    margin-right: 20px;
+    margin-right: 85px;
   }
 }
 @media (max-width: 767px) {
