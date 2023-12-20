@@ -6405,7 +6405,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-content-wrapper {
-    padding: 0 55px;
+    padding-right: 12px;
     margin-top: 30px;
   }
 }
@@ -6429,9 +6429,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-content-wrapper .section-title .title {
   padding-top: 10px;
 }
-.about-us-content-wrapper .about-us-list {
-  margin-top: 40px;
-  padding-right: 116px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-content-wrapper .about-us-list .elementor-widget-container {
+    padding-right: 0;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-content-wrapper .about-us-list {

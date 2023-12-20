@@ -302,7 +302,7 @@
     }
 
     @include lg {
-        padding: 0 55px;
+        padding-right: 12px;
         margin-top: 30px;
     }
 
@@ -330,8 +330,14 @@
     }
 
     .about-us-list {
-        margin-top: 40px;
-        padding-right: 116px;
+
+        // margin-top: 40px;
+        // padding-right: 116px;
+        .elementor-widget-container {
+            @include lg {
+                padding-right: 0;
+            }
+        }
 
         @include sm {
             padding-right: 0px;
