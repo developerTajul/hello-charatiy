@@ -2207,7 +2207,9 @@ body {
   overflow-x: hidden;
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -2283,7 +2285,9 @@ table td#today a {
 .page-content figure.wp-caption.aligncenter {
   margin-top: 40px;
 }
-.page-content dl, .page-content ol, .page-content ul {
+.page-content dl,
+.page-content ol,
+.page-content ul {
   margin-bottom: 11px;
 }
 .page-content .comment-respond {
@@ -2308,7 +2312,8 @@ table td#today a {
   padding: 0;
   position: absolute !important;
   width: 1px;
-  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
 .screen-reader-text:focus {
@@ -2484,7 +2489,8 @@ blockquote p {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 170%; /* 34px */
+  line-height: 170%;
+  /* 34px */
   letter-spacing: 0.4px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -2508,7 +2514,8 @@ blockquote footer {
   cursor: default;
 }
 
-.wp-block-quote, blockquote {
+.wp-block-quote,
+blockquote {
   border-left: solid 5px #FFE144;
 }
 
@@ -2525,12 +2532,15 @@ blockquote footer {
   background-color: #eef5f8;
 }
 
-.wp-block-quote__citation, .wp-block-quote cite, .wp-block-quote footer {
+.wp-block-quote__citation,
+.wp-block-quote cite,
+.wp-block-quote footer {
   margin-top: 10px;
   display: block;
 }
 
-.wp-block-column:not(:first-child), .wp-block-column:nth-child(2n) {
+.wp-block-column:not(:first-child),
+.wp-block-column:nth-child(2n) {
   margin-left: 10px;
 }
 
@@ -2624,8 +2634,8 @@ nav.wp-calendar-nav a:hover {
 }
 
 /*
- Media
-============================*/
+   Media
+  ============================*/
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -2828,6 +2838,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .page-template-default.page-id-3 .page-area {
   padding-top: 128px;
+}
+.page-template-default.page-id-156 .page-content-wrapper .page-content p {
+  margin-bottom: 0;
 }
 
 .post-template-default.postid-163 .blog-details-wrapper .single-post-item .post-content {
