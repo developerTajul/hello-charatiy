@@ -10348,7 +10348,7 @@ button.testimonial-arrow-btn:hover i {
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .basic-pagination,
