@@ -378,6 +378,12 @@ blockquote {
   border-top: 5px solid $primary-color !important;
   border-bottom: 5px solid $primary-color !important;
   background-color: #eef5f8;
+
+  .is-style-solid-color {
+    blockquote {
+      border-color: transparent;
+    }
+  }
 }
 
 .wp-block-quote__citation,
