@@ -547,7 +547,7 @@
     }
 
     img {
-      // width: 100%;
+      width: auto;
       border-radius: 20px;
       transform: scale(1);
       @include transition;
