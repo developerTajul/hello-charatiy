@@ -2530,7 +2530,7 @@ blockquote {
   border-bottom: 5px solid #FFE144 !important;
   background-color: #eef5f8;
 }
-.wp-block-pullquote .is-style-solid-color blockquote {
+.wp-block-pullquote.is-style-solid-color blockquote {
   border-color: transparent;
 }
 

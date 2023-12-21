@@ -379,7 +379,7 @@ blockquote {
   border-bottom: 5px solid $primary-color !important;
   background-color: #eef5f8;
 
-  .is-style-solid-color {
+  &.is-style-solid-color {
     blockquote {
       border-color: transparent;
     }
