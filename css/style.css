@@ -278,7 +278,7 @@ input:focus {
 }
 .page-area .page-links,
 .blog-area .page-links {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .border-radius-12 {

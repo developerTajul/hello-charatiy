@@ -66,23 +66,22 @@ table {
   }
 
   th,
-  td,
-  {
-  background-color: transparent;
-  border: 1px solid #dfe2e9;
-  text-align: center;
-  padding: 8px;
-  transition: .3s;
+  td {
+    background-color: transparent;
+    border: 1px solid #dfe2e9;
+    text-align: center;
+    padding: 8px;
+    transition: .3s;
 
-  &#today {
-    background: $primary-color;
-    color: $white;
-
-    a {
+    &#today {
+      background: $primary-color;
       color: $white;
+
+      a {
+        color: $white;
+      }
     }
   }
-}
 }
 
 // Page Content Unit Test
