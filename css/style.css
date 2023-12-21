@@ -9284,6 +9284,7 @@ button.testimonial-arrow-btn:hover i {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
+  margin-top: 32px;
 }
 .single-post-item .post-thumbnail a,
 .single-post-item .post-video a {
@@ -9335,7 +9336,6 @@ button.testimonial-arrow-btn:hover i {
   width: 100%;
 }
 .single-post-item .post-meta {
-  margin-top: 32px;
   display: flex;
   align-items: center;
   gap: 32px;

@@ -540,6 +540,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    margin-top: 32px;
 
     a {
       border-radius: 20px;
@@ -607,7 +608,7 @@
 
   // Post Meta
   .post-meta {
-    margin-top: 32px;
+    // margin-top: 32px;
     display: flex;
     align-items: center;
     gap: 32px;
