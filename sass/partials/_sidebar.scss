@@ -716,7 +716,11 @@
           }
         }
         .latest-post-title {
-          margin: 16px 0px;
+          margin: 0px;
+          margin-bottom: 8px;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 170%; 
           a {
             font-family: $body-font;
             color: $black-2;
