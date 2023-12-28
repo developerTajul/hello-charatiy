@@ -13307,7 +13307,7 @@ ul.children {
 }
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content .actions,
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content .goals {
-  width: 90px;
+  width: 110px;
 }
 .causes-details-area.style-1 .author-profile .content .goals_actions-inner .goals_actions-content h1 {
   color: #5E5E5E;
@@ -18614,7 +18614,7 @@ ul.children {
   gap: 16px;
 }
 .footer-widget .footer-widget-contact .footer-contact ul li:first-child {
-  align-items: flex-start;
+  align-items: center;
 }
 .footer-widget .footer-widget-contact .footer-contact ul li:first-child .contact-icon {
   margin-top: 5px;
