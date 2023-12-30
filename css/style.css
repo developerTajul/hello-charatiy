@@ -17830,6 +17830,13 @@ ul.children {
   border-radius: 30px;
   margin-bottom: 45px;
 }
+.page-area .page-content-wrapper .single-post-item.style-1 .post-thumbnail img,
+.page-area .page-content-wrapper .single-post-item.style-1 .post-video img,
+.page-area .page-content-wrapper .single-post-item.style-1 .post-gallery img,
+.page-area .page-content-wrapper .single-post-item.style-1 .postbox-audio img,
+.page-area .page-content-wrapper .single-post-item.style-1 .wp-block-post-featured-image img {
+  width: 100%;
+}
 .page-area .page-content-wrapper .single-post-item.style-1 .post-meta {
   position: absolute;
   bottom: 0;
