@@ -11478,13 +11478,14 @@ button.testimonial-arrow-btn:hover i {
 
 .widget_latest_post ul li {
   display: flex;
-  flex-direction: column;
-  gap: 32px;
+  flex-direction: row;
+  gap: 15px;
   margin-bottom: 10px;
   border: 0;
   border-radius: 0px;
   padding: 0px;
   padding-bottom: 32px;
+  align-items: center;
   margin-top: 32px;
   border-bottom: 1px solid #BDBDBD;
 }
@@ -11544,7 +11545,7 @@ button.testimonial-arrow-btn:hover i {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 170%;
+  line-height: 30px;
   letter-spacing: 0.36px;
   transition: all 0.5s ease-out;
 }
@@ -11553,7 +11554,8 @@ button.testimonial-arrow-btn:hover i {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
+  /* 21px */
   letter-spacing: 0.28px;
   color: #FF4638;
   cursor: default;
